@@ -1,1221 +1,1221 @@
 [
-  {
-    "id": "OV01",
-    "titel": "Letzter Schritt vor Licht aus",
-    "avatar": "ALT",
-    "saeule": "Ritual & Ästhetik",
-    "dauer_s": 34,
-    "hook_overlay": "Mein letzter Schritt, bevor das Licht ausgeht",
-    "voiceover": "Das hier ist jeden Abend mein letzter Schritt. Mit 54 hab ich aufgehört, mir abends drei verschiedene Sachen auf die Lippen zu schmieren. Jetzt ist es ein Tape. Lippen zu, drüberlegen, leicht andrücken. In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E. Und die bleibt die ganze Nacht da, wo sie hin soll. Morgens zieh ich es langsam ab. Meine Lippen fühlen sich dann richtig weich an. Das ist Diva Tape. Mehr ist es nicht.",
-    "szenen": [
-      {
-        "text": "Das hier ist jeden Abend mein letzter Schritt.",
-        "visual": "Rosé-Hintergrund, eine gezeichnete Nachttischlampe knipst an. Die Hook tippt sich Wort für Wort groß in die Bildmitte.",
-        "overlay": ""
-      },
-      {
-        "text": "Mit 54 hab ich aufgehört, mir abends drei verschiedene Sachen auf die Lippen zu schmieren.",
-        "visual": "Drei gezeichnete Tuben und Döschen hüpfen über den Nachttisch und purzeln in eine Schublade, die mit einem Klack zugeht.",
-        "overlay": "Drei Sachen? Nicht mehr."
-      },
-      {
-        "text": "Jetzt ist es ein Tape. Lippen zu, drüberlegen, leicht andrücken.",
-        "visual": "Linienzeichnung geschlossener Lippen. Ein rosa Tape schwebt von oben herab und legt sich darüber, zwei kleine Fingerspitzen-Icons drücken kurz.",
-        "overlay": "Lippen zu. Drauf. Andrücken."
-      },
-      {
-        "text": "In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
-        "visual": "Zoom in die Tape-Mitte. Drei Tropfen-Icons ploppen nacheinander auf, jedes mit kleinem Label.",
-        "overlay": "Kollagen, Hyaluron, Vitamin E"
-      },
-      {
-        "text": "Und die bleibt die ganze Nacht da, wo sie hin soll.",
-        "visual": "Ein gezeichneter Mond wandert über ein Fenster, Sterne blinken, das Tape bleibt ruhig auf den Lippen liegen.",
-        "overlay": "Die ganze Nacht da."
-      },
-      {
-        "text": "Morgens zieh ich es langsam ab. Meine Lippen fühlen sich dann richtig weich an.",
-        "visual": "Sonne geht im Fenster auf, das Tape löst sich in Zeitlupe, kleine Glanz-Funkel auf der Lippen-Linie.",
-        "overlay": "Morgens langsam abziehen."
-      },
-      {
-        "text": "Das ist Diva Tape. Mehr ist es nicht.",
-        "visual": "Gezeichnete Diva-Tape-Schachtel auf dem Nachttisch, die Lampe geht aus, nur das Logo leuchtet nach.",
-        "overlay": "Diva Tape"
-      }
-    ],
-    "caption": "Ein Schritt, dann Licht aus. 🌙 Speicher dir das für heute Abend, Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#Abendroutine",
-      "#Beauty40plus",
-      "#NightRoutine",
-      "#SelfcareRitual"
-    ],
-    "bewusst_weggelassen": "Kein „besser schlafen“/Beauty-Sleep-Claim, kein „vollere Lippen“ als Produktaussage, kein Kollagen-Aufbau; Weich-Gefühl nur als Ich-Erleben.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6)",
-      "Instagram-Konzept (KI), Kap. 7/8 (Ritual-Säule, Hook „letzter Schritt“)"
-    ]
-  },
-  {
-    "id": "OV02",
-    "titel": "Der Lippenstift blieb drauf",
-    "avatar": "ALT",
-    "saeule": "Storytime/Ich-Erzählung",
-    "dauer_s": 41,
-    "hook_overlay": "Ich hab ihn wieder abgewischt.",
-    "voiceover": "Hochzeit meiner Nichte. Ich stand im Flur, in der Hand mein alter roter Lippenstift. Früher mein Lieblingsstück. Ich hab ihn aufgetragen, kurz geguckt und ihn mit dem Taschentuch wieder runtergeholt. Später hab ich in einem Forum gelesen, dass es anderen genauso geht. Ich hab dann keinen neuen Lippenstift gekauft. Ich hab angefangen, meine Lippen nachts zu pflegen. Mit einem Tape, das abends über die geschlossenen Lippen kommt. In der Mitte Pflege mit Kollagen und Hyaluronsäure. Morgens fühlten sie sich weich an. Irgendwie voller. Beim Geburtstag meiner Schwester hab ich ihn drangelassen. Den ganzen Abend.",
-    "szenen": [
-      {
-        "text": "Hochzeit meiner Nichte. Ich stand im Flur, in der Hand mein alter roter Lippenstift.",
-        "visual": "Gezeichneter Flurspiegel mit Garderobe, ein roter Lippenstift dreht sich aus der Hülse. Hook groß oben im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Früher mein Lieblingsstück. Ich hab ihn aufgetragen, kurz geguckt und ihn mit dem Taschentuch wieder runtergeholt.",
-        "visual": "Ein gezeichnetes Taschentuch mit rotem Abdruck flattert ins Bild, die Lippenstift-Kappe klickt zu.",
-        "overlay": "Wieder runter damit."
-      },
-      {
-        "text": "Später hab ich in einem Forum gelesen, dass es anderen genauso geht.",
-        "visual": "Gezeichnetes Handy, darauf eine Zitat-Karte im Original: „I would absolutely love to rock a red lip but I just can’t pull it off.“",
-        "overlay": "Kundinnen-Zitat aus einem Forum"
-      },
-      {
-        "text": "Ich hab dann keinen neuen Lippenstift gekauft. Ich hab angefangen, meine Lippen nachts zu pflegen.",
-        "visual": "Szenenwechsel: Mond im Fenster, Nachttisch, eine rosa Schachtel öffnet sich.",
-        "overlay": "Pflege über Nacht"
-      },
-      {
-        "text": "Mit einem Tape, das abends über die geschlossenen Lippen kommt. In der Mitte Pflege mit Kollagen und Hyaluronsäure.",
-        "visual": "Rosa Tape legt sich auf die Lippen-Linienzeichnung, die Mitte glüht sanft rosa auf, zwei Labels erscheinen.",
-        "overlay": "Pflege-Mitte mit Kollagen"
-      },
-      {
-        "text": "Morgens fühlten sie sich weich an. Irgendwie voller.",
-        "visual": "Morgensonne, das Tape wird langsam abgezogen, weiche Glanzlinien zeichnen sich nach.",
-        "overlay": "Weich. Irgendwie voller."
-      },
-      {
-        "text": "Beim Geburtstag meiner Schwester hab ich ihn drangelassen. Den ganzen Abend.",
-        "visual": "Der rote Lippenstift steht offen neben einer gezeichneten Geburtstagstorte, Konfetti fällt.",
-        "overlay": "Diesmal blieb er drauf."
-      }
-    ],
-    "caption": "Manchmal ist es nicht der Lippenstift. 💄 Speicher dir das, wenn du deinen auch schon mal wieder abgewischt hast.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenstift",
-      "#Lippenpflege",
-      "#Ü50Beauty",
-      "#Beauty40plus",
-      "#Abendroutine"
-    ],
-    "bewusst_weggelassen": "Kein „Lippenstift läuft nicht mehr aus“ als Produktwirkung, kein „vollere Lippen“ als Produktaussage, keine Vorher-Nachher-Darstellung, kein „Clown“-Zitat (negatives Selbstbild).",
-    "quellen": [
-      "Avatar ALT: Research & 5 Desires (ALT-D2, Zitat MN-C Laboheme78 wörtlich)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6)"
-    ]
-  },
-  {
-    "id": "OV03",
-    "titel": "Das Foto im Schuhkarton",
-    "avatar": "ALT",
-    "saeule": "Storytime/Ich-Erzählung",
-    "dauer_s": 42,
-    "hook_overlay": "Dieses Foto hätte ich nicht finden sollen.",
-    "voiceover": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend. Und ich hab nur auf eins geschaut: meinen Mund. Machen lassen wollte ich nie. Ich hab viel zu viel Angst, dass es gemacht aussieht. Ich wollte selbst was tun. Abends, in Ruhe, ohne dass es jemand merkt. Jetzt kommt vor dem Licht ausmachen ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet. Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel. Das Foto hängt jetzt am Kühlschrank.",
-    "szenen": [
-      {
-        "text": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend.",
-        "visual": "Ein gezeichneter Schuhkarton klappt auf, ein Polaroid-Rahmen mit lachender Strichfigur segelt heraus. Hook groß darüber.",
-        "overlay": "1998. Gartenparty."
-      },
-      {
-        "text": "Und ich hab nur auf eins geschaut: meinen Mund.",
-        "visual": "Eine gezeichnete Lupe gleitet über das Polaroid und bleibt am Mund der Strichfigur stehen.",
-        "overlay": "Nur auf eins geschaut."
-      },
-      {
-        "text": "Machen lassen wollte ich nie. Ich hab viel zu viel Angst, dass es gemacht aussieht.",
-        "visual": "Ein gezeichneter Kalender mit dem Wort „Termin?“ erscheint, das Fragezeichen wackelt und löst sich in Luft auf.",
-        "overlay": "Gemacht aussehen? Nein."
-      },
-      {
-        "text": "Ich wollte selbst was tun. Abends, in Ruhe, ohne dass es jemand merkt.",
-        "visual": "Abendstimmung: Mond, Schlafzimmerfenster, eine rosa Schachtel auf dem Nachttisch.",
-        "overlay": "Abends. In Ruhe."
-      },
-      {
-        "text": "Jetzt kommt vor dem Licht ausmachen ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet.",
-        "visual": "Tape-Illustration legt sich über die Lippen-Linie, kleine Feuchtigkeitstropfen pulsieren in der Mitte.",
-        "overlay": "Spendet über Nacht Feuchtigkeit"
-      },
-      {
-        "text": "Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel.",
-        "visual": "Gezeichneter Badspiegel im Morgenlicht, ein kleines Herz malt sich auf die Spiegelfläche.",
-        "overlay": "Wieder gern in den Spiegel."
-      },
-      {
-        "text": "Das Foto hängt jetzt am Kühlschrank.",
-        "visual": "Das Polaroid klebt mit einem Herz-Magneten an einem gezeichneten Kühlschrank.",
-        "overlay": ""
-      }
-    ],
-    "caption": "Manche Fotos bleiben einfach hängen. 📸 Speicher dir das für heute Abend, Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#Beauty40plus",
-      "#Abendroutine",
-      "#Ü50",
-      "#Selfcare"
-    ],
-    "bewusst_weggelassen": "Kein Vorher-Nachher (das alte Foto zeigt nur eine Strichfigur, kein Vergleich), kein „Lippen wie früher“ als Versprechen, kein Filler-Vergleich, kein Kollagen-Aufbau.",
-    "quellen": [
-      "Avatar ALT: Research & 5 Desires (ALT-D1 Hook-Richtung altes Foto, Kundenwortlaut „gemacht aussehen“)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
-    ]
-  },
-  {
-    "id": "OV04",
-    "titel": "Termin zweimal abgesagt",
-    "avatar": "ALT",
-    "saeule": "Storytime/Ich-Erzählung",
-    "dauer_s": 46,
-    "hook_overlay": "Ich hab den Termin abgesagt. Zweimal.",
-    "voiceover": "Ich hatte einen Termin für meine Lippen. Und ich hab ihn abgesagt. Zweimal. Ich bin 57. Ich hab einfach zu viel Angst, dass es schiefgeht und jeder es sieht. In einem Forum hat eine Frau genau das geschrieben, was ich gedacht hab. Also hab ich angefangen, abends selbst was für meine Lippen zu tun. Ganz in Ruhe. Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E. Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich morgens weich an. Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein eigenes Ritual.",
-    "szenen": [
-      {
-        "text": "Ich hatte einen Termin für meine Lippen. Und ich hab ihn abgesagt. Zweimal.",
-        "visual": "Gezeichneter Wandkalender, zwei Einträge werden nacheinander mit rotem Stift durchgestrichen. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Ich bin 57. Ich hab einfach zu viel Angst, dass es schiefgeht und jeder es sieht.",
-        "visual": "Kleine Sorgen-Wölkchen ziehen über den Kalender, darin Fragezeichen.",
-        "overlay": "Angst, dass es schiefgeht"
-      },
-      {
-        "text": "In einem Forum hat eine Frau genau das geschrieben, was ich gedacht hab.",
-        "visual": "Zitat-Karte im Original auf Rosé: „the idea of injects on lips kinda scares me“",
-        "overlay": "Kundinnen-Zitat aus einem Forum"
-      },
-      {
-        "text": "Also hab ich angefangen, abends selbst was für meine Lippen zu tun. Ganz in Ruhe.",
-        "visual": "Nachttischlampe geht an, gezeichnete Hände öffnen eine rosa Schachtel.",
-        "overlay": "Selbst was tun. Abends."
-      },
-      {
-        "text": "Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
-        "visual": "Explosionszeichnung: Baumwoll-Schicht schiebt sich auseinander, darunter die Pflege-Mitte mit drei Labels.",
-        "overlay": "Baumwolle plus Pflege-Mitte"
-      },
-      {
-        "text": "Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich morgens weich an.",
-        "visual": "Tag-Nacht-Wechsel im Fenster im Zeitraffer, Tape drauf, Tape ab, ein kleines Schloss-Icon für „mein Geheimnis“.",
-        "overlay": "Keiner merkt was."
-      },
-      {
-        "text": "Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein eigenes Ritual.",
-        "visual": "Kalender klappt zu, daneben die Schachtel auf dem Nachttisch, Licht geht aus.",
-        "overlay": "Mein eigenes Ritual."
-      }
-    ],
-    "caption": "Du musst dich nicht heute entscheiden. 🤍 Speicher dir das für heute Abend.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#Beauty40plus",
-      "#Abendroutine",
-      "#Selfcare",
-      "#Ü50Beauty"
-    ],
-    "bewusst_weggelassen": "Kein „statt Filler“, keine „Filler-Alternative“, kein „ohne Spritze zu volleren Lippen“; das Ende lässt die Entscheidung offen, statt das Tape als Ersatz darzustellen. Keine Spritze im Bild.",
-    "quellen": [
-      "Avatar ALT: Research & 5 Desires (ALT-D4, Zitat MN-B Newso wörtlich, Kundenwortlaut „schiefgehen“, „keiner soll es merken“)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
-    ]
-  },
-  {
-    "id": "OV05",
-    "titel": "Drei Winter-Fehler",
-    "avatar": "ALT",
-    "saeule": "Aufklärung",
-    "dauer_s": 44,
-    "hook_overlay": "Drei Winter-Fehler, die ich jahrelang gemacht hab",
-    "voiceover": "Drei Sachen, die ich jeden Winter falsch gemacht hab. Nummer drei hat mich echt überrascht. Eins: Heizung voll aufgedreht, und die Luft im Schlafzimmer ist staubtrocken. Zwei: Lippen ablecken, wenn sie spannen. Fühlt sich kurz gut an, macht es aber nicht besser. Drei: Den ganzen Tag nachcremen und nachts gar nichts. Dabei sind die Lippen nachts stundenlang auf sich allein gestellt. Meine Kosmetikerin hat mir erklärt: Lippen haben keine eigenen Talgdrüsen. Deshalb trocknen sie schneller aus. Seitdem kommt abends ein Tape mit Pflege-Mitte drauf. Das spendet über Nacht Feuchtigkeit und bleibt da, wo es hin soll. Speicher dir das für die Heizungssaison.",
-    "szenen": [
-      {
-        "text": "Drei Sachen, die ich jeden Winter falsch gemacht hab. Nummer drei hat mich echt überrascht.",
-        "visual": "Gezeichnete Schneeflocke dreht sich, drei Kärtchen mit 1, 2, 3 fächern sich auf. Hook groß darüber.",
-        "overlay": ""
-      },
-      {
-        "text": "Eins: Heizung voll aufgedreht, und die Luft im Schlafzimmer ist staubtrocken.",
-        "visual": "Heizkörper-Illustration mit flirrenden Wärmewellen, ein Wassertropfen-Icon schrumpft und verschwindet.",
-        "overlay": "1. Heizungsluft"
-      },
-      {
-        "text": "Zwei: Lippen ablecken, wenn sie spannen. Fühlt sich kurz gut an, macht es aber nicht besser.",
-        "visual": "Lippen-Linienzeichnung, daneben ein kleines Stopp-Schild, das sich hochklappt.",
-        "overlay": "2. Lippen ablecken"
-      },
-      {
-        "text": "Drei: Den ganzen Tag nachcremen und nachts gar nichts. Dabei sind die Lippen nachts stundenlang auf sich allein gestellt.",
-        "visual": "Eine Uhr dreht sich im Zeitraffer, Mond, die Lippen-Linie bleibt ohne Pflege-Glanz.",
-        "overlay": "3. Nachts nichts drauf"
-      },
-      {
-        "text": "Meine Kosmetikerin hat mir erklärt: Lippen haben keine eigenen Talgdrüsen. Deshalb trocknen sie schneller aus.",
-        "visual": "Einfache Vergleichsgrafik: Hautstück mit kleinen Drüsen-Kreisen, daneben Lippenhaut ohne Kreise.",
-        "overlay": "Lippen: keine Talgdrüsen"
-      },
-      {
-        "text": "Seitdem kommt abends ein Tape mit Pflege-Mitte drauf. Das spendet über Nacht Feuchtigkeit und bleibt da, wo es hin soll.",
-        "visual": "Tape legt sich über die Lippen, Mond zieht vorbei, Tropfen-Icons in der Mitte bleiben sichtbar.",
-        "overlay": "Über Nacht Feuchtigkeit"
-      },
-      {
-        "text": "Speicher dir das für die Heizungssaison.",
-        "visual": "Speichern-Icon pulsiert, Schneeflocken rieseln über die Diva-Tape-Schachtel.",
-        "overlay": "Speichern für den Winter"
-      }
-    ],
-    "caption": "Welcher Fehler ist deiner? ❄️ Speichern und einer Freundin schicken, die im Winter immer nachcremt.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#Wintertipps",
-      "#Heizungsluft",
-      "#Beauty40plus",
-      "#Pflegetipps",
-      "#Lippenpflegeroutine"
-    ],
-    "bewusst_weggelassen": "Keine Aussage zu Mund-/Schleimhauttrockenheit oder Raumluft und Gesundheit, kein „heilt spröde Lippen“, keine Zeitangabe, wie schnell es hilft.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (5.6: Fachperson erklärt Talgdrüsen-Prinzip)",
-      "Instagram-Konzept (KI), Kap. 7/8 (Hook-Idee Heizungsluft, Karussell „5 Fehler“)"
-    ]
-  },
-  {
-    "id": "OV06",
-    "titel": "Mit 56 zum ersten Mal",
-    "avatar": "ALT",
-    "saeule": "Aufklärung",
-    "dauer_s": 38,
-    "hook_overlay": "Mit 56 zum ersten Mal Mouth Tape",
-    "voiceover": "Ich bin 56 und hab das vorher noch nie gemacht. Also zeig ich dir, wie es richtig geht. Erstens: Die Haut um den Mund sauber und trocken machen. Zweitens: Lippen schließen und das Tape sanft drüberlegen. Drittens: Einmal leicht andrücken. Die Pflege-Mitte liegt jetzt genau auf den Lippen. Siehst du das kleine Loch in der Mitte? Das ist ein Sicherheitsloch, da kann Luft durch. Viertens, und das ist wichtig: Morgens langsam abziehen. Nicht ruckartig, ganz in Ruhe. Speicher dir das, dann hast du es heute Abend parat.",
-    "szenen": [
-      {
-        "text": "Ich bin 56 und hab das vorher noch nie gemacht. Also zeig ich dir, wie es richtig geht.",
-        "visual": "Rosé-Hintergrund, Hook groß, darunter die gezeichnete Schachtel, die sich öffnet.",
-        "overlay": ""
-      },
-      {
-        "text": "Erstens: Die Haut um den Mund sauber und trocken machen.",
-        "visual": "Ein gezeichneter Waschlappen wischt einmal über die Lippen-Linie, ein Häkchen erscheint.",
-        "overlay": "1. Sauber und trocken"
-      },
-      {
-        "text": "Zweitens: Lippen schließen und das Tape sanft drüberlegen.",
-        "visual": "Das Tape schwebt heran und legt sich ganz langsam auf die geschlossene Lippen-Linie.",
-        "overlay": "2. Lippen zu, sanft auflegen"
-      },
-      {
-        "text": "Drittens: Einmal leicht andrücken. Die Pflege-Mitte liegt jetzt genau auf den Lippen.",
-        "visual": "Zwei Fingerspitzen-Icons drücken links und rechts, die Mitte leuchtet rosa auf.",
-        "overlay": "3. Leicht andrücken"
-      },
-      {
-        "text": "Siehst du das kleine Loch in der Mitte? Das ist ein Sicherheitsloch, da kann Luft durch.",
-        "visual": "Zoom auf die Tape-Mitte, ein kleiner Kreis wird mit einem Pfeil markiert.",
-        "overlay": "Sicherheitsloch in der Mitte"
-      },
-      {
-        "text": "Viertens, und das ist wichtig: Morgens langsam abziehen. Nicht ruckartig, ganz in Ruhe.",
-        "visual": "Morgensonne, das Tape löst sich in Zeitlupe, ein Schnecken-Icon steht für „langsam“.",
-        "overlay": "4. Morgens langsam abziehen"
-      },
-      {
-        "text": "Speicher dir das, dann hast du es heute Abend parat.",
-        "visual": "Vier Schritt-Kärtchen stapeln sich, Speichern-Icon pulsiert.",
-        "overlay": "Speichern für heute Abend"
-      }
-    ],
-    "caption": "Vier Schritte, mehr ist es nicht. 🌙 Speichern für heute Abend, Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#Anwendung",
-      "#Lippenpflege",
-      "#Beauty40plus",
-      "#Abendroutine",
-      "#SoGehts"
-    ],
-    "bewusst_weggelassen": "Keine Begründung des Sicherheitslochs über Atmung oder Sicherheit beim Schlafen, nur die belegte Tatsache „Luft kann durch“. Kein „hält die ganze Nacht“ als Klebe-Versprechen.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (Anwendung 1–4, Sicherheitsloch)",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 4 Anwendung)"
-    ]
-  },
-  {
-    "id": "OV07",
-    "titel": "Mein Nachttisch mit 52",
-    "avatar": "ALT",
-    "saeule": "Ritual & Ästhetik",
-    "dauer_s": 43,
-    "hook_overlay": "Mein Nachttisch mit 52. Ein Teil überrascht.",
-    "voiceover": "Mein Nachttisch mit 52. Lesebrille. Ein Krimi, den ich seit Wochen nicht fertig kriege. Eine Handcreme, die nach Mandel riecht. Und eine kleine rosa Schachtel. Da sind dreißig Tapes drin. Eins für jede Nacht. Bevor ich das Buch weglege, kommt eins über die geschlossenen Lippen. In der Mitte ist Pflege mit Kollagen und Vitamin E. Früher lag da ein Lippenbalsam, und die Pflege war morgens irgendwo im Kissen. Jetzt bleibt sie die ganze Nacht da, wo sie hin soll. Morgens zieh ich es langsam ab, und meine Lippen fühlen sich weich an. Das ist mein Lieblingsteil auf dem Nachttisch.",
-    "szenen": [
-      {
-        "text": "Mein Nachttisch mit 52. Lesebrille. Ein Krimi, den ich seit Wochen nicht fertig kriege.",
-        "visual": "Gezeichneter Nachttisch von vorn, Lesebrille und Buch ploppen nacheinander auf. Hook groß oben.",
-        "overlay": "Lesebrille. Krimi."
-      },
-      {
-        "text": "Eine Handcreme, die nach Mandel riecht. Und eine kleine rosa Schachtel.",
-        "visual": "Handcreme-Tube erscheint, dann gleitet die rosa Schachtel ins Bild und wackelt kurz.",
-        "overlay": "Und die rosa Schachtel?"
-      },
-      {
-        "text": "Da sind dreißig Tapes drin. Eins für jede Nacht.",
-        "visual": "Die Schachtel öffnet sich, dreißig kleine Tape-Icons fächern sich wie Karten auf.",
-        "overlay": "30 Stück = 30 Nächte"
-      },
-      {
-        "text": "Bevor ich das Buch weglege, kommt eins über die geschlossenen Lippen. In der Mitte ist Pflege mit Kollagen und Vitamin E.",
-        "visual": "Buch klappt zu, das Tape legt sich auf die Lippen-Linie, zwei Labels erscheinen in der Mitte.",
-        "overlay": "Pflege-Mitte mit Kollagen"
-      },
-      {
-        "text": "Früher lag da ein Lippenbalsam, und die Pflege war morgens irgendwo im Kissen. Jetzt bleibt sie die ganze Nacht da, wo sie hin soll.",
-        "visual": "Ein gezeichneter Balsam-Stift rollt vom Tisch, ein Kissen mit Glanzfleck blendet aus, dann Mond über dem Tape.",
-        "overlay": "Bleibt, wo sie hin soll."
-      },
-      {
-        "text": "Morgens zieh ich es langsam ab, und meine Lippen fühlen sich weich an. Das ist mein Lieblingsteil auf dem Nachttisch.",
-        "visual": "Morgenlicht auf dem Nachttisch, die Schachtel bekommt ein kleines Krönchen.",
-        "overlay": "Mein Lieblingsteil"
-      }
-    ],
-    "caption": "Was steht bei dir neben dem Bett? Schreib es in die Kommentare. 🌙",
-    "hashtags": [
-      "#DivaTape",
-      "#Nachttisch",
-      "#Abendroutine",
-      "#Beauty40plus",
-      "#Lippenpflege",
-      "#Selfcare"
-    ],
-    "bewusst_weggelassen": "Kein Schlaf-Bezug trotz Nachttisch-Setting, keine Wirkung über Kollagen hinaus, kein Plump-Versprechen.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Instagram-Konzept (KI), Kap. 7/8 (Nachttisch-Ästhetik, Post 2)"
-    ]
-  },
-  {
-    "id": "OV08",
-    "titel": "Das Erste am Morgen",
-    "avatar": "ALT",
-    "saeule": "Ritual & Ästhetik",
-    "dauer_s": 33,
-    "hook_overlay": "Das Erste, was ich morgens mache",
-    "voiceover": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft. Ich zieh das Tape ab. Langsam und ganz in Ruhe. Dann der Blick in den Badspiegel. Und dieses Gefühl: weich. Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf. Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr. Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee.",
-    "szenen": [
-      {
-        "text": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft.",
-        "visual": "Gezeichneter Wecker klingelt und wackelt, Sonne schiebt sich über den Fensterrahmen. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Ich zieh das Tape ab. Langsam und ganz in Ruhe.",
-        "visual": "Nahe Linienzeichnung der Lippen, das Tape löst sich in Zeitlupe.",
-        "overlay": "Langsam abziehen."
-      },
-      {
-        "text": "Dann der Blick in den Badspiegel. Und dieses Gefühl: weich.",
-        "visual": "Gezeichneter Badspiegel, das Wort „weich“ schreibt sich in Schreibschrift auf die beschlagene Fläche.",
-        "overlay": "Weich."
-      },
-      {
-        "text": "Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf.",
-        "visual": "Kurzer Rückblick: Mond, Tape auf den Lippen, drei Tropfen-Labels in der Mitte.",
-        "overlay": "Die ganze Nacht Pflege"
-      },
-      {
-        "text": "Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr.",
-        "visual": "Ein gezeichnetes Fragezeichen wird langsam blasser.",
-        "overlay": "Lohnt sich nichts mehr?"
-      },
-      {
-        "text": "Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee.",
-        "visual": "Kaffeemaschine-Illustration startet, Dampf steigt in Herzform auf.",
-        "overlay": "Erst das. Dann Kaffee."
-      }
-    ],
-    "caption": "Erst das Tape, dann der Kaffee. ☕ Wie startest du in den Tag?",
-    "hashtags": [
-      "#DivaTape",
-      "#Morgenroutine",
-      "#Lippenpflege",
-      "#Beauty40plus",
-      "#Selfcare",
-      "#Morgenritual"
-    ],
-    "bewusst_weggelassen": "Kein „aufwachen mit volleren Lippen“ als Produktaussage, kein Energie-/Frische-Claim zum Morgen, kein Schlaf-Bezug.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Avatar ALT: Research & 5 Desires (Einwand „lohnt sich nichts mehr“, sinngemäß nach „No cosmetics will work.“)"
-    ]
-  },
-  {
-    "id": "OV09",
-    "titel": "Drei Abende bis zur Frage",
-    "avatar": "ALT",
-    "saeule": "Humor/Community",
-    "dauer_s": 38,
-    "hook_overlay": "Er hat drei Abende gebraucht, um zu fragen.",
-    "voiceover": "Mein Mann hat drei Abende gebraucht, bis er gefragt hat. Abend eins: Er guckt. Sagt nichts. Liest weiter. Abend zwei: Er guckt länger. Macht das Licht aus. Abend drei: Schatz, warum klebst du dir den Mund zu? Ich so: Das ist Lippenpflege. In der Mitte ist eine Maske mit Kollagen und Hyaluronsäure, und die bleibt die ganze Nacht drauf. Er: Aha. Und das Loch? Ich: Sicherheitsloch. Er: Aha. Neulich beim Frühstück hat er gefragt, ob ich was an den Lippen gemacht hab. Ich hab nur gegrinst.",
-    "szenen": [
-      {
-        "text": "Mein Mann hat drei Abende gebraucht, bis er gefragt hat.",
-        "visual": "Gezeichnetes Ehebett von oben, zwei Kissen, über seinem Kopf eine leere Sprechblase. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Abend eins: Er guckt. Sagt nichts. Liest weiter.",
-        "visual": "Strichfigur mit Buch, Augen wandern kurz zur Seite und zurück.",
-        "overlay": "Abend 1: ein Blick."
-      },
-      {
-        "text": "Abend zwei: Er guckt länger. Macht das Licht aus.",
-        "visual": "Gleiche Szene, Blick hält länger, dann klickt die Lampe aus.",
-        "overlay": "Abend 2: längerer Blick."
-      },
-      {
-        "text": "Abend drei: Schatz, warum klebst du dir den Mund zu?",
-        "visual": "Licht geht wieder an, große Sprechblase mit der Frage, Fragezeichen hüpfen.",
-        "overlay": "Abend 3: die Frage."
-      },
-      {
-        "text": "Ich so: Das ist Lippenpflege. In der Mitte ist eine Maske mit Kollagen und Hyaluronsäure, und die bleibt die ganze Nacht drauf.",
-        "visual": "Zoom auf ihr Tape, die Pflege-Mitte leuchtet, zwei Labels erscheinen.",
-        "overlay": "Das ist Lippenpflege, Schatz."
-      },
-      {
-        "text": "Er: Aha. Und das Loch? Ich: Sicherheitsloch. Er: Aha.",
-        "visual": "Pingpong-Sprechblasen zwischen den beiden Figuren, sein „Aha“ wird jedes Mal kleiner.",
-        "overlay": "Er: Aha."
-      },
-      {
-        "text": "Neulich beim Frühstück hat er gefragt, ob ich was an den Lippen gemacht hab.",
-        "visual": "Gezeichneter Frühstückstisch, zwei Tassen, über ihm ein Glühbirnen-Icon.",
-        "overlay": "Neulich beim Frühstück"
-      },
-      {
-        "text": "Ich hab nur gegrinst.",
-        "visual": "Ihre Strichfigur grinst, kleines Funkeln, Diva-Tape-Schachtel neben der Kaffeetasse.",
-        "overlay": ""
-      }
-    ],
-    "caption": "Markier jemanden, der genauso gucken würde. 😄 Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#Paarhumor",
-      "#Ehealltag",
-      "#Lippenpflege",
-      "#Beauty40plus",
-      "#Abendroutine"
-    ],
-    "bewusst_weggelassen": "Keine Antwort „Filler“ oder „hab nichts machen lassen, nur Tape“ (vermeidet Filler-Vergleich), kein Schlaf-/Atem-Witz, keine Zeitangabe bis zum Kompliment.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (erlaubte Formulierung „gefragt, ob ich was an den Lippen gemacht habe“)",
-      "Instagram-Konzept (KI), Kap. 7/8 (Humor-Säule, Paar-Hook)"
-    ]
-  },
-  {
-    "id": "OV10",
-    "titel": "Sechs Lippenbalsame",
-    "avatar": "ALT",
-    "saeule": "Storytime/Ich-Erzählung",
-    "dauer_s": 42,
-    "hook_overlay": "Ich hatte sechs Lippenbalsame in der Handtasche.",
-    "voiceover": "Ich bin 51 und hatte sechs Lippenbalsame in meiner Handtasche. Sechs. Ich hab sie gezählt. Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken. Einer Frau in einem Forum ging es genauso. Irgendwann ist mir aufgefallen: Tagsüber creme ich ständig nach. Aber nachts liegt stundenlang gar nichts drauf. Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E. Und die bleibt die ganze Nacht da, wo sie hin soll. In meiner Handtasche ist jetzt noch einer. Einer reicht mir.",
-    "szenen": [
-      {
-        "text": "Ich bin 51 und hatte sechs Lippenbalsame in meiner Handtasche. Sechs. Ich hab sie gezählt.",
-        "visual": "Eine gezeichnete Handtasche kippt um, sechs Stifte rollen heraus, ein Zähler springt von 1 auf 6. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken.",
-        "visual": "Drei Uhr-Icons hintereinander, jedes Mal tippt ein Stift auf die Lippen-Linie.",
-        "overlay": "Drauf. Drauf. Drauf."
-      },
-      {
-        "text": "Einer Frau in einem Forum ging es genauso.",
-        "visual": "Zitat-Karte im Original: „But they're expensive and don't last long“",
-        "overlay": "Kundinnen-Zitat aus einem Forum"
-      },
-      {
-        "text": "Irgendwann ist mir aufgefallen: Tagsüber creme ich ständig nach. Aber nachts liegt stundenlang gar nichts drauf.",
-        "visual": "Split-Grafik Sonne und Mond: auf der Sonnenseite viele Stifte, auf der Mondseite ein leeres Feld.",
-        "overlay": "Nachts: nichts drauf."
-      },
-      {
-        "text": "Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E.",
-        "visual": "Tape legt sich auf die Lippen-Linie, vier Labels kreisen kurz um die Mitte.",
-        "overlay": "Pflege-Mitte für die Nacht"
-      },
-      {
-        "text": "Und die bleibt die ganze Nacht da, wo sie hin soll.",
-        "visual": "Mond zieht vorbei, das Tape bleibt ruhig, kleine Sterne.",
-        "overlay": "Die ganze Nacht da."
-      },
-      {
-        "text": "In meiner Handtasche ist jetzt noch einer. Einer reicht mir.",
-        "visual": "Handtasche richtet sich auf, fünf Stifte rollen raus aus dem Bild, einer bleibt.",
-        "overlay": "Einer reicht mir."
-      }
-    ],
-    "caption": "Wie viele hast du gerade in der Tasche? 👜 Speicher dir das für heute Abend.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenbalsam",
-      "#Lippenpflege",
-      "#Beauty40plus",
-      "#Abendroutine",
-      "#Pflegeroutine"
-    ],
-    "bewusst_weggelassen": "Kein „nie wieder nachcremen“ und keine Zeitangabe; das Ende bleibt Ich-Erleben. Kein Bezug zu Mundtrockenheit.",
-    "quellen": [
-      "Avatar ALT: Research & 5 Desires (neues ALT-D5 laut Brand-Gedächtnis, Zitat MN-C Arraminta wörtlich)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 7, ALT-D5)"
-    ]
-  },
-  {
-    "id": "OV11",
-    "titel": "Bringt Pflege noch was?",
-    "avatar": "ALT",
-    "saeule": "Aufklärung",
-    "dauer_s": 49,
-    "hook_overlay": "„Bei mir bringt Pflege eh nichts mehr.“",
-    "voiceover": "Den Satz hab ich mir jahrelang selbst gesagt. Bei mir bringt Pflege eh nichts mehr. Und ich war nicht allein. Den hier hab ich in einem Forum gefunden. Also, ganz ehrlich, was so ein Tape kann und was nicht. Es ist kein Wundermittel. Und es baut auch kein Kollagen auf, obwohl Kollagen drin ist. Was es macht: Es pflegt. In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E, und die spendet deinen Lippen über Nacht Feuchtigkeit. Der Unterschied zu meinem Balsam: Das Tape hält die Pflege die ganze Nacht da, wo sie hin soll. Ich bin 58. Meine Lippen fühlen sich morgens weich an. Für mich bringt das was.",
-    "szenen": [
-      {
-        "text": "Den Satz hab ich mir jahrelang selbst gesagt. Bei mir bringt Pflege eh nichts mehr.",
-        "visual": "Der Hook-Satz steht groß in Anführungszeichen auf Rosé, die Buchstaben wackeln leicht.",
-        "overlay": ""
-      },
-      {
-        "text": "Und ich war nicht allein. Den hier hab ich in einem Forum gefunden.",
-        "visual": "Zitat-Karte im Original: „No cosmetics will work.“",
-        "overlay": "Kundinnen-Zitat aus einem Forum"
-      },
-      {
-        "text": "Also, ganz ehrlich, was so ein Tape kann und was nicht.",
-        "visual": "Zwei Spalten zeichnen sich: „kann“ und „kann nicht“.",
-        "overlay": "Ehrlich: kann und kann nicht"
-      },
-      {
-        "text": "Es ist kein Wundermittel. Und es baut auch kein Kollagen auf, obwohl Kollagen drin ist.",
-        "visual": "In der Spalte „kann nicht“ erscheinen ein Zauberstab und ein Kollagen-Label, beide durchgestrichen.",
-        "overlay": "Kein Wundermittel."
-      },
-      {
-        "text": "Was es macht: Es pflegt. In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E, und die spendet deinen Lippen über Nacht Feuchtigkeit.",
-        "visual": "Spalte „kann“: Tape-Illustration mit Tropfen-Icons, Mond darüber.",
-        "overlay": "Pflegt über Nacht"
-      },
-      {
-        "text": "Der Unterschied zu meinem Balsam: Das Tape hält die Pflege die ganze Nacht da, wo sie hin soll.",
-        "visual": "Ein Balsam-Stift links, das Tape rechts, über dem Tape ein Mond mit Häkchen.",
-        "overlay": "Bleibt, wo sie hin soll."
-      },
-      {
-        "text": "Ich bin 58. Meine Lippen fühlen sich morgens weich an. Für mich bringt das was.",
-        "visual": "Morgensonne, Diva-Tape-Schachtel, ein kleines Herz.",
-        "overlay": "Für mich bringt es was."
-      }
-    ],
-    "caption": "Ehrlich statt Wunder. 🤍 Speicher dir das, wenn du dir den Satz auch schon gesagt hast.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#EhrlicheBeauty",
-      "#Beauty40plus",
-      "#Pflegetipps",
-      "#Ü50Beauty"
-    ],
-    "bewusst_weggelassen": "Kein „wirkt auch bei dir“, keine Ergebnisgarantie, kein Kollagen-Aufbau (bewusst verneint), keine Prozent-/Zeitangaben.",
-    "quellen": [
-      "Avatar ALT: Research & 5 Desires (Einwand, Zitat MN-B Grapewrath wörtlich)",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 6 Beliefs)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
-    ]
-  },
-  {
-    "id": "OV12",
-    "titel": "Sonntagabend gehört mir",
-    "avatar": "ALT",
-    "saeule": "Ritual & Ästhetik",
-    "dauer_s": 31,
-    "hook_overlay": "Sonntagabend, 21 Uhr. Das gehört nur mir.",
-    "voiceover": "Sonntagabend, kurz nach neun. Die Woche ist vorbei, die Küche ist sauber, und jetzt bin ich dran. Tee auf den Nachttisch. Gesicht waschen. Creme. Und zum Schluss das Tape. Haut um den Mund trocken, Lippen zu, drüberlegen, kurz andrücken. In der Mitte ist eine Lippenmaske mit Kollagen und Hyaluronsäure. Die pflegt meine Lippen, während ich schlafe. Mit 53 hab ich aufgehört, mich für solche Momente zu entschuldigen. Montag kann kommen.",
-    "szenen": [
-      {
-        "text": "Sonntagabend, kurz nach neun. Die Woche ist vorbei, die Küche ist sauber, und jetzt bin ich dran.",
-        "visual": "Gezeichnete Wanduhr springt auf 21 Uhr, eine Küchentür schließt sich. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Tee auf den Nachttisch. Gesicht waschen. Creme.",
-        "visual": "Drei Icons ploppen im Takt der Worte auf: Teetasse mit Dampf, Waschbecken, Cremetiegel.",
-        "overlay": "Tee. Gesicht. Creme."
-      },
-      {
-        "text": "Und zum Schluss das Tape. Haut um den Mund trocken, Lippen zu, drüberlegen, kurz andrücken.",
-        "visual": "Tape legt sich auf die Lippen-Linie, kleine Fingerspitzen drücken kurz.",
-        "overlay": "Zum Schluss: das Tape."
-      },
-      {
-        "text": "In der Mitte ist eine Lippenmaske mit Kollagen und Hyaluronsäure. Die pflegt meine Lippen, während ich schlafe.",
-        "visual": "Mond geht auf, die Pflege-Mitte schimmert rosa.",
-        "overlay": "Pflege, während ich schlafe"
-      },
-      {
-        "text": "Mit 53 hab ich aufgehört, mich für solche Momente zu entschuldigen.",
-        "visual": "Eine gezeichnete Kerze flackert, daneben ein kleines Herz.",
-        "overlay": "Ohne schlechtes Gewissen."
-      },
-      {
-        "text": "Montag kann kommen.",
-        "visual": "Kalenderblatt blättert auf „Montag“, Licht geht aus, Logo leuchtet nach.",
-        "overlay": "Montag kann kommen."
-      }
-    ],
-    "caption": "Dein Sonntagabend gehört dir. 🕯️ Speicher dir das für den nächsten.",
-    "hashtags": [
-      "#DivaTape",
-      "#Sonntagabend",
-      "#Selfcare",
-      "#Abendroutine",
-      "#Beauty40plus",
-      "#MeTime"
-    ],
-    "bewusst_weggelassen": "„Während ich schlafe“ nur als Zeitangabe der Pflege (erlaubte Formulierung), kein Erholungs- oder Schlafqualitäts-Claim.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (erlaubt: „pflegt die Lippen, während du schläfst“)",
-      "Instagram-Konzept (KI), Kap. 7/8 (Ritual-Säule)"
-    ]
-  },
-  {
-    "id": "OV13",
-    "titel": "POV: Freund sieht mich so",
-    "avatar": "JUNG",
-    "saeule": "Humor/Community",
-    "dauer_s": 42,
-    "hook_overlay": "POV: Mein Freund sieht mich so im Bett",
-    "voiceover": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund. Er: Okay. Muss ich mir Sorgen machen? Ich, durchs Tape: Mhm mhm. Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E. Das Tape hält sie die ganze Nacht da, wo sie hin soll. Und meine Lippenmaske landet nicht mehr im Kissen. Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt. Neulich fragt er, ob ich was an den Lippen hab machen lassen. Nein, Schatz. Nur Tape.",
-    "szenen": [
-      {
-        "text": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund.",
-        "visual": "Gezeichnete Tür geht auf, Strichfigur bleibt erstarrt stehen, im Bett eine Figur mit rosa Tape. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Er: Okay. Muss ich mir Sorgen machen?",
-        "visual": "Große Sprechblase über ihm, ein Schweißtropfen-Icon.",
-        "overlay": "„Muss ich mir Sorgen machen?“"
-      },
-      {
-        "text": "Ich, durchs Tape: Mhm mhm.",
-        "visual": "Ihre Figur nickt, zwei kleine Noten-Icons für das Summen.",
-        "overlay": "„Mhm mhm.“"
-      },
-      {
-        "text": "Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
-        "visual": "Zoom auf das Tape, die Mitte leuchtet, drei Labels erscheinen.",
-        "overlay": "Das ist Lippenpflege."
-      },
-      {
-        "text": "Das Tape hält sie die ganze Nacht da, wo sie hin soll. Und meine Lippenmaske landet nicht mehr im Kissen.",
-        "visual": "Ein Kissen mit Glanzfleck wird weggewischt, Mond über dem Tape.",
-        "overlay": "Nicht mehr im Kissen."
-      },
-      {
-        "text": "Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt.",
-        "visual": "Pfeil auf das Sicherheitsloch, er hebt einen Finger.",
-        "overlay": "Ja, da ist ein Loch."
-      },
-      {
-        "text": "Neulich fragt er, ob ich was an den Lippen hab machen lassen.",
-        "visual": "Frühstücksszene, er mit großer Sprechblase und Fragezeichen.",
-        "overlay": "„Hast du was machen lassen?“"
-      },
-      {
-        "text": "Nein, Schatz. Nur Tape.",
-        "visual": "Sie zwinkert, rosa Schachtel gleitet ins Bild.",
-        "overlay": "Nur Tape."
-      }
-    ],
-    "caption": "Schick das deinem Freund. 😂 Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#POV",
-      "#Paarhumor",
-      "#Lippenpflege",
-      "#NightRoutine",
-      "#Beautytok"
-    ],
-    "bewusst_weggelassen": "Kein „Filler-Look ohne Filler“, kein Schlaf-/Atem-/Schnarch-Witz, keine Zeitangabe bis zum Kompliment.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (erlaubt: Freund fragt, ob ich was an den Lippen gemacht habe)",
-      "Instagram-Konzept (KI), Kap. 7/8 (Hook „Mein Freund hat mich so im Bett gesehen“)",
-      "Avatar JUNG: Research & 5 Desires (JUNG-D3 Kissen)"
-    ]
-  },
-  {
-    "id": "OV14",
-    "titel": "Der unerwartete letzte Schritt",
-    "avatar": "JUNG",
-    "saeule": "Ritual & Ästhetik",
-    "dauer_s": 33,
-    "hook_overlay": "Night Routine. Der letzte Schritt ist unerwartet.",
-    "voiceover": "Night Routine, aber mit einem Schritt, den keiner erwartet. Make-up runter. Toner. Serum. Creme. Lip Oil? Früher ja. Morgens war davon nichts mehr übrig. Jetzt: Tape. Lippen zu, sanft drüberlegen, kurz andrücken. In der Mitte sitzt eine kleine Lippenmaske mit Kollagen, Hyaluronsäure und Vitamin E. Medizinische Baumwolle, hypoallergener Kleber. Fühlt sich nicht an wie ein Pflaster. Licht aus. Morgens langsam abziehen, und meine Lippen fühlen sich so weich an. Speicher dir das für heute Abend.",
-    "szenen": [
-      {
-        "text": "Night Routine, aber mit einem Schritt, den keiner erwartet.",
-        "visual": "Rosé-Bad-Illustration, Hook groß, Spiegel mit Lichterkette.",
-        "overlay": ""
-      },
-      {
-        "text": "Make-up runter. Toner. Serum. Creme.",
-        "visual": "Schnelle Schnitte im Takt: Wattepad, Toner-Flasche, Serum-Pipette, Cremetiegel.",
-        "overlay": "Toner. Serum. Creme."
-      },
-      {
-        "text": "Lip Oil? Früher ja. Morgens war davon nichts mehr übrig.",
-        "visual": "Ein Lip-Oil-Fläschchen erscheint, eine gestrichelte Glanzspur verblasst über Nacht.",
-        "overlay": "Lip Oil? War weg."
-      },
-      {
-        "text": "Jetzt: Tape. Lippen zu, sanft drüberlegen, kurz andrücken.",
-        "visual": "Das rosa Tape legt sich mit kleinem Funkeln über die Lippen-Linie.",
-        "overlay": "Jetzt: Tape."
-      },
-      {
-        "text": "In der Mitte sitzt eine kleine Lippenmaske mit Kollagen, Hyaluronsäure und Vitamin E.",
-        "visual": "Zoom in die Mitte, drei Labels poppen auf.",
-        "overlay": "Lippenmaske in der Mitte"
-      },
-      {
-        "text": "Medizinische Baumwolle, hypoallergener Kleber. Fühlt sich nicht an wie ein Pflaster.",
-        "visual": "Stoff-Textur-Illustration, daneben ein durchgestrichenes Pflaster-Icon.",
-        "overlay": "Baumwolle, hypoallergener Kleber"
-      },
-      {
-        "text": "Licht aus. Morgens langsam abziehen, und meine Lippen fühlen sich so weich an.",
-        "visual": "Lichterkette geht aus, Schnitt auf Morgenlicht, Tape löst sich langsam.",
-        "overlay": "Morgens: so weich."
-      },
-      {
-        "text": "Speicher dir das für heute Abend.",
-        "visual": "Speichern-Icon pulsiert über der Schachtel.",
-        "overlay": "Speichern für heute Abend"
-      }
-    ],
-    "caption": "Letzter Schritt, dann Licht aus. ✨ Speichern für heute Abend, Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#NightRoutine",
-      "#Skincare",
-      "#Lippenpflege",
-      "#CleanGirl",
-      "#Selfcare",
-      "#Beautytok"
-    ],
-    "bewusst_weggelassen": "Kein Beauty-Sleep-/Schlaf-Claim, kein „glossy plump am Morgen“ als Produktaussage, kein Vergleich mit Markenprodukten.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Instagram-Konzept (KI), Kap. 7/8 (Hook „Clean-Girl-Routine, aber der letzte Schritt ist unerwartet“)",
-      "Avatar JUNG: Research & 5 Desires (Lip Oils, „slides off“-Pain)"
-    ]
-  },
-  {
-    "id": "OV15",
-    "titel": "Wofür ist das Loch?",
-    "avatar": "JUNG",
-    "saeule": "Aufklärung",
-    "dauer_s": 33,
-    "hook_overlay": "Wofür ist das Loch in der Mitte?",
-    "voiceover": "Die Frage krieg ich ständig: Wofür ist das Loch in der Mitte? Also, kurz erklärt. Das Tape kommt abends über die geschlossenen Lippen. In der Mitte sitzt die Pflege mit Kollagen, Hyaluronsäure, Vitamin E und Glycerin. Und genau da drin ist ein kleines Sicherheitsloch. Da kann Luft durch. Das ist also mit Absicht so. Der Rest ist medizinische Baumwolle mit einem hypoallergenen, atmungsaktiven Kleber. Morgens langsam abziehen, fertig. Noch Fragen? Schreib sie in die Kommentare.",
-    "szenen": [
-      {
-        "text": "Die Frage krieg ich ständig: Wofür ist das Loch in der Mitte?",
-        "visual": "Riesiges gezeichnetes Fragezeichen, darunter das Tape mit markiertem Loch. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Also, kurz erklärt. Das Tape kommt abends über die geschlossenen Lippen.",
-        "visual": "Das Tape legt sich auf die Lippen-Linie, Mond im Hintergrund.",
-        "overlay": "Abends über die Lippen"
-      },
-      {
-        "text": "In der Mitte sitzt die Pflege mit Kollagen, Hyaluronsäure, Vitamin E und Glycerin.",
-        "visual": "Explosionszeichnung der Mitte, vier Labels fliegen heraus und ordnen sich.",
-        "overlay": "Die Pflege sitzt mittig"
-      },
-      {
-        "text": "Und genau da drin ist ein kleines Sicherheitsloch. Da kann Luft durch.",
-        "visual": "Zoom auf den kleinen Kreis, ein gestrichelter Pfeil geht hindurch.",
-        "overlay": "Sicherheitsloch: Luft kann durch"
-      },
-      {
-        "text": "Das ist also mit Absicht so.",
-        "visual": "Ein Häkchen-Stempel landet neben dem Loch.",
-        "overlay": "Mit Absicht."
-      },
-      {
-        "text": "Der Rest ist medizinische Baumwolle mit einem hypoallergenen, atmungsaktiven Kleber.",
-        "visual": "Stoff-Textur, Label „medizinische Baumwolle“, Label „hypoallergener Kleber“.",
-        "overlay": "Medizinische Baumwolle"
-      },
-      {
-        "text": "Morgens langsam abziehen, fertig. Noch Fragen? Schreib sie in die Kommentare.",
-        "visual": "Tape löst sich, dann eine Kommentar-Sprechblase mit drei Punkten.",
-        "overlay": "Fragen? Ab in die Kommentare"
-      }
-    ],
-    "caption": "Die Nummer-eins-Frage, endlich erklärt. 💬 Was willst du noch wissen?",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#BeautyFAQ",
-      "#Inhaltsstoffe",
-      "#Skincare",
-      "#Beautytok"
-    ],
-    "bewusst_weggelassen": "Keine Erklärung des Lochs über Atmung, Sicherheit beim Schlaf oder Nase; nur die belegte Tatsache „Luft kann durch“. „Atmungsaktiv“ steht nur als belegte Material-Eigenschaft des Klebers.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (Sicherheitsloch, Material)",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 4)"
-    ]
-  },
-  {
-    "id": "OV16",
-    "titel": "Lippenmaske im Kissen",
-    "avatar": "JUNG",
-    "saeule": "Storytime/Ich-Erzählung",
-    "dauer_s": 42,
-    "hook_overlay": "Meine Lippenmaske klebte jeden Morgen im Kissen.",
-    "voiceover": "Meine Lippenmaske? Klebte jeden Morgen im Kissen. Nicht auf meinen Lippen. Ich hab mir abends extra eine dicke Schicht draufgemacht. Morgens: Lippen trocken, Kissenbezug glänzt. Mit Plumpern aus der Drogerie war es auch nicht besser. Eine im Forum hat es genau so beschrieben. Dann hab ich so ein Tape gefunden. Die Lippenmaske sitzt direkt in der Mitte, mit Kollagen und Hyaluronsäure. Und weil das Tape drüberklebt, bleibt die Pflege die ganze Nacht da, wo sie hin soll. Morgens fühlen sich meine Lippen weich und irgendwie voller an. Und mein Kissen ist einfach nur ein Kissen.",
-    "szenen": [
-      {
-        "text": "Meine Lippenmaske? Klebte jeden Morgen im Kissen. Nicht auf meinen Lippen.",
-        "visual": "Gezeichnetes Kissen mit großem glänzendem rosa Fleck, daneben ein offenes Döschen. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Ich hab mir abends extra eine dicke Schicht draufgemacht. Morgens: Lippen trocken, Kissenbezug glänzt.",
-        "visual": "Split: links glänzender Kissenbezug mit Funkeln, rechts matte Lippen-Linie.",
-        "overlay": "Kissen glänzt. Lippen nicht."
-      },
-      {
-        "text": "Mit Plumpern aus der Drogerie war es auch nicht besser.",
-        "visual": "Drei gezeichnete Plumper-Röhrchen kippen nacheinander um wie Dominosteine.",
-        "overlay": "Plumper? Auch nicht."
-      },
-      {
-        "text": "Eine im Forum hat es genau so beschrieben.",
-        "visual": "Zitat-Karte im Original: „I feel like they're gimmicks. I love the stinging but the plumping effect doesn't last very long at all.“",
-        "overlay": "Kundinnen-Zitat aus einem Forum"
-      },
-      {
-        "text": "Dann hab ich so ein Tape gefunden. Die Lippenmaske sitzt direkt in der Mitte, mit Kollagen und Hyaluronsäure.",
-        "visual": "Das Tape gleitet ins Bild, die Mitte leuchtet als kleine Maske auf, zwei Labels.",
-        "overlay": "Die Maske sitzt im Tape"
-      },
-      {
-        "text": "Und weil das Tape drüberklebt, bleibt die Pflege die ganze Nacht da, wo sie hin soll.",
-        "visual": "Mond, das Tape bleibt auf den Lippen, das Kissen daneben bleibt sauber.",
-        "overlay": "Bleibt, wo sie hin soll."
-      },
-      {
-        "text": "Morgens fühlen sich meine Lippen weich und irgendwie voller an. Und mein Kissen ist einfach nur ein Kissen.",
-        "visual": "Morgenlicht, sauberes Kissen bekommt ein Häkchen, rosa Schachtel daneben.",
-        "overlay": "Kissen ist wieder Kissen."
-      }
-    ],
-    "caption": "Dein Kissen braucht keine Lippenmaske. 💋 Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenmaske",
-      "#Lippenpflege",
-      "#NightRoutine",
-      "#Beautytok",
-      "#Skincare"
-    ],
-    "bewusst_weggelassen": "Keine Markennamen der Hype-Maske, kein „plumpt besser als Plumper“, „voller“ nur als Ich-Gefühl, kein Vorher-Nachher.",
-    "quellen": [
-      "Avatar JUNG: Research & 5 Desires (JUNG-D3, Headline „Lippenmaske klebt im Kissen“, Zitat Beautylish Alessia c. wörtlich)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
-    ]
-  },
-  {
-    "id": "OV17",
-    "titel": "Freundin kam aus dem Studio",
-    "avatar": "JUNG",
-    "saeule": "Storytime/Ich-Erzählung",
-    "dauer_s": 42,
-    "hook_overlay": "Meine beste Freundin kam aus dem Lippen-Studio.",
-    "voiceover": "Meine beste Freundin kam letzten Samstag aus dem Studio. Frisch gemachte Lippen. Alle in der Gruppe so: Wow. Und ich saß da und dachte: Ich trau mich das nie. Ich hab Angst vor dem Schmerz. Und davor, dass es unecht aussieht. Damit bin ich nicht allein. Was ich mache, ist was ganz anderes: Pflege. Abends kommt ein Tape über die geschlossenen Lippen. In der Mitte sind Kollagen, Hyaluronsäure und Vitamin E. Das spendet den Lippen über Nacht Feuchtigkeit. Morgens fühlen sie sich weich an. Und ganz ehrlich? Sie sehen nach mir aus. Genau so will ich das.",
-    "szenen": [
-      {
-        "text": "Meine beste Freundin kam letzten Samstag aus dem Studio. Frisch gemachte Lippen.",
-        "visual": "Gezeichnete Café-Szene mit zwei Strichfiguren, über der Freundin funkelt ein Glitzer-Stern. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Alle in der Gruppe so: Wow. Und ich saß da und dachte: Ich trau mich das nie.",
-        "visual": "Gruppenchat-Illustration, Wow-Sprechblasen stapeln sich, ihre Figur ganz klein daneben.",
-        "overlay": "Ich trau mich das nie."
-      },
-      {
-        "text": "Ich hab Angst vor dem Schmerz. Und davor, dass es unecht aussieht.",
-        "visual": "Zwei Sorgen-Wölkchen mit Blitz und Fragezeichen ziehen über ihren Kopf.",
-        "overlay": "Angst vor unecht"
-      },
-      {
-        "text": "Damit bin ich nicht allein.",
-        "visual": "Zitat-Karte im Original: „don't want to end up looking fake and scared of pain haha“",
-        "overlay": "Kundinnen-Zitat aus einem Forum"
-      },
-      {
-        "text": "Was ich mache, ist was ganz anderes: Pflege. Abends kommt ein Tape über die geschlossenen Lippen.",
-        "visual": "Szenenwechsel auf Nacht, rosa Schachtel öffnet sich, das Tape legt sich auf die Lippen-Linie.",
-        "overlay": "Was ganz anderes: Pflege."
-      },
-      {
-        "text": "In der Mitte sind Kollagen, Hyaluronsäure und Vitamin E. Das spendet den Lippen über Nacht Feuchtigkeit.",
-        "visual": "Tropfen-Icons pulsieren in der Mitte, Mond zieht vorbei.",
-        "overlay": "Über Nacht Feuchtigkeit"
-      },
-      {
-        "text": "Morgens fühlen sie sich weich an. Und ganz ehrlich? Sie sehen nach mir aus. Genau so will ich das.",
-        "visual": "Morgenlicht, gezeichneter Handspiegel mit Herz, Logo.",
-        "overlay": "Sieht nach mir aus."
-      }
-    ],
-    "caption": "Du musst nichts machen lassen, um dich um dich zu kümmern. 🤍 Speichern für heute Abend.",
-    "hashtags": [
-      "#DivaTape",
-      "#Lippenpflege",
-      "#NatürlicheLippen",
-      "#NightRoutine",
-      "#Beautytok",
-      "#Selfcare"
-    ],
-    "bewusst_weggelassen": "Kein „statt Filler“, keine „Filler-Alternative“, kein „ohne Spritze zu volleren Lippen“; das Tape wird ausdrücklich als „was ganz anderes: Pflege“ abgegrenzt. Keine Spritze oder Lippen-Nahaufnahme der Freundin.",
-    "quellen": [
-      "Avatar JUNG: Research & 5 Desires (JUNG-D1 Hook-Richtung Freundin, Zitat MN-2 xJune88 wörtlich, Kundenwortlaut „unecht“)",
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
-    ]
-  },
-  {
-    "id": "OV18",
-    "titel": "Übernachtung mit Tape",
-    "avatar": "JUNG",
-    "saeule": "Humor/Community",
-    "dauer_s": 39,
-    "hook_overlay": "POV: Deine beste Freundin übernachtet bei dir",
-    "voiceover": "Meine beste Freundin übernachtet bei mir. Abgeschminkt, Licht gedimmt, und ich hol das Tape raus. Sie: Was wird das denn jetzt? Ich: Lippenpflege. Lippen zu, Tape drüber, fertig. Sie: Du siehst aus wie ein Emoji. Ich hab ihr trotzdem eins gegeben. Als sie gehört hat, dass in der Mitte Pflege mit Kollagen und Hyaluronsäure ist, wollte sie es doch probieren. Morgens hat sie es langsam abgezogen, in den Spiegel geguckt und gesagt: Okay. Die sind echt weich. Jetzt hat sie ihre eigene Packung. Und ich muss nicht mehr teilen.",
-    "szenen": [
-      {
-        "text": "Meine beste Freundin übernachtet bei mir. Abgeschminkt, Licht gedimmt, und ich hol das Tape raus.",
-        "visual": "Gezeichnetes Bett mit zwei Strichfiguren und Decke bis zum Kinn, eine rosa Schachtel taucht auf. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Sie: Was wird das denn jetzt?",
-        "visual": "Sprechblase mit großen Augen-Icons.",
-        "overlay": "„Was wird das denn?“"
-      },
-      {
-        "text": "Ich: Lippenpflege. Lippen zu, Tape drüber, fertig.",
-        "visual": "Ihre Figur klebt das Tape auf, kleines Funkeln.",
-        "overlay": "Lippen zu, Tape drüber."
-      },
-      {
-        "text": "Sie: Du siehst aus wie ein Emoji.",
-        "visual": "Neben ihrem Gesicht erscheint ein gezeichnetes Gesicht-ohne-Mund-Symbol, beide Figuren wackeln vor Lachen.",
-        "overlay": "„Du siehst aus wie ein Emoji.“"
-      },
-      {
-        "text": "Ich hab ihr trotzdem eins gegeben. Als sie gehört hat, dass in der Mitte Pflege mit Kollagen und Hyaluronsäure ist, wollte sie es doch probieren.",
-        "visual": "Ein Tape fliegt zu ihr rüber, die Mitte leuchtet, zwei Labels.",
-        "overlay": "Okay, eins für sie."
-      },
-      {
-        "text": "Morgens hat sie es langsam abgezogen, in den Spiegel geguckt und gesagt: Okay. Die sind echt weich.",
-        "visual": "Badspiegel-Illustration, ihre Sprechblase, kleine Herzchen.",
-        "overlay": "„Okay. Die sind echt weich.“"
-      },
-      {
-        "text": "Jetzt hat sie ihre eigene Packung. Und ich muss nicht mehr teilen.",
-        "visual": "Zwei rosa Schachteln nebeneinander, High-Five-Icon.",
-        "overlay": "Markier deine Übernachtungs-Freundin"
-      }
-    ],
-    "caption": "Markier die Freundin, die das als Erste auslachen würde. 😂",
-    "hashtags": [
-      "#DivaTape",
-      "#Freundinnen",
-      "#POV",
-      "#Lippenpflege",
-      "#NightRoutine",
-      "#Beautytok"
-    ],
-    "bewusst_weggelassen": "Keine Lieferzeit („drei Tage später kam ihr Paket“ gestrichen, Shop sagt 7–11 Werktage), kein Zahn-/Schlaf-Bezug in der Abendszene, kein „voller“-Claim.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Instagram-Konzept (KI), Kap. 7/8 (Humor-/Community-Säule, Markier-CTA)"
-    ]
-  },
-  {
-    "id": "OV19",
-    "titel": "Was steckt im Kollagen-Tape?",
-    "avatar": "JUNG",
-    "saeule": "Aufklärung",
-    "dauer_s": 41,
-    "hook_overlay": "Was steckt eigentlich in einem Kollagen-Tape?",
-    "voiceover": "Kollagen-Tape. Klingt erst mal nach Hype. Also hab ich mir angeguckt, was wirklich drin ist. Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber. In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen. Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht. Dazu ein kleines Sicherheitsloch in der Mitte. Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte. Speicher dir das, falls dich jemand fragt.",
-    "szenen": [
-      {
-        "text": "Kollagen-Tape. Klingt erst mal nach Hype. Also hab ich mir angeguckt, was wirklich drin ist.",
-        "visual": "Das Wort „Kollagen-Tape“ steht groß mit Glitzer, eine Lupe fährt darüber. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber.",
-        "visual": "Querschnitt-Grafik, äußere Schicht wird beschriftet.",
-        "overlay": "Außen: Baumwolle und Kleber"
-      },
-      {
-        "text": "In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen.",
-        "visual": "Die Mitte zoomt auf, die Inhaltsstoffe tippen sich als Liste ein, „Tocopherol“ bekommt ein Pfeil-Label „Vitamin E“.",
-        "overlay": "Glycerin, Hyaluron, Vitamin E, Kollagen"
-      },
-      {
-        "text": "Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht.",
-        "visual": "Das Kollagen-Label setzt sich zu den anderen in die Mitte, ein Stempel „Pflege“ landet darauf.",
-        "overlay": "Teil der Pflege. Punkt."
-      },
-      {
-        "text": "Dazu ein kleines Sicherheitsloch in der Mitte.",
-        "visual": "Pfeil auf das Loch.",
-        "overlay": "Plus Sicherheitsloch"
-      },
-      {
-        "text": "Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte.",
-        "visual": "Schachtel öffnet sich, dreißig Tape-Icons ordnen sich zu einem Kalender-Raster.",
-        "overlay": "30 Stück = 30 Nächte"
-      },
-      {
-        "text": "Speicher dir das, falls dich jemand fragt.",
-        "visual": "Speichern-Icon und Teilen-Pfeil pulsieren.",
-        "overlay": "Speichern und weiterschicken"
-      }
-    ],
-    "caption": "Was drin ist, ohne Hype. 🔍 Speichern und an deine Skincare-Freundin schicken. Link in Bio.",
-    "hashtags": [
-      "#DivaTape",
-      "#Inhaltsstoffe",
-      "#Kollagen",
-      "#Hyaluron",
-      "#Skincare",
-      "#Lippenpflege",
-      "#Beautytok"
-    ],
-    "bewusst_weggelassen": "Kein Kollagen-Aufbau, kein „dringt ein“, keine Funktionsbeschreibung einzelner Inhaltsstoffe, die nicht belegt ist, kein „Meereskollagen“, kein Preis, keine Bundles/Rabatte.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (Inhaltsstoffe laut Shopify, Material, 30 Stück)",
-      "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 4 Technische Daten)"
-    ]
-  },
-  {
-    "id": "OV20",
-    "titel": "ASMR: Tape drauf",
-    "avatar": "JUNG",
-    "saeule": "Ritual & Ästhetik",
-    "dauer_s": 21,
-    "hook_overlay": "ASMR: Tape drauf. Licht aus.",
-    "voiceover": "Pssst. Ton an. Packung auf. Ein Tape raus. Lippen zu. Ganz sanft drüberlegen. Kurz andrücken. In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll. Nachttischlampe aus. Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl. Gute Nacht, Diva.",
-    "szenen": [
-      {
-        "text": "Pssst. Ton an.",
-        "visual": "Dunkles Rosé, eine gezeichnete Lautsprecher-Welle pulsiert. Hook groß im Bild.",
-        "overlay": ""
-      },
-      {
-        "text": "Packung auf.",
-        "visual": "Die Schachtel öffnet sich in Zeitlupe, weiches Knister-Sounddesign.",
-        "overlay": "Packung auf."
-      },
-      {
-        "text": "Ein Tape raus.",
-        "visual": "Ein Tape gleitet heraus und schwebt.",
-        "overlay": ""
-      },
-      {
-        "text": "Lippen zu. Ganz sanft drüberlegen.",
-        "visual": "Das Tape legt sich in Zeitlupe über die Lippen-Linie.",
-        "overlay": "Ganz sanft."
-      },
-      {
-        "text": "Kurz andrücken.",
-        "visual": "Zwei Fingerspitzen-Icons drücken, kleine Welle.",
-        "overlay": ""
-      },
-      {
-        "text": "In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll.",
-        "visual": "Die Mitte glimmt rosa, drei Labels blenden weich ein und aus.",
-        "overlay": "Die ganze Nacht da."
-      },
-      {
-        "text": "Nachttischlampe aus.",
-        "visual": "Klick, die gezeichnete Lampe geht aus, nur Sterne bleiben.",
-        "overlay": ""
-      },
-      {
-        "text": "Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl.",
-        "visual": "Morgenlicht blendet auf, das Tape löst sich langsam.",
-        "overlay": "Dieses weiche Gefühl."
-      },
-      {
-        "text": "Gute Nacht, Diva.",
-        "visual": "Logo erscheint auf Rosé, kleiner Mond.",
-        "overlay": "Gute Nacht, Diva."
-      }
-    ],
-    "caption": "Ton an, Licht aus. 🎧 Speichern für heute Abend.",
-    "hashtags": [
-      "#DivaTape",
-      "#ASMR",
-      "#NightRoutine",
-      "#Lippenpflege",
-      "#Selfcare",
-      "#Beautytok"
-    ],
-    "bewusst_weggelassen": "Kein Schlaf-/Entspannungs-Claim trotz ASMR, keine Wirkung außer Pflege und Ich-Gefühl.",
-    "quellen": [
-      "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
-      "Instagram-Konzept (KI), Kap. 7/8 (Hook „ASMR: Diva-Tape aufkleben“)"
-    ]
-  }
+ {
+  "id": "OV01",
+  "titel": "Letzter Schritt vor Licht aus",
+  "avatar": "ALT",
+  "saeule": "Ritual & Ästhetik",
+  "dauer_s": 33,
+  "hook_overlay": "Mein letzter Schritt, bevor das Licht ausgeht",
+  "voiceover": "Das hier ist jeden Abend mein letzter Schritt. Mit 54 hab ich aufgehört, mir abends drei verschiedene Sachen auf die Lippen zu schmieren. Jetzt ist es ein Tape. Lippen zu, drüberlegen, leicht andrücken. In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E. Und die bleibt die ganze Nacht da, wo sie hin soll. Morgens zieh ich es langsam ab. Meine Lippen fühlen sich dann richtig weich an. Das ist Diva Tape. Mehr ist es nicht.",
+  "szenen": [
+   {
+    "text": "Das hier ist jeden Abend mein letzter Schritt.",
+    "visual": "Rosé-Hintergrund, eine gezeichnete Nachttischlampe knipst an. Die Hook tippt sich Wort für Wort groß in die Bildmitte.",
+    "overlay": ""
+   },
+   {
+    "text": "Mit 54 hab ich aufgehört, mir abends drei verschiedene Sachen auf die Lippen zu schmieren.",
+    "visual": "Drei gezeichnete Tuben und Döschen hüpfen über den Nachttisch und purzeln in eine Schublade, die mit einem Klack zugeht.",
+    "overlay": "Drei Sachen? Nicht mehr."
+   },
+   {
+    "text": "Jetzt ist es ein Tape. Lippen zu, drüberlegen, leicht andrücken.",
+    "visual": "Linienzeichnung geschlossener Lippen. Ein rosa Tape schwebt von oben herab und legt sich darüber, zwei kleine Fingerspitzen-Icons drücken kurz.",
+    "overlay": "Lippen zu. Drauf. Andrücken."
+   },
+   {
+    "text": "In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
+    "visual": "Zoom in die Tape-Mitte. Drei Tropfen-Icons ploppen nacheinander auf, jedes mit kleinem Label.",
+    "overlay": "Kollagen, Hyaluron, Vitamin E"
+   },
+   {
+    "text": "Und die bleibt die ganze Nacht da, wo sie hin soll.",
+    "visual": "Ein gezeichneter Mond wandert über ein Fenster, Sterne blinken, das Tape bleibt ruhig auf den Lippen liegen.",
+    "overlay": "Die ganze Nacht da."
+   },
+   {
+    "text": "Morgens zieh ich es langsam ab. Meine Lippen fühlen sich dann richtig weich an.",
+    "visual": "Sonne geht im Fenster auf, das Tape löst sich in Zeitlupe, kleine Glanz-Funkel auf der Lippen-Linie.",
+    "overlay": "Morgens langsam abziehen."
+   },
+   {
+    "text": "Das ist Diva Tape. Mehr ist es nicht.",
+    "visual": "Gezeichnete Diva-Tape-Schachtel auf dem Nachttisch, die Lampe geht aus, nur das Logo leuchtet nach.",
+    "overlay": "Diva Tape"
+   }
+  ],
+  "caption": "Ein Schritt, dann Licht aus. 🌙 Speicher dir das für heute Abend, Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#Abendroutine",
+   "#Beauty40plus",
+   "#NightRoutine",
+   "#SelfcareRitual"
+  ],
+  "bewusst_weggelassen": "Kein „besser schlafen“/Beauty-Sleep-Claim, kein „vollere Lippen“ als Produktaussage, kein Kollagen-Aufbau; Weich-Gefühl nur als Ich-Erleben.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6)",
+   "Instagram-Konzept (KI), Kap. 7/8 (Ritual-Säule, Hook „letzter Schritt“)"
+  ]
+ },
+ {
+  "id": "OV02",
+  "titel": "Der Lippenstift blieb drauf",
+  "avatar": "ALT",
+  "saeule": "Storytime/Ich-Erzählung",
+  "dauer_s": 37,
+  "hook_overlay": "Ich hab ihn wieder abgewischt.",
+  "voiceover": "Hochzeit meiner Nichte. Ich im Flur, in der Hand mein alter roter Lippenstift. Früher mein Lieblingsstück. Aufgetragen, kurz geguckt, mit dem Taschentuch wieder runter. Später hab ich in einem Forum gelesen, dass es anderen genauso geht. Ich hab dann keinen neuen Lippenstift gekauft. Ich hab angefangen, meine Lippen nachts zu pflegen. Ein Tape, das abends über die geschlossenen Lippen kommt. In der Mitte Pflege mit Kollagen und Hyaluronsäure. Morgens fühlten sie sich weich an. Irgendwie voller. Beim Geburtstag meiner Schwester hab ich ihn drangelassen. Den ganzen Abend.",
+  "szenen": [
+   {
+    "text": "Hochzeit meiner Nichte. Ich im Flur, in der Hand mein alter roter Lippenstift.",
+    "visual": "Gezeichneter Flurspiegel mit Garderobe, ein roter Lippenstift dreht sich aus der Hülse. Hook groß oben im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Früher mein Lieblingsstück. Aufgetragen, kurz geguckt, mit dem Taschentuch wieder runter.",
+    "visual": "Ein gezeichnetes Taschentuch mit rotem Abdruck flattert ins Bild, die Lippenstift-Kappe klickt zu.",
+    "overlay": "Wieder runter damit."
+   },
+   {
+    "text": "Später hab ich in einem Forum gelesen, dass es anderen genauso geht.",
+    "visual": "Gezeichnetes Handy, darauf eine Zitat-Karte im Original: „I would absolutely love to rock a red lip but I just can’t pull it off.“",
+    "overlay": "Kundinnen-Zitat aus einem Forum"
+   },
+   {
+    "text": "Ich hab dann keinen neuen Lippenstift gekauft. Ich hab angefangen, meine Lippen nachts zu pflegen.",
+    "visual": "Szenenwechsel: Mond im Fenster, Nachttisch, eine rosa Schachtel öffnet sich.",
+    "overlay": "Pflege über Nacht"
+   },
+   {
+    "text": "Ein Tape, das abends über die geschlossenen Lippen kommt. In der Mitte Pflege mit Kollagen und Hyaluronsäure.",
+    "visual": "Rosa Tape legt sich auf die Lippen-Linienzeichnung, die Mitte glüht sanft rosa auf, zwei Labels erscheinen.",
+    "overlay": "Pflege-Mitte mit Kollagen"
+   },
+   {
+    "text": "Morgens fühlten sie sich weich an. Irgendwie voller.",
+    "visual": "Morgensonne, das Tape wird langsam abgezogen, weiche Glanzlinien zeichnen sich nach.",
+    "overlay": "Weich. Irgendwie voller."
+   },
+   {
+    "text": "Beim Geburtstag meiner Schwester hab ich ihn drangelassen. Den ganzen Abend.",
+    "visual": "Der rote Lippenstift steht offen neben einer gezeichneten Geburtstagstorte, Konfetti fällt.",
+    "overlay": "Diesmal blieb er drauf."
+   }
+  ],
+  "caption": "Manchmal ist es nicht der Lippenstift. 💄 Speicher dir das, wenn du deinen auch schon mal wieder abgewischt hast.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenstift",
+   "#Lippenpflege",
+   "#Ü50Beauty",
+   "#Beauty40plus",
+   "#Abendroutine"
+  ],
+  "bewusst_weggelassen": "Kein „Lippenstift läuft nicht mehr aus“ als Produktwirkung, kein „vollere Lippen“ als Produktaussage, keine Vorher-Nachher-Darstellung, kein „Clown“-Zitat (negatives Selbstbild).",
+  "quellen": [
+   "Avatar ALT: Research & 5 Desires (ALT-D2, Zitat MN-C Laboheme78 wörtlich)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6)"
+  ]
+ },
+ {
+  "id": "OV03",
+  "titel": "Das Foto im Schuhkarton",
+  "avatar": "ALT",
+  "saeule": "Storytime/Ich-Erzählung",
+  "dauer_s": 36,
+  "hook_overlay": "Dieses Foto hätte ich nicht finden sollen.",
+  "voiceover": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend. Und ich hab nur auf eins geschaut: meinen Mund. Machen lassen wollte ich nie. Zu viel Angst, dass es gemacht aussieht. Ich wollte selbst was tun. Abends, in Ruhe. Jetzt kommt abends ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet. Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel. Das Foto hängt jetzt am Kühlschrank.",
+  "szenen": [
+   {
+    "text": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend.",
+    "visual": "Ein gezeichneter Schuhkarton klappt auf, ein Polaroid-Rahmen mit lachender Strichfigur segelt heraus. Hook groß darüber.",
+    "overlay": "1998. Gartenparty."
+   },
+   {
+    "text": "Und ich hab nur auf eins geschaut: meinen Mund.",
+    "visual": "Eine gezeichnete Lupe gleitet über das Polaroid und bleibt am Mund der Strichfigur stehen.",
+    "overlay": "Nur auf eins geschaut."
+   },
+   {
+    "text": "Machen lassen wollte ich nie. Zu viel Angst, dass es gemacht aussieht.",
+    "visual": "Ein gezeichneter Kalender mit dem Wort „Termin?“ erscheint, das Fragezeichen wackelt und löst sich in Luft auf.",
+    "overlay": "Gemacht aussehen? Nein."
+   },
+   {
+    "text": "Ich wollte selbst was tun. Abends, in Ruhe.",
+    "visual": "Abendstimmung: Mond, Schlafzimmerfenster, eine rosa Schachtel auf dem Nachttisch.",
+    "overlay": "Abends. In Ruhe."
+   },
+   {
+    "text": "Jetzt kommt abends ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet.",
+    "visual": "Tape-Illustration legt sich über die Lippen-Linie, kleine Feuchtigkeitstropfen pulsieren in der Mitte.",
+    "overlay": "Spendet über Nacht Feuchtigkeit"
+   },
+   {
+    "text": "Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel.",
+    "visual": "Gezeichneter Badspiegel im Morgenlicht, ein kleines Herz malt sich auf die Spiegelfläche.",
+    "overlay": "Wieder gern in den Spiegel."
+   },
+   {
+    "text": "Das Foto hängt jetzt am Kühlschrank.",
+    "visual": "Das Polaroid klebt mit einem Herz-Magneten an einem gezeichneten Kühlschrank.",
+    "overlay": ""
+   }
+  ],
+  "caption": "Manche Fotos bleiben einfach hängen. 📸 Speicher dir das für heute Abend, Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#Beauty40plus",
+   "#Abendroutine",
+   "#Ü50",
+   "#Selfcare"
+  ],
+  "bewusst_weggelassen": "Kein Vorher-Nachher (das alte Foto zeigt nur eine Strichfigur, kein Vergleich), kein „Lippen wie früher“ als Versprechen, kein Filler-Vergleich, kein Kollagen-Aufbau.",
+  "quellen": [
+   "Avatar ALT: Research & 5 Desires (ALT-D1 Hook-Richtung altes Foto, Kundenwortlaut „gemacht aussehen“)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
+  ]
+ },
+ {
+  "id": "OV04",
+  "titel": "Termin zweimal abgesagt",
+  "avatar": "ALT",
+  "saeule": "Storytime/Ich-Erzählung",
+  "dauer_s": 38,
+  "hook_overlay": "Ich hab den Termin abgesagt. Zweimal.",
+  "voiceover": "Ich hatte einen Termin für meine Lippen. Abgesagt. Zweimal. Ich bin 57 und hab zu viel Angst, dass es schiefgeht und jeder es sieht. In einem Forum stand genau, was ich gedacht hab. Also tu ich jetzt abends selbst was für meine Lippen. Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E. Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich weich an. Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein Ritual.",
+  "szenen": [
+   {
+    "text": "Ich hatte einen Termin für meine Lippen. Abgesagt. Zweimal.",
+    "visual": "Gezeichneter Wandkalender, zwei Einträge werden nacheinander mit rotem Stift durchgestrichen. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Ich bin 57 und hab zu viel Angst, dass es schiefgeht und jeder es sieht.",
+    "visual": "Kleine Sorgen-Wölkchen ziehen über den Kalender, darin Fragezeichen.",
+    "overlay": "Angst, dass es schiefgeht"
+   },
+   {
+    "text": "In einem Forum stand genau, was ich gedacht hab.",
+    "visual": "Zitat-Karte im Original auf Rosé: „the idea of injects on lips kinda scares me“",
+    "overlay": "Kundinnen-Zitat aus einem Forum"
+   },
+   {
+    "text": "Also tu ich jetzt abends selbst was für meine Lippen.",
+    "visual": "Nachttischlampe geht an, gezeichnete Hände öffnen eine rosa Schachtel.",
+    "overlay": "Selbst was tun. Abends."
+   },
+   {
+    "text": "Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
+    "visual": "Explosionszeichnung: Baumwoll-Schicht schiebt sich auseinander, darunter die Pflege-Mitte mit drei Labels.",
+    "overlay": "Baumwolle plus Pflege-Mitte"
+   },
+   {
+    "text": "Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich weich an.",
+    "visual": "Tag-Nacht-Wechsel im Fenster im Zeitraffer, Tape drauf, Tape ab, ein kleines Schloss-Icon für „mein Geheimnis“.",
+    "overlay": "Keiner merkt was."
+   },
+   {
+    "text": "Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein Ritual.",
+    "visual": "Kalender klappt zu, daneben die Schachtel auf dem Nachttisch, Licht geht aus.",
+    "overlay": "Mein eigenes Ritual."
+   }
+  ],
+  "caption": "Du musst dich nicht heute entscheiden. 🤍 Speicher dir das für heute Abend.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#Beauty40plus",
+   "#Abendroutine",
+   "#Selfcare",
+   "#Ü50Beauty"
+  ],
+  "bewusst_weggelassen": "Kein „statt Filler“, keine „Filler-Alternative“, kein „ohne Spritze zu volleren Lippen“; das Ende lässt die Entscheidung offen, statt das Tape als Ersatz darzustellen. Keine Spritze im Bild.",
+  "quellen": [
+   "Avatar ALT: Research & 5 Desires (ALT-D4, Zitat MN-B Newso wörtlich, Kundenwortlaut „schiefgehen“, „keiner soll es merken“)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
+  ]
+ },
+ {
+  "id": "OV05",
+  "titel": "Drei Winter-Fehler",
+  "avatar": "ALT",
+  "saeule": "Aufklärung",
+  "dauer_s": 38,
+  "hook_overlay": "Drei Winter-Fehler, die ich jahrelang gemacht hab",
+  "voiceover": "Drei Winter-Fehler, die ich jahrelang gemacht hab. Nummer drei hat mich überrascht. Eins: Heizung voll aufgedreht, und die Luft im Schlafzimmer ist staubtrocken. Zwei: Lippen ablecken, wenn sie spannen. Fühlt sich kurz gut an, macht es aber nicht besser. Drei: Den ganzen Tag nachcremen und nachts gar nichts. Dabei liegt nachts stundenlang nichts drauf. Meine Kosmetikerin hat mir erklärt: Lippen haben keine eigenen Talgdrüsen. Deshalb trocknen sie schneller aus. Seitdem kommt abends ein Tape mit Pflege-Mitte drauf. Das spendet über Nacht Feuchtigkeit. Speicher dir das für die Heizungssaison.",
+  "szenen": [
+   {
+    "text": "Drei Winter-Fehler, die ich jahrelang gemacht hab. Nummer drei hat mich überrascht.",
+    "visual": "Gezeichnete Schneeflocke dreht sich, drei Kärtchen mit 1, 2, 3 fächern sich auf. Hook groß darüber.",
+    "overlay": ""
+   },
+   {
+    "text": "Eins: Heizung voll aufgedreht, und die Luft im Schlafzimmer ist staubtrocken.",
+    "visual": "Heizkörper-Illustration mit flirrenden Wärmewellen, ein Wassertropfen-Icon schrumpft und verschwindet.",
+    "overlay": "1. Heizungsluft"
+   },
+   {
+    "text": "Zwei: Lippen ablecken, wenn sie spannen. Fühlt sich kurz gut an, macht es aber nicht besser.",
+    "visual": "Lippen-Linienzeichnung, daneben ein kleines Stopp-Schild, das sich hochklappt.",
+    "overlay": "2. Lippen ablecken"
+   },
+   {
+    "text": "Drei: Den ganzen Tag nachcremen und nachts gar nichts. Dabei liegt nachts stundenlang nichts drauf.",
+    "visual": "Eine Uhr dreht sich im Zeitraffer, Mond, die Lippen-Linie bleibt ohne Pflege-Glanz.",
+    "overlay": "3. Nachts nichts drauf"
+   },
+   {
+    "text": "Meine Kosmetikerin hat mir erklärt: Lippen haben keine eigenen Talgdrüsen. Deshalb trocknen sie schneller aus.",
+    "visual": "Einfache Vergleichsgrafik: Hautstück mit kleinen Drüsen-Kreisen, daneben Lippenhaut ohne Kreise.",
+    "overlay": "Lippen: keine Talgdrüsen"
+   },
+   {
+    "text": "Seitdem kommt abends ein Tape mit Pflege-Mitte drauf. Das spendet über Nacht Feuchtigkeit.",
+    "visual": "Tape legt sich über die Lippen, Mond zieht vorbei, Tropfen-Icons in der Mitte bleiben sichtbar.",
+    "overlay": "Über Nacht Feuchtigkeit"
+   },
+   {
+    "text": "Speicher dir das für die Heizungssaison.",
+    "visual": "Speichern-Icon pulsiert, Schneeflocken rieseln über die Diva-Tape-Schachtel.",
+    "overlay": "Speichern für den Winter"
+   }
+  ],
+  "caption": "Welcher Fehler ist deiner? ❄️ Speichern und einer Freundin schicken, die im Winter immer nachcremt.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#Wintertipps",
+   "#Heizungsluft",
+   "#Beauty40plus",
+   "#Pflegetipps",
+   "#Lippenpflegeroutine"
+  ],
+  "bewusst_weggelassen": "Keine Aussage zu Mund-/Schleimhauttrockenheit oder Raumluft und Gesundheit, kein „heilt spröde Lippen“, keine Zeitangabe, wie schnell es hilft.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (5.6: Fachperson erklärt Talgdrüsen-Prinzip)",
+   "Instagram-Konzept (KI), Kap. 7/8 (Hook-Idee Heizungsluft, Karussell „5 Fehler“)"
+  ]
+ },
+ {
+  "id": "OV06",
+  "titel": "Mit 56 zum ersten Mal",
+  "avatar": "ALT",
+  "saeule": "Aufklärung",
+  "dauer_s": 37,
+  "hook_overlay": "Mit 56 zum ersten Mal Mouth Tape",
+  "voiceover": "Ich bin 56 und hab das vorher noch nie gemacht. Also zeig ich dir, wie es richtig geht. Erstens: Die Haut um den Mund sauber und trocken machen. Zweitens: Lippen schließen und das Tape sanft drüberlegen. Drittens: Einmal leicht andrücken. Die Pflege-Mitte liegt jetzt genau auf den Lippen. Siehst du das kleine Loch in der Mitte? Das ist ein Sicherheitsloch, da kann Luft durch. Viertens, und das ist wichtig: Morgens langsam abziehen. Nicht ruckartig, ganz in Ruhe. Speicher dir das, dann hast du es heute Abend parat.",
+  "szenen": [
+   {
+    "text": "Ich bin 56 und hab das vorher noch nie gemacht. Also zeig ich dir, wie es richtig geht.",
+    "visual": "Rosé-Hintergrund, Hook groß, darunter die gezeichnete Schachtel, die sich öffnet.",
+    "overlay": ""
+   },
+   {
+    "text": "Erstens: Die Haut um den Mund sauber und trocken machen.",
+    "visual": "Ein gezeichneter Waschlappen wischt einmal über die Lippen-Linie, ein Häkchen erscheint.",
+    "overlay": "1. Sauber und trocken"
+   },
+   {
+    "text": "Zweitens: Lippen schließen und das Tape sanft drüberlegen.",
+    "visual": "Das Tape schwebt heran und legt sich ganz langsam auf die geschlossene Lippen-Linie.",
+    "overlay": "2. Lippen zu, sanft auflegen"
+   },
+   {
+    "text": "Drittens: Einmal leicht andrücken. Die Pflege-Mitte liegt jetzt genau auf den Lippen.",
+    "visual": "Zwei Fingerspitzen-Icons drücken links und rechts, die Mitte leuchtet rosa auf.",
+    "overlay": "3. Leicht andrücken"
+   },
+   {
+    "text": "Siehst du das kleine Loch in der Mitte? Das ist ein Sicherheitsloch, da kann Luft durch.",
+    "visual": "Zoom auf die Tape-Mitte, ein kleiner Kreis wird mit einem Pfeil markiert.",
+    "overlay": "Sicherheitsloch in der Mitte"
+   },
+   {
+    "text": "Viertens, und das ist wichtig: Morgens langsam abziehen. Nicht ruckartig, ganz in Ruhe.",
+    "visual": "Morgensonne, das Tape löst sich in Zeitlupe, ein Schnecken-Icon steht für „langsam“.",
+    "overlay": "4. Morgens langsam abziehen"
+   },
+   {
+    "text": "Speicher dir das, dann hast du es heute Abend parat.",
+    "visual": "Vier Schritt-Kärtchen stapeln sich, Speichern-Icon pulsiert.",
+    "overlay": "Speichern für heute Abend"
+   }
+  ],
+  "caption": "Vier Schritte, mehr ist es nicht. 🌙 Speichern für heute Abend, Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#Anwendung",
+   "#Lippenpflege",
+   "#Beauty40plus",
+   "#Abendroutine",
+   "#SoGehts"
+  ],
+  "bewusst_weggelassen": "Keine Begründung des Sicherheitslochs über Atmung oder Sicherheit beim Schlafen, nur die belegte Tatsache „Luft kann durch“. Kein „hält die ganze Nacht“ als Klebe-Versprechen.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (Anwendung 1–4, Sicherheitsloch)",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 4 Anwendung)"
+  ]
+ },
+ {
+  "id": "OV07",
+  "titel": "Mein Nachttisch mit 52",
+  "avatar": "ALT",
+  "saeule": "Ritual & Ästhetik",
+  "dauer_s": 39,
+  "hook_overlay": "Mein Nachttisch mit 52. Ein Teil überrascht.",
+  "voiceover": "Mein Nachttisch mit 52. Lesebrille. Ein Krimi, den ich nie fertig kriege. Eine Handcreme, die nach Mandel riecht. Und eine kleine rosa Schachtel. Da sind dreißig Tapes drin. Eins für jede Nacht. Bevor ich das Buch weglege, kommt eins über die Lippen. In der Mitte Pflege mit Kollagen und Vitamin E. Früher lag da ein Lippenbalsam, und die Pflege war morgens im Kissen. Jetzt bleibt sie, wo sie hin soll. Morgens zieh ich es langsam ab, und meine Lippen fühlen sich weich an. Das ist mein Lieblingsteil auf dem Nachttisch.",
+  "szenen": [
+   {
+    "text": "Mein Nachttisch mit 52. Lesebrille. Ein Krimi, den ich nie fertig kriege.",
+    "visual": "Gezeichneter Nachttisch von vorn, Lesebrille und Buch ploppen nacheinander auf. Hook groß oben.",
+    "overlay": "Lesebrille. Krimi."
+   },
+   {
+    "text": "Eine Handcreme, die nach Mandel riecht. Und eine kleine rosa Schachtel.",
+    "visual": "Handcreme-Tube erscheint, dann gleitet die rosa Schachtel ins Bild und wackelt kurz.",
+    "overlay": "Und die rosa Schachtel?"
+   },
+   {
+    "text": "Da sind dreißig Tapes drin. Eins für jede Nacht.",
+    "visual": "Die Schachtel öffnet sich, dreißig kleine Tape-Icons fächern sich wie Karten auf.",
+    "overlay": "30 Stück = 30 Nächte"
+   },
+   {
+    "text": "Bevor ich das Buch weglege, kommt eins über die Lippen. In der Mitte Pflege mit Kollagen und Vitamin E.",
+    "visual": "Buch klappt zu, das Tape legt sich auf die Lippen-Linie, zwei Labels erscheinen in der Mitte.",
+    "overlay": "Pflege-Mitte mit Kollagen"
+   },
+   {
+    "text": "Früher lag da ein Lippenbalsam, und die Pflege war morgens im Kissen. Jetzt bleibt sie, wo sie hin soll.",
+    "visual": "Ein gezeichneter Balsam-Stift rollt vom Tisch, ein Kissen mit Glanzfleck blendet aus, dann Mond über dem Tape.",
+    "overlay": "Bleibt, wo sie hin soll."
+   },
+   {
+    "text": "Morgens zieh ich es langsam ab, und meine Lippen fühlen sich weich an. Das ist mein Lieblingsteil auf dem Nachttisch.",
+    "visual": "Morgenlicht auf dem Nachttisch, die Schachtel bekommt ein kleines Krönchen.",
+    "overlay": "Mein Lieblingsteil"
+   }
+  ],
+  "caption": "Was steht bei dir neben dem Bett? Schreib es in die Kommentare. 🌙",
+  "hashtags": [
+   "#DivaTape",
+   "#Nachttisch",
+   "#Abendroutine",
+   "#Beauty40plus",
+   "#Lippenpflege",
+   "#Selfcare"
+  ],
+  "bewusst_weggelassen": "Kein Schlaf-Bezug trotz Nachttisch-Setting, keine Wirkung über Kollagen hinaus, kein Plump-Versprechen.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Instagram-Konzept (KI), Kap. 7/8 (Nachttisch-Ästhetik, Post 2)"
+  ]
+ },
+ {
+  "id": "OV08",
+  "titel": "Das Erste am Morgen",
+  "avatar": "ALT",
+  "saeule": "Ritual & Ästhetik",
+  "dauer_s": 32,
+  "hook_overlay": "Das Erste, was ich morgens mache",
+  "voiceover": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft. Ich zieh das Tape ab. Langsam und ganz in Ruhe. Dann der Blick in den Badspiegel. Und dieses Gefühl: weich. Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf. Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr. Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee.",
+  "szenen": [
+   {
+    "text": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft.",
+    "visual": "Gezeichneter Wecker klingelt und wackelt, Sonne schiebt sich über den Fensterrahmen. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Ich zieh das Tape ab. Langsam und ganz in Ruhe.",
+    "visual": "Nahe Linienzeichnung der Lippen, das Tape löst sich in Zeitlupe.",
+    "overlay": "Langsam abziehen."
+   },
+   {
+    "text": "Dann der Blick in den Badspiegel. Und dieses Gefühl: weich.",
+    "visual": "Gezeichneter Badspiegel, das Wort „weich“ schreibt sich in Schreibschrift auf die beschlagene Fläche.",
+    "overlay": "Weich."
+   },
+   {
+    "text": "Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf.",
+    "visual": "Kurzer Rückblick: Mond, Tape auf den Lippen, drei Tropfen-Labels in der Mitte.",
+    "overlay": "Die ganze Nacht Pflege"
+   },
+   {
+    "text": "Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr.",
+    "visual": "Ein gezeichnetes Fragezeichen wird langsam blasser.",
+    "overlay": "Lohnt sich nichts mehr?"
+   },
+   {
+    "text": "Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee.",
+    "visual": "Kaffeemaschine-Illustration startet, Dampf steigt in Herzform auf.",
+    "overlay": "Erst das. Dann Kaffee."
+   }
+  ],
+  "caption": "Erst das Tape, dann der Kaffee. ☕ Wie startest du in den Tag?",
+  "hashtags": [
+   "#DivaTape",
+   "#Morgenroutine",
+   "#Lippenpflege",
+   "#Beauty40plus",
+   "#Selfcare",
+   "#Morgenritual"
+  ],
+  "bewusst_weggelassen": "Kein „aufwachen mit volleren Lippen“ als Produktaussage, kein Energie-/Frische-Claim zum Morgen, kein Schlaf-Bezug.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Avatar ALT: Research & 5 Desires (Einwand „lohnt sich nichts mehr“, sinngemäß nach „No cosmetics will work.“)"
+  ]
+ },
+ {
+  "id": "OV09",
+  "titel": "Drei Abende bis zur Frage",
+  "avatar": "ALT",
+  "saeule": "Humor/Community",
+  "dauer_s": 37,
+  "hook_overlay": "Er hat drei Abende gebraucht, um zu fragen.",
+  "voiceover": "Mein Mann hat drei Abende gebraucht, bis er gefragt hat. Abend eins: Er guckt. Sagt nichts. Liest weiter. Abend zwei: Er guckt länger. Macht das Licht aus. Abend drei: Schatz, warum klebst du dir den Mund zu? Ich so: Das ist Lippenpflege. In der Mitte ist eine Maske mit Kollagen und Hyaluronsäure, und die bleibt die ganze Nacht drauf. Er: Aha. Und das Loch? Ich: Sicherheitsloch. Er: Aha. Neulich beim Frühstück hat er gefragt, ob ich was an den Lippen gemacht hab. Ich hab nur gegrinst.",
+  "szenen": [
+   {
+    "text": "Mein Mann hat drei Abende gebraucht, bis er gefragt hat.",
+    "visual": "Gezeichnetes Ehebett von oben, zwei Kissen, über seinem Kopf eine leere Sprechblase. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Abend eins: Er guckt. Sagt nichts. Liest weiter.",
+    "visual": "Strichfigur mit Buch, Augen wandern kurz zur Seite und zurück.",
+    "overlay": "Abend 1: ein Blick."
+   },
+   {
+    "text": "Abend zwei: Er guckt länger. Macht das Licht aus.",
+    "visual": "Gleiche Szene, Blick hält länger, dann klickt die Lampe aus.",
+    "overlay": "Abend 2: längerer Blick."
+   },
+   {
+    "text": "Abend drei: Schatz, warum klebst du dir den Mund zu?",
+    "visual": "Licht geht wieder an, große Sprechblase mit der Frage, Fragezeichen hüpfen.",
+    "overlay": "Abend 3: die Frage."
+   },
+   {
+    "text": "Ich so: Das ist Lippenpflege. In der Mitte ist eine Maske mit Kollagen und Hyaluronsäure, und die bleibt die ganze Nacht drauf.",
+    "visual": "Zoom auf ihr Tape, die Pflege-Mitte leuchtet, zwei Labels erscheinen.",
+    "overlay": "Das ist Lippenpflege, Schatz."
+   },
+   {
+    "text": "Er: Aha. Und das Loch? Ich: Sicherheitsloch. Er: Aha.",
+    "visual": "Pingpong-Sprechblasen zwischen den beiden Figuren, sein „Aha“ wird jedes Mal kleiner.",
+    "overlay": "Er: Aha."
+   },
+   {
+    "text": "Neulich beim Frühstück hat er gefragt, ob ich was an den Lippen gemacht hab.",
+    "visual": "Gezeichneter Frühstückstisch, zwei Tassen, über ihm ein Glühbirnen-Icon.",
+    "overlay": "Neulich beim Frühstück"
+   },
+   {
+    "text": "Ich hab nur gegrinst.",
+    "visual": "Ihre Strichfigur grinst, kleines Funkeln, Diva-Tape-Schachtel neben der Kaffeetasse.",
+    "overlay": ""
+   }
+  ],
+  "caption": "Markier jemanden, der genauso gucken würde. 😄 Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#Paarhumor",
+   "#Ehealltag",
+   "#Lippenpflege",
+   "#Beauty40plus",
+   "#Abendroutine"
+  ],
+  "bewusst_weggelassen": "Keine Antwort „Filler“ oder „hab nichts machen lassen, nur Tape“ (vermeidet Filler-Vergleich), kein Schlaf-/Atem-Witz, keine Zeitangabe bis zum Kompliment.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (erlaubte Formulierung „gefragt, ob ich was an den Lippen gemacht habe“)",
+   "Instagram-Konzept (KI), Kap. 7/8 (Humor-Säule, Paar-Hook)"
+  ]
+ },
+ {
+  "id": "OV10",
+  "titel": "Sechs Lippenbalsame",
+  "avatar": "ALT",
+  "saeule": "Storytime/Ich-Erzählung",
+  "dauer_s": 39,
+  "hook_overlay": "Ich hatte sechs Lippenbalsame in der Handtasche.",
+  "voiceover": "Ich bin 51 und hatte sechs Lippenbalsame in der Handtasche. Sechs. Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken. Einer Frau in einem Forum ging es genauso. Irgendwann fiel mir auf: Tagsüber creme ich ständig nach. Nachts liegt gar nichts drauf. Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E. Und die bleibt die ganze Nacht da, wo sie hin soll. In meiner Handtasche ist jetzt noch einer. Einer reicht mir.",
+  "szenen": [
+   {
+    "text": "Ich bin 51 und hatte sechs Lippenbalsame in der Handtasche. Sechs.",
+    "visual": "Eine gezeichnete Handtasche kippt um, sechs Stifte rollen heraus, ein Zähler springt von 1 auf 6. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken.",
+    "visual": "Drei Uhr-Icons hintereinander, jedes Mal tippt ein Stift auf die Lippen-Linie.",
+    "overlay": "Drauf. Drauf. Drauf."
+   },
+   {
+    "text": "Einer Frau in einem Forum ging es genauso.",
+    "visual": "Zitat-Karte im Original: „But they're expensive and don't last long“",
+    "overlay": "Kundinnen-Zitat aus einem Forum"
+   },
+   {
+    "text": "Irgendwann fiel mir auf: Tagsüber creme ich ständig nach. Nachts liegt gar nichts drauf.",
+    "visual": "Split-Grafik Sonne und Mond: auf der Sonnenseite viele Stifte, auf der Mondseite ein leeres Feld.",
+    "overlay": "Nachts: nichts drauf."
+   },
+   {
+    "text": "Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E.",
+    "visual": "Tape legt sich auf die Lippen-Linie, vier Labels kreisen kurz um die Mitte.",
+    "overlay": "Pflege-Mitte für die Nacht"
+   },
+   {
+    "text": "Und die bleibt die ganze Nacht da, wo sie hin soll.",
+    "visual": "Mond zieht vorbei, das Tape bleibt ruhig, kleine Sterne.",
+    "overlay": "Die ganze Nacht da."
+   },
+   {
+    "text": "In meiner Handtasche ist jetzt noch einer. Einer reicht mir.",
+    "visual": "Handtasche richtet sich auf, fünf Stifte rollen raus aus dem Bild, einer bleibt.",
+    "overlay": "Einer reicht mir."
+   }
+  ],
+  "caption": "Wie viele hast du gerade in der Tasche? 👜 Speicher dir das für heute Abend.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenbalsam",
+   "#Lippenpflege",
+   "#Beauty40plus",
+   "#Abendroutine",
+   "#Pflegeroutine"
+  ],
+  "bewusst_weggelassen": "Kein „nie wieder nachcremen“ und keine Zeitangabe; das Ende bleibt Ich-Erleben. Kein Bezug zu Mundtrockenheit.",
+  "quellen": [
+   "Avatar ALT: Research & 5 Desires (neues ALT-D5 laut Brand-Gedächtnis, Zitat MN-C Arraminta wörtlich)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 7, ALT-D5)"
+  ]
+ },
+ {
+  "id": "OV11",
+  "titel": "Bringt Pflege noch was?",
+  "avatar": "ALT",
+  "saeule": "Aufklärung",
+  "dauer_s": 40,
+  "hook_overlay": "„Bei mir bringt Pflege eh nichts mehr.“",
+  "voiceover": "Bei mir bringt Pflege eh nichts mehr. Hab ich jahrelang gedacht. In einem Forum stand sogar das hier. Also, ganz ehrlich, was so ein Tape kann und was nicht. Es ist kein Wundermittel. Was es macht: Es pflegt. Die Pflege-Mitte mit Kollagen, Hyaluronsäure und Vitamin E spendet deinen Lippen über Nacht Feuchtigkeit. Anders als bei meinem Balsam bleibt die Pflege die ganze Nacht da, wo sie hin soll. Ich bin 58. Meine Lippen fühlen sich morgens weich an. Für mich bringt das was.",
+  "szenen": [
+   {
+    "text": "Bei mir bringt Pflege eh nichts mehr. Hab ich jahrelang gedacht.",
+    "visual": "Der Hook-Satz steht groß in Anführungszeichen auf Rosé, die Buchstaben wackeln leicht.",
+    "overlay": ""
+   },
+   {
+    "text": "In einem Forum stand sogar das hier.",
+    "visual": "Zitat-Karte im Original: „No cosmetics will work.“",
+    "overlay": "Kundinnen-Zitat aus einem Forum"
+   },
+   {
+    "text": "Also, ganz ehrlich, was so ein Tape kann und was nicht.",
+    "visual": "Zwei Spalten zeichnen sich: „kann“ und „kann nicht“.",
+    "overlay": "Ehrlich: kann und kann nicht"
+   },
+   {
+    "text": "Es ist kein Wundermittel.",
+    "visual": "In der Spalte „kann nicht“ erscheinen ein Zauberstab und ein Kollagen-Label, beide durchgestrichen.",
+    "overlay": "Kein Wundermittel."
+   },
+   {
+    "text": "Was es macht: Es pflegt. Die Pflege-Mitte mit Kollagen, Hyaluronsäure und Vitamin E spendet deinen Lippen über Nacht Feuchtigkeit.",
+    "visual": "Spalte „kann“: Tape-Illustration mit Tropfen-Icons, Mond darüber.",
+    "overlay": "Pflegt über Nacht"
+   },
+   {
+    "text": "Anders als bei meinem Balsam bleibt die Pflege die ganze Nacht da, wo sie hin soll.",
+    "visual": "Ein Balsam-Stift links, das Tape rechts, über dem Tape ein Mond mit Häkchen.",
+    "overlay": "Bleibt, wo sie hin soll."
+   },
+   {
+    "text": "Ich bin 58. Meine Lippen fühlen sich morgens weich an. Für mich bringt das was.",
+    "visual": "Morgensonne, Diva-Tape-Schachtel, ein kleines Herz.",
+    "overlay": "Für mich bringt es was."
+   }
+  ],
+  "caption": "Ehrlich statt Wunder. 🤍 Speicher dir das, wenn du dir den Satz auch schon gesagt hast.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#EhrlicheBeauty",
+   "#Beauty40plus",
+   "#Pflegetipps",
+   "#Ü50Beauty"
+  ],
+  "bewusst_weggelassen": "Kein „wirkt auch bei dir“, keine Ergebnisgarantie, kein Kollagen-Aufbau (bewusst verneint), keine Prozent-/Zeitangaben.",
+  "quellen": [
+   "Avatar ALT: Research & 5 Desires (Einwand, Zitat MN-B Grapewrath wörtlich)",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 6 Beliefs)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
+  ]
+ },
+ {
+  "id": "OV12",
+  "titel": "Sonntagabend gehört mir",
+  "avatar": "ALT",
+  "saeule": "Ritual & Ästhetik",
+  "dauer_s": 30,
+  "hook_overlay": "Sonntagabend, 21 Uhr. Das gehört nur mir.",
+  "voiceover": "Sonntagabend, kurz nach neun. Die Woche ist vorbei, die Küche ist sauber, und jetzt bin ich dran. Tee auf den Nachttisch. Gesicht waschen. Creme. Und zum Schluss das Tape. Haut um den Mund trocken, Lippen zu, drüberlegen, kurz andrücken. In der Mitte ist eine Lippenmaske mit Kollagen und Hyaluronsäure. Die pflegt meine Lippen, während ich schlafe. Mit 53 hab ich aufgehört, mich für solche Momente zu entschuldigen. Montag kann kommen.",
+  "szenen": [
+   {
+    "text": "Sonntagabend, kurz nach neun. Die Woche ist vorbei, die Küche ist sauber, und jetzt bin ich dran.",
+    "visual": "Gezeichnete Wanduhr springt auf 21 Uhr, eine Küchentür schließt sich. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Tee auf den Nachttisch. Gesicht waschen. Creme.",
+    "visual": "Drei Icons ploppen im Takt der Worte auf: Teetasse mit Dampf, Waschbecken, Cremetiegel.",
+    "overlay": "Tee. Gesicht. Creme."
+   },
+   {
+    "text": "Und zum Schluss das Tape. Haut um den Mund trocken, Lippen zu, drüberlegen, kurz andrücken.",
+    "visual": "Tape legt sich auf die Lippen-Linie, kleine Fingerspitzen drücken kurz.",
+    "overlay": "Zum Schluss: das Tape."
+   },
+   {
+    "text": "In der Mitte ist eine Lippenmaske mit Kollagen und Hyaluronsäure. Die pflegt meine Lippen, während ich schlafe.",
+    "visual": "Mond geht auf, die Pflege-Mitte schimmert rosa.",
+    "overlay": "Pflege, während ich schlafe"
+   },
+   {
+    "text": "Mit 53 hab ich aufgehört, mich für solche Momente zu entschuldigen.",
+    "visual": "Eine gezeichnete Kerze flackert, daneben ein kleines Herz.",
+    "overlay": "Ohne schlechtes Gewissen."
+   },
+   {
+    "text": "Montag kann kommen.",
+    "visual": "Kalenderblatt blättert auf „Montag“, Licht geht aus, Logo leuchtet nach.",
+    "overlay": "Montag kann kommen."
+   }
+  ],
+  "caption": "Dein Sonntagabend gehört dir. 🕯️ Speicher dir das für den nächsten.",
+  "hashtags": [
+   "#DivaTape",
+   "#Sonntagabend",
+   "#Selfcare",
+   "#Abendroutine",
+   "#Beauty40plus",
+   "#MeTime"
+  ],
+  "bewusst_weggelassen": "„Während ich schlafe“ nur als Zeitangabe der Pflege (erlaubte Formulierung), kein Erholungs- oder Schlafqualitäts-Claim.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (erlaubt: „pflegt die Lippen, während du schläfst“)",
+   "Instagram-Konzept (KI), Kap. 7/8 (Ritual-Säule)"
+  ]
+ },
+ {
+  "id": "OV13",
+  "titel": "POV: Freund sieht mich so",
+  "avatar": "JUNG",
+  "saeule": "Humor/Community",
+  "dauer_s": 37,
+  "hook_overlay": "POV: Mein Freund sieht mich so im Bett",
+  "voiceover": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund. Er: Okay. Muss ich mir Sorgen machen? Ich, durchs Tape: Mhm mhm. Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte Kollagen, Hyaluronsäure und Vitamin E. Die Pflege bleibt die ganze Nacht da, wo sie hin soll. Nicht mehr im Kissen. Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt. Inzwischen fragt er abends nur noch: Hast du dein Tape schon drauf?",
+  "szenen": [
+   {
+    "text": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund.",
+    "visual": "Gezeichnete Tür geht auf, Strichfigur bleibt erstarrt stehen, im Bett eine Figur mit rosa Tape. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Er: Okay. Muss ich mir Sorgen machen?",
+    "visual": "Große Sprechblase über ihm, ein Schweißtropfen-Icon.",
+    "overlay": "„Muss ich mir Sorgen machen?“"
+   },
+   {
+    "text": "Ich, durchs Tape: Mhm mhm.",
+    "visual": "Ihre Figur nickt, zwei kleine Noten-Icons für das Summen.",
+    "overlay": "„Mhm mhm.“"
+   },
+   {
+    "text": "Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte Kollagen, Hyaluronsäure und Vitamin E.",
+    "visual": "Zoom auf das Tape, die Mitte leuchtet, drei Labels erscheinen.",
+    "overlay": "Das ist Lippenpflege."
+   },
+   {
+    "text": "Die Pflege bleibt die ganze Nacht da, wo sie hin soll. Nicht mehr im Kissen.",
+    "visual": "Ein Kissen mit Glanzfleck wird weggewischt, Mond über dem Tape.",
+    "overlay": "Nicht mehr im Kissen."
+   },
+   {
+    "text": "Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt.",
+    "visual": "Pfeil auf das Sicherheitsloch, er hebt einen Finger.",
+    "overlay": "Ja, da ist ein Loch."
+   },
+   {
+    "text": "Inzwischen fragt er abends nur noch:",
+    "visual": "Er steht in der Schlafzimmertür, große Sprechblase mit Tape-Symbol.",
+    "overlay": "Inzwischen, jeden Abend:"
+   },
+   {
+    "text": "Hast du dein Tape schon drauf?",
+    "visual": "Sie zwinkert, das Tape gleitet ins Bild.",
+    "overlay": "„Tape schon drauf?“"
+   }
+  ],
+  "caption": "Schick das deinem Freund. 😂 Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#POV",
+   "#Paarhumor",
+   "#Lippenpflege",
+   "#NightRoutine",
+   "#Beautytok"
+  ],
+  "bewusst_weggelassen": "Kein „Filler-Look ohne Filler“, kein Schlaf-/Atem-/Schnarch-Witz, keine Zeitangabe bis zum Kompliment.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (erlaubt: Freund fragt, ob ich was an den Lippen gemacht habe)",
+   "Instagram-Konzept (KI), Kap. 7/8 (Hook „Mein Freund hat mich so im Bett gesehen“)",
+   "Avatar JUNG: Research & 5 Desires (JUNG-D3 Kissen)"
+  ]
+ },
+ {
+  "id": "OV14",
+  "titel": "Der unerwartete letzte Schritt",
+  "avatar": "JUNG",
+  "saeule": "Ritual & Ästhetik",
+  "dauer_s": 32,
+  "hook_overlay": "Night Routine. Der letzte Schritt ist unerwartet.",
+  "voiceover": "Night Routine, aber mit einem Schritt, den keiner erwartet. Make-up runter. Toner. Serum. Creme. Lip Oil? Früher ja. Morgens war davon nichts mehr übrig. Jetzt: Tape. Lippen zu, sanft drüberlegen, kurz andrücken. In der Mitte sitzt eine kleine Lippenmaske mit Kollagen, Hyaluronsäure und Vitamin E. Medizinische Baumwolle, hypoallergener Kleber. Fühlt sich nicht an wie ein Pflaster. Licht aus. Morgens langsam abziehen, und meine Lippen fühlen sich so weich an. Speicher dir das für heute Abend.",
+  "szenen": [
+   {
+    "text": "Night Routine, aber mit einem Schritt, den keiner erwartet.",
+    "visual": "Rosé-Bad-Illustration, Hook groß, Spiegel mit Lichterkette.",
+    "overlay": ""
+   },
+   {
+    "text": "Make-up runter. Toner. Serum. Creme.",
+    "visual": "Schnelle Schnitte im Takt: Wattepad, Toner-Flasche, Serum-Pipette, Cremetiegel.",
+    "overlay": "Toner. Serum. Creme."
+   },
+   {
+    "text": "Lip Oil? Früher ja. Morgens war davon nichts mehr übrig.",
+    "visual": "Ein Lip-Oil-Fläschchen erscheint, eine gestrichelte Glanzspur verblasst über Nacht.",
+    "overlay": "Lip Oil? War weg."
+   },
+   {
+    "text": "Jetzt: Tape. Lippen zu, sanft drüberlegen, kurz andrücken.",
+    "visual": "Das rosa Tape legt sich mit kleinem Funkeln über die Lippen-Linie.",
+    "overlay": "Jetzt: Tape."
+   },
+   {
+    "text": "In der Mitte sitzt eine kleine Lippenmaske mit Kollagen, Hyaluronsäure und Vitamin E.",
+    "visual": "Zoom in die Mitte, drei Labels poppen auf.",
+    "overlay": "Lippenmaske in der Mitte"
+   },
+   {
+    "text": "Medizinische Baumwolle, hypoallergener Kleber. Fühlt sich nicht an wie ein Pflaster.",
+    "visual": "Stoff-Textur-Illustration, daneben ein durchgestrichenes Pflaster-Icon.",
+    "overlay": "Baumwolle, hypoallergener Kleber"
+   },
+   {
+    "text": "Licht aus. Morgens langsam abziehen, und meine Lippen fühlen sich so weich an.",
+    "visual": "Lichterkette geht aus, Schnitt auf Morgenlicht, Tape löst sich langsam.",
+    "overlay": "Morgens: so weich."
+   },
+   {
+    "text": "Speicher dir das für heute Abend.",
+    "visual": "Speichern-Icon pulsiert über der Schachtel.",
+    "overlay": "Speichern für heute Abend"
+   }
+  ],
+  "caption": "Letzter Schritt, dann Licht aus. ✨ Speichern für heute Abend, Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#NightRoutine",
+   "#Skincare",
+   "#Lippenpflege",
+   "#CleanGirl",
+   "#Selfcare",
+   "#Beautytok"
+  ],
+  "bewusst_weggelassen": "Kein Beauty-Sleep-/Schlaf-Claim, kein „glossy plump am Morgen“ als Produktaussage, kein Vergleich mit Markenprodukten.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Instagram-Konzept (KI), Kap. 7/8 (Hook „Clean-Girl-Routine, aber der letzte Schritt ist unerwartet“)",
+   "Avatar JUNG: Research & 5 Desires (Lip Oils, „slides off“-Pain)"
+  ]
+ },
+ {
+  "id": "OV15",
+  "titel": "Wofür ist das Loch?",
+  "avatar": "JUNG",
+  "saeule": "Aufklärung",
+  "dauer_s": 32,
+  "hook_overlay": "Wofür ist das Loch in der Mitte?",
+  "voiceover": "Die Frage krieg ich ständig: Wofür ist das Loch in der Mitte? Also, kurz erklärt. Das Tape kommt abends über die geschlossenen Lippen. In der Mitte sitzt die Pflege mit Kollagen, Hyaluronsäure, Vitamin E und Glycerin. Und genau da drin ist ein kleines Sicherheitsloch. Da kann Luft durch. Das ist also mit Absicht so. Der Rest ist medizinische Baumwolle mit einem hypoallergenen, atmungsaktiven Kleber. Morgens langsam abziehen, fertig. Noch Fragen? Schreib sie in die Kommentare.",
+  "szenen": [
+   {
+    "text": "Die Frage krieg ich ständig: Wofür ist das Loch in der Mitte?",
+    "visual": "Riesiges gezeichnetes Fragezeichen, darunter das Tape mit markiertem Loch. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Also, kurz erklärt. Das Tape kommt abends über die geschlossenen Lippen.",
+    "visual": "Das Tape legt sich auf die Lippen-Linie, Mond im Hintergrund.",
+    "overlay": "Abends über die Lippen"
+   },
+   {
+    "text": "In der Mitte sitzt die Pflege mit Kollagen, Hyaluronsäure, Vitamin E und Glycerin.",
+    "visual": "Explosionszeichnung der Mitte, vier Labels fliegen heraus und ordnen sich.",
+    "overlay": "Die Pflege sitzt mittig"
+   },
+   {
+    "text": "Und genau da drin ist ein kleines Sicherheitsloch. Da kann Luft durch.",
+    "visual": "Zoom auf den kleinen Kreis, ein gestrichelter Pfeil geht hindurch.",
+    "overlay": "Sicherheitsloch: Luft kann durch"
+   },
+   {
+    "text": "Das ist also mit Absicht so.",
+    "visual": "Ein Häkchen-Stempel landet neben dem Loch.",
+    "overlay": "Mit Absicht."
+   },
+   {
+    "text": "Der Rest ist medizinische Baumwolle mit einem hypoallergenen, atmungsaktiven Kleber.",
+    "visual": "Stoff-Textur, Label „medizinische Baumwolle“, Label „hypoallergener Kleber“.",
+    "overlay": "Medizinische Baumwolle"
+   },
+   {
+    "text": "Morgens langsam abziehen, fertig. Noch Fragen? Schreib sie in die Kommentare.",
+    "visual": "Tape löst sich, dann eine Kommentar-Sprechblase mit drei Punkten.",
+    "overlay": "Fragen? Ab in die Kommentare"
+   }
+  ],
+  "caption": "Die Nummer-eins-Frage, endlich erklärt. 💬 Was willst du noch wissen?",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#BeautyFAQ",
+   "#Inhaltsstoffe",
+   "#Skincare",
+   "#Beautytok"
+  ],
+  "bewusst_weggelassen": "Keine Erklärung des Lochs über Atmung, Sicherheit beim Schlaf oder Nase; nur die belegte Tatsache „Luft kann durch“. „Atmungsaktiv“ steht nur als belegte Material-Eigenschaft des Klebers.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (Sicherheitsloch, Material)",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 4)"
+  ]
+ },
+ {
+  "id": "OV16",
+  "titel": "Lippenmaske im Kissen",
+  "avatar": "JUNG",
+  "saeule": "Storytime/Ich-Erzählung",
+  "dauer_s": 38,
+  "hook_overlay": "Meine Lippenmaske klebte jeden Morgen im Kissen.",
+  "voiceover": "Meine Lippenmaske? Klebte jeden Morgen im Kissen. Nicht auf meinen Lippen. Abends eine dicke Schicht drauf. Morgens: Lippen trocken, Kissenbezug glänzt. Mit Plumpern aus der Drogerie war es auch nicht besser. Eine im Forum hat es genau so beschrieben. Dann kam das Tape. Die Lippenmaske sitzt direkt in der Mitte, mit Kollagen und Hyaluronsäure. Und weil das Tape drüberklebt, bleibt die Pflege die ganze Nacht da, wo sie hin soll. Morgens fühlen sich meine Lippen weich und irgendwie voller an. Und mein Kissen ist einfach nur ein Kissen.",
+  "szenen": [
+   {
+    "text": "Meine Lippenmaske? Klebte jeden Morgen im Kissen. Nicht auf meinen Lippen.",
+    "visual": "Gezeichnetes Kissen mit großem glänzendem rosa Fleck, daneben ein offenes Döschen. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Abends eine dicke Schicht drauf. Morgens: Lippen trocken, Kissenbezug glänzt.",
+    "visual": "Split: links glänzender Kissenbezug mit Funkeln, rechts matte Lippen-Linie.",
+    "overlay": "Kissen glänzt. Lippen nicht."
+   },
+   {
+    "text": "Mit Plumpern aus der Drogerie war es auch nicht besser.",
+    "visual": "Drei gezeichnete Plumper-Röhrchen kippen nacheinander um wie Dominosteine.",
+    "overlay": "Plumper? Auch nicht."
+   },
+   {
+    "text": "Eine im Forum hat es genau so beschrieben.",
+    "visual": "Zitat-Karte im Original: „I feel like they're gimmicks. I love the stinging but the plumping effect doesn't last very long at all.“",
+    "overlay": "Kundinnen-Zitat aus einem Forum"
+   },
+   {
+    "text": "Dann kam das Tape. Die Lippenmaske sitzt direkt in der Mitte, mit Kollagen und Hyaluronsäure.",
+    "visual": "Das Tape gleitet ins Bild, die Mitte leuchtet als kleine Maske auf, zwei Labels.",
+    "overlay": "Die Maske sitzt im Tape"
+   },
+   {
+    "text": "Und weil das Tape drüberklebt, bleibt die Pflege die ganze Nacht da, wo sie hin soll.",
+    "visual": "Mond, das Tape bleibt auf den Lippen, das Kissen daneben bleibt sauber.",
+    "overlay": "Bleibt, wo sie hin soll."
+   },
+   {
+    "text": "Morgens fühlen sich meine Lippen weich und irgendwie voller an. Und mein Kissen ist einfach nur ein Kissen.",
+    "visual": "Morgenlicht, sauberes Kissen bekommt ein Häkchen, rosa Schachtel daneben.",
+    "overlay": "Kissen ist wieder Kissen."
+   }
+  ],
+  "caption": "Dein Kissen braucht keine Lippenmaske. 💋 Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenmaske",
+   "#Lippenpflege",
+   "#NightRoutine",
+   "#Beautytok",
+   "#Skincare"
+  ],
+  "bewusst_weggelassen": "Keine Markennamen der Hype-Maske, kein „plumpt besser als Plumper“, „voller“ nur als Ich-Gefühl, kein Vorher-Nachher.",
+  "quellen": [
+   "Avatar JUNG: Research & 5 Desires (JUNG-D3, Headline „Lippenmaske klebt im Kissen“, Zitat Beautylish Alessia c. wörtlich)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
+  ]
+ },
+ {
+  "id": "OV17",
+  "titel": "Freundin kam aus dem Studio",
+  "avatar": "JUNG",
+  "saeule": "Storytime/Ich-Erzählung",
+  "dauer_s": 38,
+  "hook_overlay": "Meine beste Freundin kam aus dem Lippen-Studio.",
+  "voiceover": "Meine beste Freundin kam Samstag aus dem Studio. Frisch gemachte Lippen. Alle in der Gruppe: Wow. Und ich dachte nur: Ich trau mich das nie. Ich hab Angst vor dem Schmerz. Und davor, dass es unecht aussieht. Damit bin ich nicht allein. Ich mache was ganz anderes: Pflege. Abends kommt ein Tape über die geschlossenen Lippen. In der Mitte sind Kollagen, Hyaluronsäure und Vitamin E. Das spendet den Lippen über Nacht Feuchtigkeit. Morgens fühlen sie sich weich an. Und sie sehen nach mir aus. Genau so will ich das.",
+  "szenen": [
+   {
+    "text": "Meine beste Freundin kam Samstag aus dem Studio. Frisch gemachte Lippen.",
+    "visual": "Gezeichnete Café-Szene mit zwei Strichfiguren, über der Freundin funkelt ein Glitzer-Stern. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Alle in der Gruppe: Wow. Und ich dachte nur: Ich trau mich das nie.",
+    "visual": "Gruppenchat-Illustration, Wow-Sprechblasen stapeln sich, ihre Figur ganz klein daneben.",
+    "overlay": "Ich trau mich das nie."
+   },
+   {
+    "text": "Ich hab Angst vor dem Schmerz. Und davor, dass es unecht aussieht.",
+    "visual": "Zwei Sorgen-Wölkchen mit Blitz und Fragezeichen ziehen über ihren Kopf.",
+    "overlay": "Angst vor unecht"
+   },
+   {
+    "text": "Damit bin ich nicht allein.",
+    "visual": "Zitat-Karte im Original: „don't want to end up looking fake and scared of pain haha“",
+    "overlay": "Kundinnen-Zitat aus einem Forum"
+   },
+   {
+    "text": "Ich mache was ganz anderes: Pflege. Abends kommt ein Tape über die geschlossenen Lippen.",
+    "visual": "Szenenwechsel auf Nacht, rosa Schachtel öffnet sich, das Tape legt sich auf die Lippen-Linie.",
+    "overlay": "Was ganz anderes: Pflege."
+   },
+   {
+    "text": "In der Mitte sind Kollagen, Hyaluronsäure und Vitamin E. Das spendet den Lippen über Nacht Feuchtigkeit.",
+    "visual": "Tropfen-Icons pulsieren in der Mitte, Mond zieht vorbei.",
+    "overlay": "Über Nacht Feuchtigkeit"
+   },
+   {
+    "text": "Morgens fühlen sie sich weich an. Und sie sehen nach mir aus. Genau so will ich das.",
+    "visual": "Morgenlicht, gezeichneter Handspiegel mit Herz, Logo.",
+    "overlay": "Sieht nach mir aus."
+   }
+  ],
+  "caption": "Du musst nichts machen lassen, um dich um dich zu kümmern. 🤍 Speichern für heute Abend.",
+  "hashtags": [
+   "#DivaTape",
+   "#Lippenpflege",
+   "#NatürlicheLippen",
+   "#NightRoutine",
+   "#Beautytok",
+   "#Selfcare"
+  ],
+  "bewusst_weggelassen": "Kein „statt Filler“, keine „Filler-Alternative“, kein „ohne Spritze zu volleren Lippen“; das Tape wird ausdrücklich als „was ganz anderes: Pflege“ abgegrenzt. Keine Spritze oder Lippen-Nahaufnahme der Freundin.",
+  "quellen": [
+   "Avatar JUNG: Research & 5 Desires (JUNG-D1 Hook-Richtung Freundin, Zitat MN-2 xJune88 wörtlich, Kundenwortlaut „unecht“)",
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5"
+  ]
+ },
+ {
+  "id": "OV18",
+  "titel": "Übernachtung mit Tape",
+  "avatar": "JUNG",
+  "saeule": "Humor/Community",
+  "dauer_s": 38,
+  "hook_overlay": "POV: Deine beste Freundin übernachtet bei dir",
+  "voiceover": "Meine beste Freundin übernachtet bei mir. Abgeschminkt, Licht gedimmt, und ich hol das Tape raus. Sie: Was wird das denn jetzt? Ich: Lippenpflege. Lippen zu, Tape drüber, fertig. Sie: Du siehst aus wie ein Emoji. Ich hab ihr trotzdem eins gegeben. Als sie gehört hat, dass in der Mitte Pflege mit Kollagen und Hyaluronsäure ist, wollte sie es doch probieren. Morgens hat sie es langsam abgezogen, in den Spiegel geguckt und gesagt: Okay. Die sind echt weich. Jetzt hat sie ihre eigene Packung. Und ich muss nicht mehr teilen.",
+  "szenen": [
+   {
+    "text": "Meine beste Freundin übernachtet bei mir. Abgeschminkt, Licht gedimmt, und ich hol das Tape raus.",
+    "visual": "Gezeichnetes Bett mit zwei Strichfiguren und Decke bis zum Kinn, eine rosa Schachtel taucht auf. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Sie: Was wird das denn jetzt?",
+    "visual": "Sprechblase mit großen Augen-Icons.",
+    "overlay": "„Was wird das denn?“"
+   },
+   {
+    "text": "Ich: Lippenpflege. Lippen zu, Tape drüber, fertig.",
+    "visual": "Ihre Figur klebt das Tape auf, kleines Funkeln.",
+    "overlay": "Lippen zu, Tape drüber."
+   },
+   {
+    "text": "Sie: Du siehst aus wie ein Emoji.",
+    "visual": "Neben ihrem Gesicht erscheint ein gezeichnetes Gesicht-ohne-Mund-Symbol, beide Figuren wackeln vor Lachen.",
+    "overlay": "„Du siehst aus wie ein Emoji.“"
+   },
+   {
+    "text": "Ich hab ihr trotzdem eins gegeben. Als sie gehört hat, dass in der Mitte Pflege mit Kollagen und Hyaluronsäure ist, wollte sie es doch probieren.",
+    "visual": "Ein Tape fliegt zu ihr rüber, die Mitte leuchtet, zwei Labels.",
+    "overlay": "Okay, eins für sie."
+   },
+   {
+    "text": "Morgens hat sie es langsam abgezogen, in den Spiegel geguckt und gesagt: Okay. Die sind echt weich.",
+    "visual": "Badspiegel-Illustration, ihre Sprechblase, kleine Herzchen.",
+    "overlay": "„Okay. Die sind echt weich.“"
+   },
+   {
+    "text": "Jetzt hat sie ihre eigene Packung. Und ich muss nicht mehr teilen.",
+    "visual": "Zwei rosa Schachteln nebeneinander, High-Five-Icon.",
+    "overlay": "Markier deine Übernachtungs-Freundin"
+   }
+  ],
+  "caption": "Markier die Freundin, die das als Erste auslachen würde. 😂",
+  "hashtags": [
+   "#DivaTape",
+   "#Freundinnen",
+   "#POV",
+   "#Lippenpflege",
+   "#NightRoutine",
+   "#Beautytok"
+  ],
+  "bewusst_weggelassen": "Keine Lieferzeit („drei Tage später kam ihr Paket“ gestrichen, Shop sagt 7–11 Werktage), kein Zahn-/Schlaf-Bezug in der Abendszene, kein „voller“-Claim.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Instagram-Konzept (KI), Kap. 7/8 (Humor-/Community-Säule, Markier-CTA)"
+  ]
+ },
+ {
+  "id": "OV19",
+  "titel": "Was steckt im Kollagen-Tape?",
+  "avatar": "JUNG",
+  "saeule": "Aufklärung",
+  "dauer_s": 39,
+  "hook_overlay": "Was steckt eigentlich in einem Kollagen-Tape?",
+  "voiceover": "Kollagen-Tape. Klingt nach Hype. Also hab ich nachgeguckt, was drin ist. Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber. In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen. Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht. Dazu ein kleines Sicherheitsloch in der Mitte. Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte. Speicher dir das, falls dich jemand fragt.",
+  "szenen": [
+   {
+    "text": "Kollagen-Tape. Klingt nach Hype. Also hab ich nachgeguckt, was drin ist.",
+    "visual": "Das Wort „Kollagen-Tape“ steht groß mit Glitzer, eine Lupe fährt darüber. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber.",
+    "visual": "Querschnitt-Grafik, äußere Schicht wird beschriftet.",
+    "overlay": "Außen: Baumwolle und Kleber"
+   },
+   {
+    "text": "In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen.",
+    "visual": "Die Mitte zoomt auf, die Inhaltsstoffe tippen sich als Liste ein, „Tocopherol“ bekommt ein Pfeil-Label „Vitamin E“.",
+    "overlay": "Glycerin, Hyaluron, Vitamin E, Kollagen"
+   },
+   {
+    "text": "Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht.",
+    "visual": "Das Kollagen-Label setzt sich zu den anderen in die Mitte, ein Stempel „Pflege“ landet darauf.",
+    "overlay": "Teil der Pflege. Punkt."
+   },
+   {
+    "text": "Dazu ein kleines Sicherheitsloch in der Mitte.",
+    "visual": "Pfeil auf das Loch.",
+    "overlay": "Plus Sicherheitsloch"
+   },
+   {
+    "text": "Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte.",
+    "visual": "Schachtel öffnet sich, dreißig Tape-Icons ordnen sich zu einem Kalender-Raster.",
+    "overlay": "30 Stück = 30 Nächte"
+   },
+   {
+    "text": "Speicher dir das, falls dich jemand fragt.",
+    "visual": "Speichern-Icon und Teilen-Pfeil pulsieren.",
+    "overlay": "Speichern und weiterschicken"
+   }
+  ],
+  "caption": "Was drin ist, ohne Hype. 🔍 Speichern und an deine Skincare-Freundin schicken. Link in Bio.",
+  "hashtags": [
+   "#DivaTape",
+   "#Inhaltsstoffe",
+   "#Kollagen",
+   "#Hyaluron",
+   "#Skincare",
+   "#Lippenpflege",
+   "#Beautytok"
+  ],
+  "bewusst_weggelassen": "Kein Kollagen-Aufbau, kein „dringt ein“, keine Funktionsbeschreibung einzelner Inhaltsstoffe, die nicht belegt ist, kein „Meereskollagen“, kein Preis, keine Bundles/Rabatte.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5 (Inhaltsstoffe laut Shopify, Material, 30 Stück)",
+   "Brand-Gedächtnis Divatape (Abschnitt 4, 5, 6) (Abschnitt 4 Technische Daten)"
+  ]
+ },
+ {
+  "id": "OV20",
+  "titel": "ASMR: Tape drauf",
+  "avatar": "JUNG",
+  "saeule": "Ritual & Ästhetik",
+  "dauer_s": 22,
+  "hook_overlay": "ASMR: Tape drauf. Licht aus.",
+  "voiceover": "Pssst. Ton an. Packung auf. Ein Tape raus. Lippen zu. Ganz sanft drüberlegen. Kurz andrücken. In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll. Nachttischlampe aus. Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl. Gute Nacht, Diva.",
+  "szenen": [
+   {
+    "text": "Pssst. Ton an.",
+    "visual": "Dunkles Rosé, eine gezeichnete Lautsprecher-Welle pulsiert. Hook groß im Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Packung auf.",
+    "visual": "Die Schachtel öffnet sich in Zeitlupe, weiches Knister-Sounddesign.",
+    "overlay": "Packung auf."
+   },
+   {
+    "text": "Ein Tape raus.",
+    "visual": "Ein Tape gleitet heraus und schwebt.",
+    "overlay": ""
+   },
+   {
+    "text": "Lippen zu. Ganz sanft drüberlegen.",
+    "visual": "Das Tape legt sich in Zeitlupe über die Lippen-Linie.",
+    "overlay": "Ganz sanft."
+   },
+   {
+    "text": "Kurz andrücken.",
+    "visual": "Zwei Fingerspitzen-Icons drücken, kleine Welle.",
+    "overlay": ""
+   },
+   {
+    "text": "In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll.",
+    "visual": "Die Mitte glimmt rosa, drei Labels blenden weich ein und aus.",
+    "overlay": "Die ganze Nacht da."
+   },
+   {
+    "text": "Nachttischlampe aus.",
+    "visual": "Klick, die gezeichnete Lampe geht aus, nur Sterne bleiben.",
+    "overlay": ""
+   },
+   {
+    "text": "Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl.",
+    "visual": "Morgenlicht blendet auf, das Tape löst sich langsam.",
+    "overlay": "Dieses weiche Gefühl."
+   },
+   {
+    "text": "Gute Nacht, Diva.",
+    "visual": "Logo erscheint auf Rosé, kleiner Mond.",
+    "overlay": "Gute Nacht, Diva."
+   }
+  ],
+  "caption": "Ton an, Licht aus. 🎧 Speichern für heute Abend.",
+  "hashtags": [
+   "#DivaTape",
+   "#ASMR",
+   "#NightRoutine",
+   "#Lippenpflege",
+   "#Selfcare",
+   "#Beautytok"
+  ],
+  "bewusst_weggelassen": "Kein Schlaf-/Entspannungs-Claim trotz ASMR, keine Wirkung außer Pflege und Ich-Gefühl.",
+  "quellen": [
+   "01 – Ad-Fakten & Leitplanken (Divatape), Abschnitt 2 und 5",
+   "Instagram-Konzept (KI), Kap. 7/8 (Hook „ASMR: Diva-Tape aufkleben“)"
+  ]
+ }
 ]
