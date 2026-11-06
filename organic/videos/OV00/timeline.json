@@ -1,0 +1,107 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Ich wollte nur kurz Lippenstift auftragen.",
+   "start": 0,
+   "dur": 2.767741935483871,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Und meine Oberlippe war einfach weg.",
+   "start": 2.767741935483871,
+   "dur": 2.177419354838709,
+   "speakStart": 2.767741935483871
+  },
+  {
+   "id": "s3",
+   "text": "Früher waren meine Lippen das Schönste an meinem Gesicht.",
+   "start": 4.94516129032258,
+   "dur": 3.193548387096775,
+   "speakStart": 4.94516129032258
+  },
+  {
+   "id": "s4",
+   "text": "Heute zeige ich dir, was seitdem jeden Abend auf meinem Nachttisch liegt.",
+   "start": 8.138709677419355,
+   "dur": 4.411290322580646,
+   "speakStart": 8.138709677419355
+  }
+ ],
+ "captions": [
+  {
+   "text": "Ich wollte nur kurz",
+   "start": 0.3,
+   "end": 1.287741935483871,
+   "rot": -1.6
+  },
+  {
+   "text": "Lippenstift auftragen.",
+   "start": 1.237741935483871,
+   "end": 2.8177419354838706,
+   "rot": 0
+  },
+  {
+   "text": "Und meine Oberlippe",
+   "start": 2.767741935483871,
+   "end": 3.7579912023460404,
+   "rot": 1.6
+  },
+  {
+   "text": "war einfach weg.",
+   "start": 3.7079912023460406,
+   "end": 4.99516129032258,
+   "rot": -0.8
+  },
+  {
+   "text": "Früher waren meine",
+   "start": 4.94516129032258,
+   "end": 5.893346774193548,
+   "rot": 0.8
+  },
+  {
+   "text": "Lippen das Schönste an",
+   "start": 5.843346774193548,
+   "end": 6.991129032258065,
+   "rot": -1.6
+  },
+  {
+   "text": "meinem Gesicht.",
+   "start": 6.941129032258065,
+   "end": 8.188709677419356,
+   "rot": 0
+  },
+  {
+   "text": "Heute zeige ich dir,",
+   "start": 8.138709677419355,
+   "end": 9.39197434900894,
+   "rot": 1.6
+  },
+  {
+   "text": "was seitdem jeden",
+   "start": 9.34197434900894,
+   "end": 10.244286824718229,
+   "rot": -0.8
+  },
+  {
+   "text": "Abend auf meinem",
+   "start": 10.194286824718228,
+   "end": 11.046463272444619,
+   "rot": 0.8
+  },
+  {
+   "text": "Nachttisch liegt.",
+   "start": 10.996463272444618,
+   "end": 12.350000000000001,
+   "rot": -1.6
+  }
+ ],
+ "endStart": 12.55,
+ "duration": 14.75,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

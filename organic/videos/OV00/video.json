@@ -1,0 +1,10 @@
+{
+ "id": "OV00", "avatar": "ALT", "voice_duration": 12.0, "voice_id": "MOOG1hZESAxDt4UaletY",
+ "scenes": [
+  {"id": "s1", "text": "Ich wollte nur kurz Lippenstift auftragen."},
+  {"id": "s2", "text": "Und meine Oberlippe war einfach weg."},
+  {"id": "s3", "text": "Früher waren meine Lippen das Schönste an meinem Gesicht."},
+  {"id": "s4", "text": "Heute zeige ich dir, was seitdem jeden Abend auf meinem Nachttisch liegt."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}
