@@ -190,9 +190,9 @@ SCENES.s5 = { bg: C.rosaHell, build(root, ctx) {
   const pd = svg(pad, {}, root, '0 0 400 400', 520, 520);
   const top = svg(ART.tape(false), {}, root, '0 0 400 400', 620, 620);
   const nTop = note(root, 'medizinische Baumwolle', { x: 250, y: 480, r: -3, t0: D * .2, size: 64, arrow: [40, 70], ax: 320, ay: 80 });
-  const names = ['Kollagen', 'Hyaluronsäure', 'Vitamin E'], xs = [240, 540, 840], at = [.42, .58, .74];
-  const lines = svg(names.map((_, i) => `<line x1="${540 + (i - 1) * 90}" y1="0" x2="${xs[i]}" y2="150" stroke="${S}" stroke-width="5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join(''), { left: 0, top: '1060px' }, root, '0 0 1080 160', 1080, 160);
-  const labels = names.map((n, i) => el('div', { left: (xs[i] - 170) + 'px', width: '340px', top: '1210px', textAlign: 'center', fontFamily: F.sans, fontWeight: 700, fontSize: '44px', color: C.schwarz }, root,
+  const names = ['Kollagen', 'Hyaluronsäure', 'Vitamin E'], xs = [210, 540, 870], at = [.42, .58, .74];
+  const lines = svg(names.map((_, i) => `<line x1="${540 + (i - 1) * 90}" y1="0" x2="${xs[i]}" y2="${i === 1 ? 210 : 150}" stroke="${S}" stroke-width="5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join(''), { left: 0, top: '1060px' }, root, '0 0 1080 230', 1080, 230);
+  const labels = names.map((n, i) => el('div', { left: (xs[i] - 170) + 'px', width: '340px', top: (i === 1 ? 1262 : 1200) + 'px', textAlign: 'center', fontFamily: F.sans, fontWeight: 700, fontSize: '42px', color: C.schwarz }, root,
     `<span style="display:inline-block;background:${C.weiss};border:4px solid ${S};border-radius:40px;padding:10px 26px">${n}</span>`));
   return (t) => {
     head.update(t); nTop.update(t);
