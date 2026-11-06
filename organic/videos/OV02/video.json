@@ -1,0 +1,59 @@
+{
+ "id": "OV02",
+ "avatar": "ALT",
+ "titel": "Der Lippenstift blieb drauf",
+ "voice_duration": 37.0,
+ "voice_duration_geschaetzt": true,
+ "voice": {
+  "voice_id": "MOOG1hZESAxDt4UaletY",
+  "name": "Irene (ALT)",
+  "status": "FEHLGESCHLAGEN – ElevenLabs: Free-Tier-Zugang wegen 'unusual activity' gesperrt, beide Takes failed. Nicht erneut generiert. voice_duration ist geschätzt (dauer_s aus Skript).",
+  "flow_id": "BEn42MEumBgUmgU1wWml",
+  "flow_url": "https://elevenlabs.io/app/flows/BEn42MEumBgUmgU1wWml",
+  "node_id": "tnUd6XqzUlcTA1VKWvQ2",
+  "generation_id": null,
+  "session_id": null,
+  "failed_generation_ids": [
+   "oqNhlXDT6ZSeoQsVBkqD",
+   "SeFe3LyHKo33OG3qNmSl"
+  ],
+  "failed_session_ids": [
+   "8LeZ8hAZS73gDweZmd9s",
+   "NBSangHJ6zOyGHCh96Cd"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Hochzeit meiner Nichte. Ich im Flur, in der Hand mein alter roter Lippenstift."
+  },
+  {
+   "id": "s2",
+   "text": "Früher mein Lieblingsstück. Aufgetragen, kurz geguckt, mit dem Taschentuch wieder runter."
+  },
+  {
+   "id": "s3",
+   "text": "Später hab ich in einem Forum gelesen, dass es anderen genauso geht."
+  },
+  {
+   "id": "s4",
+   "text": "Ich hab dann keinen neuen Lippenstift gekauft. Ich hab angefangen, meine Lippen nachts zu pflegen."
+  },
+  {
+   "id": "s5",
+   "text": "Ein Tape, das abends über die geschlossenen Lippen kommt. In der Mitte Pflege mit Kollagen und Hyaluronsäure."
+  },
+  {
+   "id": "s6",
+   "text": "Morgens fühlten sie sich weich an. Irgendwie voller."
+  },
+  {
+   "id": "s7",
+   "text": "Beim Geburtstag meiner Schwester hab ich ihn drangelassen. Den ganzen Abend."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

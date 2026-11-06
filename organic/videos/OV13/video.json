@@ -1,0 +1,71 @@
+{
+ "id": "OV13",
+ "avatar": "JUNG",
+ "titel": "POV: Freund sieht mich so",
+ "voice_duration": 28.64,
+ "voice": {
+  "voice_id": "it8IUwkHD8mtjbyJyCuC",
+  "name": "Lena - Deutsche Frauenstimme 23, Sanft",
+  "model_id": "eleven_v4",
+  "flow_id": "UvN2BGl5w50IaHucrJMQ",
+  "flow_url": "https://elevenlabs.io/app/flows/UvN2BGl5w50IaHucrJMQ?mode=switchWorkspace&oobCode=0e99c0a26f36417fb3d03c2cd629015a",
+  "generation_id": "9elLqWQGeRu7rQrhOtDB",
+  "session_id": "kLGDTYj8NcsXAqvLnd5H",
+  "node_id": "LItCTaofgcf3IiZGK8PH"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund."
+  },
+  {
+   "id": "s2",
+   "text": "Er: Okay. Muss ich mir Sorgen machen?",
+   "captions": false
+  },
+  {
+   "id": "s3",
+   "text": "Ich, durchs Tape: Mhm mhm.",
+   "captions": false
+  },
+  {
+   "id": "s4",
+   "text": "Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte Kollagen, Hyaluronsäure und Vitamin E."
+  },
+  {
+   "id": "s5",
+   "text": "Die Pflege bleibt die ganze Nacht da, wo sie hin soll. Nicht mehr im Kissen."
+  },
+  {
+   "id": "s6",
+   "text": "Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt."
+  },
+  {
+   "id": "s7",
+   "text": "Inzwischen fragt er abends nur noch:"
+  },
+  {
+   "id": "s8",
+   "text": "Hast du dein Tape schon drauf?",
+   "captions": false
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  2.5,
+  6.5,
+  8.8,
+  12,
+  15.5,
+  18.3,
+  19.5,
+  23.8,
+  26,
+  28.6,
+  30.5
+ ]
+}

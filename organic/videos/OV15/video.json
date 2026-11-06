@@ -1,0 +1,55 @@
+{
+ "id": "OV15",
+ "avatar": "JUNG",
+ "titel": "Wofür ist das Loch?",
+ "voice_duration": 32.0,
+ "voice_duration_hinweis": "[KI] geschätzt (Skript-Dauer 32 s). ElevenLabs-Generierung fehlgeschlagen (Konto: 'Free Tier access has been disabled'). Nach echter Take duration_secs eintragen bzw. vo.mp3 ablegen und neu rendern.",
+ "voice": {
+  "voice_id": "it8IUwkHD8mtjbyJyCuC",
+  "name": "Lena (JUNG)",
+  "model_id": "eleven_v4",
+  "status": "failed",
+  "flow_id": "RiVJcR8bohBELZVZgS3P",
+  "flow_url": "https://elevenlabs.io/app/flows/RiVJcR8bohBELZVZgS3P",
+  "node_id": "ZM2iBHFUWoK0oiIgFWY1",
+  "generation_id": "m2mY9VXtVdiaWNwCuZvN",
+  "generation_id_take2": "ZTR2h3zejQiGSgxkYD5O",
+  "session_id": "Hcw5NvHreLo2yg89WkVx",
+  "session_id_take2": "FeeeZrsa3MCxSh0nsU0D",
+  "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Die Frage krieg ich ständig: Wofür ist das Loch in der Mitte?"
+  },
+  {
+   "id": "s2",
+   "text": "Also, kurz erklärt. Das Tape kommt abends über die geschlossenen Lippen."
+  },
+  {
+   "id": "s3",
+   "text": "In der Mitte sitzt die Pflege mit Kollagen, Hyaluronsäure, Vitamin E und Glycerin."
+  },
+  {
+   "id": "s4",
+   "text": "Und genau da drin ist ein kleines Sicherheitsloch. Da kann Luft durch."
+  },
+  {
+   "id": "s5",
+   "text": "Das ist also mit Absicht so."
+  },
+  {
+   "id": "s6",
+   "text": "Der Rest ist medizinische Baumwolle mit einem hypoallergenen, atmungsaktiven Kleber."
+  },
+  {
+   "id": "s7",
+   "text": "Morgens langsam abziehen, fertig. Noch Fragen? Schreib sie in die Kommentare."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

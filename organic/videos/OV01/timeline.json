@@ -1,0 +1,230 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Das hier ist jeden Abend mein letzter Schritt.",
+   "start": 0,
+   "dur": 3.45,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Mit 54 hab ich aufgehört, mir abends drei verschiedene Sachen auf die Lippen zu schmieren.",
+   "start": 3.45,
+   "dur": 5.899090909090909,
+   "speakStart": 3.45
+  },
+  {
+   "id": "s3",
+   "text": "Jetzt ist es ein Tape. Lippen zu, drüberlegen, leicht andrücken.",
+   "start": 9.34909090909091,
+   "dur": 5.154545454545456,
+   "speakStart": 9.34909090909091
+  },
+  {
+   "id": "s4",
+   "text": "In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
+   "start": 14.503636363636366,
+   "dur": 4.925454545454544,
+   "speakStart": 14.503636363636366
+  },
+  {
+   "id": "s5",
+   "text": "Und die bleibt die ganze Nacht da, wo sie hin soll.",
+   "start": 19.42909090909091,
+   "dur": 3.665454545454544,
+   "speakStart": 19.42909090909091
+  },
+  {
+   "id": "s6",
+   "text": "Morgens zieh ich es langsam ab. Meine Lippen fühlen sich dann richtig weich an.",
+   "start": 23.094545454545454,
+   "dur": 5.555454545454548,
+   "speakStart": 23.094545454545454
+  },
+  {
+   "id": "s7",
+   "text": "Das ist Diva Tape. Mehr ist es nicht.",
+   "start": 28.650000000000002,
+   "dur": 3.399999999999995,
+   "speakStart": 28.650000000000002
+  }
+ ],
+ "captions": [
+  {
+   "text": "Das hier ist jeden",
+   "start": 0.3,
+   "end": 1.4198113207547172,
+   "rot": -1.6
+  },
+  {
+   "text": "Abend mein letzter",
+   "start": 1.3698113207547171,
+   "end": 2.489622641509434,
+   "rot": 0
+  },
+  {
+   "text": "Schritt.",
+   "start": 2.439622641509434,
+   "end": 3.5,
+   "rot": 1.6
+  },
+  {
+   "text": "Mit 54 hab ich",
+   "start": 3.45,
+   "end": 4.334214876033058,
+   "rot": -0.8
+  },
+  {
+   "text": "aufgehört, mir abends",
+   "start": 4.284214876033058,
+   "end": 5.823884297520661,
+   "rot": 0.8
+  },
+  {
+   "text": "drei verschiedene",
+   "start": 5.773884297520661,
+   "end": 6.8368595041322315,
+   "rot": -1.6
+  },
+  {
+   "text": "Sachen auf die Lippen",
+   "start": 6.786859504132232,
+   "end": 8.08818181818182,
+   "rot": 0
+  },
+  {
+   "text": "zu schmieren.",
+   "start": 8.038181818181819,
+   "end": 9.39909090909091,
+   "rot": 1.6
+  },
+  {
+   "text": "Jetzt ist es ein",
+   "start": 9.34909090909091,
+   "end": 10.358076109936576,
+   "rot": -0.8
+  },
+  {
+   "text": "Tape.",
+   "start": 10.308076109936575,
+   "end": 11.197188160676534,
+   "rot": 0.8
+  },
+  {
+   "text": "Lippen zu,",
+   "start": 11.147188160676533,
+   "end": 12.036300211416492,
+   "rot": -1.6
+  },
+  {
+   "text": "drüberlegen, leicht",
+   "start": 11.986300211416491,
+   "end": 13.414841437632138,
+   "rot": 0
+  },
+  {
+   "text": "andrücken.",
+   "start": 13.364841437632137,
+   "end": 14.553636363636366,
+   "rot": 1.6
+  },
+  {
+   "text": "In der Mitte sitzt",
+   "start": 14.503636363636366,
+   "end": 15.634833702882485,
+   "rot": -0.8
+  },
+  {
+   "text": "eine Pflege mit",
+   "start": 15.584833702882484,
+   "end": 16.535831485587586,
+   "rot": 0.8
+  },
+  {
+   "text": "Kollagen,",
+   "start": 16.485831485587585,
+   "end": 17.316696230598673,
+   "rot": -1.6
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 17.266696230598672,
+   "end": 18.337827050997785,
+   "rot": 0
+  },
+  {
+   "text": "Vitamin E.",
+   "start": 18.287827050997784,
+   "end": 19.47909090909091,
+   "rot": 1.6
+  },
+  {
+   "text": "Und die bleibt die",
+   "start": 19.42909090909091,
+   "end": 20.54325513196481,
+   "rot": -0.8
+  },
+  {
+   "text": "ganze Nacht da, wo",
+   "start": 20.49325513196481,
+   "end": 21.843900293255132,
+   "rot": 0.8
+  },
+  {
+   "text": "sie hin soll.",
+   "start": 21.79390029325513,
+   "end": 23.144545454545455,
+   "rot": -1.6
+  },
+  {
+   "text": "Morgens zieh ich es",
+   "start": 23.094545454545454,
+   "end": 24.279530791788858,
+   "rot": 0
+  },
+  {
+   "text": "langsam ab.",
+   "start": 24.229530791788857,
+   "end": 25.474252199413492,
+   "rot": 1.6
+  },
+  {
+   "text": "Meine Lippen fühlen",
+   "start": 25.42425219941349,
+   "end": 26.609237536656895,
+   "rot": -0.8
+  },
+  {
+   "text": "sich dann richtig",
+   "start": 26.559237536656894,
+   "end": 27.624750733137834,
+   "rot": 0.8
+  },
+  {
+   "text": "weich an.",
+   "start": 27.574750733137833,
+   "end": 28.700000000000003,
+   "rot": -1.6
+  },
+  {
+   "text": "Das ist Diva Tape.",
+   "start": 28.650000000000002,
+   "end": 30.275000000000002,
+   "rot": 0
+  },
+  {
+   "text": "Mehr ist es nicht.",
+   "start": 30.225,
+   "end": 31.85,
+   "rot": 1.6
+  }
+ ],
+ "endStart": 32.05,
+ "duration": 34.25,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

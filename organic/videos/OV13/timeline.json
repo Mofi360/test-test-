@@ -1,0 +1,189 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund.",
+   "start": 0,
+   "dur": 4.566575342465754,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Er: Okay. Muss ich mir Sorgen machen?",
+   "start": 4.566575342465754,
+   "dur": 2.893424657534246,
+   "speakStart": 4.566575342465754
+  },
+  {
+   "id": "s3",
+   "text": "Ich, durchs Tape: Mhm mhm.",
+   "start": 7.46,
+   "dur": 2.108767123287673,
+   "speakStart": 7.46
+  },
+  {
+   "id": "s4",
+   "text": "Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte Kollagen, Hyaluronsäure und Vitamin E.",
+   "start": 9.568767123287673,
+   "dur": 6.522465753424656,
+   "speakStart": 9.568767123287673
+  },
+  {
+   "id": "s5",
+   "text": "Die Pflege bleibt die ganze Nacht da, wo sie hin soll. Nicht mehr im Kissen.",
+   "start": 16.09123287671233,
+   "dur": 4.806027397260273,
+   "speakStart": 16.09123287671233
+  },
+  {
+   "id": "s6",
+   "text": "Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt.",
+   "start": 20.897260273972602,
+   "dur": 4.168493150684931,
+   "speakStart": 20.897260273972602
+  },
+  {
+   "id": "s7",
+   "text": "Inzwischen fragt er abends nur noch:",
+   "start": 25.065753424657533,
+   "dur": 1.9616438356164423,
+   "speakStart": 25.065753424657533
+  },
+  {
+   "id": "s8",
+   "text": "Hast du dein Tape schon drauf?",
+   "start": 27.027397260273975,
+   "dur": 2.162602739726026,
+   "speakStart": 27.027397260273975
+  }
+ ],
+ "captions": [
+  {
+   "text": "Mein Freund kommt ins",
+   "start": 0.3,
+   "end": 1.4166438356164386,
+   "rot": -1.6
+  },
+  {
+   "text": "Schlafzimmer, und ich",
+   "start": 1.3666438356164385,
+   "end": 2.686457925636008,
+   "rot": 0
+  },
+  {
+   "text": "lieg da mit Tape",
+   "start": 2.6364579256360083,
+   "end": 3.4991389432485325,
+   "rot": 1.6
+  },
+  {
+   "text": "auf dem Mund.",
+   "start": 3.4491389432485327,
+   "end": 4.616575342465754,
+   "rot": -0.8
+  },
+  {
+   "text": "Für alle, die genauso",
+   "start": 9.568767123287673,
+   "end": 10.892686215753427,
+   "rot": 0.8
+  },
+  {
+   "text": "gucken: Das ist",
+   "start": 10.842686215753426,
+   "end": 11.8608647260274,
+   "rot": -1.6
+  },
+  {
+   "text": "Lippenpflege.",
+   "start": 11.810864726027399,
+   "end": 12.981913527397262,
+   "rot": 0
+  },
+  {
+   "text": "In der Mitte Kollagen,",
+   "start": 12.931913527397262,
+   "end": 14.306789383561645,
+   "rot": 1.6
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 14.256789383561644,
+   "end": 15.173054366438357,
+   "rot": -0.8
+  },
+  {
+   "text": "Vitamin E.",
+   "start": 15.123054366438357,
+   "end": 16.14123287671233,
+   "rot": 0.8
+  },
+  {
+   "text": "Die Pflege bleibt die",
+   "start": 16.09123287671233,
+   "end": 17.203617880317232,
+   "rot": -1.6
+  },
+  {
+   "text": "ganze Nacht da, wo",
+   "start": 17.15361788031723,
+   "end": 18.316592645998558,
+   "rot": 0
+  },
+  {
+   "text": "sie hin soll.",
+   "start": 18.266592645998557,
+   "end": 19.429567411679887,
+   "rot": 1.6
+  },
+  {
+   "text": "Nicht mehr im Kissen.",
+   "start": 19.379567411679886,
+   "end": 20.947260273972603,
+   "rot": -0.8
+  },
+  {
+   "text": "Und ja, in der",
+   "start": 20.897260273972602,
+   "end": 21.86229535583027,
+   "rot": 0.8
+  },
+  {
+   "text": "Mitte ist ein kleines",
+   "start": 21.81229535583027,
+   "end": 22.929836284664216,
+   "rot": -1.6
+  },
+  {
+   "text": "Loch.",
+   "start": 22.879836284664215,
+   "end": 23.64153023722018,
+   "rot": 0
+  },
+  {
+   "text": "Hat er auch gefragt.",
+   "start": 23.59153023722018,
+   "end": 25.115753424657534,
+   "rot": 1.6
+  },
+  {
+   "text": "Inzwischen fragt er",
+   "start": 25.065753424657533,
+   "end": 26.071426062521954,
+   "rot": -0.8
+  },
+  {
+   "text": "abends nur noch:",
+   "start": 26.021426062521954,
+   "end": 27.077397260273976,
+   "rot": 0.8
+  }
+ ],
+ "endStart": 29.19,
+ "duration": 31.39,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

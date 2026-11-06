@@ -1,0 +1,266 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Hochzeit meiner Nichte. Ich im Flur, in der Hand mein alter roter Lippenstift.",
+   "start": 0,
+   "dur": 5.50393811533052,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Früher mein Lieblingsstück. Aufgetragen, kurz geguckt, mit dem Taschentuch wieder runter.",
+   "start": 5.50393811533052,
+   "dur": 5.984528832630099,
+   "speakStart": 5.50393811533052
+  },
+  {
+   "id": "s3",
+   "text": "Später hab ich in einem Forum gelesen, dass es anderen genauso geht.",
+   "start": 11.48846694796062,
+   "dur": 4.215189873417723,
+   "speakStart": 11.48846694796062
+  },
+  {
+   "id": "s4",
+   "text": "Ich hab dann keinen neuen Lippenstift gekauft. Ich hab angefangen, meine Lippen nachts zu pflegen.",
+   "start": 15.703656821378342,
+   "dur": 6.244725738396625,
+   "speakStart": 15.703656821378342
+  },
+  {
+   "id": "s5",
+   "text": "Ein Tape, das abends über die geschlossenen Lippen kommt. In der Mitte Pflege mit Kollagen und Hyaluronsäure.",
+   "start": 21.948382559774966,
+   "dur": 6.817158931082982,
+   "speakStart": 21.948382559774966
+  },
+  {
+   "id": "s6",
+   "text": "Morgens fühlten sie sich weich an. Irgendwie voller.",
+   "start": 28.76554149085795,
+   "dur": 3.6427566807313596,
+   "speakStart": 28.76554149085795
+  },
+  {
+   "id": "s7",
+   "text": "Beim Geburtstag meiner Schwester hab ich ihn drangelassen. Den ganzen Abend.",
+   "start": 32.40829817158931,
+   "dur": 5.141701828410689,
+   "speakStart": 32.40829817158931
+  }
+ ],
+ "captions": [
+  {
+   "text": "Hochzeit meiner",
+   "start": 0.3,
+   "end": 1.1631153305203938,
+   "rot": -1.6
+  },
+  {
+   "text": "Nichte.",
+   "start": 1.1131153305203938,
+   "end": 2.0304383497421474,
+   "rot": 0
+  },
+  {
+   "text": "Ich im Flur, in",
+   "start": 1.9804383497421474,
+   "end": 3.060384435067979,
+   "rot": 1.6
+  },
+  {
+   "text": "der Hand mein alter",
+   "start": 3.010384435067979,
+   "end": 4.090330520393811,
+   "rot": -0.8
+  },
+  {
+   "text": "roter Lippenstift.",
+   "start": 4.040330520393812,
+   "end": 5.55393811533052,
+   "rot": 0.8
+  },
+  {
+   "text": "Früher mein",
+   "start": 5.50393811533052,
+   "end": 6.15239099859353,
+   "rot": -1.6
+  },
+  {
+   "text": "Lieblingsstück.",
+   "start": 6.10239099859353,
+   "end": 7.458106380258278,
+   "rot": 0
+  },
+  {
+   "text": "Aufgetragen, kurz",
+   "start": 7.408106380258278,
+   "end": 8.600607339214935,
+   "rot": 1.6
+  },
+  {
+   "text": "geguckt, mit dem",
+   "start": 8.550607339214935,
+   "end": 9.688703490602226,
+   "rot": -0.8
+  },
+  {
+   "text": "Taschentuch wieder",
+   "start": 9.638703490602225,
+   "end": 10.667990026850788,
+   "rot": 0.8
+  },
+  {
+   "text": "runter.",
+   "start": 10.617990026850787,
+   "end": 11.53846694796062,
+   "rot": -1.6
+  },
+  {
+   "text": "Später hab ich in",
+   "start": 11.48846694796062,
+   "end": 12.45716217678243,
+   "rot": 0
+  },
+  {
+   "text": "einem Forum gelesen,",
+   "start": 12.40716217678243,
+   "end": 13.754143676295577,
+   "rot": 1.6
+  },
+  {
+   "text": "dass es anderen",
+   "start": 13.704143676295576,
+   "end": 14.564757113491293,
+   "rot": -0.8
+  },
+  {
+   "text": "genauso geht.",
+   "start": 14.514757113491292,
+   "end": 15.753656821378343,
+   "rot": 0.8
+  },
+  {
+   "text": "Ich hab dann keinen",
+   "start": 15.703656821378342,
+   "end": 16.78539411728735,
+   "rot": -1.6
+  },
+  {
+   "text": "neuen Lippenstift",
+   "start": 16.73539411728735,
+   "end": 17.708527487311198,
+   "rot": 0
+  },
+  {
+   "text": "gekauft.",
+   "start": 17.658527487311197,
+   "end": 18.63166085733505,
+   "rot": 1.6
+  },
+  {
+   "text": "Ich hab angefangen,",
+   "start": 18.58166085733505,
+   "end": 19.88060600501437,
+   "rot": -0.8
+  },
+  {
+   "text": "meine Lippen nachts zu",
+   "start": 19.83060600501437,
+   "end": 21.07524918975112,
+   "rot": 0.8
+  },
+  {
+   "text": "pflegen.",
+   "start": 21.02524918975112,
+   "end": 21.998382559774967,
+   "rot": -1.6
+  },
+  {
+   "text": "Ein Tape, das abends",
+   "start": 21.948382559774966,
+   "end": 23.296889022838393,
+   "rot": 0
+  },
+  {
+   "text": "über die geschlossenen",
+   "start": 23.246889022838392,
+   "end": 24.487186613979866,
+   "rot": 1.6
+  },
+  {
+   "text": "Lippen kommt.",
+   "start": 24.437186613979865,
+   "end": 25.67748420512134,
+   "rot": -0.8
+  },
+  {
+   "text": "In der Mitte Pflege",
+   "start": 25.627484205121338,
+   "end": 26.705468488379882,
+   "rot": 0.8
+  },
+  {
+   "text": "mit Kollagen und",
+   "start": 26.65546848837988,
+   "end": 27.5711394637555,
+   "rot": -1.6
+  },
+  {
+   "text": "Hyaluronsäure.",
+   "start": 27.5211394637555,
+   "end": 28.81554149085795,
+   "rot": 0
+  },
+  {
+   "text": "Morgens fühlten sie",
+   "start": 28.76554149085795,
+   "end": 29.83337056341524,
+   "rot": 1.6
+  },
+  {
+   "text": "sich weich an.",
+   "start": 29.78337056341524,
+   "end": 31.065479440721436,
+   "rot": -0.8
+  },
+  {
+   "text": "Irgendwie voller.",
+   "start": 31.015479440721435,
+   "end": 32.458298171589306,
+   "rot": 0.8
+  },
+  {
+   "text": "Beim Geburtstag meiner",
+   "start": 32.40829817158931,
+   "end": 33.64090740483145,
+   "rot": -1.6
+  },
+  {
+   "text": "Schwester hab ich ihn",
+   "start": 33.590907404831455,
+   "end": 34.76976167292622,
+   "rot": 0
+  },
+  {
+   "text": "drangelassen.",
+   "start": 34.719761672926225,
+   "end": 35.95237090616837,
+   "rot": 1.6
+  },
+  {
+   "text": "Den ganzen Abend.",
+   "start": 35.90237090616837,
+   "end": 37.349999999999994,
+   "rot": -0.8
+  }
+ ],
+ "endStart": 37.55,
+ "duration": 39.75,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

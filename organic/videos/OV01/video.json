@@ -1,0 +1,60 @@
+{
+ "id": "OV01",
+ "avatar": "ALT",
+ "titel": "Letzter Schritt vor Licht aus",
+ "voice_duration": 31.5,
+ "voice_duration_note": "GESCHÄTZT (78 Wörter, ruhiges Tempo). Beide ElevenLabs-Takes sind fehlgeschlagen (Konto: Free Tier gesperrt). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "voice_id": "MOOG1hZESAxDt4UaletY",
+  "name": "Irene (ALT)",
+  "status": "failed",
+  "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled.",
+  "flow_id": "YOkmUULzODCEdeSJyGQj",
+  "flow_url": "https://elevenlabs.io/app/flows/YOkmUULzODCEdeSJyGQj",
+  "node_id": "rBuitQJImuuBGOT1iEus",
+  "generation_id": null,
+  "failed_generation_ids": [
+   "35OitK5DPfVnI5cZFWGp",
+   "tJ7H0Q5YvdeLwKEaXLTm"
+  ],
+  "session_id": null,
+  "failed_session_ids": [
+   "tP0KHxhTAu66cEmPuPRg",
+   "UbEp7m04UKwjcKe049Ns"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Das hier ist jeden Abend mein letzter Schritt."
+  },
+  {
+   "id": "s2",
+   "text": "Mit 54 hab ich aufgehört, mir abends drei verschiedene Sachen auf die Lippen zu schmieren."
+  },
+  {
+   "id": "s3",
+   "text": "Jetzt ist es ein Tape. Lippen zu, drüberlegen, leicht andrücken."
+  },
+  {
+   "id": "s4",
+   "text": "In der Mitte sitzt eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E."
+  },
+  {
+   "id": "s5",
+   "text": "Und die bleibt die ganze Nacht da, wo sie hin soll."
+  },
+  {
+   "id": "s6",
+   "text": "Morgens zieh ich es langsam ab. Meine Lippen fühlen sich dann richtig weich an."
+  },
+  {
+   "id": "s7",
+   "text": "Das ist Diva Tape. Mehr ist es nicht."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}
