@@ -1,0 +1,260 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Drei Winter-Fehler, die ich jahrelang gemacht hab. Nummer drei hat mich überrascht.",
+   "start": 0,
+   "dur": 5.427906976744187,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Eins: Heizung voll aufgedreht, und die Luft im Schlafzimmer ist staubtrocken.",
+   "start": 5.427906976744187,
+   "dur": 4.590697674418606,
+   "speakStart": 5.427906976744187
+  },
+  {
+   "id": "s3",
+   "text": "Zwei: Lippen ablecken, wenn sie spannen. Fühlt sich kurz gut an, macht es aber nicht besser.",
+   "start": 10.018604651162793,
+   "dur": 5.9581395348837205,
+   "speakStart": 10.018604651162793
+  },
+  {
+   "id": "s4",
+   "text": "Drei: Den ganzen Tag nachcremen und nachts gar nichts. Dabei liegt nachts stundenlang nichts drauf.",
+   "start": 15.976744186046513,
+   "dur": 5.909302325581393,
+   "speakStart": 15.976744186046513
+  },
+  {
+   "id": "s5",
+   "text": "Meine Kosmetikerin hat mir erklärt: Lippen haben keine eigenen Talgdrüsen. Deshalb trocknen sie schneller aus.",
+   "start": 21.886046511627907,
+   "dur": 6.446511627906979,
+   "speakStart": 21.886046511627907
+  },
+  {
+   "id": "s6",
+   "text": "Seitdem kommt abends ein Tape mit Pflege-Mitte drauf. Das spendet über Nacht Feuchtigkeit.",
+   "start": 28.332558139534886,
+   "dur": 5.2744186046511565,
+   "speakStart": 28.332558139534886
+  },
+  {
+   "id": "s7",
+   "text": "Speicher dir das für die Heizungssaison.",
+   "start": 33.60697674418604,
+   "dur": 2.643023255813958,
+   "speakStart": 33.60697674418604
+  }
+ ],
+ "captions": [
+  {
+   "text": "Drei Winter-Fehler,",
+   "start": 0.3,
+   "end": 1.517741192723924,
+   "rot": -1.6
+  },
+  {
+   "text": "die ich jahrelang",
+   "start": 1.467741192723924,
+   "end": 2.3808542482155195,
+   "rot": 0
+  },
+  {
+   "text": "gemacht hab.",
+   "start": 2.3308542482155197,
+   "end": 3.447052728528667,
+   "rot": 1.6
+  },
+  {
+   "text": "Nummer drei hat mich",
+   "start": 3.397052728528667,
+   "end": 4.462479852636427,
+   "rot": -0.8
+  },
+  {
+   "text": "überrascht.",
+   "start": 4.4124798526364275,
+   "end": 5.477906976744187,
+   "rot": 0.8
+  },
+  {
+   "text": "Eins: Heizung voll",
+   "start": 5.427906976744187,
+   "end": 6.587745974955278,
+   "rot": -1.6
+  },
+  {
+   "text": "aufgedreht, und die",
+   "start": 6.537745974955278,
+   "end": 7.748032200357783,
+   "rot": 0
+  },
+  {
+   "text": "Luft im Schlafzimmer",
+   "start": 7.698032200357783,
+   "end": 8.75697674418605,
+   "rot": 1.6
+  },
+  {
+   "text": "ist staubtrocken.",
+   "start": 8.706976744186049,
+   "end": 10.068604651162794,
+   "rot": -0.8
+  },
+  {
+   "text": "Zwei: Lippen ablecken,",
+   "start": 10.018604651162793,
+   "end": 11.583385888845095,
+   "rot": 0.8
+  },
+  {
+   "text": "wenn sie spannen.",
+   "start": 11.533385888845094,
+   "end": 12.896196294836423,
+   "rot": -1.6
+  },
+  {
+   "text": "Fühlt sich kurz gut",
+   "start": 12.846196294836423,
+   "end": 13.855557745368548,
+   "rot": 0
+  },
+  {
+   "text": "an, macht es aber",
+   "start": 13.805557745368548,
+   "end": 14.91590461174616,
+   "rot": 1.6
+  },
+  {
+   "text": "nicht besser.",
+   "start": 14.86590461174616,
+   "end": 16.026744186046514,
+   "rot": -0.8
+  },
+  {
+   "text": "Drei: Den ganzen Tag",
+   "start": 15.976744186046513,
+   "end": 17.249358460304734,
+   "rot": 0.8
+  },
+  {
+   "text": "nachcremen und nachts",
+   "start": 17.199358460304733,
+   "end": 18.319145950280674,
+   "rot": -1.6
+  },
+  {
+   "text": "gar nichts.",
+   "start": 18.269145950280674,
+   "end": 19.337991178829192,
+   "rot": 0
+  },
+  {
+   "text": "Dabei liegt nachts",
+   "start": 19.28799117882919,
+   "end": 20.254951884522857,
+   "rot": 1.6
+  },
+  {
+   "text": "stundenlang nichts",
+   "start": 20.204951884522856,
+   "end": 21.171912590216518,
+   "rot": -0.8
+  },
+  {
+   "text": "drauf.",
+   "start": 21.121912590216517,
+   "end": 21.936046511627907,
+   "rot": 0.8
+  },
+  {
+   "text": "Meine Kosmetikerin hat",
+   "start": 21.886046511627907,
+   "end": 23.052765061344076,
+   "rot": -1.6
+  },
+  {
+   "text": "mir erklärt: Lippen",
+   "start": 23.002765061344075,
+   "end": 24.220243545138253,
+   "rot": 0
+  },
+  {
+   "text": "haben keine eigenen",
+   "start": 24.170243545138252,
+   "end": 25.1846822926204,
+   "rot": 1.6
+  },
+  {
+   "text": "Talgdrüsen.",
+   "start": 25.1346822926204,
+   "end": 26.199880974180555,
+   "rot": -0.8
+  },
+  {
+   "text": "Deshalb trocknen sie",
+   "start": 26.149880974180554,
+   "end": 27.21507965574071,
+   "rot": 0.8
+  },
+  {
+   "text": "schneller aus.",
+   "start": 27.16507965574071,
+   "end": 28.382558139534886,
+   "rot": -1.6
+  },
+  {
+   "text": "Seitdem kommt abends",
+   "start": 28.332558139534886,
+   "end": 29.39686940966011,
+   "rot": 0
+  },
+  {
+   "text": "ein Tape mit",
+   "start": 29.34686940966011,
+   "end": 30.005456171735243,
+   "rot": 1.6
+  },
+  {
+   "text": "Pflege-Mitte drauf.",
+   "start": 29.955456171735243,
+   "end": 31.425491949910555,
+   "rot": -0.8
+  },
+  {
+   "text": "Das spendet über Nacht",
+   "start": 31.375491949910554,
+   "end": 32.541234347048295,
+   "rot": 0.8
+  },
+  {
+   "text": "Feuchtigkeit.",
+   "start": 32.4912343470483,
+   "end": 33.65697674418604,
+   "rot": -1.6
+  },
+  {
+   "text": "Speicher dir das für",
+   "start": 33.60697674418604,
+   "end": 34.654069767441854,
+   "rot": 0
+  },
+  {
+   "text": "die Heizungssaison.",
+   "start": 34.60406976744186,
+   "end": 36.05,
+   "rot": 1.6
+  }
+ ],
+ "endStart": 36.25,
+ "duration": 38.45,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

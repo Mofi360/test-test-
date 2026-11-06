@@ -1,0 +1,248 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Ich hatte einen Termin für meine Lippen. Abgesagt. Zweimal.",
+   "start": 0,
+   "dur": 5.047094801223242,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Ich bin 57 und hab zu viel Angst, dass es schiefgeht und jeder es sieht.",
+   "start": 5.047094801223242,
+   "dur": 4.691896024464832,
+   "speakStart": 5.047094801223242
+  },
+  {
+   "id": "s3",
+   "text": "In einem Forum stand genau, was ich gedacht hab.",
+   "start": 9.738990825688074,
+   "dur": 3.367125382262998,
+   "speakStart": 9.738990825688074
+  },
+  {
+   "id": "s4",
+   "text": "Also tu ich jetzt abends selbst was für meine Lippen.",
+   "start": 13.106116207951072,
+   "dur": 3.4223241590214073,
+   "speakStart": 13.106116207951072
+  },
+  {
+   "id": "s5",
+   "text": "Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E.",
+   "start": 16.52844036697248,
+   "dur": 6.458256880733945,
+   "speakStart": 16.52844036697248
+  },
+  {
+   "id": "s6",
+   "text": "Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich weich an.",
+   "start": 22.986697247706424,
+   "dur": 7.175840978593271,
+   "speakStart": 22.986697247706424
+  },
+  {
+   "id": "s7",
+   "text": "Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein Ritual.",
+   "start": 30.162538226299695,
+   "dur": 6.4874617737003035,
+   "speakStart": 30.162538226299695
+  }
+ ],
+ "captions": [
+  {
+   "text": "Ich hatte einen Termin",
+   "start": 0.3,
+   "end": 1.608266091890498,
+   "rot": -1.6
+  },
+  {
+   "text": "für meine Lippen.",
+   "start": 1.558266091890498,
+   "end": 3.095307836851995,
+   "rot": 0
+  },
+  {
+   "text": "Abgesagt.",
+   "start": 3.045307836851995,
+   "end": 4.124798275671494,
+   "rot": 1.6
+  },
+  {
+   "text": "Zweimal.",
+   "start": 4.074798275671494,
+   "end": 5.097094801223242,
+   "rot": -0.8
+  },
+  {
+   "text": "Ich bin 57 und",
+   "start": 5.047094801223242,
+   "end": 5.898150220034311,
+   "rot": 0.8
+  },
+  {
+   "text": "hab zu viel Angst,",
+   "start": 5.848150220034311,
+   "end": 7.156951592451704,
+   "rot": -1.6
+  },
+  {
+   "text": "dass es schiefgeht und",
+   "start": 7.106951592451704,
+   "end": 8.4157529648691,
+   "rot": 0
+  },
+  {
+   "text": "jeder es sieht.",
+   "start": 8.365752964869099,
+   "end": 9.788990825688074,
+   "rot": 1.6
+  },
+  {
+   "text": "In einem Forum stand",
+   "start": 9.738990825688074,
+   "end": 10.930389260353497,
+   "rot": -0.8
+  },
+  {
+   "text": "genau, was ich gedacht",
+   "start": 10.880389260353496,
+   "end": 12.414207225418547,
+   "rot": 0.8
+  },
+  {
+   "text": "hab.",
+   "start": 12.364207225418546,
+   "end": 13.156116207951072,
+   "rot": -1.6
+  },
+  {
+   "text": "Also tu ich jetzt",
+   "start": 13.106116207951072,
+   "end": 14.125774719673805,
+   "rot": 0
+  },
+  {
+   "text": "abends selbst was für",
+   "start": 14.075774719673804,
+   "end": 15.323588175331297,
+   "rot": 1.6
+  },
+  {
+   "text": "meine Lippen.",
+   "start": 15.273588175331296,
+   "end": 16.57844036697248,
+   "rot": -0.8
+  },
+  {
+   "text": "Ein Tape aus",
+   "start": 16.52844036697248,
+   "end": 17.2766303000248,
+   "rot": 0.8
+  },
+  {
+   "text": "medizinischer",
+   "start": 17.226630300024798,
+   "end": 18.033002727498143,
+   "rot": -1.6
+  },
+  {
+   "text": "Baumwolle, in der",
+   "start": 17.983002727498143,
+   "end": 19.2548351103397,
+   "rot": 0
+  },
+  {
+   "text": "Mitte Pflege mit",
+   "start": 19.2048351103397,
+   "end": 20.185755021076123,
+   "rot": 1.6
+  },
+  {
+   "text": "Kollagen,",
+   "start": 20.135755021076122,
+   "end": 20.942127448549467,
+   "rot": -0.8
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 20.892127448549466,
+   "end": 21.93122985370692,
+   "rot": 0.8
+  },
+  {
+   "text": "Vitamin E.",
+   "start": 21.88122985370692,
+   "end": 23.036697247706424,
+   "rot": -1.6
+  },
+  {
+   "text": "Abends drauf, morgens",
+   "start": 22.986697247706424,
+   "end": 24.460475219649535,
+   "rot": 0
+  },
+  {
+   "text": "langsam ab.",
+   "start": 24.410475219649534,
+   "end": 25.59949759720402,
+   "rot": 1.6
+  },
+  {
+   "text": "Keiner merkt was.",
+   "start": 25.54949759720402,
+   "end": 27.080226688024855,
+   "rot": -0.8
+  },
+  {
+   "text": "Nur ich: Meine Lippen",
+   "start": 27.030226688024854,
+   "end": 28.504004659967965,
+   "rot": 0.8
+  },
+  {
+   "text": "fühlen sich weich an.",
+   "start": 28.454004659967964,
+   "end": 30.212538226299696,
+   "rot": -1.6
+  },
+  {
+   "text": "Ob ich irgendwann doch",
+   "start": 30.162538226299695,
+   "end": 31.4714754650282,
+   "rot": 0
+  },
+  {
+   "text": "hingehe?",
+   "start": 31.421475465028198,
+   "end": 32.444290604045676,
+   "rot": 1.6
+  },
+  {
+   "text": "Weiß ich nicht.",
+   "start": 32.39429060404568,
+   "end": 33.817676682658586,
+   "rot": -0.8
+  },
+  {
+   "text": "Aber abends hab ich",
+   "start": 33.76767668265859,
+   "end": 34.904940661560474,
+   "rot": 0.8
+  },
+  {
+   "text": "jetzt mein Ritual.",
+   "start": 34.85494066156048,
+   "end": 36.449999999999996,
+   "rot": -1.6
+  }
+ ],
+ "endStart": 36.65,
+ "duration": 38.85,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

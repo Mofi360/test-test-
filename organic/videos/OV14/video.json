@@ -1,0 +1,19 @@
+{
+ "id": "OV14",
+ "avatar": "JUNG",
+ "titel": "Der unerwartete letzte Schritt",
+ "voice_duration": 30.5,
+ "voice_duration_note": "GESCHÄTZT (75 Wörter / 2.5 + 0.5). ElevenLabs gesperrt – mit echter vo.mp3 neu rendern.",
+ "voice": {"status": "ausstehend – ElevenLabs gesperrt", "voice_id": "it8IUwkHD8mtjbyJyCuC"},
+ "scenes": [
+  {"id": "s1", "text": "Night Routine, aber mit einem Schritt, den keiner erwartet."},
+  {"id": "s2", "text": "Make-up runter. Toner. Serum. Creme.", "captions": false},
+  {"id": "s3", "text": "Lip Oil? Früher ja. Morgens war davon nichts mehr übrig."},
+  {"id": "s4", "text": "Jetzt: Tape. Lippen zu, sanft drüberlegen, kurz andrücken."},
+  {"id": "s5", "text": "In der Mitte sitzt eine kleine Lippenmaske mit Kollagen, Hyaluronsäure und Vitamin E."},
+  {"id": "s6", "text": "Medizinische Baumwolle, hypoallergener Kleber. Fühlt sich nicht an wie ein Pflaster."},
+  {"id": "s7", "text": "Licht aus. Morgens langsam abziehen, und meine Lippen fühlen sich so weich an."},
+  {"id": "s8", "text": "Speicher dir das für heute Abend."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}

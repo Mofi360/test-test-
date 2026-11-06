@@ -1,0 +1,45 @@
+{
+ "id": "OV05",
+ "avatar": "ALT",
+ "titel": "Drei Winter-Fehler",
+ "voice_duration": 35.7,
+ "voice_duration_note": "GESCHÄTZT: 88 Wörter / 2.5 + 0.5. Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Drei Winter-Fehler, die ich jahrelang gemacht hab. Nummer drei hat mich überrascht."
+  },
+  {
+   "id": "s2",
+   "text": "Eins: Heizung voll aufgedreht, und die Luft im Schlafzimmer ist staubtrocken."
+  },
+  {
+   "id": "s3",
+   "text": "Zwei: Lippen ablecken, wenn sie spannen. Fühlt sich kurz gut an, macht es aber nicht besser."
+  },
+  {
+   "id": "s4",
+   "text": "Drei: Den ganzen Tag nachcremen und nachts gar nichts. Dabei liegt nachts stundenlang nichts drauf."
+  },
+  {
+   "id": "s5",
+   "text": "Meine Kosmetikerin hat mir erklärt: Lippen haben keine eigenen Talgdrüsen. Deshalb trocknen sie schneller aus."
+  },
+  {
+   "id": "s6",
+   "text": "Seitdem kommt abends ein Tape mit Pflege-Mitte drauf. Das spendet über Nacht Feuchtigkeit."
+  },
+  {
+   "id": "s7",
+   "text": "Speicher dir das für die Heizungssaison."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "id": "OV04",
+ "avatar": "ALT",
+ "titel": "Termin zweimal abgesagt",
+ "voice_duration": 36.1,
+ "voice_duration_note": "GESCHÄTZT (89 Wörter / 2.5 + 0.5). ElevenLabs gesperrt – mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY",
+  "name": "Irene (ALT)"
+ },
+ "scenes": [
+  {"id": "s1", "text": "Ich hatte einen Termin für meine Lippen. Abgesagt. Zweimal."},
+  {"id": "s2", "text": "Ich bin 57 und hab zu viel Angst, dass es schiefgeht und jeder es sieht."},
+  {"id": "s3", "text": "In einem Forum stand genau, was ich gedacht hab."},
+  {"id": "s4", "text": "Also tu ich jetzt abends selbst was für meine Lippen."},
+  {"id": "s5", "text": "Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E."},
+  {"id": "s6", "text": "Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich weich an."},
+  {"id": "s7", "text": "Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein Ritual."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}

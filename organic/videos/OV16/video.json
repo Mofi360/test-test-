@@ -1,0 +1,58 @@
+{
+ "id": "OV16",
+ "avatar": "JUNG",
+ "titel": "Lippenmaske im Kissen",
+ "voice_duration": 35.7,
+ "voice_duration_note": "GESCHÄTZT (88 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "it8IUwkHD8mtjbyJyCuC"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Meine Lippenmaske? Klebte jeden Morgen im Kissen. Nicht auf meinen Lippen."
+  },
+  {
+   "id": "s2",
+   "text": "Abends eine dicke Schicht drauf. Morgens: Lippen trocken, Kissenbezug glänzt."
+  },
+  {
+   "id": "s3",
+   "text": "Mit Plumpern aus der Drogerie war es auch nicht besser."
+  },
+  {
+   "id": "s4",
+   "text": "Eine im Forum hat es genau so beschrieben."
+  },
+  {
+   "id": "s5",
+   "text": "Dann kam das Tape. Die Lippenmaske sitzt direkt in der Mitte, mit Kollagen und Hyaluronsäure."
+  },
+  {
+   "id": "s6",
+   "text": "Und weil das Tape drüberklebt, bleibt die Pflege die ganze Nacht da, wo sie hin soll."
+  },
+  {
+   "id": "s7",
+   "text": "Morgens fühlen sich meine Lippen weich und irgendwie voller an. Und mein Kissen ist einfach nur ein Kissen."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  3.8,
+  9,
+  13.5,
+  15.8,
+  21,
+  23,
+  27.5,
+  32,
+  35.5,
+  37.5
+ ]
+}

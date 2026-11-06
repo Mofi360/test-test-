@@ -1,0 +1,254 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Meine Lippenmaske? Klebte jeden Morgen im Kissen. Nicht auf meinen Lippen.",
+   "start": 0,
+   "dur": 5.754916792738276,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Abends eine dicke Schicht drauf. Morgens: Lippen trocken, Kissenbezug glänzt.",
+   "start": 5.754916792738276,
+   "dur": 5.562934947049926,
+   "speakStart": 5.754916792738276
+  },
+  {
+   "id": "s3",
+   "text": "Mit Plumpern aus der Drogerie war es auch nicht besser.",
+   "start": 11.317851739788201,
+   "dur": 3.4565809379727686,
+   "speakStart": 11.317851739788201
+  },
+  {
+   "id": "s4",
+   "text": "Eine im Forum hat es genau so beschrieben.",
+   "start": 14.77443267776097,
+   "dur": 2.7544629349470497,
+   "speakStart": 14.77443267776097
+  },
+  {
+   "id": "s5",
+   "text": "Dann kam das Tape. Die Lippenmaske sitzt direkt in der Mitte, mit Kollagen und Hyaluronsäure.",
+   "start": 17.52889561270802,
+   "dur": 6.21104387291982,
+   "speakStart": 17.52889561270802
+  },
+  {
+   "id": "s6",
+   "text": "Und weil das Tape drüberklebt, bleibt die Pflege die ganze Nacht da, wo sie hin soll.",
+   "start": 23.73993948562784,
+   "dur": 5.5089258698940995,
+   "speakStart": 23.73993948562784
+  },
+  {
+   "id": "s7",
+   "text": "Morgens fühlen sich meine Lippen weich und irgendwie voller an. Und mein Kissen ist einfach nur ein Kissen.",
+   "start": 29.24886535552194,
+   "dur": 7.001134644478061,
+   "speakStart": 29.24886535552194
+  }
+ ],
+ "captions": [
+  {
+   "text": "Meine Lippenmaske?",
+   "start": 0.3,
+   "end": 1.868378901071479,
+   "rot": -1.6
+  },
+  {
+   "text": "Klebte jeden Morgen im",
+   "start": 1.818378901071479,
+   "end": 3.1055765241667572,
+   "rot": 0
+  },
+  {
+   "text": "Kissen.",
+   "start": 3.0555765241667574,
+   "end": 4.005356613690597,
+   "rot": 1.6
+  },
+  {
+   "text": "Nicht auf meinen",
+   "start": 3.9553566136905967,
+   "end": 4.905136703214437,
+   "rot": -0.8
+  },
+  {
+   "text": "Lippen.",
+   "start": 4.855136703214437,
+   "end": 5.804916792738275,
+   "rot": 0.8
+  },
+  {
+   "text": "Abends eine dicke",
+   "start": 5.754916792738276,
+   "end": 6.760168248292303,
+   "rot": -1.6
+  },
+  {
+   "text": "Schicht drauf.",
+   "start": 6.7101682482923035,
+   "end": 8.052567276394813,
+   "rot": 0
+  },
+  {
+   "text": "Morgens: Lippen",
+   "start": 8.002567276394812,
+   "end": 9.120201256131667,
+   "rot": 1.6
+  },
+  {
+   "text": "trocken, Kissenbezug",
+   "start": 9.070201256131666,
+   "end": 10.468791546325587,
+   "rot": -0.8
+  },
+  {
+   "text": "glänzt.",
+   "start": 10.418791546325586,
+   "end": 11.367851739788202,
+   "rot": 0.8
+  },
+  {
+   "text": "Mit Plumpern aus der",
+   "start": 11.317851739788201,
+   "end": 12.482877848811675,
+   "rot": -1.6
+  },
+  {
+   "text": "Drogerie war es auch",
+   "start": 12.432877848811675,
+   "end": 13.59790395783515,
+   "rot": 0
+  },
+  {
+   "text": "nicht besser.",
+   "start": 13.54790395783515,
+   "end": 14.82443267776097,
+   "rot": 1.6
+  },
+  {
+   "text": "Eine im Forum hat",
+   "start": 14.77443267776097,
+   "end": 15.780062675599742,
+   "rot": -0.8
+  },
+  {
+   "text": "es genau so",
+   "start": 15.730062675599742,
+   "end": 16.398411497730713,
+   "rot": 0.8
+  },
+  {
+   "text": "beschrieben.",
+   "start": 16.348411497730712,
+   "end": 17.57889561270802,
+   "rot": -1.6
+  },
+  {
+   "text": "Dann kam das Tape.",
+   "start": 17.52889561270802,
+   "end": 19.08969006828311,
+   "rot": 0
+  },
+  {
+   "text": "Die Lippenmaske sitzt",
+   "start": 19.03969006828311,
+   "end": 20.264752422619296,
+   "rot": 1.6
+  },
+  {
+   "text": "direkt in der Mitte,",
+   "start": 20.214752422619295,
+   "end": 21.60768082757493,
+   "rot": -0.8
+  },
+  {
+   "text": "mit Kollagen und",
+   "start": 21.55768082757493,
+   "end": 22.50296643087869,
+   "rot": 0.8
+  },
+  {
+   "text": "Hyaluronsäure.",
+   "start": 22.45296643087869,
+   "end": 23.78993948562784,
+   "rot": -1.6
+  },
+  {
+   "text": "Und weil das Tape",
+   "start": 23.73993948562784,
+   "end": 24.745569483466614,
+   "rot": 0
+  },
+  {
+   "text": "drüberklebt, bleibt",
+   "start": 24.695569483466613,
+   "end": 26.03848065701319,
+   "rot": 1.6
+  },
+  {
+   "text": "die Pflege die ganze",
+   "start": 25.988480657013188,
+   "end": 27.162751242705863,
+   "rot": -0.8
+  },
+  {
+   "text": "Nacht da, wo sie",
+   "start": 27.112751242705862,
+   "end": 28.287021828398533,
+   "rot": 0.8
+  },
+  {
+   "text": "hin soll.",
+   "start": 28.237021828398532,
+   "end": 29.29886535552194,
+   "rot": -1.6
+  },
+  {
+   "text": "Morgens fühlen sich",
+   "start": 29.24886535552194,
+   "end": 30.3677950075643,
+   "rot": 0
+  },
+  {
+   "text": "meine Lippen weich und",
+   "start": 30.3177950075643,
+   "end": 31.605503025718612,
+   "rot": 1.6
+  },
+  {
+   "text": "irgendwie voller an.",
+   "start": 31.55550302571861,
+   "end": 33.23702723146747,
+   "rot": -0.8
+  },
+  {
+   "text": "Und mein Kissen ist",
+   "start": 33.187027231467475,
+   "end": 34.30595688350983,
+   "rot": 0.8
+  },
+  {
+   "text": "einfach nur ein",
+   "start": 34.25595688350983,
+   "end": 35.14984871406959,
+   "rot": -1.6
+  },
+  {
+   "text": "Kissen.",
+   "start": 35.099848714069594,
+   "end": 36.05,
+   "rot": 0
+  }
+ ],
+ "endStart": 36.25,
+ "duration": 38.45,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}
