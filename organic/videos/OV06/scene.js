@@ -93,7 +93,7 @@ function stepHead(root, n, text, o = {}) {
   return { update(t) { const k = pr(t, 0, .45, ease.outBack); dot.style.transform = `scale(${.3 + .7 * k}) rotate(${(1 - k) * -40}deg)`; dot.style.opacity = clamp(t / .1); bt.update(t); } };
 }
 
-const drawPath = (node, k) => { const p = node.querySelector('path'); p.setAttribute('stroke-dashoffset', 1 - k); };
+const drawPath = (node, k) => { const p = node.querySelector('[pathLength]'); p.setAttribute('stroke-dashoffset', 1 - k); };
 
 // ---------- Szenen ----------
 // s1: Hook statisch, sie hält zum ersten Mal ein Tape hoch
