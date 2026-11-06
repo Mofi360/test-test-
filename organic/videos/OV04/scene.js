@@ -4,29 +4,29 @@ const WARM = '#FFF1D6', MOND = '#F7E7C6', S = C.schwarz;
 const HAIR = '#6E5D63', HAIR_LIGHT = '#B9AAAF';
 
 // ---------- eigene Illustrationen ----------
-/** Wandkalender, viewBox 0 0 700 800. a, b = Durchstreich-Fortschritt der zwei Einträge (0..1) */
-const CAL = { x0: 56, y0: 250, cw: 84, ch: 98, e1: [2, 1], e2: [4, 3] };
+/** Wandkalender, viewBox 0 0 700 640. a, b = Durchstreich-Fortschritt der zwei Einträge (0..1) */
+const CAL = { x0: 56, y0: 250, cw: 84, ch: 92, e1: [1, 0], e2: [4, 2] };
 function calendar(a = 0, b = 0) {
   const { x0, y0, cw, ch } = CAL;
   const rings = [150, 270, 430, 550].map(x => `<rect x="${x - 9}" y="50" width="18" height="70" rx="9" fill="${S}"/>`).join('');
   const days = ['M', 'D', 'M', 'D', 'F', 'S', 'S'].map((d, i) => `<text x="${x0 + cw * i + cw / 2}" y="${y0 - 22}" text-anchor="middle" font-family="Bricolage Grotesque" font-weight="700" font-size="24" fill="${S}" opacity=".55">${d}</text>`).join('');
   let grid = '';
-  for (let r = 0; r < 5; r++) for (let c = 0; c < 7; c++) {
-    const n = r * 7 + c + 1; if (n > 31) continue;
+  for (let r = 0; r < 4; r++) for (let c = 0; c < 7; c++) {
+    const n = r * 7 + c + 3;
     grid += `<rect x="${x0 + cw * c}" y="${y0 + ch * r}" width="${cw}" height="${ch}" fill="none" stroke="${S}" stroke-opacity=".14" stroke-width="2"/>
       <text x="${x0 + cw * c + 10}" y="${y0 + ch * r + 30}" font-family="Bricolage Grotesque" font-weight="600" font-size="22" fill="${S}" opacity=".6">${n}</text>`;
   }
   const entry = ([c, r], k, label) => {
     const x = x0 + cw * c, y = y0 + ch * r;
-    return `<rect x="${x + 4}" y="${y + 40}" width="${cw * 2 - 8}" height="50" rx="10" fill="${C.rosaHell}" stroke="${C.rosaTief}" stroke-width="3"/>
-      <text x="${x + cw}" y="${y + 76}" text-anchor="middle" font-family="Caveat" font-weight="700" font-size="40" fill="${S}">${label}</text>
-      <path d="M${x - 4} ${y + 70} C${x + cw * .6} ${y + 52} ${x + cw * 1.4} ${y + 80} ${x + cw * 2 + 6} ${y + 58}" fill="none" stroke="${C.beere}" stroke-width="10" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - k}"/>`;
+    return `<rect x="${x + 4}" y="${y + 36}" width="${cw * 2 - 8}" height="52" rx="10" fill="${C.rosaHell}" stroke="${C.rosaTief}" stroke-width="3"/>
+      <text x="${x + cw}" y="${y + 76}" text-anchor="middle" font-family="Caveat" font-weight="700" font-size="44" fill="${S}">${label}</text>
+      <path d="M${x - 4} ${y + 70} C${x + cw * .6} ${y + 52} ${x + cw * 1.4} ${y + 80} ${x + cw * 2 + 6} ${y + 58}" fill="none" stroke="${C.beere}" stroke-width="10" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - k}" opacity="${k > 0.001 ? 1 : 0}"/>`;
   };
-  return `<rect x="16" y="88" width="668" height="700" rx="18" fill="${S}" opacity=".12" transform="translate(10 14)"/>
-    <rect x="16" y="88" width="668" height="700" rx="18" fill="${C.weiss}" stroke="${S}" stroke-width="6"/>
+  return `<rect x="16" y="88" width="668" height="540" rx="18" fill="${S}" opacity=".12" transform="translate(10 14)"/>
+    <rect x="16" y="88" width="668" height="540" rx="18" fill="${C.weiss}" stroke="${S}" stroke-width="6"/>
     <rect x="16" y="88" width="668" height="96" rx="18" fill="${S}"/><rect x="16" y="150" width="668" height="34" fill="${S}"/>
     <text x="350" y="160" text-anchor="middle" font-family="Gloock" font-size="56" fill="${C.weiss}">März</text>
-    ${rings}${days}${grid}${entry(CAL.e1, a, 'Termin 10 Uhr')}${entry(CAL.e2, b, 'Termin 14 Uhr')}`;
+    ${rings}${days}${grid}${entry(CAL.e1, a, 'Termin')}${entry(CAL.e2, b, 'Termin')}`;
 }
 /** Position (Calendar-Koordinaten) des Strich-Endes für Eintrag e bei Fortschritt k */
 function strokePt(e, k) {
@@ -114,10 +114,9 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const hook = bigText(root, 'Ich hab den Termin abgesagt. *Zweimal.*', { y: 220, size: 112 });
   hook.update(10); // statisch: ab Frame 0 lesbar
-  const cal = svg(calendar(), {}, root, '0 0 700 800', 700, 800);
+  const cal = svg(calendar(), {}, root, '0 0 700 640', 700, 640);
   const pen = svg(marker, {}, root, '0 0 120 400', 84, 280);
-  const n2 = note(root, 'und nochmal.', { x: 600, y: 1260, r: -5, t0: D * .78, size: 72 });
-  const CX = 540, CY = 960, SC = .9; // Kalender-Mitte & Skalierung
+  const CX = 540, CY = 975, SC = 1.2; // Kalender-Mitte & Skalierung
   return (t) => {
     const a = pr(t, D * .3, D * .45, ease.inOutSine), b = pr(t, D * .62, D * .77, ease.inOutSine);
     cal.querySelector('svg').innerHTML = calendar(a, b);
@@ -125,14 +124,13 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
     // Stift folgt dem aktuellen Strich
     const cur = t < D * .55 ? strokePt(CAL.e1, a) : strokePt(CAL.e2, b);
     const toCanvas = ([x, y]) => {
-      const r = -2 * Math.PI / 180, dx = (x - 350) * SC, dy = (y - 400) * SC;
+      const r = -2 * Math.PI / 180, dx = (x - 350) * SC, dy = (y - 320) * SC;
       return [CX + dx * Math.cos(r) - dy * Math.sin(r), CY + dx * Math.sin(r) + dy * Math.cos(r)];
     };
     const [px, py] = toCanvas(cur);
     const vis = pr(t, D * .18, D * .28) * (1 - pr(t, D * .82, D * .9));
     const lift = (t > D * .45 && t < D * .62) ? Math.sin(pr(t, D * .45, D * .62, ease.lin) * Math.PI) * 60 : 0;
     place(pen, px + 52 * Math.sin(.45), py - 135 * Math.cos(.45) - lift - (1 - vis) * 120, 1, 26, vis);
-    n2.update(t);
   };
 }};
 
@@ -143,12 +141,12 @@ SCENES.s2 = { bg: C.rosaHell, build(root, ctx) {
   const p = svg(her(0), {}, root, '0 0 400 460', 560, 644);
   const kinds = ['?', 'eye', '?', 'eye'];
   const clouds = kinds.map(k => svg(cloud(k), {}, root, '0 0 300 200', 270, 180));
-  const pos = [[250, 700, .9], [800, 650, 1], [520, 610, .8], [850, 860, .75]];
+  const pos = [[220, 690, 1.1], [820, 620, 1.2], [520, 590, .95], [870, 880, .9]];
   const at = [.12, .5, .3, .66];
   return (t) => {
     head.update(t);
     p.querySelector('svg').innerHTML = her(pr(t, .2, 1.2), Math.sin(t * 1.4) * .8);
-    place(p, 470, 1040, 1);
+    place(p, 480, 1000, 1.05);
     clouds.forEach((c, i) => {
       const [x, y, s] = pos[i], k = pr(t, D * at[i], D * at[i] + .6, ease.outBack);
       place(c, x + Math.sin(t * .8 + i * 2) * 26, y + noise(t, i + 3) * 10, s * clamp(k, 0, 1.2), noise(t, i) * 3, clamp(k * 2));
@@ -160,8 +158,8 @@ SCENES.s2 = { bg: C.rosaHell, build(root, ctx) {
 SCENES.s3 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const head = note(root, 'In einem Forum stand:', { x: 110, y: 300, r: -3, t0: 0, size: 86 });
-  const q = quoteCard(root, 'the idea of injects on lips kinda scares me', 'Kundin in einem Forum', { y: 560, size: 76, t0: .25 });
-  const n = note(root, 'genau mein Gedanke.', { x: 440, y: 1140, r: -4, t0: D * .55, size: 78, color: C.beere });
+  const q = quoteCard(root, 'the idea of injects on lips kinda scares me', 'Kundin in einem Forum', { y: 600, size: 80, t0: .25 });
+  const n = note(root, 'genau mein Gedanke.', { x: 380, y: 1080, r: -4, t0: D * .55, size: 84, color: C.beere });
   return (t) => { head.update(t + .5); q.update(t); n.update(t); };
 }};
 
@@ -191,16 +189,16 @@ SCENES.s5 = { bg: C.rosaHell, build(root, ctx) {
   const head = bigText(root, 'Außen Baumwolle, in der Mitte *Pflege.*', { y: 220, size: 100, t0: .05, step: .06 });
   const pd = svg(pad, {}, root, '0 0 400 400', 520, 520);
   const top = svg(ART.tape(false), {}, root, '0 0 400 400', 620, 620);
-  const nTop = note(root, 'medizinische\nBaumwolle', { x: 640, y: 560, r: -4, t0: D * .2, size: 62, arrow: [-90, 100], ax: 30, ay: 140 });
+  const nTop = note(root, 'medizinische Baumwolle', { x: 250, y: 480, r: -3, t0: D * .2, size: 64, arrow: [40, 70], ax: 320, ay: 80 });
   const names = ['Kollagen', 'Hyaluronsäure', 'Vitamin E'], xs = [240, 540, 840], at = [.42, .58, .74];
-  const lines = svg(names.map((_, i) => `<line x1="${540 + (i - 1) * 90}" y1="0" x2="${xs[i]}" y2="150" stroke="${S}" stroke-width="5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join(''), { left: 0, top: '1010px' }, root, '0 0 1080 160', 1080, 160);
-  const labels = names.map((n, i) => el('div', { left: (xs[i] - 170) + 'px', width: '340px', top: '1180px', textAlign: 'center', fontFamily: F.sans, fontWeight: 700, fontSize: '46px', color: C.schwarz }, root,
+  const lines = svg(names.map((_, i) => `<line x1="${540 + (i - 1) * 90}" y1="0" x2="${xs[i]}" y2="150" stroke="${S}" stroke-width="5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join(''), { left: 0, top: '1060px' }, root, '0 0 1080 160', 1080, 160);
+  const labels = names.map((n, i) => el('div', { left: (xs[i] - 170) + 'px', width: '340px', top: '1210px', textAlign: 'center', fontFamily: F.sans, fontWeight: 700, fontSize: '44px', color: C.schwarz }, root,
     `<span style="display:inline-block;background:${C.weiss};border:4px solid ${S};border-radius:40px;padding:10px 26px">${n}</span>`));
   return (t) => {
     head.update(t); nTop.update(t);
     const sp = pr(t, D * .12, D * .35, ease.inOutCubic);
-    place(pd, 540, lerp(820, 940, sp), 1, 0);
-    place(top, 540, lerp(820, 690, sp) + noise(t, 4) * 4, 1, lerp(0, -4, sp));
+    place(pd, 540, lerp(860, 1010, sp), 1, 0);
+    place(top, 540, lerp(860, 720, sp) + noise(t, 4) * 4, 1, lerp(0, -3, sp));
     const ls = lines.querySelectorAll('line');
     names.forEach((_, i) => {
       const k = pr(t, D * at[i], D * at[i] + .35);
@@ -220,7 +218,7 @@ SCENES.s6 = { bg: C.weiss, build(root, ctx) {
   const win = svg('', {}, root, '0 0 500 420', 340, 286);
   const cam = cameo(root, 540, 1050, 500);
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 440, 440);
-  const lk = svg(lock(0), {}, root, '0 0 200 240', 170, 204);
+  const lk = svg(lock(0), {}, root, '0 0 200 240', 210, 252);
   const soft = note(root, 'Nur ich: weich.', { x: 560, y: 380, r: -5, t0: D * .8, size: 80, color: C.beere });
   const sp = [0, 1, 2, 3].map(() => svg(spark(), {}, root, '0 0 100 100', 100, 100));
   const SP = [[400, 1010, 1], [690, 990, .75], [600, 1110, .6], [330, 1080, .5]];
@@ -245,7 +243,7 @@ SCENES.s6 = { bg: C.weiss, build(root, ctx) {
     // Schloss
     const lp = pr(t, D * .58, D * .7, ease.outBack);
     lk.querySelector('svg').innerHTML = lock(0);
-    place(lk, 850, lerp(700, 860, lp), clamp(lp, 0, 1.1), lerp(-20, 8, lp) + noise(t, 7) * 2, clamp(lp * 2));
+    place(lk, 860, lerp(700, 850, lp), clamp(lp, 0, 1.1), lerp(-20, 8, lp) + noise(t, 7) * 2, clamp(lp * 2));
     soft.update(t);
     sp.forEach((s, i) => {
       const [x, y, sc] = SP[i];
@@ -258,9 +256,9 @@ SCENES.s6 = { bg: C.weiss, build(root, ctx) {
 // ---------- s7: Kalender zu, Ritual, Licht aus ----------
 SCENES.s7 = { bg: C.nacht, build(root, ctx) {
   const D = ctx.dur;
-  const wrap = el('div', { left: '170px', top: '470px', width: '420px', height: '480px', perspective: '900px' }, root);
-  const cal = svg(calendar(1, 1), { left: 0, top: 0, transformOrigin: '50% 12%' }, wrap, '0 0 700 800', 420, 480);
-  const q = note(root, 'Weiß ich nicht.', { x: 560, y: 560, r: 5, t0: D * .2, size: 76, color: C.rosa });
+  const wrap = el('div', { left: '220px', top: '420px', width: '640px', height: '585px', perspective: '1200px' }, root);
+  const cal = svg(calendar(1, 1), { left: 0, top: 0, transformOrigin: '50% 14%' }, wrap, '0 0 700 640', 640, 585);
+  const q = note(root, 'Weiß ich nicht.', { x: 300, y: 1090, r: -4, t0: D * .15, size: 90, color: C.rosa });
   const head = bigText(root, 'Aber abends: *mein* *Ritual.*', { y: 220, size: 108, color: C.weiss, accent: C.rosa, t0: D * .45, step: .07 });
   const lp = svg(lamp(1), {}, root, '0 0 400 460', 360, 414);
   const tb = svg(table, {}, root, '0 0 900 300', 860, 287);
@@ -274,7 +272,8 @@ SCENES.s7 = { bg: C.nacht, build(root, ctx) {
     q.node.style.opacity = Math.min(+q.node.style.opacity, 1 - pr(t, D * .44, D * .5, ease.lin));
     const offT = D * .86, off = t > offT ? 1 : 0;
     lp.querySelector('svg').innerHTML = lamp(1 - off, 's7');
-    place(lp, 330, 960); place(tb, 540, 1265); place(tp, 720, 1110, .95, -7);
+    const ap = pr(t, D * .48, D * .62, ease.outCubic);
+    place(lp, 330, 960 + (1 - ap) * 60, 1, 0, ap); place(tb, 540, 1265 + (1 - ap) * 40, 1, 0, ap); place(tp, 720, 1110 + (1 - ap) * 80, .95, -7, pr(t, D * .58, D * .7));
     dark.style.opacity = .55 * pr(t, offT, offT + .08, ease.lin);
   };
 }};

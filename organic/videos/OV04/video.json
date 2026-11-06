@@ -10,13 +10,56 @@
   "name": "Irene (ALT)"
  },
  "scenes": [
-  {"id": "s1", "text": "Ich hatte einen Termin für meine Lippen. Abgesagt. Zweimal."},
-  {"id": "s2", "text": "Ich bin 57 und hab zu viel Angst, dass es schiefgeht und jeder es sieht."},
-  {"id": "s3", "text": "In einem Forum stand genau, was ich gedacht hab."},
-  {"id": "s4", "text": "Also tu ich jetzt abends selbst was für meine Lippen."},
-  {"id": "s5", "text": "Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E."},
-  {"id": "s6", "text": "Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich weich an."},
-  {"id": "s7", "text": "Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein Ritual."}
+  {
+   "id": "s1",
+   "text": "Ich hatte einen Termin für meine Lippen. Abgesagt. Zweimal."
+  },
+  {
+   "id": "s2",
+   "text": "Ich bin 57 und hab zu viel Angst, dass es schiefgeht und jeder es sieht."
+  },
+  {
+   "id": "s3",
+   "text": "In einem Forum stand genau, was ich gedacht hab."
+  },
+  {
+   "id": "s4",
+   "text": "Also tu ich jetzt abends selbst was für meine Lippen."
+  },
+  {
+   "id": "s5",
+   "text": "Ein Tape aus medizinischer Baumwolle, in der Mitte Pflege mit Kollagen, Hyaluronsäure und Vitamin E."
+  },
+  {
+   "id": "s6",
+   "text": "Abends drauf, morgens langsam ab. Keiner merkt was. Nur ich: Meine Lippen fühlen sich weich an."
+  },
+  {
+   "id": "s7",
+   "text": "Ob ich irgendwann doch hingehe? Weiß ich nicht. Aber abends hab ich jetzt mein Ritual."
+  }
  ],
- "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  1.9,
+  3.6,
+  4.8,
+  7.5,
+  11.5,
+  14.8,
+  18.0,
+  21.5,
+  24.2,
+  26.0,
+  27.5,
+  29.6,
+  32.2,
+  34.5,
+  36.4,
+  38.0
+ ]
 }

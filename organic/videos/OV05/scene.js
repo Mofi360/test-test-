@@ -44,7 +44,7 @@ function stopSign() {
   return `<rect x="138" y="250" width="24" height="270" rx="8" fill="${C.schwarz}"/>
     <polygon points="${pts}" fill="${C.beere}" stroke="${C.schwarz}" stroke-width="8" stroke-linejoin="round"/>
     <polygon points="${pts2}" fill="none" stroke="${C.weiss}" stroke-width="6" stroke-linejoin="round"/>
-    <text x="150" y="172" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="66" fill="${C.weiss}" letter-spacing="1">STOPP</text>`;
+    <text x="150" y="172" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="800" font-size="56" fill="${C.weiss}" letter-spacing="1">STOPP</text>`;
 }
 /** Lippenpflegestift, viewBox 0 0 80 170 */
 const balm = `<rect x="18" y="62" width="44" height="100" rx="10" fill="${C.rosaTief}" stroke="${C.schwarz}" stroke-width="5"/>
@@ -91,15 +91,15 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const fl = svg(flake(C.weiss, 8), {}, root, '0 0 200 200', 300, 300);
   const fl2 = svg(flake(C.weiss, 10), {}, root, '0 0 200 200', 130, 130);
-  const hook = bigText(root, 'Drei *Winter-Fehler,* die ich jahrelang gemacht hab.', { y: 220, size: 118 });
+  const hook = bigText(root, 'Drei *Winter-Fehler,* die ich jahrelang gemacht hab.', { y: 210, size: 112 });
   hook.update(99);
   const cards = [['1', C.weiss], ['2', C.weiss], ['3', C.rosaHell]].map(([n, bg]) => numCard(root, n, bg));
-  const n3 = note(root, 'Nr. 3 hat mich\nüberrascht!', { x: 110, y: 1130, r: -4, t0: D * .5, size: 76, arrow: [330, -40], ax: 470, ay: 30 });
+  const n3 = note(root, 'Nr. 3 hat mich überrascht!', { x: 100, y: 1200, r: -3, t0: D * .5, size: 76 });
   return (t) => {
-    place(fl, 900, 690, 1, t * 22, .9);
-    place(fl2, 150, 760, 1, -t * 30, .8);
+    place(fl, 950, 610, .75, t * 22, .9);
+    place(fl2, 90, 720, 1, -t * 30, .8);
     const f = pr(t, .25, 1.1, ease.outBack);
-    const xs = [300, 540, 780], rs = [-12, 0, 12], ys = [1010, 975, 1010];
+    const xs = [300, 540, 780], rs = [-12, 0, 12], ys = [1000, 965, 1000];
     cards.forEach((c, i) => {
       const lift = i === 2 ? pr(t, D * .45, D * .45 + .5, ease.outBack) : 0;
       const wob = i === 2 ? Math.sin(t * 6) * 2 * lift : 0;
@@ -116,7 +116,7 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
   const wv = svg('', {}, root, '0 0 600 420', 600, 420);
   const ht = svg(heater(-130), {}, root, '0 0 640 380', 640, 380);
   const dr = svg(drop(C.weiss), {}, root, '0 0 200 200', 210, 210);
-  const dry = note(root, 'staubtrocken.', { x: 120, y: 470, r: -5, t0: D * .62, size: 92, color: C.beere });
+  const dry = note(root, 'staubtrocken.', { x: 120, y: 420, r: -5, t0: D * .62, size: 92, color: C.beere });
   return (t) => {
     head.update(t);
     const knob = tw(t, .4, 1.3, -130, 130, ease.inOutCubic);
@@ -166,7 +166,7 @@ SCENES.s4 = { bg: C.rosa, build(root, ctx) {
   const bx = [160, 255, 350, 445];
   const balms = bx.map(() => svg(balm, {}, root, '0 0 80 170', 70, 150));
   const dash = svg(`<line x1="10" y1="10" x2="370" y2="10" stroke="${C.weiss}" stroke-opacity=".35" stroke-width="8" stroke-linecap="round" stroke-dasharray="4 26"/>`, {}, root, '0 0 380 20', 380, 20);
-  const nix = el('div', { left: '590px', top: '960px', width: '350px', textAlign: 'center', fontFamily: F.hand, fontWeight: 700, fontSize: '88px', color: C.rosa, transform: 'rotate(-4deg)' }, root, 'stundenlang<br>nichts.');
+  const nix = el('div', { left: '590px', top: '960px', width: '350px', textAlign: 'center', fontFamily: F.hand, fontWeight: 700, fontSize: '74px', color: C.rosa, transform: 'rotate(-4deg)' }, root, 'stundenlang<br>nichts.');
   const bar = el('div', { left: 0, top: 0, width: '10px', height: (Y1 - Y0 - 40) + 'px', background: C.beere, borderRadius: '5px' }, root);
   return (t) => {
     head.update(t);
@@ -212,7 +212,7 @@ SCENES.s6 = { bg: C.nacht, build(root, ctx) {
   const cam = cameo(root, 540, 1010, 560);
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 520, 520);
   const drops = [0, 1, 2].map(() => svg(drop(C.weiss), {}, root, '0 0 200 200', 70, 70));
-  const n = note(root, 'Pflege-Mitte', { x: 600, y: 650, r: 4, t0: D * .3, size: 70, color: C.rosa, arrow: [-120, 150], ax: 60, ay: 80 });
+  const n = note(root, 'Pflege-Mitte', { x: 640, y: 660, r: 5, t0: D * .3, size: 72, color: C.rosa });
   return (t) => {
     stars.querySelector('svg').innerHTML = [[110, 560, 1.2], [230, 640, .8], [880, 470, 1], [990, 610, .7], [60, 420, .7], [700, 560, .6]]
       .map(([x, y, s], i) => ART.star(x, y, s * 1.4 * (.8 + .2 * Math.sin(t * 3 + i)), MOND)).join('');
@@ -227,7 +227,7 @@ SCENES.s6 = { bg: C.nacht, build(root, ctx) {
     drops.forEach((d, i) => {
       const t0 = D * .5 + i * .45, k = ((t - t0) % 1.35) / 1.35;
       const on = t > t0 ? 1 : 0;
-      place(d, 470 + i * 70, 990 - k * 30, .5 + .3 * Math.sin(Math.PI * k), 0, on * Math.sin(Math.PI * clamp(k)) * .95);
+      place(d, 480 + i * 60, 880 + k * 90, 1 - .45 * k, 0, on * Math.min(1, Math.sin(Math.PI * clamp(k)) * 2) * (1 - k * .6));
     });
     n.update(t);
     cam.style.transform = `translateY(${noise(t, 3) * 3}px)`;
@@ -239,7 +239,7 @@ SCENES.s7 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, 'Speicher dir das für die *Heizungssaison.*', { y: 220, size: 108, t0: 0, step: .05 });
   const fl = [[140, 0, .5, 1], [330, 300, .35, .7], [620, 120, .45, .9], [900, 420, .4, .8], [800, 0, .3, .6], [240, 520, .3, .55], [980, 200, .5, 1]]
-    .map(() => svg(flake(C.weiss, 10), {}, root, '0 0 200 200', 110, 110));
+    .map(() => svg(flake(C.weiss, 9), {}, root, '0 0 200 200', 170, 170));
   const FL = [[140, 0, .5, 1], [330, 300, .35, .7], [620, 120, .45, .9], [900, 420, .4, .8], [800, 0, .3, .6], [240, 520, .3, .55], [980, 200, .5, 1]];
   const bm = svg('', {}, root, '0 0 200 260', 300, 390);
   return (t) => {

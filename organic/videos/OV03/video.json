@@ -3,15 +3,55 @@
  "avatar": "ALT",
  "titel": "Das Foto im Schuhkarton",
  "voice_duration": 34.1,
- "voice": {"status": "ausstehend – ElevenLabs gesperrt", "voice_id": "MOOG1hZESAxDt4UaletY"},
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
  "scenes": [
-  {"id": "s1", "text": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend."},
-  {"id": "s2", "text": "Und ich hab nur auf eins geschaut: meinen Mund."},
-  {"id": "s3", "text": "Machen lassen wollte ich nie. Zu viel Angst, dass es gemacht aussieht."},
-  {"id": "s4", "text": "Ich wollte selbst was tun. Abends, in Ruhe."},
-  {"id": "s5", "text": "Jetzt kommt abends ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet."},
-  {"id": "s6", "text": "Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel."},
-  {"id": "s7", "text": "Das Foto hängt jetzt am Kühlschrank."}
+  {
+   "id": "s1",
+   "text": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend."
+  },
+  {
+   "id": "s2",
+   "text": "Und ich hab nur auf eins geschaut: meinen Mund."
+  },
+  {
+   "id": "s3",
+   "text": "Machen lassen wollte ich nie. Zu viel Angst, dass es gemacht aussieht."
+  },
+  {
+   "id": "s4",
+   "text": "Ich wollte selbst was tun. Abends, in Ruhe."
+  },
+  {
+   "id": "s5",
+   "text": "Jetzt kommt abends ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet."
+  },
+  {
+   "id": "s6",
+   "text": "Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel."
+  },
+  {
+   "id": "s7",
+   "text": "Das Foto hängt jetzt am Kühlschrank."
+  }
  ],
- "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  2.5,
+  9.6,
+  12.2,
+  14.8,
+  17.8,
+  20.2,
+  24.5,
+  30.5,
+  34.2,
+  36
+ ]
 }

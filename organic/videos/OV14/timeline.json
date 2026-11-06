@@ -1,0 +1,243 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Night Routine, aber mit einem Schritt, den keiner erwartet.",
+   "start": 0,
+   "dur": 3.7857142857142856,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Make-up runter. Toner. Serum. Creme.",
+   "start": 3.7857142857142856,
+   "dur": 3.302255639097744,
+   "speakStart": 3.7857142857142856
+  },
+  {
+   "id": "s3",
+   "text": "Lip Oil? Früher ja. Morgens war davon nichts mehr übrig.",
+   "start": 7.08796992481203,
+   "dur": 3.8067669172932357,
+   "speakStart": 7.08796992481203
+  },
+  {
+   "id": "s4",
+   "text": "Jetzt: Tape. Lippen zu, sanft drüberlegen, kurz andrücken.",
+   "start": 10.894736842105265,
+   "dur": 4.036090225563907,
+   "speakStart": 10.894736842105265
+  },
+  {
+   "id": "s5",
+   "text": "In der Mitte sitzt eine kleine Lippenmaske mit Kollagen, Hyaluronsäure und Vitamin E.",
+   "start": 14.930827067669172,
+   "dur": 4.494736842105263,
+   "speakStart": 14.930827067669172
+  },
+  {
+   "id": "s6",
+   "text": "Medizinische Baumwolle, hypoallergener Kleber. Fühlt sich nicht an wie ein Pflaster.",
+   "start": 19.425563909774436,
+   "dur": 4.861654135338348,
+   "speakStart": 19.425563909774436
+  },
+  {
+   "id": "s7",
+   "text": "Licht aus. Morgens langsam abziehen, und meine Lippen fühlen sich so weich an.",
+   "start": 24.287218045112784,
+   "dur": 4.586466165413533,
+   "speakStart": 24.287218045112784
+  },
+  {
+   "id": "s8",
+   "text": "Speicher dir das für heute Abend.",
+   "start": 28.873684210526317,
+   "dur": 2.1763157894736835,
+   "speakStart": 28.873684210526317
+  }
+ ],
+ "captions": [
+  {
+   "text": "Night Routine, aber",
+   "start": 0.3,
+   "end": 1.4333976833976834,
+   "rot": -1.6
+  },
+  {
+   "text": "mit einem Schritt, den",
+   "start": 1.3833976833976833,
+   "end": 2.6581081081081077,
+   "rot": 0
+  },
+  {
+   "text": "keiner erwartet.",
+   "start": 2.608108108108108,
+   "end": 3.8357142857142854,
+   "rot": 1.6
+  },
+  {
+   "text": "Lip Oil?",
+   "start": 7.08796992481203,
+   "end": 7.946907894736842,
+   "rot": -0.8
+  },
+  {
+   "text": "Früher ja.",
+   "start": 7.8969078947368425,
+   "end": 8.851015037593987,
+   "rot": 0.8
+  },
+  {
+   "text": "Morgens war davon",
+   "start": 8.801015037593986,
+   "end": 9.6599530075188,
+   "rot": -1.6
+  },
+  {
+   "text": "nichts mehr übrig.",
+   "start": 9.609953007518799,
+   "end": 10.944736842105266,
+   "rot": 0
+  },
+  {
+   "text": "Jetzt: Tape.",
+   "start": 10.894736842105265,
+   "end": 12.131822202565239,
+   "rot": 1.6
+  },
+  {
+   "text": "Lippen zu, sanft",
+   "start": 12.081822202565238,
+   "end": 13.081490490933216,
+   "rot": -0.8
+  },
+  {
+   "text": "drüberlegen, kurz",
+   "start": 13.031490490933216,
+   "end": 14.078642193719594,
+   "rot": 0.8
+  },
+  {
+   "text": "andrücken.",
+   "start": 14.028642193719593,
+   "end": 14.980827067669173,
+   "rot": -1.6
+  },
+  {
+   "text": "In der Mitte sitzt",
+   "start": 14.930827067669172,
+   "end": 15.850776133883095,
+   "rot": 0
+  },
+  {
+   "text": "eine kleine",
+   "start": 15.800776133883094,
+   "end": 16.382411674347157,
+   "rot": 1.6
+  },
+  {
+   "text": "Lippenmaske mit",
+   "start": 16.332411674347156,
+   "end": 17.10736922952543,
+   "rot": -0.8
+  },
+  {
+   "text": "Kollagen,",
+   "start": 17.057369229525428,
+   "end": 17.735665777346593,
+   "rot": 0.8
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 17.685665777346593,
+   "end": 18.557284339881964,
+   "rot": -1.6
+  },
+  {
+   "text": "Vitamin E.",
+   "start": 18.507284339881963,
+   "end": 19.475563909774436,
+   "rot": 0
+  },
+  {
+   "text": "Medizinische",
+   "start": 19.425563909774436,
+   "end": 20.04752321981424,
+   "rot": 1.6
+  },
+  {
+   "text": "Baumwolle,",
+   "start": 19.99752321981424,
+   "end": 20.71480908152735,
+   "rot": -0.8
+  },
+  {
+   "text": "hypoallergener Kleber.",
+   "start": 20.66480908152735,
+   "end": 22.192370632463515,
+   "rot": 0.8
+  },
+  {
+   "text": "Fühlt sich nicht an",
+   "start": 22.142370632463514,
+   "end": 23.097972873359872,
+   "rot": -1.6
+  },
+  {
+   "text": "wie ein Pflaster.",
+   "start": 23.04797287335987,
+   "end": 24.337218045112785,
+   "rot": 0
+  },
+  {
+   "text": "Licht aus.",
+   "start": 24.287218045112784,
+   "end": 25.24495614035088,
+   "rot": 1.6
+  },
+  {
+   "text": "Morgens langsam",
+   "start": 25.19495614035088,
+   "end": 25.961591478696743,
+   "rot": -0.8
+  },
+  {
+   "text": "abziehen, und meine",
+   "start": 25.911591478696742,
+   "end": 27.06043233082707,
+   "rot": 0.8
+  },
+  {
+   "text": "Lippen fühlen sich so",
+   "start": 27.01043233082707,
+   "end": 28.06372180451128,
+   "rot": -1.6
+  },
+  {
+   "text": "weich an.",
+   "start": 28.01372180451128,
+   "end": 28.923684210526318,
+   "rot": 0
+  },
+  {
+   "text": "Speicher dir das für",
+   "start": 28.873684210526317,
+   "end": 29.863350449293968,
+   "rot": 1.6
+  },
+  {
+   "text": "heute Abend.",
+   "start": 29.813350449293967,
+   "end": 30.85,
+   "rot": -0.8
+  }
+ ],
+ "endStart": 31.05,
+ "duration": 33.25,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

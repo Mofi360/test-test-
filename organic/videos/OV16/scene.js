@@ -94,12 +94,12 @@ SCENES.s1 = { bg: C.rosaHell, build(root, ctx) {
   const pil = svg(pillow({ smear: 1 }), {}, root, '0 0 600 420', 900, 630);
   const sp = svg(sparkle(60, 60, 1) + sparkle(150, 30, .6) + sparkle(20, 140, .5), {}, root, '0 0 200 180', 200, 180);
   const jar = svg(openJar(), {}, root, '0 0 300 260', 330, 286);
-  const n = note(root, 'nicht auf meinen Lippen', { x: 90, y: 1250, r: -3, t0: D * .62, size: 68 });
+  const n = note(root, 'nicht auf meinen Lippen', { x: 90, y: 1236, r: -3, t0: D * .6, size: 62 });
   return (t) => {
-    place(pil, 520, 1000 + noise(t, 2) * 3, tw(t, 0, D, 1, 1.04, ease.lin), -3);
+    place(pil, 520, 960 + noise(t, 2) * 3, tw(t, 0, D, 1, 1.04, ease.lin), -3);
     const tw1 = Math.abs(Math.sin(t * 2.4));
-    place(sp, 720, 860, .6 + tw1 * .5, t * 30, .5 + tw1 * .5);
-    place(jar, 840, 1250, 1, tw(t, .2, 1, 14, 4, ease.outBack));
+    place(sp, 720, 820, .6 + tw1 * .5, t * 30, .5 + tw1 * .5);
+    place(jar, 850, 1215, 1, tw(t, .2, 1, 14, 4, ease.outBack));
     n.update(t);
   };
 }};
@@ -109,11 +109,10 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, 'Kissen glänzt. *Lippen* *nicht.*', { x: 90, y: 220, w: 900, size: 112, t0: 0, step: .06 });
   const c1 = card(root, 80, 560, 460, 600, C.rosaHell);
-  const pl = svg(pillow({ smear: 1, shine: 0, id: 2 }), { left: '10px', top: '120px' }, c1, '0 0 600 420', 440, 308);
+  const pl = svg(pillow({ smear: 1, shine: 0, id: 2 }), { left: '-20px', top: '110px' }, c1, '0 0 600 420', 500, 350);
   el('div', { left: '0', top: '470px', width: '460px', textAlign: 'center', fontFamily: F.hand, fontWeight: 700, fontSize: '64px', color: C.schwarz }, c1, 'Kissenbezug');
   const c2 = card(root, 560, 600, 440, 580, C.rosa);
-  const lp = svg(ART.lips(.45, '#C99AA4'), { left: '20px', top: '80px' }, c2, '0 0 400 400', 400, 400);
-  const cracks = svg(`<path d="M150 186 L154 206 M180 184 L182 210 M220 184 L218 210 M250 186 L246 206 M170 222 L172 240 M230 222 L228 240" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".8"/>`, { left: '20px', top: '80px' }, c2, '0 0 400 400', 400, 400);
+  const lp = svg(ART.lips(.5, '#C99AA4'), { left: '0px', top: '60px' }, c2, '0 0 400 400', 440, 440);
   el('div', { left: '0', top: '450px', width: '440px', textAlign: 'center', fontFamily: F.hand, fontWeight: 700, fontSize: '64px', color: C.schwarz }, c2, 'meine Lippen');
   const sp = svg(sparkle(40, 40, 1) + sparkle(130, 90, .6), {}, root, '0 0 180 140', 180, 140);
   return (t) => {
@@ -163,8 +162,8 @@ SCENES.s5 = { bg: C.rosa, build(root, ctx) {
   const head = bigText(root, 'Die Maske sitzt *im* *Tape.*', { x: 90, y: 230, w: 900, size: 116, t0: D * .3, step: .07 });
   const glow = svg(`<ellipse cx="200" cy="200" rx="150" ry="80" fill="${C.weiss}" opacity=".55"/><ellipse cx="200" cy="200" rx="190" ry="110" fill="${C.weiss}" opacity=".25"/>`, {}, root, '0 0 400 400', 600, 600);
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 940, 940);
-  const l1 = label(root, 'Kollagen', { x: 110, y: 1040 });
-  const l2 = label(root, 'Hyaluronsäure', { x: 560, y: 1040 });
+  const l1 = label(root, 'Kollagen', { x: 130, y: 980 });
+  const l2 = label(root, 'Hyaluronsäure', { x: 520, y: 1060 });
   const ring = svg(`<rect x="10" y="10" width="380" height="150" rx="75" fill="none" stroke="${C.beere}" stroke-width="8" stroke-dasharray="18 14"/>`, {}, root, '0 0 400 170', 470, 200);
   return (t) => {
     pre.update(t); pre.node.style.opacity = Math.min(+pre.node.style.opacity, 1 - pr(t, D * .26, D * .32));
@@ -189,8 +188,9 @@ SCENES.s6 = { bg: C.nacht, build(root, ctx) {
   const blanket = svg(`<path d="M0 90 C200 40 700 40 900 90 L900 400 L0 400Z" fill="${C.rosaTief}"/><path d="M0 90 C200 40 700 40 900 90 L900 140 C700 96 200 96 0 140Z" fill="${C.weiss}"/>
       <path d="M120 240 C220 220 300 250 380 230 M500 300 C600 280 700 300 800 280" fill="none" stroke="${C.beere}" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/>`, {}, root, '0 0 900 400', 900, 400);
   const zz = svg(sparkle(30, 30, .8, '#F7E7C6') + sparkle(90, 70, .5, '#F7E7C6'), {}, root, '0 0 120 100', 120, 100);
+  const clean = note(root, 'Kissen:\nsauber', { x: 720, y: 880, r: -6, t0: D * .55, size: 58, color: C.schwarz });
   return (t) => {
-    head.update(t);
+    head.update(t); clean.update(t);
     place(stars, 540, 560, 1, 0, .55 + Math.sin(t * 2) * .2);
     const m = pr(t, 0, D, ease.lin);
     place(moon, lerp(170, 900, m), 620 - Math.sin(m * Math.PI) * 120, 1, lerp(-20, 20, m));
@@ -198,7 +198,7 @@ SCENES.s6 = { bg: C.nacht, build(root, ctx) {
     place(her, 540, 980 + Math.sin(t * 1.6) * 4, 1, 0);
     place(blanket, 540, 1260, 1);
     const tw2 = Math.abs(Math.sin(t * 1.8));
-    place(zz, 820, 860, .7 + tw2 * .4, t * 25, tw2);
+    place(zz, 230, 700, .7 + tw2 * .4, t * 25, tw2);
   };
 }};
 
@@ -214,7 +214,7 @@ SCENES.s7 = { bg: C.rosaHell, build(root, ctx) {
     n.update(t); n.node.style.opacity = Math.min(+n.node.style.opacity, 1 - pr(t, D * .42, D * .48));
     head.update(t);
     place(sun, 860, tw(t, 0, 1.4, 760, 640, ease.outCubic), 1, t * 8, .95);
-    place(pil, 520, 1000 + noise(t, 1) * 3, 1, -2);
+    place(pil, 520, 960 + noise(t, 1) * 3, 1, -2);
     pil.querySelector('svg').innerHTML = pillow({ shine: pr(t, D * .2, D * .2 + 1.2, ease.inOutCubic), id: 7 });
     const c = pr(t, D * .62, D * .62 + .4, ease.outBack);
     chk.querySelector('path').setAttribute('stroke-dashoffset', 1 - pr(t, D * .66, D * .66 + .5));
