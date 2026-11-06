@@ -196,11 +196,11 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
     const on = pr(t, D * .35, D * .35 + .25);
     place(win, 300, 720, 1, 0);
     place(tw2, 300, 700, 1, 0, .45 + .45 * Math.abs(Math.sin(t * 1.6)));
-    place(glow, 360, 1000, .9 + on * .1, 0, on);
+    place(glow, 700, 900, .9 + on * .1, 0, on);
     place(table, 560, 1220, 1);
     lampN.querySelector('svg').innerHTML = ART.lamp(on);
-    place(lampN, 400, 950, 1, 0);
-    place(dish, 690, 1036 + noise(t, 3) * 2, 1, 0);
+    place(lampN, 730, 924, .85, 0);
+    place(dish, 430, 1036 + noise(t, 3) * 2, 1, 0);
   };
 }};
 

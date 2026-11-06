@@ -1,0 +1,20 @@
+{
+ "id": "OV07",
+ "avatar": "ALT",
+ "titel": "Mein Nachttisch mit 52",
+ "voice_duration": 36.5,
+ "voice_duration_note": "GESCHÄTZT (90 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
+ "scenes": [
+  {"id": "s1", "text": "Mein Nachttisch mit 52. Lesebrille. Ein Krimi, den ich nie fertig kriege."},
+  {"id": "s2", "text": "Eine Handcreme, die nach Mandel riecht. Und eine kleine rosa Schachtel."},
+  {"id": "s3", "text": "Da sind dreißig Tapes drin. Eins für jede Nacht."},
+  {"id": "s4", "text": "Bevor ich das Buch weglege, kommt eins über die Lippen. In der Mitte Pflege mit Kollagen und Vitamin E."},
+  {"id": "s5", "text": "Früher lag da ein Lippenbalsam, und die Pflege war morgens im Kissen. Jetzt bleibt sie, wo sie hin soll."},
+  {"id": "s6", "text": "Morgens zieh ich es langsam ab, und meine Lippen fühlen sich weich an. Das ist mein Lieblingsteil auf dem Nachttisch."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}

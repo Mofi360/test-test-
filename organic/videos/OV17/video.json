@@ -1,0 +1,45 @@
+{
+ "id": "OV17",
+ "avatar": "JUNG",
+ "titel": "Freundin kam aus dem Studio",
+ "voice_duration": 36.1,
+ "voice_duration_note": "GESCHÄTZT (89 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "it8IUwkHD8mtjbyJyCuC"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Meine beste Freundin kam Samstag aus dem Studio. Frisch gemachte Lippen."
+  },
+  {
+   "id": "s2",
+   "text": "Alle in der Gruppe: Wow. Und ich dachte nur: Ich trau mich das nie."
+  },
+  {
+   "id": "s3",
+   "text": "Ich hab Angst vor dem Schmerz. Und davor, dass es unecht aussieht."
+  },
+  {
+   "id": "s4",
+   "text": "Damit bin ich nicht allein."
+  },
+  {
+   "id": "s5",
+   "text": "Ich mache was ganz anderes: Pflege. Abends kommt ein Tape über die geschlossenen Lippen."
+  },
+  {
+   "id": "s6",
+   "text": "In der Mitte sind Kollagen, Hyaluronsäure und Vitamin E. Das spendet den Lippen über Nacht Feuchtigkeit."
+  },
+  {
+   "id": "s7",
+   "text": "Morgens fühlen sie sich weich an. Und sie sehen nach mir aus. Genau so will ich das."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

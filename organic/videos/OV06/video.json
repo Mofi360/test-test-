@@ -1,0 +1,17 @@
+{
+ "id": "OV06",
+ "avatar": "ALT",
+ "titel": "Mit 56 zum ersten Mal",
+ "voice_duration": 35.3,
+ "voice": {"status": "ausstehend – ElevenLabs gesperrt", "voice_id": "MOOG1hZESAxDt4UaletY"},
+ "scenes": [
+  {"id": "s1", "text": "Ich bin 56 und hab das vorher noch nie gemacht. Also zeig ich dir, wie es richtig geht."},
+  {"id": "s2", "text": "Erstens: Die Haut um den Mund sauber und trocken machen."},
+  {"id": "s3", "text": "Zweitens: Lippen schließen und das Tape sanft drüberlegen."},
+  {"id": "s4", "text": "Drittens: Einmal leicht andrücken. Die Pflege-Mitte liegt jetzt genau auf den Lippen."},
+  {"id": "s5", "text": "Siehst du das kleine Loch in der Mitte? Das ist ein Sicherheitsloch, da kann Luft durch."},
+  {"id": "s6", "text": "Viertens, und das ist wichtig: Morgens langsam abziehen. Nicht ruckartig, ganz in Ruhe."},
+  {"id": "s7", "text": "Speicher dir das, dann hast du es heute Abend parat."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}
