@@ -57,7 +57,7 @@ function girl(o = {}) {
   const tape = o.tape ?? 0;
   return `<g>
     ${back}
-    <path d="M40 600 L40 480 C40 404 110 370 200 370 C290 370 360 404 360 480 L360 600Z" fill="${top}"/>
+    <path d="M40 ${o.body ?? 600} L40 480 C40 404 110 370 200 370 C290 370 360 404 360 480 L360 ${o.body ?? 600}Z" fill="${top}"/>
     ${[[110, 440], [160, 416], [250, 418], [298, 446], [204, 458], [76, 470], [330, 474]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="6" fill="${dots}" opacity=".8"/>`).join('')}
     <path d="M168 372 Q200 404 232 372" fill="none" stroke="${me ? '#3a2e33' : C.lippeHell}" stroke-width="8" stroke-linecap="round"/>
     <rect x="174" y="318" width="52" height="58" rx="14" fill="${C.hautDunkel}"/>
@@ -144,13 +144,13 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
   const who = note(root, 'Sie:', { x: 110, y: 200, r: -5, t0: 0, size: 80 });
   const b = bubble(root, 'Was wird das denn <span style="color:' + C.beere + '">jetzt?</span>', { x: 90, y: 300, w: 900, size: 104, tail: 560, t0: .05 });
-  const fr = fig(root, { who: 'fr' }, 640);
+  const fr = fig(root, { who: 'fr', body: 800 }, 640);
   const lines = svg(`<g stroke="${S}" stroke-width="10" stroke-linecap="round"><path d="M40 120 L90 150"/><path d="M60 50 L110 100"/><path d="M360 120 L310 150"/><path d="M340 50 L290 100"/></g>`, {}, root, '0 0 400 200', 760, 380);
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 280, 280);
   return (t) => {
     who.update(t + .5); b.update(t);
     const wow = t > .35;
-    setFig(fr, { who: 'fr', eyes: wow ? 'wide' : 'open', brows: wow ? 'up' : 'normal', mouth: wow ? 'o' : 'smile', look: .7 });
+    setFig(fr, { who: 'fr', body: 800, eyes: wow ? 'wide' : 'open', brows: wow ? 'up' : 'normal', mouth: wow ? 'o' : 'smile', look: .7 });
     const k = pr(t, .3, .7, ease.outBack);
     place(fr, 520, 1060 + (1 - k) * 20, 1, -2 + noise(t, 5) * 1.2);
     place(lines, 520, 720, .8 + .2 * k, 0, clamp((t - .35) / .1));
@@ -164,7 +164,7 @@ SCENES.s3 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, 'Ich: *Lippenpflege.*', { x: 80, y: 210, w: 960, size: 108, t0: 0, step: .07 });
   const steps = ['Lippen zu', 'Tape drüber', 'fertig.'].map((s, i) => label(root, s, { x: [80, 400, 790][i], y: 370, size: 54, bg: i === 2 ? S : C.weiss, color: i === 2 ? C.weiss : S }));
-  const me = fig(root, { who: 'me' }, 680);
+  const me = fig(root, { who: 'me', body: 800 }, 680);
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 300, 300);
   const sp = svg(sparkle(40, 50, 1.2, C.weiss) + sparkle(330, 40, .9, C.weiss) + sparkle(300, 150, .6, C.beere), {}, root, '0 0 360 200', 360, 200);
   const T = [D * .3, D * .52, D * .78];
@@ -172,7 +172,7 @@ SCENES.s3 = { bg: C.rosa, build(root, ctx) {
     head.update(t);
     steps.forEach((s, i) => popIn(s, t, T[i], [-3, 2, -2][i]));
     const closed = t > T[0] + .15, on = pr(t, T[1], T[1] + .7, ease.inOutCubic);
-    setFig(me, { who: 'me', eyes: t > T[2] ? 'happy' : 'open', mouth: closed ? 'lips' : 'smile', tape: on >= 1 ? 1 : 0, look: 0 });
+    setFig(me, { who: 'me', body: 800, eyes: t > T[2] ? 'happy' : 'open', mouth: closed ? 'lips' : 'smile', tape: on >= 1 ? 1 : 0, look: 0 });
     // Kopf: Fokus 1080x1920; Mund liegt bei (200 306)/400 der Figur
     const cx = 540, cy = 1000, FS = 680 / 400;
     place(me, cx, cy + noise(t, 3) * 3, 1, 0);
@@ -284,7 +284,7 @@ SCENES.s7 = { bg: C.rosa, build(root, ctx) {
   const n = note(root, 'jetzt hat sie ihre eigenen.', { x: 100, y: 230, r: -3, t0: 0, size: 80 });
   const head = bigText(root, 'Und ich muss nicht mehr *teilen.*', { x: 80, y: 200, w: 940, size: 110, t0: D * .45, step: .07 });
   const scene = svg('', {}, root, '0 0 1080 900', 1080, 900);
-  const cta = el('div', { left: '90px', top: '1210px', width: '900px', boxSizing: 'border-box', padding: '22px 30px 26px', background: S, color: C.weiss, borderRadius: '60px', fontFamily: F.sans, fontWeight: 700, fontSize: '50px', textAlign: 'center' }, root, 'Markier deine Übernachtungs-Freundin');
+  const cta = el('div', { left: '90px', top: '1210px', width: '900px', boxSizing: 'border-box', padding: '22px 30px 26px', background: S, color: C.weiss, borderRadius: '60px', fontFamily: F.sans, fontWeight: 700, fontSize: '50px', textAlign: 'center' }, root, 'Markier deine<br>Übernachtungs-Freundin');
   const tags = [note(root, 'meins', { x: 170, y: 560, r: -8, t0: .4, size: 66 }), note(root, 'ihrs', { x: 800, y: 560, r: 6, t0: .6, size: 66 })];
   const arm = (sx, sy, hx, hy, col) => `<path d="M${sx} ${sy} Q${sx + (sx < 540 ? 40 : -40)} ${(sy + hy) / 2} ${hx} ${hy + 30}" fill="none" stroke="${col}" stroke-width="58" stroke-linecap="round"/>
     <rect x="${hx - 26}" y="${hy - 34}" width="52" height="62" rx="24" fill="${C.haut}"/>`;
@@ -294,12 +294,12 @@ SCENES.s7 = { bg: C.rosa, build(root, ctx) {
     tags.forEach(tg => { tg.update(t); fadeOut(tg.node, t, D * .38, D * .44); });
     // Anstoßen: Hände gehen zusammen, kleiner Stoß, Funken
     const c = pr(t, D * .42, D * .42 + .5, ease.inCubic);
-    const gap = lerp(200, 70, c), hy = lerp(380, 340, c) + Math.sin(t * 2) * 5;
+    const gap = lerp(200, 42, c), hy = lerp(380, 340, c) + Math.sin(t * 2) * 5;
     const lx = 540 - gap, rx = 540 + gap;
     const burst = c >= 1 ? pr(t, D * .42 + .5, D * .42 + .8, ease.outBack) : 0;
     const happy = c >= 1;
-    const meM = `<g transform="translate(70 380) scale(.9)">${girl({ who: 'me', eyes: happy ? 'happy' : 'open', mouth: 'grin', look: .6 })}</g>`;
-    const frM = `<g transform="translate(650 380) scale(.9)">${girl({ who: 'fr', eyes: happy ? 'happy' : 'open', mouth: happy ? 'laugh' : 'grin', look: -.6 })}</g>`;
+    const meM = `<g transform="translate(70 380) scale(.9)">${girl({ who: 'me', body: 700, eyes: happy ? 'happy' : 'open', mouth: 'grin', look: .6 })}</g>`;
+    const frM = `<g transform="translate(650 380) scale(.9)">${girl({ who: 'fr', body: 700, eyes: happy ? 'happy' : 'open', mouth: happy ? 'laugh' : 'grin', look: -.6 })}</g>`;
     const sparks = burst > 0 ? `<g transform="translate(540 ${hy - 90}) scale(${burst})" opacity="${1 - pr(t, D * .42 + 1.8, D * .42 + 2.4)}">${[0, 1, 2, 3, 4].map(i => { const a = -Math.PI * (0.15 + i / 4 * .7); return `<line x1="${Math.cos(a) * 50}" y1="${Math.sin(a) * 50}" x2="${Math.cos(a) * 95}" y2="${Math.sin(a) * 95}" stroke="${S}" stroke-width="11" stroke-linecap="round"/>`; }).join('')}${sparkle(-120, -60, .9, C.weiss)}${sparkle(130, -50, .7, C.beere)}</g>` : '';
     scene.querySelector('svg').innerHTML = meM + frM
       + arm(352, 760, lx - 30, hy + 30, S) + arm(728, 760, rx + 30, hy + 30, C.rosaTief)

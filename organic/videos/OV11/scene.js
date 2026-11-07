@@ -142,7 +142,7 @@ SCENES.s4 = { bg: C.rosaHell, build(root, ctx) {
   np.page.style.transform = 'rotate(-1deg)';
   drawPath(np.lines, 1); drawPath(np.ul1, 1); drawPath(np.ul2, 1);
   const wd = svg(wand, {}, root, '0 0 300 300', 300, 300);
-  const tag = el('div', { left: 0, top: 0, width: '360px', padding: '22px 0', textAlign: 'center', background: C.rosa, borderRadius: '16px', border: `5px solid ${C.schwarz}`, boxSizing: 'border-box', fontFamily: F.sans, fontWeight: 700, fontSize: '46px', color: C.schwarz }, root, 'Kollagen-Aufbau');
+  const tag = el('div', { left: 0, top: 0, width: '410px', padding: '22px 0', textAlign: 'center', background: C.rosa, borderRadius: '16px', border: `5px solid ${C.schwarz}`, boxSizing: 'border-box', fontFamily: F.sans, fontWeight: 700, fontSize: '44px', color: C.schwarz, whiteSpace: 'nowrap' }, root, 'Wunder über Nacht');
   const st1 = svg(`<path d="M20 200 C90 150 190 90 280 40" fill="none" stroke="${C.beere}" stroke-width="16" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, {}, root, '0 0 300 240', 300, 240);
   const st2 = svg(`<path d="M10 40 C120 30 260 46 400 28" fill="none" stroke="${C.beere}" stroke-width="14" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, {}, root, '0 0 410 70', 410, 70);
   return (t) => {
