@@ -111,7 +111,7 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
     const up = pr(t, .3, 1.2, ease.outBack);
     const down = pr(t, D * .48, D * .6, ease.inCubic);
     place(hand, lerp(1300, 800, up) + down * 520, 940, 1, lerp(20, 0, up) + Math.sin(t * 2.2) * 5 * pr(t, 1.2, 1.6));
-    place(qm, 690, 640, tw(t, 1.3, 1.7, .3, 1, ease.outBack), Math.sin(t * 3) * 6, pr(t, 1.3, 1.45) * (1 - pr(t, D * .5, D * .55)));
+    place(qm, 640, 790, tw(t, 1.3, 1.7, .3, 1, ease.outBack), Math.sin(t * 3) * 6, pr(t, 1.3, 1.45) * (1 - pr(t, D * .5, D * .55)));
     n.update(t);
   };
 }};

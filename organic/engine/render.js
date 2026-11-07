@@ -73,6 +73,7 @@ scenes.forEach((s, i) => {
   });
 });
 
+for (let i = 0; i < captions.length - 1; i++) captions[i].end = Math.min(captions[i].end, captions[i + 1].start);
 const timeline = { scenes, captions, endStart, duration, capY: V.capY, noCaptions: !!V.noCaptions, endcard: V.endcard };
 fs.writeFileSync(path.join(dir, 'timeline.json'), JSON.stringify(timeline, null, 1));
 

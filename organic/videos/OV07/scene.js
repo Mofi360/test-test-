@@ -1,5 +1,7 @@
 /* OV07 – Mein Nachttisch mit 52  [KI] */
-const { el, svg, place, ART, C, F, tw, pr, ease, noise, bigText, note, clamp, lerp } = DT;
+const { el, svg, place, ART, C, F, tw, pr, ease, noise, bigText, clamp, lerp } = DT;
+// Notiz mit etwas Luft rechts, damit die Handschrift beim Aufdecken nicht abgeschnitten wird
+const note = (root, text, o) => { const n = DT.note(root, text, o); n.node.style.paddingRight = '28px'; return n; };
 const S = C.schwarz, WARM = '#FFF1D6', MOND = '#F7E7C6';
 
 // ---------- eigene Illustrationen ----------
@@ -91,7 +93,7 @@ function cameo(root, cx, cy, d) {
 }
 /** Etikett-Pille */
 function pill(root, text, x, y, bg = S, fg = C.weiss) {
-  return el('div', { left: x + 'px', top: y + 'px', padding: '14px 30px 16px', borderRadius: '40px', background: bg, color: fg, fontFamily: F.sans, fontWeight: 700, fontSize: '46px', letterSpacing: '-.5px', whiteSpace: 'nowrap' }, root, text);
+  return el('div', { left: x + 'px', top: y + 'px', padding: '14px 30px 16px', borderRadius: '40px', background: bg, color: fg, fontFamily: F.sans, fontWeight: 700, fontSize: '54px', letterSpacing: '-.5px', whiteSpace: 'nowrap' }, root, text);
 }
 /** Nachttisch + Ablage aufbauen */
 function table(root) {

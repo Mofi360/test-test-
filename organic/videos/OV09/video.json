@@ -1,0 +1,49 @@
+{
+ "id": "OV09",
+ "avatar": "ALT",
+ "titel": "Drei Abende bis zur Frage",
+ "voice_duration": 34.9,
+ "voice_duration_note": "GESCHÄTZT (86 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Mein Mann hat drei Abende gebraucht, bis er gefragt hat."
+  },
+  {
+   "id": "s2",
+   "text": "Abend eins: Er guckt. Sagt nichts. Liest weiter."
+  },
+  {
+   "id": "s3",
+   "text": "Abend zwei: Er guckt länger. Macht das Licht aus."
+  },
+  {
+   "id": "s4",
+   "text": "Abend drei: Schatz, warum klebst du dir den Mund zu?"
+  },
+  {
+   "id": "s5",
+   "text": "Ich so: Das ist Lippenpflege. In der Mitte ist eine Maske mit Kollagen und Hyaluronsäure, und die bleibt die ganze Nacht drauf."
+  },
+  {
+   "id": "s6",
+   "text": "Er: Aha. Und das Loch? Ich: Sicherheitsloch. Er: Aha."
+  },
+  {
+   "id": "s7",
+   "text": "Neulich beim Frühstück hat er gefragt, ob ich was an den Lippen gemacht hab."
+  },
+  {
+   "id": "s8",
+   "text": "Ich hab nur gegrinst."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}
