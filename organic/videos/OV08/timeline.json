@@ -1,0 +1,217 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft.",
+   "start": 0,
+   "dur": 4.761350844277673,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Ich zieh das Tape ab. Langsam und ganz in Ruhe.",
+   "start": 4.761350844277673,
+   "dur": 3.670731707317075,
+   "speakStart": 4.761350844277673
+  },
+  {
+   "id": "s3",
+   "text": "Dann der Blick in den Badspiegel. Und dieses Gefühl: weich.",
+   "start": 8.432082551594748,
+   "dur": 4.574296435272046,
+   "speakStart": 8.432082551594748
+  },
+  {
+   "id": "s4",
+   "text": "Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf.",
+   "start": 13.006378986866794,
+   "dur": 5.421388367729831,
+   "speakStart": 13.006378986866794
+  },
+  {
+   "id": "s5",
+   "text": "Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr.",
+   "start": 18.427767354596625,
+   "dur": 5.477861163227018,
+   "speakStart": 18.427767354596625
+  },
+  {
+   "id": "s6",
+   "text": "Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee.",
+   "start": 23.905628517823644,
+   "dur": 6.7443714821763585,
+   "speakStart": 23.905628517823644
+  }
+ ],
+ "captions": [
+  {
+   "text": "Das Erste, was ich",
+   "start": 0.3,
+   "end": 1.6414436654488003,
+   "rot": -1.6
+  },
+  {
+   "text": "morgens mache, noch",
+   "start": 1.5914436654488002,
+   "end": 2.9915893156907267,
+   "rot": 0
+  },
+  {
+   "text": "bevor der Kaffee",
+   "start": 2.941589315690727,
+   "end": 3.930821072380764,
+   "rot": 1.6
+  },
+  {
+   "text": "läuft.",
+   "start": 3.880821072380764,
+   "end": 4.811350844277673,
+   "rot": -0.8
+  },
+  {
+   "text": "Ich zieh das Tape",
+   "start": 4.761350844277673,
+   "end": 5.817841796283967,
+   "rot": 0.8
+  },
+  {
+   "text": "ab.",
+   "start": 5.767841796283967,
+   "end": 6.528305997700175,
+   "rot": -1.6
+  },
+  {
+   "text": "Langsam und ganz in",
+   "start": 6.478305997700176,
+   "end": 7.653207649942504,
+   "rot": 0
+  },
+  {
+   "text": "Ruhe.",
+   "start": 7.6032076499425045,
+   "end": 8.482082551594749,
+   "rot": 1.6
+  },
+  {
+   "text": "Dann der Blick in",
+   "start": 8.432082551594748,
+   "end": 9.479044595179682,
+   "rot": -0.8
+  },
+  {
+   "text": "den Badspiegel.",
+   "start": 9.42904459517968,
+   "end": 10.886520421417234,
+   "rot": 0.8
+  },
+  {
+   "text": "Und dieses Gefühl:",
+   "start": 10.836520421417234,
+   "end": 12.176706595468325,
+   "rot": -1.6
+  },
+  {
+   "text": "weich.",
+   "start": 12.126706595468324,
+   "end": 13.056378986866795,
+   "rot": 0
+  },
+  {
+   "text": "Die ganze Nacht lag",
+   "start": 13.006378986866794,
+   "end": 14.17601354107187,
+   "rot": 1.6
+  },
+  {
+   "text": "da eine Pflege mit",
+   "start": 14.126013541071869,
+   "end": 15.236719960845097,
+   "rot": -0.8
+  },
+  {
+   "text": "Kollagen,",
+   "start": 15.186719960845096,
+   "end": 16.002785708459093,
+   "rot": 0.8
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 15.952785708459093,
+   "end": 17.004563993800478,
+   "rot": -1.6
+  },
+  {
+   "text": "Vitamin E drauf.",
+   "start": 16.954563993800477,
+   "end": 18.477767354596626,
+   "rot": 0
+  },
+  {
+   "text": "Ich bin 49.",
+   "start": 18.427767354596625,
+   "end": 19.64326972975131,
+   "rot": 1.6
+  },
+  {
+   "text": "Ich hab lange gedacht,",
+   "start": 19.59326972975131,
+   "end": 21.1584228174524,
+   "rot": -0.8
+  },
+  {
+   "text": "für meine Lippen lohnt",
+   "start": 21.1084228174524,
+   "end": 22.440475430122554,
+   "rot": 0.8
+  },
+  {
+   "text": "sich nichts mehr.",
+   "start": 22.390475430122553,
+   "end": 23.955628517823644,
+   "rot": -1.6
+  },
+  {
+   "text": "Aber dieses kleine",
+   "start": 23.905628517823644,
+   "end": 25.018343851270686,
+   "rot": 0
+  },
+  {
+   "text": "Ritual, das gönn ich",
+   "start": 24.968343851270685,
+   "end": 26.435297629200072,
+   "rot": 1.6
+  },
+  {
+   "text": "mir.",
+   "start": 26.38529762920007,
+   "end": 27.202814258911825,
+   "rot": -0.8
+  },
+  {
+   "text": "Jeden Morgen.",
+   "start": 27.152814258911825,
+   "end": 28.501688555347094,
+   "rot": 0.8
+  },
+  {
+   "text": "Und dann erst den",
+   "start": 28.451688555347094,
+   "end": 29.50536414804708,
+   "rot": -1.6
+  },
+  {
+   "text": "Kaffee.",
+   "start": 29.455364148047078,
+   "end": 30.450000000000003,
+   "rot": 0
+  }
+ ],
+ "endStart": 30.650000000000002,
+ "duration": 32.85,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

@@ -158,8 +158,8 @@ SCENES.s3 = { bg: C.rosaHell, build(root, ctx) {
 SCENES.s4 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const head = stepHead(root, 3, 'Einmal leicht *andrücken.*');
-  const L = lens(root, 540, 880, 820);
-  const n = note(root, 'Pflege-Mitte\nauf den Lippen', { x: 60, y: 1180, r: -5, size: 62, t0: D * .6 });
+  const L = lens(root, 540, 850, 760);
+  const n = note(root, 'Pflege-Mitte\nauf den Lippen', { x: 60, y: 1200, r: -5, size: 60, t0: D * .6 });
   return (t) => {
     head.update(t);
     const inK = pr(t, D * .1, D * .3, ease.outCubic), outK = pr(t, D * .5, D * .62, ease.inCubic);
