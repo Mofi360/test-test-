@@ -102,10 +102,10 @@ SCENES.s1 = { bg: C.rosaHell, build(root, ctx) {
     place(fr, lerp(1300, 790, k), 966 + Math.sin(pr(t, .15, 1.0) * Math.PI * 3) * -10 * (1 - k), 1, lerp(10, -2, k));
     const g = pr(t, .9, 1.3, ease.outBack), tw1 = Math.abs(Math.sin(t * 2.6));
     place(sp, 800, 700, g * (.85 + tw1 * .2), Math.sin(t * 1.5) * 8, clamp((t - .9) / .15));
-    place(m1, 340, 1112, 1, 0);
+    place(m1, 440, 1112, 1, 0);
     place(m2, 760, 1112, 1, 0);
     st.querySelector('svg').innerHTML = steam(t);
-    place(st, 330, 990, 1, 0, .8);
+    place(st, 440, 1035, .6, 0, .8);
   };
 }};
 
@@ -197,9 +197,9 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
   const head = bigText(root, 'Was ganz anderes: *Pflege.*', { x: 90, y: 200, w: 920, size: 112, color: C.weiss, accent: C.rosa, t0: .9, step: .07 });
   const stars = svg([[40, 40], [210, 90], [330, 20]].map(([x, y], i) => ART.star(x, y, .8 + i * .2)).join(''), {}, root, '0 0 380 130', 380, 130);
   const moon = svg(ART.moon(), {}, root, '0 0 400 400', 170, 170);
-  const face = svg(ART.face(.5, 0, .15), {}, root, '0 0 400 400', 720, 720);
-  const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 446, 446);
-  const n = note(root, 'abends', { x: 110, y: 560, r: -6, t0: D * .25, size: 74, color: C.rosa });
+  const face = svg(ART.face(.5, 0, .15), {}, root, '0 0 400 400', 600, 600);
+  const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 372, 372);
+  const n = note(root, 'abends', { x: 790, y: 1120, r: -6, t0: D * .25, size: 74, color: C.rosa });
   // Zitat-Karte aus s4 bleibt kurz stehen und rutscht dann weg (mehr Lesezeit)
   const qc = quoteCard(root, QUOTE, 'Kundin in einem Forum', { y: 470, size: 72, t0: -5 });
   return (t) => {
@@ -208,11 +208,11 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
     qc.node.style.transform = `translateY(${qk * 1500}px) rotate(${-1.5 + qk * 8}deg)`; qc.node.style.opacity = qk >= 1 ? 0 : 1;
     place(stars, 800, 560, 1, 0, .6 + Math.sin(t * 2) * .25);
     place(moon, 900, 640, 1, -8 + Math.sin(t) * 3);
-    place(face, 520, 980, 1, 0);
+    place(face, 520, 960 + tw(t, .9, 1.6, 60, 0), 1, 0, pr(t, .9, 1.5));
     // Tape schwebt von oben rechts herein und legt sich exakt auf die Lippen
     const t0 = D * .42, k = pr(t, t0, t0 + 1.0, ease.inOutCubic);
     const land = pr(t, t0 + .95, t0 + 1.3, ease.outBack);
-    const tx = lerp(860, 520, k), ty = lerp(560, 1048, k) - Math.sin(k * Math.PI) * 80;
+    const tx = lerp(860, 520, k), ty = lerp(560, 1017, k) - Math.sin(k * Math.PI) * 80;
     place(tape, tx, ty, lerp(1.25, 1, k) * (1 + (1 - land) * .04 * (land > 0 ? 1 : 0)), lerp(28, 0, k), clamp((t - t0 + .2) / .2));
   };
 }};
@@ -264,6 +264,6 @@ SCENES.s7 = { bg: C.rosaHell, build(root, ctx) {
     const k = pr(t, 0, .9, ease.outBack);
     place(mir, 560, 880, lerp(.9, 1, k), lerp(-18, -6, k) + Math.sin(t * 1.4) * 1.5, clamp(t / .2));
     const h = pr(t, D * .55, D * .55 + .45, ease.outBack);
-    place(heart, 300, 560, h * (1 + Math.sin(t * 5) * .05), 12, clamp((t - D * .55) / .1));
+    place(heart, 840, 930, h * (1 + Math.sin(t * 5) * .05), 12, clamp((t - D * .55) / .1));
   };
 }};

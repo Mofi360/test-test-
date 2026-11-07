@@ -9,12 +9,49 @@
   "voice_id": "MOOG1hZESAxDt4UaletY"
  },
  "scenes": [
-  {"id": "s1", "text": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft."},
-  {"id": "s2", "text": "Ich zieh das Tape ab. Langsam und ganz in Ruhe."},
-  {"id": "s3", "text": "Dann der Blick in den Badspiegel. Und dieses Gefühl: weich."},
-  {"id": "s4", "text": "Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf."},
-  {"id": "s5", "text": "Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr."},
-  {"id": "s6", "text": "Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee."}
+  {
+   "id": "s1",
+   "text": "Das Erste, was ich morgens mache, noch bevor der Kaffee läuft."
+  },
+  {
+   "id": "s2",
+   "text": "Ich zieh das Tape ab. Langsam und ganz in Ruhe."
+  },
+  {
+   "id": "s3",
+   "text": "Dann der Blick in den Badspiegel. Und dieses Gefühl: weich."
+  },
+  {
+   "id": "s4",
+   "text": "Die ganze Nacht lag da eine Pflege mit Kollagen, Hyaluronsäure und Vitamin E drauf."
+  },
+  {
+   "id": "s5",
+   "text": "Ich bin 49. Ich hab lange gedacht, für meine Lippen lohnt sich nichts mehr."
+  },
+  {
+   "id": "s6",
+   "text": "Aber dieses kleine Ritual, das gönn ich mir. Jeden Morgen. Und dann erst den Kaffee."
+  }
  ],
- "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  1.0,
+  4.9,
+  7.6,
+  10.5,
+  12.6,
+  15,
+  18,
+  20,
+  23,
+  26,
+  29.3,
+  30.6,
+  32
+ ]
 }

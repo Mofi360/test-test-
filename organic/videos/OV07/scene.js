@@ -104,9 +104,9 @@ const pop = (t, t0) => pr(t, t0, t0 + .45, ease.outBack);
 // ---------- s1: Nachttisch, Brille + Krimi ----------
 SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
-  const hook = bigText(root, 'Mein Nachttisch mit *52.*', { y: 220, size: 124, w: 820 });
+  const hook = bigText(root, 'Mein Nachttisch mit *52.*', { y: 220, size: 110, w: 900 });
   hook.update(10); // statisch ab Frame 0
-  const sub = note(root, 'Ein Teil überrascht.', { x: 110, y: 492, r: -3, size: 76 });
+  const sub = note(root, 'Ein Teil überrascht.', { x: 110, y: 470, r: -3, size: 76 });
   sub.update(10);
   table(root);
   const bk = svg(book, {}, root, '0 0 300 120', 300*Z, 120*Z);
@@ -132,7 +132,7 @@ SCENES.s2 = { bg: C.rosaHell, build(root, ctx) {
   const gl = svg(glasses, {}, root, '0 0 260 120', 220*Z, 102*Z);
   const cr = svg(cream, {}, root, '0 0 140 300', 140*Z, 300*Z);
   const bx = svg(box(), {}, root, '0 0 240 180', 240*Z, 180*Z);
-  const mand = note(root, 'riecht nach Mandel', { x: 110, y: 470, r: -4, size: 72, t0: .35, arrow: [330, 140], ax: 300, ay: 80 });
+  const mand = note(root, 'riecht nach Mandel', { x: 90, y: 500, r: -4, size: 72, t0: .35, arrow: [170, 80], ax: 280, ay: 75 });
   return (t) => {
     head.update(t);
     place(bk, 350, TOP - 40*Z); place(gl, 340, TOP - 131*Z, 1, -4);
@@ -153,7 +153,7 @@ SCENES.s3 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
   const l1 = bigText(root, '30 Stück.', { y: 210, size: 130, t0: .05, step: .07 });
   const l2 = bigText(root, '30 *Nächte.*', { y: 345, size: 130, t0: D * .55, step: .08 });
-  const N = 30, R = 520, cx = 540, cy = 1200;
+  const N = 30, R = 480, cx = 540, cy = 1200;
   const tapes = Array.from({ length: N }, () => svg(ART.tape(true), {}, root, '0 0 400 400', 215, 215));
   const lid = svg(box('lid'), {}, root, '0 0 240 180', 440, 330);
   const base = svg(boxOpen, {}, root, '0 0 240 180', 440, 330);
@@ -167,7 +167,7 @@ SCENES.s3 = { bg: C.weiss, build(root, ctx) {
     tapes.forEach((tp, i) => {
       const k = pr(t, .45 + i * .045, .45 + i * .045 + .5, ease.outBack);
       if (k > .5) shown++;
-      const a = lerp(-64, 64, i / (N - 1)) * Math.PI / 180;
+      const a = lerp(-55, 55, i / (N - 1)) * Math.PI / 180;
       const r = R * k + noise(t, i) * 3 * k;
       place(tp, cx + Math.sin(a) * r, cy - 20 - Math.cos(a) * r, lerp(.3, 1, clamp(k)), a * 180 / Math.PI + 90, clamp(k * 4));
     });
@@ -191,12 +191,12 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
     head.update(t); klapp.update(t);
     const kc = pr(t, .3, .75, ease.inOutCubic);
     bk.querySelector('svg').innerHTML = openBook(kc);
-    const out = pr(t, 1.6, 2.1, ease.inCubic);
+    const out = pr(t, 1.1, 1.5, ease.inCubic);
     place(bk, 540, 600 + out * 60, 1 - out * .2, 0, 1 - out);
     klapp.node.style.opacity = Math.min(+klapp.node.style.opacity, 1 - out);
     // Tape legt sich über die Lippen
     const d = pr(t, D * .22, D * .45, ease.outCubic);
-    place(tape, 540, lerp(640, 1032, d) + noise(t, 3) * 6 * (1 - d), lerp(1.1, 1, d), lerp(-14, 0, d) + noise(t, 1) * 2 * (1 - d), pr(t, D * .18, D * .26));
+    place(tape, 540, lerp(640, 1032, d) + noise(t, 3) * 6 * (1 - d), lerp(1.1, 1, d), lerp(-14, 0, d) + noise(t, 1) * 2 * (1 - d), pr(t, D * .22, D * .28));
     // Labels zur Pflege-Mitte
     const a1 = pop(t, T1), a2 = pop(t, T2);
     place(p1, 300, 690, lerp(.4, 1, a1), -3, clamp(a1 * 3));
@@ -251,8 +251,8 @@ SCENES.s5 = { bg: C.rosa, build(root, ctx) {
 SCENES.s6 = { bg: C.rosaHell, build(root, ctx) {
   const D = ctx.dur, TC = D * .55;
   const light = svg(`<path d="M640 0 L1080 0 L1080 520 L260 1340 L40 1340Z" fill="${WARM}"/>`, { left: 0, top: 0 }, root, '0 0 1080 1920', 1080, 1920);
-  const n1 = note(root, 'morgens: Lippen weich.', { x: 110, y: 230, r: -3, size: 80, t0: .3 });
-  const head = bigText(root, 'Mein *Lieblingsteil.*', { y: 380, size: 124, t0: TC - .5, step: .08 });
+  const n1 = note(root, 'Lippen: weich.', { x: 110, y: 480, r: -4, size: 84, t0: .3 });
+  const head = bigText(root, 'Mein *Lieblingsteil.*', { y: 220, size: 124, t0: TC - .5, step: .08 });
   table(root);
   const bk = svg(book, {}, root, '0 0 300 120', 300*Z, 120*Z);
   const gl = svg(glasses, {}, root, '0 0 260 120', 220*Z, 102*Z);

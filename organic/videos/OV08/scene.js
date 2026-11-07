@@ -84,17 +84,17 @@ function pill(root, text, dark) {
 // ---------- s1: Hook – Morgen ----------
 SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
-  const hook = bigText(root, 'Das Erste, was ich *morgens* mache', { y: 200, size: 124 });
+  const hook = bigText(root, 'Das Erste, was ich *morgens* mache', { y: 200, size: 118 });
   hook.update(99);
   const win = svg('', {}, root, '0 0 600 700', 560, 653);
   const clk = svg('', {}, root, '0 0 400 400', 330, 330);
-  const n = note(root, 'noch vor dem Kaffee.', { x: 90, y: 1200, r: -4, t0: D * .55, size: 76 });
+  const n = note(root, 'noch vor dem Kaffee.', { x: 90, y: 1268, r: -3, t0: D * .55, size: 72 });
   return (t) => {
     win.querySelector('svg').innerHTML = windowSun(pr(t, 0, D * .9, ease.inOutSine) * .9 + .1);
-    place(win, 470, 870);
+    place(win, 470, 930);
     const ring = 1 - pr(t, .8, 1.8, ease.lin);
     clk.querySelector('svg').innerHTML = alarm(ring, t);
-    place(clk, 820, 1110 - Math.abs(Math.sin(t * 30)) * 10 * ring, 1, Math.sin(t * 45) * 7 * ring);
+    place(clk, 830, 1150 - Math.abs(Math.sin(t * 30)) * 10 * ring, 1, Math.sin(t * 45) * 7 * ring);
     n.update(t);
   };
 }};
@@ -104,7 +104,7 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, '*Langsam* abziehen.', { y: 220, size: 132, t0: 0, step: .08 });
   const lips = svg(ART.lips(.6), {}, root, '0 0 400 400', 920, 920);
-  const tape = svg(ART.tape(true), { transformOrigin: '12% 50%' }, root, '0 0 400 400', 700, 700);
+  const tape = svg(ART.tape(true), { transformOrigin: '12% 50%' }, root, '0 0 400 400', 580, 580);
   const fing = svg(finger, {}, root, '0 0 400 160', 380, 152);
   const n = note(root, 'ganz in Ruhe.', { x: 560, y: 1170, r: -5, t0: D * .55, size: 82, color: C.beere });
   return (t) => {
@@ -112,13 +112,13 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
     place(lips, 540, 860, 1, 0);
     const k = pr(t, .5, D * .82, ease.inOutSine);
     // Tape dreht sich um sein linkes Ende nach oben und hebt sich
-    const ang = -k * 32, lift = k * 120;
+    const ang = -k * 24, lift = k * 70;
     tape.style.left = '0px'; tape.style.top = '0px';
-    tape.style.transform = `translate(${540 - 350 + k * 40}px, ${880 - 350 - lift}px) rotate(${ang}deg)`;
+    tape.style.transform = `translate(${540 - 290 + k * 30}px, ${880 - 290 - lift}px) rotate(${ang}deg)`;
     tape.style.opacity = 1;
     // Finger hält das rechte Ende: Ende liegt bei 12%-Pivot + Länge
-    const px = 540 - 350 + .12 * 700 + k * 40, py = 880 - lift;
-    const L = (340 - 24) * 700 / 400 * .88; // Abstand Pivot -> rechtes Ende
+    const px = 540 - 290 + .12 * 580 + k * 30, py = 880 - lift;
+    const L = (340 - 24) * 580 / 400 * .88; // Abstand Pivot -> rechtes Ende
     const a = ang * Math.PI / 180;
     const ex = px + Math.cos(a) * L, ey = py + Math.sin(a) * L;
     place(fing, ex + 150, ey + 20, 1, ang * .6, pr(t, .1, .4));
@@ -148,7 +148,7 @@ SCENES.s3 = { bg: C.rosaHell, build(root, ctx) {
         ${[[160, 180, 60], [330, 130, 80], [430, 300, 70], [200, 520, 90], [420, 560, 60], [300, 400, 110]].map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" opacity=".55"/>`).join('')}
         ${drips}
       </g>
-      <g clip-path="url(#ov8wr)"><text x="300" y="450" text-anchor="middle" font-family="Caveat, cursive" font-weight="700" font-size="210" fill="${C.beere}">weich.</text></g>`;
+      <g clip-path="url(#ov8wr)"><text x="300" y="450" text-anchor="middle" font-family="Caveat, cursive" font-weight="700" font-size="178" fill="${C.beere}">weich.</text></g>`;
     place(mir, 540, 900);
     // Finger folgt der Schreibkante
     const fx = 540 - 310 + (100 + 400 * wk) * 620 / 600, fy = 900 - 392 + (400 + Math.sin(wk * 30) * 30) * 785 / 760;
