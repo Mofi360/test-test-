@@ -56,7 +56,7 @@ function closeup(o = {}) {
   if (T) {
     const lift = T.lift ?? 0;
     const shadow = lift > 0 ? `<ellipse cx="${400 + (T.x ?? 0) * .6}" cy="${430 + (T.y ?? 0) * .3}" rx="${250 * (1 - lift * .3)}" ry="${40}" fill="${C.schwarz}" opacity="${.12 * (1 - lift)}"/>` : '';
-    const peel = o.peel ? `translate(646 405) rotate(${-o.peel}) translate(-646 -405)` : '';
+    const peel = o.peel ? `translate(646 405) rotate(${o.peel}) translate(-646 -405)` : '';
     tapeSvg = shadow + `<g opacity="${T.o ?? 1}" transform="${peel} translate(${400 + (T.x ?? 0)} ${405 + (T.y ?? 0)}) rotate(${T.r ?? 0}) scale(${1.45 * (T.s ?? 1)}) translate(-200 -200)">${ART.tape(true)}</g>`;
   }
   const g = o.glow ?? 0;
@@ -104,12 +104,13 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const she = svg(lady({ brows: 'up' }), {}, root, '0 0 400 480', 600, 720);
   const hand = svg(handTape(), {}, root, '0 0 300 360', 390, 468);
   const qm = svg(`<path d="M30 40 C30 10 80 6 82 36 C84 60 54 62 54 86" fill="none" stroke="${C.schwarz}" stroke-width="10" stroke-linecap="round"/><circle cx="54" cy="112" r="7" fill="${C.schwarz}"/>`, {}, root, '0 0 110 130', 110, 130);
-  const n = note(root, 'so geht’s richtig:', { x: 120, y: 1220, r: -4, size: 86, t0: D * .55 });
+  const n = note(root, 'so geht’s\nrichtig:', { x: 640, y: 880, r: -5, size: 96, t0: D * .58 });
   return (t) => {
-    place(she, 400, 1010 + noise(t, 2) * 3, 1, noise(t, 1) * .8);
+    place(she, 380, 960 + noise(t, 2) * 3, .9, noise(t, 1) * .8);
     // Hand kommt hoch, Tape wird neugierig gedreht
     const up = pr(t, .3, 1.2, ease.outBack);
-    place(hand, 800, lerp(1500, 940, up), 1, lerp(20, 0, up) + Math.sin(t * 2.2) * 5 * pr(t, 1.2, 1.6));
+    const down = pr(t, D * .48, D * .6, ease.inCubic);
+    place(hand, lerp(1300, 800, up) + down * 520, 940, 1, lerp(20, 0, up) + Math.sin(t * 2.2) * 5 * pr(t, 1.2, 1.6));
     place(qm, 690, 640, tw(t, 1.3, 1.7, .3, 1, ease.outBack), Math.sin(t * 3) * 6, pr(t, 1.3, 1.45) * (1 - pr(t, D * .5, D * .55)));
     n.update(t);
   };
@@ -158,7 +159,7 @@ SCENES.s4 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const head = stepHead(root, 3, 'Einmal leicht *andrücken.*');
   const L = lens(root, 540, 880, 820);
-  const n = note(root, 'Pflege-Mitte\nauf den Lippen', { x: 600, y: 1200, r: -4, size: 66, t0: D * .6 });
+  const n = note(root, 'Pflege-Mitte\nauf den Lippen', { x: 60, y: 1180, r: -5, size: 62, t0: D * .6 });
   return (t) => {
     head.update(t);
     const inK = pr(t, D * .1, D * .3, ease.outCubic), outK = pr(t, D * .5, D * .62, ease.inCubic);
@@ -176,14 +177,16 @@ SCENES.s5 = { bg: C.weiss, build(root, ctx) {
   const head = bigText(root, 'Das *kleine* *Loch* in der Mitte', { x: 90, y: 220, w: 900, size: 112, t0: 0, step: .06 });
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 900, 900);
   const ring = svg(`<ellipse cx="100" cy="100" rx="66" ry="54" transform="rotate(-8 100 100)" fill="none" stroke="${C.beere}" stroke-width="9" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, {}, root, '0 0 200 200', 200, 200);
-  const n = note(root, 'genau hier', { x: 180, y: 1150, r: -5, size: 84, t0: D * .5, arrow: [210, -170], ax: 230, ay: -150 });
+  const n = note(root, 'genau hier', { x: 130, y: 1170, r: -5, size: 88, t0: D * .5 });
+  const arr = svg(`<path d="M10 150 C40 90 70 50 120 20" fill="none" stroke="${C.schwarz}" stroke-width="8" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/><path d="M84 18 L122 18 L108 54" fill="none" stroke="${C.schwarz}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>`, {}, root, '0 0 140 170', 140, 170);
   return (t) => {
     head.update(t);
     const z = tw(t, D * .1, D * .45, 1, 1.75, ease.inOutCubic);
     place(tape, 540, 880, z, tw(t, 0, D * .45, -6, 0, ease.inOutCubic));
     const a = pr(t, D * .42, D * .42 + .6, ease.inOutCubic);
-    drawPath(ring, a); place(ring, 540, 880, 1.15 + .04 * Math.sin(t * 3) * a);
+    drawPath(ring, a); place(ring, 540, 880, 1.6 + .05 * Math.sin(t * 3) * a);
     n.update(t);
+    const b = pr(t, D * .6, D * .6 + .5); drawPath(arr, b); place(arr, 440, 1050, 1, 0, b > 0 ? 1 : 0); arr.querySelectorAll('path')[1].setAttribute('opacity', b > .95 ? 1 : 0);
   };
 }};
 
@@ -192,12 +195,12 @@ SCENES.s6 = { bg: C.rosaHell, build(root, ctx) {
   const D = ctx.dur;
   const sun = svg(`<circle cx="200" cy="200" r="96" fill="${SUN}"/>${Array.from({ length: 10 }, (_, i) => { const a = i / 10 * Math.PI * 2; return `<path d="M${200 + Math.cos(a) * 124} ${200 + Math.sin(a) * 124} L${200 + Math.cos(a) * 164} ${200 + Math.sin(a) * 164}" stroke="${SUN}" stroke-width="16" stroke-linecap="round"/>`; }).join('')}`, {}, root, '0 0 400 400', 360, 360);
   const head = stepHead(root, 4, 'Morgens *langsam* abziehen.');
-  const L = lens(root, 520, 900, 780);
+  const L = lens(root, 520, 870, 740);
   const snail = svg(`<path d="M20 150 C20 120 60 112 110 112 L230 112 C262 112 280 130 280 150 Z" fill="#fff" stroke="${C.schwarz}" stroke-width="6" stroke-linejoin="round"/>
       <path d="M230 116 L246 60 M258 120 L284 70" stroke="${C.schwarz}" stroke-width="6" stroke-linecap="round"/><circle cx="246" cy="58" r="9" fill="${C.schwarz}"/><circle cx="285" cy="68" r="9" fill="${C.schwarz}"/>
       <circle cx="130" cy="78" r="70" fill="${C.rosaTief}" stroke="${C.schwarz}" stroke-width="6"/>
       <path d="M130 78 C130 66 148 66 148 80 C148 98 118 100 114 80 C108 54 148 42 162 66 C178 94 156 126 124 124 C88 122 72 88 84 62" fill="none" stroke="${C.schwarz}" stroke-width="6" stroke-linecap="round"/>`, {}, root, '0 0 300 160', 240, 128);
-  const n = note(root, 'ganz in Ruhe', { x: 110, y: 1225, r: -4, size: 72, t0: D * .6 });
+  const n = note(root, 'ganz in Ruhe', { x: 90, y: 1255, r: -4, size: 72, t0: D * .6 });
   return (t) => {
     place(sun, 900, tw(t, 0, D * .5, 720, 560, ease.outCubic), 1, t * 6);
     head.update(t);
@@ -211,7 +214,7 @@ SCENES.s6 = { bg: C.rosaHell, build(root, ctx) {
 // s7: Vier Kärtchen stapeln sich, Speichern-Symbol
 SCENES.s7 = { bg: C.nacht, build(root, ctx) {
   const D = ctx.dur;
-  const stars = svg([[30, 40], [360, 70], [380, 300], [20, 330]].map(([x, y], i) => ART.star(x, y, .9 + (i % 2) * .4)).join(''), {}, root, '0 0 400 400', 1000, 1000);
+  const stars = svg([[385, 170], [12, 420], [330, 440]].map(([x, y], i) => ART.star(x, y, .9 + (i % 2) * .4)).join(''), {}, root, '0 0 400 400', 1000, 1000);
   const head = bigText(root, 'Speichern für *heute* *Abend.*', { x: 90, y: 220, w: 700, size: 110, color: C.weiss, accent: C.rosa, t0: 0, step: .06 });
   const steps = ['Sauber und trocken', 'Lippen zu, auflegen', 'Leicht andrücken', 'Morgens langsam ab'];
   const cards = steps.map((s, i) => {

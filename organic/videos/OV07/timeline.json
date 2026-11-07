@@ -1,0 +1,241 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Mein Nachttisch mit 52. Lesebrille. Ein Krimi, den ich nie fertig kriege.",
+   "start": 0,
+   "dur": 6.0777777777777775,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Eine Handcreme, die nach Mandel riecht. Und eine kleine rosa Schachtel.",
+   "start": 6.0777777777777775,
+   "dur": 5.166666666666668,
+   "speakStart": 6.0777777777777775
+  },
+  {
+   "id": "s3",
+   "text": "Da sind dreißig Tapes drin. Eins für jede Nacht.",
+   "start": 11.244444444444445,
+   "dur": 3.666666666666666,
+   "speakStart": 11.244444444444445
+  },
+  {
+   "id": "s4",
+   "text": "Bevor ich das Buch weglege, kommt eins über die Lippen. In der Mitte Pflege mit Kollagen und Vitamin E.",
+   "start": 14.911111111111111,
+   "dur": 6.944444444444443,
+   "speakStart": 14.911111111111111
+  },
+  {
+   "id": "s5",
+   "text": "Früher lag da ein Lippenbalsam, und die Pflege war morgens im Kissen. Jetzt bleibt sie, wo sie hin soll.",
+   "start": 21.855555555555554,
+   "dur": 7.222222222222221,
+   "speakStart": 21.855555555555554
+  },
+  {
+   "id": "s6",
+   "text": "Morgens zieh ich es langsam ab, und meine Lippen fühlen sich weich an. Das ist mein Lieblingsteil auf dem Nachttisch.",
+   "start": 29.077777777777776,
+   "dur": 7.972222222222221,
+   "speakStart": 29.077777777777776
+  }
+ ],
+ "captions": [
+  {
+   "text": "Mein Nachttisch mit",
+   "start": 0.3,
+   "end": 1.4477777777777778,
+   "rot": -1.6
+  },
+  {
+   "text": "52.",
+   "start": 1.3977777777777778,
+   "end": 2.141111111111111,
+   "rot": 0
+  },
+  {
+   "text": "Lesebrille.",
+   "start": 2.091111111111111,
+   "end": 3.2966666666666664,
+   "rot": 1.6
+  },
+  {
+   "text": "Ein Krimi, den ich",
+   "start": 3.2466666666666666,
+   "end": 4.567777777777777,
+   "rot": -0.8
+  },
+  {
+   "text": "nie fertig kriege.",
+   "start": 4.517777777777777,
+   "end": 6.127777777777777,
+   "rot": 0.8
+  },
+  {
+   "text": "Eine Handcreme, die",
+   "start": 6.0777777777777775,
+   "end": 7.448148148148148,
+   "rot": -1.6
+  },
+  {
+   "text": "nach Mandel riecht.",
+   "start": 7.398148148148148,
+   "end": 9.055555555555557,
+   "rot": 0
+  },
+  {
+   "text": "Und eine kleine rosa",
+   "start": 9.005555555555556,
+   "end": 10.203703703703706,
+   "rot": 1.6
+  },
+  {
+   "text": "Schachtel.",
+   "start": 10.153703703703705,
+   "end": 11.294444444444446,
+   "rot": -0.8
+  },
+  {
+   "text": "Da sind dreißig Tapes",
+   "start": 11.244444444444445,
+   "end": 12.497569444444446,
+   "rot": 0.8
+  },
+  {
+   "text": "drin.",
+   "start": 12.447569444444445,
+   "end": 13.29965277777778,
+   "rot": -1.6
+  },
+  {
+   "text": "Eins für jede Nacht.",
+   "start": 13.24965277777778,
+   "end": 14.961111111111112,
+   "rot": 0
+  },
+  {
+   "text": "Bevor ich das Buch",
+   "start": 14.911111111111111,
+   "end": 16.002777777777776,
+   "rot": 1.6
+  },
+  {
+   "text": "weglege, kommt eins",
+   "start": 15.952777777777778,
+   "end": 17.333796296296295,
+   "rot": -0.8
+  },
+  {
+   "text": "über die Lippen.",
+   "start": 17.283796296296295,
+   "end": 18.780555555555555,
+   "rot": 0.8
+  },
+  {
+   "text": "In der Mitte Pflege",
+   "start": 18.730555555555554,
+   "end": 19.880092592592593,
+   "rot": -1.6
+  },
+  {
+   "text": "mit Kollagen und",
+   "start": 19.830092592592592,
+   "end": 20.806018518518517,
+   "rot": 0
+  },
+  {
+   "text": "Vitamin E.",
+   "start": 20.756018518518516,
+   "end": 21.905555555555555,
+   "rot": 1.6
+  },
+  {
+   "text": "Früher lag da ein",
+   "start": 21.855555555555554,
+   "end": 22.887777777777778,
+   "rot": -0.8
+  },
+  {
+   "text": "Lippenbalsam, und die",
+   "start": 22.837777777777777,
+   "end": 24.33222222222222,
+   "rot": 0.8
+  },
+  {
+   "text": "Pflege war morgens im",
+   "start": 24.28222222222222,
+   "end": 25.545555555555556,
+   "rot": -1.6
+  },
+  {
+   "text": "Kissen.",
+   "start": 25.495555555555555,
+   "end": 26.47,
+   "rot": 0
+  },
+  {
+   "text": "Jetzt bleibt sie, wo",
+   "start": 26.419999999999998,
+   "end": 27.856666666666666,
+   "rot": 1.6
+  },
+  {
+   "text": "sie hin soll.",
+   "start": 27.806666666666665,
+   "end": 29.127777777777776,
+   "rot": -0.8
+  },
+  {
+   "text": "Morgens zieh ich es",
+   "start": 29.077777777777776,
+   "end": 30.23095238095238,
+   "rot": 0.8
+  },
+  {
+   "text": "langsam ab, und meine",
+   "start": 30.18095238095238,
+   "end": 31.682497911445278,
+   "rot": -1.6
+  },
+  {
+   "text": "Lippen fühlen sich",
+   "start": 31.632497911445277,
+   "end": 32.72761069340016,
+   "rot": 0
+  },
+  {
+   "text": "weich an.",
+   "start": 32.67761069340016,
+   "end": 33.77272347535505,
+   "rot": 1.6
+  },
+  {
+   "text": "Das ist mein",
+   "start": 33.72272347535505,
+   "end": 34.46946532999164,
+   "rot": -0.8
+  },
+  {
+   "text": "Lieblingsteil auf dem",
+   "start": 34.419465329991645,
+   "end": 35.68876357560568,
+   "rot": 0.8
+  },
+  {
+   "text": "Nachttisch.",
+   "start": 35.63876357560568,
+   "end": 36.849999999999994,
+   "rot": -1.6
+  }
+ ],
+ "endStart": 37.05,
+ "duration": 39.25,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

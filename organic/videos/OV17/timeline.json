@@ -1,0 +1,254 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Meine beste Freundin kam Samstag aus dem Studio. Frisch gemachte Lippen.",
+   "start": 0,
+   "dur": 5.267889908256881,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Alle in der Gruppe: Wow. Und ich dachte nur: Ich trau mich das nie.",
+   "start": 5.267889908256881,
+   "dur": 5.13348623853211,
+   "speakStart": 5.267889908256881
+  },
+  {
+   "id": "s3",
+   "text": "Ich hab Angst vor dem Schmerz. Und davor, dass es unecht aussieht.",
+   "start": 10.40137614678899,
+   "dur": 4.857492354740062,
+   "speakStart": 10.40137614678899
+  },
+  {
+   "id": "s4",
+   "text": "Damit bin ich nicht allein.",
+   "start": 15.258868501529053,
+   "dur": 1.9871559633027527,
+   "speakStart": 15.258868501529053
+  },
+  {
+   "id": "s5",
+   "text": "Ich mache was ganz anderes: Pflege. Abends kommt ein Tape über die geschlossenen Lippen.",
+   "start": 17.246024464831805,
+   "dur": 6.071865443425075,
+   "speakStart": 17.246024464831805
+  },
+  {
+   "id": "s6",
+   "text": "In der Mitte sind Kollagen, Hyaluronsäure und Vitamin E. Das spendet den Lippen über Nacht Feuchtigkeit.",
+   "start": 23.31788990825688,
+   "dur": 6.955045871559637,
+   "speakStart": 23.31788990825688
+  },
+  {
+   "id": "s7",
+   "text": "Morgens fühlen sie sich weich an. Und sie sehen nach mir aus. Genau so will ich das.",
+   "start": 30.272935779816518,
+   "dur": 6.377064220183481,
+   "speakStart": 30.272935779816518
+  }
+ ],
+ "captions": [
+  {
+   "text": "Meine beste Freundin",
+   "start": 0.3,
+   "end": 1.5053232344783445,
+   "rot": -1.6
+  },
+  {
+   "text": "kam Samstag aus dem",
+   "start": 1.4553232344783444,
+   "end": 2.602880307232771,
+   "rot": 0
+  },
+  {
+   "text": "Studio.",
+   "start": 2.5528803072327713,
+   "end": 3.527138894815447,
+   "rot": 1.6
+  },
+  {
+   "text": "Frisch gemachte",
+   "start": 3.477138894815447,
+   "end": 4.393631320674205,
+   "rot": -0.8
+  },
+  {
+   "text": "Lippen.",
+   "start": 4.343631320674205,
+   "end": 5.3178899082568805,
+   "rot": 0.8
+  },
+  {
+   "text": "Alle in der Gruppe:",
+   "start": 5.267889908256881,
+   "end": 6.644521183383156,
+   "rot": -1.6
+  },
+  {
+   "text": "Wow.",
+   "start": 6.594521183383156,
+   "end": 7.39435625193279,
+   "rot": 0
+  },
+  {
+   "text": "Und ich dachte nur:",
+   "start": 7.3443562519327905,
+   "end": 8.720987527059066,
+   "rot": 1.6
+  },
+  {
+   "text": "Ich trau mich das",
+   "start": 8.670987527059065,
+   "end": 9.701541078239357,
+   "rot": -0.8
+  },
+  {
+   "text": "nie.",
+   "start": 9.651541078239356,
+   "end": 10.451376146788991,
+   "rot": 0.8
+  },
+  {
+   "text": "Ich hab Angst vor",
+   "start": 10.40137614678899,
+   "end": 11.422874617737003,
+   "rot": -1.6
+  },
+  {
+   "text": "dem Schmerz.",
+   "start": 11.372874617737002,
+   "end": 12.622960964202196,
+   "rot": 0
+  },
+  {
+   "text": "Und davor, dass es",
+   "start": 12.572960964202196,
+   "end": 13.880194279546682,
+   "rot": 1.6
+  },
+  {
+   "text": "unecht aussieht.",
+   "start": 13.830194279546681,
+   "end": 15.308868501529053,
+   "rot": -0.8
+  },
+  {
+   "text": "Ich mache was ganz",
+   "start": 17.246024464831805,
+   "end": 18.327095955224742,
+   "rot": 0.8
+  },
+  {
+   "text": "anderes: Pflege.",
+   "start": 18.27709595522474,
+   "end": 19.9882666897467,
+   "rot": -1.6
+  },
+  {
+   "text": "Abends kommt ein Tape",
+   "start": 19.938266689746698,
+   "end": 21.19118342853846,
+   "rot": 0
+  },
+  {
+   "text": "über die geschlossenen",
+   "start": 21.141183428538458,
+   "end": 22.451381916796493,
+   "rot": 1.6
+  },
+  {
+   "text": "Lippen.",
+   "start": 22.401381916796492,
+   "end": 23.36788990825688,
+   "rot": -0.8
+  },
+  {
+   "text": "In der Mitte sind",
+   "start": 23.31788990825688,
+   "end": 24.353188073394495,
+   "rot": 0.8
+  },
+  {
+   "text": "Kollagen,",
+   "start": 24.303188073394494,
+   "end": 25.10665137614679,
+   "rot": -1.6
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 25.05665137614679,
+   "end": 26.091949541284407,
+   "rot": 0
+  },
+  {
+   "text": "Vitamin E.",
+   "start": 26.041949541284406,
+   "end": 27.19316513761468,
+   "rot": 1.6
+  },
+  {
+   "text": "Das spendet den Lippen",
+   "start": 27.14316513761468,
+   "end": 28.46825688073395,
+   "rot": -0.8
+  },
+  {
+   "text": "über Nacht",
+   "start": 28.41825688073395,
+   "end": 29.047844036697253,
+   "rot": 0.8
+  },
+  {
+   "text": "Feuchtigkeit.",
+   "start": 28.997844036697252,
+   "end": 30.322935779816518,
+   "rot": -1.6
+  },
+  {
+   "text": "Morgens fühlen sie",
+   "start": 30.272935779816518,
+   "end": 31.363380647394845,
+   "rot": 0
+  },
+  {
+   "text": "sich weich an.",
+   "start": 31.313380647394844,
+   "end": 32.692837978189374,
+   "rot": 1.6
+  },
+  {
+   "text": "Und sie sehen nach",
+   "start": 32.64283797818938,
+   "end": 33.7332828457677,
+   "rot": -0.8
+  },
+  {
+   "text": "mir aus.",
+   "start": 33.6832828457677,
+   "end": 34.715925220702786,
+   "rot": 0.8
+  },
+  {
+   "text": "Genau so will ich",
+   "start": 34.66592522070279,
+   "end": 35.69856759563787,
+   "rot": -1.6
+  },
+  {
+   "text": "das.",
+   "start": 35.64856759563787,
+   "end": 36.449999999999996,
+   "rot": 0
+  }
+ ],
+ "endStart": 36.65,
+ "duration": 38.85,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}
