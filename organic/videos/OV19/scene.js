@@ -130,7 +130,7 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
   const D = ctx.dur;
   const h1 = bigText(root, 'Teil der Pflege.', { x: 90, y: 200, w: 900, size: 120, color: C.weiss, t0: D * .34, step: .07 });
   const h2 = bigText(root, '*Punkt.*', { x: 90, y: 330, w: 900, size: 120, color: C.weiss, accent: C.rosa, t0: D * .78, step: .07 });
-  const stars = svg([[60, 40, 1], [940, 90, .7], [990, 1180, .9], [80, 1250, .6], [880, 520, .5]].map(([x, y, s]) => ART.star(x, y, s * 1.6)).join(''), { left: 0, top: 0 }, root, '0 0 1080 1300', 1080, 1300);
+  const stars = svg([[60, 520, .8], [990, 470, .7], [990, 1180, .9], [80, 1250, .6], [880, 520, .5]].map(([x, y, s]) => ART.star(x, y, s * 1.6)).join(''), { left: 0, top: 0 }, root, '0 0 1080 1300', 1080, 1300);
   const moon = svg(ART.moon(), {}, root, '0 0 400 400', 150, 150);
   const pad = el('div', { left: 0, top: 0, width: '840px', height: '400px', borderRadius: '200px', background: C.rosaTief, boxShadow: `inset 0 0 0 12px ${C.weiss}` }, root);
   const others = [['Wasser', 120, 70], ['Glycerin', 470, 60], ['Hyaluron', 90, 270], ['Vitamin E', 470, 275]].map(([n, x, y]) =>
@@ -138,9 +138,10 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
   const slot = el('div', { left: '280px', top: '160px', width: '280px', height: '84px', borderRadius: '42px', border: `4px dashed ${C.weiss}`, opacity: .6 }, pad);
   const kol = el('div', { left: 0, top: 0, padding: '18px 44px 24px', background: C.weiss, color: S, fontFamily: F.display, fontSize: '96px', borderRadius: '70px', whiteSpace: 'nowrap', transformOrigin: '50% 50%' }, root, 'Kollagen');
   const glit = svg(sparkle(30, 40, 1.4, C.rosa) + sparkle(380, 30, 1, '#F7E7C6') + sparkle(400, 170, 1.3, C.rosa) + sparkle(10, 180, .9, '#F7E7C6') + sparkle(200, -10, .8, C.weiss), {}, root, '0 0 400 200', 640, 320);
+  const nn = note(root, 'liegt über Nacht auf den Lippen', { x: 130, y: 590, size: 66, r: -3, color: C.rosa, t0: D * .5 });
   const stamp = el('div', { left: 0, top: 0, padding: '8px 40px 14px', border: `10px solid ${C.weiss}`, color: C.weiss, fontFamily: F.sans, fontWeight: 800, fontSize: '96px', letterSpacing: '6px', borderRadius: '16px', whiteSpace: 'nowrap' }, root, 'PFLEGE');
   return (t) => {
-    h1.update(t); h2.update(t);
+    h1.update(t); h2.update(t); nn.update(t);
     place(moon, 900, 1170, 1, 0, .9);
     const PY = 910;
     place(pad, 540, PY, 1, -2);
