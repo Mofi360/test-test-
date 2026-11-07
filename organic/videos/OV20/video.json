@@ -1,0 +1,23 @@
+{
+ "id": "OV20",
+ "avatar": "JUNG",
+ "titel": "ASMR: Tape drauf",
+ "voice_duration": 18.5,
+ "voice_duration_note": "GESCHÄTZT (45 Wörter / 2.5 + 0.5). ElevenLabs gesperrt – mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "it8IUwkHD8mtjbyJyCuC"
+ },
+ "scenes": [
+  {"id": "s1", "text": "Pssst. Ton an."},
+  {"id": "s2", "text": "Packung auf."},
+  {"id": "s3", "text": "Ein Tape raus."},
+  {"id": "s4", "text": "Lippen zu. Ganz sanft drüberlegen."},
+  {"id": "s5", "text": "Kurz andrücken."},
+  {"id": "s6", "text": "In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll."},
+  {"id": "s7", "text": "Nachttischlampe aus."},
+  {"id": "s8", "text": "Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl."},
+  {"id": "s9", "text": "Gute Nacht, Diva.", "captions": false}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}
