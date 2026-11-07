@@ -1,0 +1,21 @@
+{
+ "id": "OV10",
+ "avatar": "ALT",
+ "titel": "Sechs Lippenbalsame",
+ "voice_duration": 36.9,
+ "voice_duration_note": "GESCHÄTZT: 91 Wörter / 2.5 + 0.5. Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
+ "scenes": [
+  {"id": "s1", "text": "Ich bin 51 und hatte sechs Lippenbalsame in der Handtasche. Sechs."},
+  {"id": "s2", "text": "Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken."},
+  {"id": "s3", "text": "Einer Frau in einem Forum ging es genauso."},
+  {"id": "s4", "text": "Irgendwann fiel mir auf: Tagsüber creme ich ständig nach. Nachts liegt gar nichts drauf."},
+  {"id": "s5", "text": "Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E."},
+  {"id": "s6", "text": "Und die bleibt die ganze Nacht da, wo sie hin soll."},
+  {"id": "s7", "text": "In meiner Handtasche ist jetzt noch einer. Einer reicht mir."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}

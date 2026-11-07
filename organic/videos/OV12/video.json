@@ -1,0 +1,20 @@
+{
+ "id": "OV12",
+ "avatar": "ALT",
+ "titel": "Sonntagabend gehört mir",
+ "voice_duration": 28.5,
+ "voice_duration_note": "GESCHÄTZT (70 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
+ "scenes": [
+  {"id": "s1", "text": "Sonntagabend, kurz nach neun. Die Woche ist vorbei, die Küche ist sauber, und jetzt bin ich dran."},
+  {"id": "s2", "text": "Tee auf den Nachttisch. Gesicht waschen. Creme."},
+  {"id": "s3", "text": "Und zum Schluss das Tape. Haut um den Mund trocken, Lippen zu, drüberlegen, kurz andrücken."},
+  {"id": "s4", "text": "In der Mitte ist eine Lippenmaske mit Kollagen und Hyaluronsäure. Die pflegt meine Lippen, während ich schlafe."},
+  {"id": "s5", "text": "Mit 53 hab ich aufgehört, mich für solche Momente zu entschuldigen."},
+  {"id": "s6", "text": "Montag kann kommen.", "captions": false}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}
