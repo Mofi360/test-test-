@@ -1,0 +1,278 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Kollagen-Tape. Klingt nach Hype. Also hab ich nachgeguckt, was drin ist.",
+   "start": 0,
+   "dur": 5.366711590296496,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber.",
+   "start": 5.366711590296496,
+   "dur": 4.5747978436657695,
+   "speakStart": 5.366711590296496
+  },
+  {
+   "id": "s3",
+   "text": "In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen.",
+   "start": 9.941509433962265,
+   "dur": 8.51010781671159,
+   "speakStart": 9.941509433962265
+  },
+  {
+   "id": "s4",
+   "text": "Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht.",
+   "start": 18.451617250673856,
+   "dur": 8.36253369272237,
+   "speakStart": 18.451617250673856
+  },
+  {
+   "id": "s5",
+   "text": "Dazu ein kleines Sicherheitsloch in der Mitte.",
+   "start": 26.814150943396225,
+   "dur": 2.7055256064690028,
+   "speakStart": 26.814150943396225
+  },
+  {
+   "id": "s6",
+   "text": "Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte.",
+   "start": 29.519676549865228,
+   "dur": 4.574797843665767,
+   "speakStart": 29.519676549865228
+  },
+  {
+   "id": "s7",
+   "text": "Speicher dir das, falls dich jemand fragt.",
+   "start": 34.094474393530994,
+   "dur": 2.9555256064690028,
+   "speakStart": 34.094474393530994
+  }
+ ],
+ "captions": [
+  {
+   "text": "Kollagen-Tape.",
+   "start": 0.3,
+   "end": 1.4771148139072667,
+   "rot": -1.6
+  },
+  {
+   "text": "Klingt nach Hype.",
+   "start": 1.4771148139072667,
+   "end": 2.8077663426720028,
+   "rot": 0
+  },
+  {
+   "text": "Also hab ich",
+   "start": 2.8077663426720028,
+   "end": 3.421913202101881,
+   "rot": 1.6
+  },
+  {
+   "text": "nachgeguckt, was drin",
+   "start": 3.421913202101881,
+   "end": 4.7013858259141275,
+   "rot": -0.8
+  },
+  {
+   "text": "ist.",
+   "start": 4.7013858259141275,
+   "end": 5.366711590296496,
+   "rot": 0.8
+  },
+  {
+   "text": "Außen: medizinische",
+   "start": 5.366711590296496,
+   "end": 6.535826594788859,
+   "rot": -1.6
+  },
+  {
+   "text": "Baumwolle und ein",
+   "start": 6.535826594788859,
+   "end": 7.399955076370171,
+   "rot": 0
+  },
+  {
+   "text": "hypoallergener,",
+   "start": 7.399955076370171,
+   "end": 8.365745732255167,
+   "rot": 1.6
+  },
+  {
+   "text": "atmungsaktiver Kleber.",
+   "start": 8.365745732255167,
+   "end": 9.941509433962265,
+   "rot": -0.8
+  },
+  {
+   "text": "In der Mitte die",
+   "start": 9.941509433962265,
+   "end": 10.766732010128237,
+   "rot": 0.8
+  },
+  {
+   "text": "Pflege.",
+   "start": 10.766732010128237,
+   "end": 11.59195458629421,
+   "rot": -1.6
+  },
+  {
+   "text": "Unter anderem Wasser,",
+   "start": 11.59195458629421,
+   "end": 12.881364861553543,
+   "rot": 0
+  },
+  {
+   "text": "Glycerin,",
+   "start": 12.881364861553543,
+   "end": 13.551858204688394,
+   "rot": 1.6
+  },
+  {
+   "text": "Hyaluronsäure, Vitamin",
+   "start": 13.551858204688394,
+   "end": 14.892844890958099,
+   "rot": -0.8
+  },
+  {
+   "text": "E, das steht in",
+   "start": 14.892844890958099,
+   "end": 15.872796700155192,
+   "rot": 0.8
+  },
+  {
+   "text": "der Liste als",
+   "start": 15.872796700155192,
+   "end": 16.543290043290042,
+   "rot": -1.6
+  },
+  {
+   "text": "Tocopherol, und",
+   "start": 16.543290043290042,
+   "end": 17.523241852487136,
+   "rot": 0
+  },
+  {
+   "text": "Kollagen.",
+   "start": 17.523241852487136,
+   "end": 18.451617250673856,
+   "rot": 1.6
+  },
+  {
+   "text": "Kollagen kennst du aus",
+   "start": 18.451617250673856,
+   "end": 19.580302779752948,
+   "rot": -0.8
+  },
+  {
+   "text": "jeder Beauty-Werbung.",
+   "start": 19.580302779752948,
+   "end": 21.11941941031535,
+   "rot": 0.8
+  },
+  {
+   "text": "Hier ist es Teil",
+   "start": 21.11941941031535,
+   "end": 21.94028161328196,
+   "rot": -1.6
+  },
+  {
+   "text": "der Pflege, die über",
+   "start": 21.94028161328196,
+   "end": 23.17157491773188,
+   "rot": 0
+  },
+  {
+   "text": "Nacht auf deinen",
+   "start": 23.17157491773188,
+   "end": 23.992437120698494,
+   "rot": 1.6
+  },
+  {
+   "text": "Lippen liegt.",
+   "start": 23.992437120698494,
+   "end": 25.121122649777586,
+   "rot": -0.8
+  },
+  {
+   "text": "Mehr verspricht es",
+   "start": 25.121122649777586,
+   "end": 26.044592628115026,
+   "rot": 0.8
+  },
+  {
+   "text": "nicht.",
+   "start": 26.044592628115026,
+   "end": 26.814150943396225,
+   "rot": -1.6
+  },
+  {
+   "text": "Dazu ein kleines",
+   "start": 26.814150943396225,
+   "end": 27.63091339063215,
+   "rot": 0
+  },
+  {
+   "text": "Sicherheitsloch in der",
+   "start": 27.63091339063215,
+   "end": 28.753961755581546,
+   "rot": 1.6
+  },
+  {
+   "text": "Mitte.",
+   "start": 28.753961755581546,
+   "end": 29.519676549865228,
+   "rot": -0.8
+  },
+  {
+   "text": "Und in einer Packung",
+   "start": 29.519676549865228,
+   "end": 30.536298292902064,
+   "rot": 0.8
+  },
+  {
+   "text": "von Diva Tape sind",
+   "start": 30.536298292902064,
+   "end": 31.451257861635217,
+   "rot": -1.6
+  },
+  {
+   "text": "dreißig Stück.",
+   "start": 31.451257861635217,
+   "end": 32.62037286612758,
+   "rot": 0
+  },
+  {
+   "text": "Also dreißig Nächte.",
+   "start": 32.62037286612758,
+   "end": 34.094474393530994,
+   "rot": 1.6
+  },
+  {
+   "text": "Speicher dir das,",
+   "start": 34.094474393530994,
+   "end": 35.16647510552815,
+   "rot": -0.8
+  },
+  {
+   "text": "falls dich jemand",
+   "start": 35.16647510552815,
+   "end": 36.034285205716316,
+   "rot": 0.8
+  },
+  {
+   "text": "fragt.",
+   "start": 36.034285205716316,
+   "end": 36.849999999999994,
+   "rot": -1.6
+  }
+ ],
+ "endStart": 37.05,
+ "duration": 39.25,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

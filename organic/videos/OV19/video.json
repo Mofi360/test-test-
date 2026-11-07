@@ -9,13 +9,56 @@
   "voice_id": "it8IUwkHD8mtjbyJyCuC"
  },
  "scenes": [
-  {"id": "s1", "text": "Kollagen-Tape. Klingt nach Hype. Also hab ich nachgeguckt, was drin ist."},
-  {"id": "s2", "text": "Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber."},
-  {"id": "s3", "text": "In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen."},
-  {"id": "s4", "text": "Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht."},
-  {"id": "s5", "text": "Dazu ein kleines Sicherheitsloch in der Mitte."},
-  {"id": "s6", "text": "Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte."},
-  {"id": "s7", "text": "Speicher dir das, falls dich jemand fragt."}
+  {
+   "id": "s1",
+   "text": "Kollagen-Tape. Klingt nach Hype. Also hab ich nachgeguckt, was drin ist."
+  },
+  {
+   "id": "s2",
+   "text": "Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber."
+  },
+  {
+   "id": "s3",
+   "text": "In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen."
+  },
+  {
+   "id": "s4",
+   "text": "Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht."
+  },
+  {
+   "id": "s5",
+   "text": "Dazu ein kleines Sicherheitsloch in der Mitte."
+  },
+  {
+   "id": "s6",
+   "text": "Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte."
+  },
+  {
+   "id": "s7",
+   "text": "Speicher dir das, falls dich jemand fragt."
+  }
  ],
- "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  3,
+  5.2,
+  7,
+  9.5,
+  12,
+  15.5,
+  18,
+  20,
+  23,
+  26,
+  28.2,
+  30.5,
+  33,
+  35.5,
+  37,
+  38.5
+ ]
 }
