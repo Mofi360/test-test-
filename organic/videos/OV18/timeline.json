@@ -1,0 +1,212 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Meine beste Freundin übernachtet bei mir. Abgeschminkt, Licht gedimmt, und ich hol das Tape raus.",
+   "start": 0,
+   "dur": 6.917436661698957,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Sie: Was wird das denn jetzt?",
+   "start": 6.917436661698957,
+   "dur": 2.259612518628913,
+   "speakStart": 6.917436661698957
+  },
+  {
+   "id": "s3",
+   "text": "Ich: Lippenpflege. Lippen zu, Tape drüber, fertig.",
+   "start": 9.17704918032787,
+   "dur": 4.3040238450074515,
+   "speakStart": 9.17704918032787
+  },
+  {
+   "id": "s4",
+   "text": "Sie: Du siehst aus wie ein Emoji.",
+   "start": 13.481073025335322,
+   "dur": 2.4748137108792854,
+   "speakStart": 13.481073025335322
+  },
+  {
+   "id": "s5",
+   "text": "Ich hab ihr trotzdem eins gegeben. Als sie gehört hat, dass in der Mitte Pflege mit Kollagen und Hyaluronsäure ist, wollte sie es doch probieren.",
+   "start": 15.955886736214607,
+   "dur": 9.199850968703428,
+   "speakStart": 15.955886736214607
+  },
+  {
+   "id": "s6",
+   "text": "Morgens hat sie es langsam abgezogen, in den Spiegel geguckt und gesagt: Okay. Die sind echt weich.",
+   "start": 25.155737704918035,
+   "dur": 6.725037257824141,
+   "speakStart": 25.155737704918035
+  },
+  {
+   "id": "s7",
+   "text": "Jetzt hat sie ihre eigene Packung. Und ich muss nicht mehr teilen.",
+   "start": 31.880774962742176,
+   "dur": 4.769225037257822,
+   "speakStart": 31.880774962742176
+  }
+ ],
+ "captions": [
+  {
+   "text": "Meine beste Freundin",
+   "start": 0.3,
+   "end": 1.4121742288569679,
+   "rot": -1.6
+  },
+  {
+   "text": "übernachtet bei mir.",
+   "start": 1.4121742288569679,
+   "end": 3.0248268606995703,
+   "rot": 0
+  },
+  {
+   "text": "Abgeschminkt, Licht",
+   "start": 3.0248268606995703,
+   "end": 4.303827223885083,
+   "rot": 1.6
+  },
+  {
+   "text": "gedimmt, und ich hol",
+   "start": 4.303827223885083,
+   "end": 5.638436298513445,
+   "rot": -0.8
+  },
+  {
+   "text": "das Tape raus.",
+   "start": 5.638436298513445,
+   "end": 6.967436661698957,
+   "rot": 0.8
+  },
+  {
+   "text": "Ich: Lippenpflege.",
+   "start": 9.17704918032787,
+   "end": 10.887622759753908,
+   "rot": -1.6
+  },
+  {
+   "text": "Lippen zu, Tape",
+   "start": 10.887622759753908,
+   "end": 11.936038824563417,
+   "rot": 0
+  },
+  {
+   "text": "drüber, fertig.",
+   "start": 11.936038824563417,
+   "end": 13.531073025335322,
+   "rot": 1.6
+  },
+  {
+   "text": "Ich hab ihr trotzdem",
+   "start": 15.955886736214607,
+   "end": 17.07781978117844,
+   "rot": -0.8
+  },
+  {
+   "text": "eins gegeben.",
+   "start": 17.07781978117844,
+   "end": 18.311946130638656,
+   "rot": 0.8
+  },
+  {
+   "text": "Als sie gehört hat,",
+   "start": 18.311946130638656,
+   "end": 19.602169132347065,
+   "rot": -1.6
+  },
+  {
+   "text": "dass in der Mitte",
+   "start": 19.602169132347065,
+   "end": 20.55581222056632,
+   "rot": 0
+  },
+  {
+   "text": "Pflege mit Kollagen",
+   "start": 20.55581222056632,
+   "end": 21.621648613281963,
+   "rot": 1.6
+  },
+  {
+   "text": "und Hyaluronsäure ist,",
+   "start": 21.621648613281963,
+   "end": 23.080161571734944,
+   "rot": -0.8
+  },
+  {
+   "text": "wollte sie es doch",
+   "start": 23.080161571734944,
+   "end": 24.089901312202393,
+   "rot": 0.8
+  },
+  {
+   "text": "probieren.",
+   "start": 24.089901312202393,
+   "end": 25.155737704918035,
+   "rot": -1.6
+  },
+  {
+   "text": "Morgens hat sie es",
+   "start": 25.155737704918035,
+   "end": 26.15615647054477,
+   "rot": 0
+  },
+  {
+   "text": "langsam abgezogen, in",
+   "start": 26.15615647054477,
+   "end": 27.54562697835967,
+   "rot": 1.6
+  },
+  {
+   "text": "den Spiegel geguckt",
+   "start": 27.54562697835967,
+   "end": 28.601624564299,
+   "rot": -0.8
+  },
+  {
+   "text": "und gesagt: Okay.",
+   "start": 28.601624564299,
+   "end": 30.268989173676886,
+   "rot": 0.8
+  },
+  {
+   "text": "Die sind echt weich.",
+   "start": 30.268989173676886,
+   "end": 31.880774962742176,
+   "rot": -1.6
+  },
+  {
+   "text": "Jetzt hat sie ihre",
+   "start": 31.880774962742176,
+   "end": 32.88504719324391,
+   "rot": 0
+  },
+  {
+   "text": "eigene Packung.",
+   "start": 32.88504719324391,
+   "end": 34.224076833912896,
+   "rot": 1.6
+  },
+  {
+   "text": "Und ich muss nicht",
+   "start": 34.224076833912896,
+   "end": 35.22834906441464,
+   "rot": -0.8
+  },
+  {
+   "text": "mehr teilen.",
+   "start": 35.22834906441464,
+   "end": 36.449999999999996,
+   "rot": 0.8
+  }
+ ],
+ "endStart": 36.65,
+ "duration": 38.85,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

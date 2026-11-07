@@ -1,0 +1,217 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Sonntagabend, kurz nach neun. Die Woche ist vorbei, die Küche ist sauber, und jetzt bin ich dran.",
+   "start": 0,
+   "dur": 6.728952042628774,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Tee auf den Nachttisch. Gesicht waschen. Creme.",
+   "start": 6.728952042628774,
+   "dur": 3.7460035523978705,
+   "speakStart": 6.728952042628774
+  },
+  {
+   "id": "s3",
+   "text": "Und zum Schluss das Tape. Haut um den Mund trocken, Lippen zu, drüberlegen, kurz andrücken.",
+   "start": 10.474955595026644,
+   "dur": 6.125222024866785,
+   "speakStart": 10.474955595026644
+  },
+  {
+   "id": "s4",
+   "text": "In der Mitte ist eine Lippenmaske mit Kollagen und Hyaluronsäure. Die pflegt meine Lippen, während ich schlafe.",
+   "start": 16.60017761989343,
+   "dur": 6.732682060390761,
+   "speakStart": 16.60017761989343
+  },
+  {
+   "id": "s5",
+   "text": "Mit 53 hab ich aufgehört, mich für solche Momente zu entschuldigen.",
+   "start": 23.33285968028419,
+   "dur": 4.049733570159859,
+   "speakStart": 23.33285968028419
+  },
+  {
+   "id": "s6",
+   "text": "Montag kann kommen.",
+   "start": 27.38259325044405,
+   "dur": 1.6674067495559513,
+   "speakStart": 27.38259325044405
+  }
+ ],
+ "captions": [
+  {
+   "text": "Sonntagabend, kurz",
+   "start": 0.3,
+   "end": 1.4593192208019101,
+   "rot": -1.6
+  },
+  {
+   "text": "nach neun.",
+   "start": 1.4593192208019101,
+   "end": 2.460549456949014,
+   "rot": 0
+  },
+  {
+   "text": "Die Woche ist vorbei,",
+   "start": 2.460549456949014,
+   "end": 3.7779576624057305,
+   "rot": 1.6
+  },
+  {
+   "text": "die Küche ist sauber,",
+   "start": 3.7779576624057305,
+   "end": 5.095365867862446,
+   "rot": -0.8
+  },
+  {
+   "text": "und jetzt bin ich",
+   "start": 5.095365867862446,
+   "end": 5.991203447573013,
+   "rot": 0.8
+  },
+  {
+   "text": "dran.",
+   "start": 5.991203447573013,
+   "end": 6.728952042628774,
+   "rot": -1.6
+  },
+  {
+   "text": "Tee auf den",
+   "start": 6.728952042628774,
+   "end": 7.309318790183373,
+   "rot": 0
+  },
+  {
+   "text": "Nachttisch.",
+   "start": 7.309318790183373,
+   "end": 8.364531058464463,
+   "rot": 1.6
+  },
+  {
+   "text": "Gesicht waschen.",
+   "start": 8.364531058464463,
+   "end": 9.683546393815826,
+   "rot": -0.8
+  },
+  {
+   "text": "Creme.",
+   "start": 9.683546393815826,
+   "end": 10.474955595026644,
+   "rot": 0.8
+  },
+  {
+   "text": "Und zum Schluss das",
+   "start": 10.474955595026644,
+   "end": 11.478224719789308,
+   "rot": -1.6
+  },
+  {
+   "text": "Tape.",
+   "start": 11.478224719789308,
+   "end": 12.217475653824954,
+   "rot": 0
+  },
+  {
+   "text": "Haut um den Mund",
+   "start": 12.217475653824954,
+   "end": 13.062333864151407,
+   "rot": 1.6
+  },
+  {
+   "text": "trocken, Lippen zu,",
+   "start": 13.062333864151407,
+   "end": 14.488032094077298,
+   "rot": -0.8
+  },
+  {
+   "text": "drüberlegen, kurz",
+   "start": 14.488032094077298,
+   "end": 15.596908495130766,
+   "rot": 0.8
+  },
+  {
+   "text": "andrücken.",
+   "start": 15.596908495130766,
+   "end": 16.60017761989343,
+   "rot": -1.6
+  },
+  {
+   "text": "In der Mitte ist",
+   "start": 16.60017761989343,
+   "end": 17.448389533013525,
+   "rot": 0
+  },
+  {
+   "text": "eine Lippenmaske mit",
+   "start": 17.448389533013525,
+   "end": 18.508654424413646,
+   "rot": 1.6
+  },
+  {
+   "text": "Kollagen und",
+   "start": 18.508654424413646,
+   "end": 19.144813359253718,
+   "rot": -0.8
+  },
+  {
+   "text": "Hyaluronsäure.",
+   "start": 19.144813359253718,
+   "end": 20.364117984363855,
+   "rot": 0.8
+  },
+  {
+   "text": "Die pflegt meine",
+   "start": 20.364117984363855,
+   "end": 21.21232989748395,
+   "rot": -1.6
+  },
+  {
+   "text": "Lippen, während ich",
+   "start": 21.21232989748395,
+   "end": 22.431634522594088,
+   "rot": 0
+  },
+  {
+   "text": "schlafe.",
+   "start": 22.431634522594088,
+   "end": 23.33285968028419,
+   "rot": 1.6
+  },
+  {
+   "text": "Mit 53 hab ich",
+   "start": 23.33285968028419,
+   "end": 24.06917487485871,
+   "rot": -0.8
+  },
+  {
+   "text": "aufgehört, mich für",
+   "start": 24.06917487485871,
+   "end": 25.278835551659707,
+   "rot": 0.8
+  },
+  {
+   "text": "solche Momente zu",
+   "start": 25.278835551659707,
+   "end": 26.172932573643052,
+   "rot": -1.6
+  },
+  {
+   "text": "entschuldigen.",
+   "start": 26.172932573643052,
+   "end": 27.43259325044405,
+   "rot": 0
+  }
+ ],
+ "endStart": 29.05,
+ "duration": 31.25,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

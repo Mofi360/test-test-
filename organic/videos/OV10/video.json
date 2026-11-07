@@ -9,13 +9,55 @@
   "voice_id": "MOOG1hZESAxDt4UaletY"
  },
  "scenes": [
-  {"id": "s1", "text": "Ich bin 51 und hatte sechs Lippenbalsame in der Handtasche. Sechs."},
-  {"id": "s2", "text": "Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken."},
-  {"id": "s3", "text": "Einer Frau in einem Forum ging es genauso."},
-  {"id": "s4", "text": "Irgendwann fiel mir auf: Tagsüber creme ich ständig nach. Nachts liegt gar nichts drauf."},
-  {"id": "s5", "text": "Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E."},
-  {"id": "s6", "text": "Und die bleibt die ganze Nacht da, wo sie hin soll."},
-  {"id": "s7", "text": "In meiner Handtasche ist jetzt noch einer. Einer reicht mir."}
+  {
+   "id": "s1",
+   "text": "Ich bin 51 und hatte sechs Lippenbalsame in der Handtasche. Sechs."
+  },
+  {
+   "id": "s2",
+   "text": "Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken."
+  },
+  {
+   "id": "s3",
+   "text": "Einer Frau in einem Forum ging es genauso."
+  },
+  {
+   "id": "s4",
+   "text": "Irgendwann fiel mir auf: Tagsüber creme ich ständig nach. Nachts liegt gar nichts drauf."
+  },
+  {
+   "id": "s5",
+   "text": "Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E."
+  },
+  {
+   "id": "s6",
+   "text": "Und die bleibt die ganze Nacht da, wo sie hin soll."
+  },
+  {
+   "id": "s7",
+   "text": "In meiner Handtasche ist jetzt noch einer. Einer reicht mir."
+  }
  ],
- "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  1.6,
+  4.5,
+  6.5,
+  9.0,
+  11.5,
+  13.5,
+  16.5,
+  19.8,
+  23.0,
+  27.5,
+  30.5,
+  33.4,
+  35.0,
+  37.2,
+  38.6
+ ]
 }

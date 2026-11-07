@@ -1,0 +1,254 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Ich bin 51 und hatte sechs Lippenbalsame in der Handtasche. Sechs.",
+   "start": 0,
+   "dur": 4.871681415929203,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Morgens drauf, nach dem Kaffee drauf, nach dem Mittag drauf. Und abends waren meine Lippen trotzdem trocken.",
+   "start": 4.871681415929203,
+   "dur": 7.292920353982302,
+   "speakStart": 4.871681415929203
+  },
+  {
+   "id": "s3",
+   "text": "Einer Frau in einem Forum ging es genauso.",
+   "start": 12.164601769911505,
+   "dur": 2.775663716814158,
+   "speakStart": 12.164601769911505
+  },
+  {
+   "id": "s4",
+   "text": "Irgendwann fiel mir auf: Tagsüber creme ich ständig nach. Nachts liegt gar nichts drauf.",
+   "start": 14.940265486725663,
+   "dur": 5.9867256637168165,
+   "speakStart": 14.940265486725663
+  },
+  {
+   "id": "s5",
+   "text": "Jetzt kommt abends ein Tape über die geschlossenen Lippen. In der Mitte Pflege mit Kollagen, Hyaluronsäure, Glycerin und Vitamin E.",
+   "start": 20.92699115044248,
+   "dur": 8.544690265486725,
+   "speakStart": 20.92699115044248
+  },
+  {
+   "id": "s6",
+   "text": "Und die bleibt die ganze Nacht da, wo sie hin soll.",
+   "start": 29.471681415929204,
+   "dur": 3.483185840707961,
+   "speakStart": 29.471681415929204
+  },
+  {
+   "id": "s7",
+   "text": "In meiner Handtasche ist jetzt noch einer. Einer reicht mir.",
+   "start": 32.954867256637165,
+   "dur": 4.495132743362831,
+   "speakStart": 32.954867256637165
+  }
+ ],
+ "captions": [
+  {
+   "text": "Ich bin 51 und",
+   "start": 0.3,
+   "end": 1.1000442477876105,
+   "rot": -1.6
+  },
+  {
+   "text": "hatte sechs",
+   "start": 1.1000442477876105,
+   "end": 1.728650442477876,
+   "rot": 0
+  },
+  {
+   "text": "Lippenbalsame in der",
+   "start": 1.728650442477876,
+   "end": 2.8715707964601767,
+   "rot": 1.6
+  },
+  {
+   "text": "Handtasche.",
+   "start": 2.8715707964601767,
+   "end": 4.014491150442478,
+   "rot": -0.8
+  },
+  {
+   "text": "Sechs.",
+   "start": 4.014491150442478,
+   "end": 4.871681415929203,
+   "rot": 0.8
+  },
+  {
+   "text": "Morgens drauf, nach",
+   "start": 4.871681415929203,
+   "end": 6.17196954105783,
+   "rot": -1.6
+  },
+  {
+   "text": "dem Kaffee drauf, nach",
+   "start": 6.17196954105783,
+   "end": 7.641860465116279,
+   "rot": 0
+  },
+  {
+   "text": "dem Mittag drauf.",
+   "start": 7.641860465116279,
+   "end": 9.111751389174728,
+   "rot": 1.6
+  },
+  {
+   "text": "Und abends waren meine",
+   "start": 9.111751389174728,
+   "end": 10.355505247993413,
+   "rot": -0.8
+  },
+  {
+   "text": "Lippen trotzdem",
+   "start": 10.355505247993413,
+   "end": 11.203519242642518,
+   "rot": 0.8
+  },
+  {
+   "text": "trocken.",
+   "start": 11.203519242642518,
+   "end": 12.164601769911505,
+   "rot": -1.6
+  },
+  {
+   "text": "Einer Frau in einem",
+   "start": 12.164601769911505,
+   "end": 13.219353982300884,
+   "rot": 0
+  },
+  {
+   "text": "Forum ging es genauso.",
+   "start": 13.219353982300884,
+   "end": 14.940265486725663,
+   "rot": 1.6
+  },
+  {
+   "text": "Irgendwann fiel mir",
+   "start": 14.940265486725663,
+   "end": 16.0133578226749,
+   "rot": -0.8
+  },
+  {
+   "text": "auf: Tagsüber creme",
+   "start": 16.0133578226749,
+   "end": 17.31236433461346,
+   "rot": 0.8
+  },
+  {
+   "text": "ich ständig nach.",
+   "start": 17.31236433461346,
+   "end": 18.780806478543997,
+   "rot": -1.6
+  },
+  {
+   "text": "Nachts liegt gar",
+   "start": 18.780806478543997,
+   "end": 19.684463182501254,
+   "rot": 0
+  },
+  {
+   "text": "nichts drauf.",
+   "start": 19.684463182501254,
+   "end": 20.92699115044248,
+   "rot": 1.6
+  },
+  {
+   "text": "Jetzt kommt abends ein",
+   "start": 20.92699115044248,
+   "end": 22.180212389380532,
+   "rot": -0.8
+  },
+  {
+   "text": "Tape über die",
+   "start": 22.180212389380532,
+   "end": 22.92075221238938,
+   "rot": 0.8
+  },
+  {
+   "text": "geschlossenen Lippen.",
+   "start": 22.92075221238938,
+   "end": 24.629690265486726,
+   "rot": -1.6
+  },
+  {
+   "text": "In der Mitte Pflege",
+   "start": 24.629690265486726,
+   "end": 25.712017699115044,
+   "rot": 0
+  },
+  {
+   "text": "mit Kollagen,",
+   "start": 25.712017699115044,
+   "end": 26.68041592920354,
+   "rot": 1.6
+  },
+  {
+   "text": "Hyaluronsäure,",
+   "start": 26.68041592920354,
+   "end": 27.705778761061946,
+   "rot": -0.8
+  },
+  {
+   "text": "Glycerin und Vitamin",
+   "start": 27.705778761061946,
+   "end": 28.845070796460178,
+   "rot": 0.8
+  },
+  {
+   "text": "E.",
+   "start": 28.845070796460178,
+   "end": 29.471681415929204,
+   "rot": -1.6
+  },
+  {
+   "text": "Und die bleibt die",
+   "start": 29.471681415929204,
+   "end": 30.482928918070225,
+   "rot": 0
+  },
+  {
+   "text": "ganze Nacht da, wo",
+   "start": 30.482928918070225,
+   "end": 31.718898087353693,
+   "rot": 1.6
+  },
+  {
+   "text": "sie hin soll.",
+   "start": 31.718898087353693,
+   "end": 32.954867256637165,
+   "rot": -0.8
+  },
+  {
+   "text": "In meiner Handtasche",
+   "start": 32.954867256637165,
+   "end": 34.072007452258966,
+   "rot": 0.8
+  },
+  {
+   "text": "ist jetzt noch einer.",
+   "start": 34.072007452258966,
+   "end": 35.74771774569166,
+   "rot": -1.6
+  },
+  {
+   "text": "Einer reicht mir.",
+   "start": 35.74771774569166,
+   "end": 37.24999999999999,
+   "rot": 0
+  }
+ ],
+ "endStart": 37.449999999999996,
+ "duration": 39.65,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Mein Mann hat drei Abende gebraucht, bis er gefragt hat.",
+   "start": 0,
+   "dur": 3.9431164901664144,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Abend eins: Er guckt. Sagt nichts. Liest weiter.",
+   "start": 3.9431164901664144,
+   "dur": 4.171104387291981,
+   "speakStart": 3.9431164901664144
+  },
+  {
+   "id": "s3",
+   "text": "Abend zwei: Er guckt länger. Macht das Licht aus.",
+   "start": 8.114220877458395,
+   "dur": 3.7487140695915304,
+   "speakStart": 8.114220877458395
+  },
+  {
+   "id": "s4",
+   "text": "Abend drei: Schatz, warum klebst du dir den Mund zu?",
+   "start": 11.862934947049926,
+   "dur": 3.6431164901664133,
+   "speakStart": 11.862934947049926
+  },
+  {
+   "id": "s5",
+   "text": "Ich so: Das ist Lippenpflege. In der Mitte ist eine Maske mit Kollagen und Hyaluronsäure, und die bleibt die ganze Nacht drauf.",
+   "start": 15.506051437216339,
+   "dur": 8.078214826021178,
+   "speakStart": 15.506051437216339
+  },
+  {
+   "id": "s6",
+   "text": "Er: Aha. Und das Loch? Ich: Sicherheitsloch. Er: Aha.",
+   "start": 23.584266263237517,
+   "dur": 5.332677760968231,
+   "speakStart": 23.584266263237517
+  },
+  {
+   "id": "s7",
+   "text": "Neulich beim Frühstück hat er gefragt, ob ich was an den Lippen gemacht hab.",
+   "start": 28.916944024205748,
+   "dur": 4.699092284417546,
+   "speakStart": 28.916944024205748
+  },
+  {
+   "id": "s8",
+   "text": "Ich hab nur gegrinst.",
+   "start": 33.61603630862329,
+   "dur": 1.8339636913767023,
+   "speakStart": 33.61603630862329
+  }
+ ],
+ "captions": [
+  {
+   "text": "Mein Mann hat drei",
+   "start": 0.3,
+   "end": 1.2787477137760517,
+   "rot": -1.6
+  },
+  {
+   "text": "Abende gebraucht, bis",
+   "start": 1.2787477137760517,
+   "end": 2.6381195384650122,
+   "rot": 0
+  },
+  {
+   "text": "er gefragt hat.",
+   "start": 2.6381195384650122,
+   "end": 3.9431164901664144,
+   "rot": 1.6
+  },
+  {
+   "text": "Abend eins: Er guckt.",
+   "start": 3.9431164901664144,
+   "end": 5.78490284299664,
+   "rot": -0.8
+  },
+  {
+   "text": "Sagt nichts.",
+   "start": 5.78490284299664,
+   "end": 6.922476766803544,
+   "rot": 0.8
+  },
+  {
+   "text": "Liest weiter.",
+   "start": 6.922476766803544,
+   "end": 8.114220877458395,
+   "rot": -1.6
+  },
+  {
+   "text": "Abend zwei: Er guckt",
+   "start": 8.114220877458395,
+   "end": 9.418121423403274,
+   "rot": 0
+  },
+  {
+   "text": "länger.",
+   "start": 9.418121423403274,
+   "end": 10.287388454033195,
+   "rot": 1.6
+  },
+  {
+   "text": "Macht das Licht aus.",
+   "start": 10.287388454033195,
+   "end": 11.862934947049926,
+   "rot": -0.8
+  },
+  {
+   "text": "Abend drei: Schatz,",
+   "start": 11.862934947049926,
+   "end": 13.331056517714003,
+   "rot": 0.8
+  },
+  {
+   "text": "warum klebst du dir",
+   "start": 13.331056517714003,
+   "end": 14.364179104477612,
+   "rot": -1.6
+  },
+  {
+   "text": "den Mund zu?",
+   "start": 14.364179104477612,
+   "end": 15.506051437216339,
+   "rot": 0
+  },
+  {
+   "text": "Ich so: Das ist",
+   "start": 15.506051437216339,
+   "end": 16.55732596936978,
+   "rot": 1.6
+  },
+  {
+   "text": "Lippenpflege.",
+   "start": 16.55732596936978,
+   "end": 17.774591217126396,
+   "rot": -0.8
+  },
+  {
+   "text": "In der Mitte ist",
+   "start": 17.774591217126396,
+   "end": 18.659875033676663,
+   "rot": 0.8
+  },
+  {
+   "text": "eine Maske mit",
+   "start": 18.659875033676663,
+   "end": 19.434498373158146,
+   "rot": -1.6
+  },
+  {
+   "text": "Kollagen und",
+   "start": 19.434498373158146,
+   "end": 20.098461235570845,
+   "rot": 0
+  },
+  {
+   "text": "Hyaluronsäure, und die",
+   "start": 20.098461235570845,
+   "end": 21.537047437465027,
+   "rot": 1.6
+  },
+  {
+   "text": "bleibt die ganze Nacht",
+   "start": 21.537047437465027,
+   "end": 22.75431268522164,
+   "rot": -0.8
+  },
+  {
+   "text": "drauf.",
+   "start": 22.75431268522164,
+   "end": 23.584266263237517,
+   "rot": 0.8
+  },
+  {
+   "text": "Er: Aha.",
+   "start": 23.584266263237517,
+   "end": 24.72698292630214,
+   "rot": -1.6
+  },
+  {
+   "text": "Und das Loch?",
+   "start": 24.72698292630214,
+   "end": 25.92411466856031,
+   "rot": 0
+  },
+  {
+   "text": "Ich: Sicherheitsloch.",
+   "start": 25.92411466856031,
+   "end": 27.774227361141126,
+   "rot": 1.6
+  },
+  {
+   "text": "Er: Aha.",
+   "start": 27.774227361141126,
+   "end": 28.916944024205748,
+   "rot": -0.8
+  },
+  {
+   "text": "Neulich beim Frühstück",
+   "start": 28.916944024205748,
+   "end": 30.119037399289304,
+   "rot": 0.8
+  },
+  {
+   "text": "hat er gefragt, ob",
+   "start": 30.119037399289304,
+   "end": 31.321130774372865,
+   "rot": -1.6
+  },
+  {
+   "text": "ich was an den",
+   "start": 31.321130774372865,
+   "end": 32.08609928578967,
+   "rot": 0
+  },
+  {
+   "text": "Lippen gemacht hab.",
+   "start": 32.08609928578967,
+   "end": 33.61603630862329,
+   "rot": 1.6
+  },
+  {
+   "text": "Ich hab nur gegrinst.",
+   "start": 33.61603630862329,
+   "end": 35.24999999999999,
+   "rot": -0.8
+  }
+ ],
+ "endStart": 35.449999999999996,
+ "duration": 37.65,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

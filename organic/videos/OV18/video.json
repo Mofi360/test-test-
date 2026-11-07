@@ -1,0 +1,63 @@
+{
+ "id": "OV18",
+ "avatar": "JUNG",
+ "titel": "Übernachtung mit Tape",
+ "voice_duration": 36.1,
+ "voice_duration_note": "GESCHÄTZT (89 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "it8IUwkHD8mtjbyJyCuC"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Meine beste Freundin übernachtet bei mir. Abgeschminkt, Licht gedimmt, und ich hol das Tape raus."
+  },
+  {
+   "id": "s2",
+   "text": "Sie: Was wird das denn jetzt?",
+   "captions": false
+  },
+  {
+   "id": "s3",
+   "text": "Ich: Lippenpflege. Lippen zu, Tape drüber, fertig."
+  },
+  {
+   "id": "s4",
+   "text": "Sie: Du siehst aus wie ein Emoji.",
+   "captions": false
+  },
+  {
+   "id": "s5",
+   "text": "Ich hab ihr trotzdem eins gegeben. Als sie gehört hat, dass in der Mitte Pflege mit Kollagen und Hyaluronsäure ist, wollte sie es doch probieren."
+  },
+  {
+   "id": "s6",
+   "text": "Morgens hat sie es langsam abgezogen, in den Spiegel geguckt und gesagt: Okay. Die sind echt weich."
+  },
+  {
+   "id": "s7",
+   "text": "Jetzt hat sie ihre eigene Packung. Und ich muss nicht mehr teilen."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  3.0,
+  5.6,
+  8.2,
+  10.6,
+  12.6,
+  14.8,
+  16.8,
+  20.5,
+  24.5,
+  26.5,
+  30.5,
+  33.2,
+  36.0
+ ]
+}

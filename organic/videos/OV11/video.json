@@ -1,0 +1,59 @@
+{
+ "id": "OV11",
+ "avatar": "ALT",
+ "titel": "Bringt Pflege noch was?",
+ "voice_duration": 33.7,
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "MOOG1hZESAxDt4UaletY"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Bei mir bringt Pflege eh nichts mehr. Hab ich jahrelang gedacht."
+  },
+  {
+   "id": "s2",
+   "text": "In einem Forum stand sogar das hier."
+  },
+  {
+   "id": "s3",
+   "text": "Also, ganz ehrlich, was so ein Tape kann und was nicht."
+  },
+  {
+   "id": "s4",
+   "text": "Es ist kein Wundermittel."
+  },
+  {
+   "id": "s5",
+   "text": "Was es macht: Es pflegt. Die Pflege-Mitte mit Kollagen, Hyaluronsäure und Vitamin E spendet deinen Lippen über Nacht Feuchtigkeit."
+  },
+  {
+   "id": "s6",
+   "text": "Anders als bei meinem Balsam bleibt die Pflege die ganze Nacht da, wo sie hin soll."
+  },
+  {
+   "id": "s7",
+   "text": "Ich bin 58. Meine Lippen fühlen sich morgens weich an. Für mich bringt das was."
+  }
+ ],
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  3.5,
+  6.5,
+  9.5,
+  12.6,
+  15,
+  19,
+  21.5,
+  24,
+  27,
+  29.5,
+  33,
+  35.5
+ ]
+}

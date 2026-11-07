@@ -1,0 +1,236 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Bei mir bringt Pflege eh nichts mehr. Hab ich jahrelang gedacht.",
+   "start": 0,
+   "dur": 4.97580372250423,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "In einem Forum stand sogar das hier.",
+   "start": 4.97580372250423,
+   "dur": 2.565989847715737,
+   "speakStart": 4.97580372250423
+  },
+  {
+   "id": "s3",
+   "text": "Also, ganz ehrlich, was so ein Tape kann und was nicht.",
+   "start": 7.5417935702199665,
+   "dur": 4.105583756345179,
+   "speakStart": 7.5417935702199665
+  },
+  {
+   "id": "s4",
+   "text": "Es ist kein Wundermittel.",
+   "start": 11.647377326565145,
+   "dur": 1.9387478849407795,
+   "speakStart": 11.647377326565145
+  },
+  {
+   "id": "s5",
+   "text": "Was es macht: Es pflegt. Die Pflege-Mitte mit Kollagen, Hyaluronsäure und Vitamin E spendet deinen Lippen über Nacht Feuchtigkeit.",
+   "start": 13.586125211505925,
+   "dur": 8.895431472081219,
+   "speakStart": 13.586125211505925
+  },
+  {
+   "id": "s6",
+   "text": "Anders als bei meinem Balsam bleibt die Pflege die ganze Nacht da, wo sie hin soll.",
+   "start": 22.481556683587144,
+   "dur": 5.474111675126906,
+   "speakStart": 22.481556683587144
+  },
+  {
+   "id": "s7",
+   "text": "Ich bin 58. Meine Lippen fühlen sich morgens weich an. Für mich bringt das was.",
+   "start": 27.95566835871405,
+   "dur": 6.29433164128595,
+   "speakStart": 27.95566835871405
+  }
+ ],
+ "captions": [
+  {
+   "text": "Bei mir bringt Pflege",
+   "start": 0.3,
+   "end": 1.5429351667416307,
+   "rot": -1.6
+  },
+  {
+   "text": "eh nichts mehr.",
+   "start": 1.5429351667416307,
+   "end": 2.9634325001606374,
+   "rot": 0
+  },
+  {
+   "text": "Hab ich jahrelang",
+   "start": 2.9634325001606374,
+   "end": 3.969618111332433,
+   "rot": 1.6
+  },
+  {
+   "text": "gedacht.",
+   "start": 3.969618111332433,
+   "end": 4.97580372250423,
+   "rot": -0.8
+  },
+  {
+   "text": "In einem Forum stand",
+   "start": 4.97580372250423,
+   "end": 6.142162744193201,
+   "rot": 0.8
+  },
+  {
+   "text": "sogar das hier.",
+   "start": 6.142162744193201,
+   "end": 7.5417935702199665,
+   "rot": -1.6
+  },
+  {
+   "text": "Also, ganz ehrlich,",
+   "start": 7.5417935702199665,
+   "end": 9.125375876238822,
+   "rot": 0
+  },
+  {
+   "text": "was so ein Tape",
+   "start": 9.125375876238822,
+   "end": 10.005143824027073,
+   "rot": 1.6
+  },
+  {
+   "text": "kann und was nicht.",
+   "start": 10.005143824027073,
+   "end": 11.647377326565145,
+   "rot": -0.8
+  },
+  {
+   "text": "Es ist kein",
+   "start": 11.647377326565145,
+   "end": 12.293626621545405,
+   "rot": 0.8
+  },
+  {
+   "text": "Wundermittel.",
+   "start": 12.293626621545405,
+   "end": 13.586125211505925,
+   "rot": -1.6
+  },
+  {
+   "text": "Was es macht: Es",
+   "start": 13.586125211505925,
+   "end": 14.78014285876515,
+   "rot": 0
+  },
+  {
+   "text": "pflegt.",
+   "start": 14.78014285876515,
+   "end": 15.735356976572529,
+   "rot": 1.6
+  },
+  {
+   "text": "Die Pflege-Mitte mit",
+   "start": 15.735356976572529,
+   "end": 16.92937462383175,
+   "rot": -0.8
+  },
+  {
+   "text": "Kollagen,",
+   "start": 16.92937462383175,
+   "end": 17.705486094550245,
+   "rot": 0.8
+  },
+  {
+   "text": "Hyaluronsäure und",
+   "start": 17.705486094550245,
+   "end": 18.72040109472059,
+   "rot": -1.6
+  },
+  {
+   "text": "Vitamin E spendet",
+   "start": 18.72040109472059,
+   "end": 19.735316094890926,
+   "rot": 0
+  },
+  {
+   "text": "deinen Lippen über",
+   "start": 19.735316094890926,
+   "end": 20.80993197742423,
+   "rot": 1.6
+  },
+  {
+   "text": "Nacht Feuchtigkeit.",
+   "start": 20.80993197742423,
+   "end": 22.481556683587144,
+   "rot": -0.8
+  },
+  {
+   "text": "Anders als bei meinem",
+   "start": 22.481556683587144,
+   "end": 23.73108217464872,
+   "rot": 0.8
+  },
+  {
+   "text": "Balsam bleibt die",
+   "start": 23.73108217464872,
+   "end": 24.742602810269997,
+   "rot": -1.6
+  },
+  {
+   "text": "Pflege die ganze Nacht",
+   "start": 24.742602810269997,
+   "end": 26.05162951519165,
+   "rot": 0
+  },
+  {
+   "text": "da, wo sie hin",
+   "start": 26.05162951519165,
+   "end": 27.122651364672997,
+   "rot": 1.6
+  },
+  {
+   "text": "soll.",
+   "start": 27.122651364672997,
+   "end": 27.95566835871405,
+   "rot": -0.8
+  },
+  {
+   "text": "Ich bin 58.",
+   "start": 27.95566835871405,
+   "end": 29.140831425632864,
+   "rot": 0.8
+  },
+  {
+   "text": "Meine Lippen fühlen",
+   "start": 29.140831425632864,
+   "end": 30.266736339205735,
+   "rot": -1.6
+  },
+  {
+   "text": "sich morgens weich an.",
+   "start": 30.266736339205735,
+   "end": 32.1037390929299,
+   "rot": 0
+  },
+  {
+   "text": "Für mich bringt das",
+   "start": 32.1037390929299,
+   "end": 33.229644006502774,
+   "rot": 1.6
+  },
+  {
+   "text": "was.",
+   "start": 33.229644006502774,
+   "end": 34.05,
+   "rot": -0.8
+  }
+ ],
+ "endStart": 34.25,
+ "duration": 36.45,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}
