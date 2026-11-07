@@ -177,7 +177,7 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
   const lines = svg('', {}, root, '0 0 1080 1920', 1080, 1920);
   const LB = [['Kollagen', 280, 640], ['Hyaluronsäure', 760, 640], ['Glycerin', 280, 1235], ['Vitamin E', 780, 1235]];
   const pills = LB.map(([s]) => pill(root, s));
-  const hole = note(root, 'kleines Loch', { x: 690, y: 1090, r: 4, t0: D * .3, size: 56, color: MOND });
+  const hole = note(root, 'kleines Loch', { x: 610, y: 1190, r: -3, t0: D * .3, size: 56, color: MOND });
   const tl = D * .5;
   return (t) => {
     first.update(t); first.node.style.opacity = 1 - pr(t, D * .38, D * .42, ease.lin); head.update(t);
