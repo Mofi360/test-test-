@@ -43,14 +43,14 @@ SCENES.s1 = { bg: C.rosaHell, build(root, ctx) {
   const D = ctx.dur;
   const hook = bigText(root, 'Was steckt eigentlich in einem *Kollagen-Tape?*', { x: 90, y: 200, w: 900, size: 116 });
   hook.update(99);
-  const TW = 880, TX = 540, TY = 890;
+  const TW = 900, TX = 540, TY = 960;
   const tape = svg(ART.tape(true), {}, root, '0 0 400 400', TW, TW);
   const sp = svg(sparkle(40, 60, 1.3, C.beere) + sparkle(360, 30, .9) + sparkle(380, 170, 1.1) + sparkle(20, 190, .7), {}, root, '0 0 400 220', 900, 495);
   const L = 330, Z = 1.9;
   const lens = el('div', { left: 0, top: 0, width: L + 'px', height: L + 'px', borderRadius: '50%', overflow: 'hidden', background: C.rosaHell, border: `14px solid ${S}`, boxSizing: 'border-box', boxShadow: '0 24px 40px -18px rgba(21,16,18,.45)' }, root);
   const big = svg(ART.tape(true), { left: 0, top: 0 }, lens, '0 0 400 400', TW * Z, TW * Z);
   const handle = el('div', { left: 0, top: 0, width: '46px', height: '190px', background: S, borderRadius: '23px' }, root);
-  const nt = note(root, 'klingt nach Hype …', { x: 120, y: 1140, size: 78, r: -4, t0: D * .22 });
+  const nt = note(root, 'klingt nach Hype …', { x: 140, y: 1170, size: 86, r: -4, t0: D * .22 });
   return (t) => {
     place(tape, TX, TY, 1, -3);
     // Lupe: Startposition links (Frame 0 schon fertig), gleitet dann über das Tape
@@ -71,16 +71,16 @@ SCENES.s1 = { bg: C.rosaHell, build(root, ctx) {
 SCENES.s2 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, 'Außen: *Baumwolle* und Kleber.', { x: 90, y: 200, w: 900, size: 112, t0: 0, step: .06 });
-  const glue = svg(layer('glue'), {}, root, '0 0 400 200', 760, 380);
-  const cotton = svg(layer('cotton'), {}, root, '0 0 400 200', 760, 380);
+  const glue = svg(layer('glue'), {}, root, '0 0 400 200', 860, 430);
+  const cotton = svg(layer('cotton'), {}, root, '0 0 400 200', 860, 430);
   const lines = svg(`<g stroke="${S}" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 14" fill="none"><path d="M180 0 L180 300"/><path d="M900 0 L900 300"/></g>`, {}, root, '0 0 1080 300', 1080, 300);
-  const c1 = chip(root, 'medizinische Baumwolle', { x: 150, y: 790, size: 54 });
-  const c2 = chip(root, 'hypoallergener Kleber', { x: 330, y: 1190, size: 54, bg: C.rosa, color: S });
+  const c1 = chip(root, 'medizinische Baumwolle', { x: 130, y: 800, size: 58 });
+  const c2 = chip(root, 'hypoallergener Kleber', { x: 330, y: 1215, size: 58, bg: C.rosa, color: S });
   return (t) => {
     head.update(t);
     const sep = pr(t, D * .12, D * .45, ease.inOutCubic);
-    place(cotton, 540, lerp(870, 660, sep) + noise(t, 1) * 2, 1);
-    place(glue, 540, lerp(900, 1040, sep) + noise(t, 4) * 2, 1);
+    place(cotton, 540, lerp(880, 650, sep) + noise(t, 1) * 2, 1);
+    place(glue, 540, lerp(910, 1080, sep) + noise(t, 4) * 2, 1);
     place(lines, 540, lerp(880, 850, sep), 1, 0, sep * .35);
     popIn(c1, t, D * .35, -2);
     popIn(c2, t, D * .62, 2);
@@ -91,7 +91,7 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
 SCENES.s3 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, 'In der Mitte: die *Pflege.*', { x: 90, y: 200, w: 900, size: 112, t0: 0, step: .06 });
-  const card = el('div', { left: '110px', top: '470px', width: '860px', height: '840px', background: C.weiss, borderRadius: '8px', boxShadow: '0 30px 60px -24px rgba(21,16,18,.35)', transform: 'rotate(-1.2deg)' }, root);
+  const card = el('div', { left: '110px', top: '470px', width: '860px', height: '790px', background: C.weiss, borderRadius: '8px', boxShadow: '0 30px 60px -24px rgba(21,16,18,.35)', transform: 'rotate(-1.2deg)' }, root);
   el('div', { left: '330px', top: '-30px', width: '200px', height: '60px', background: 'rgba(231,146,168,.85)', transform: 'rotate(3deg)' }, card);
   el('div', { left: '70px', top: '56px', fontFamily: F.hand, fontWeight: 700, fontSize: '64px', color: '#6b5a60' }, card, 'unter anderem:');
   const names = ['Wasser', 'Glycerin', 'Hyaluronsäure', 'Tocopherol', 'Kollagen'];
@@ -104,7 +104,7 @@ SCENES.s3 = { bg: C.rosa, build(root, ctx) {
   });
   const mark = el('div', { left: '128px', top: (180 + 4 * 122 + 50) + 'px', height: '34px', width: '330px', background: C.rosa, transformOrigin: '0 50%', borderRadius: '6px' }, card);
   card.insertBefore(mark, card.children[2]);
-  const vit = el('div', { left: '560px', top: (180 + 3 * 122 - 4) + 'px', fontFamily: F.hand, fontWeight: 700, fontSize: '76px', color: C.beere, whiteSpace: 'nowrap', transform: 'rotate(-5deg)' }, card, '= Vitamin E');
+  const vit = el('div', { left: '575px', top: (180 + 3 * 122 + 2) + 'px', fontFamily: F.hand, fontWeight: 700, fontSize: '66px', color: C.beere, whiteSpace: 'nowrap', transform: 'rotate(-5deg)' }, card, '= Vitamin E');
   const caret = el('div', { width: '6px', height: '70px', background: S }, card);
   return (t) => {
     head.update(t);
@@ -141,7 +141,7 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
   const stamp = el('div', { left: 0, top: 0, padding: '8px 40px 14px', border: `10px solid ${C.weiss}`, color: C.weiss, fontFamily: F.sans, fontWeight: 800, fontSize: '96px', letterSpacing: '6px', borderRadius: '16px', whiteSpace: 'nowrap' }, root, 'PFLEGE');
   return (t) => {
     h1.update(t); h2.update(t);
-    place(moon, 880, 300, 1, 0, .9);
+    place(moon, 900, 1170, 1, 0, .9);
     const PY = 910;
     place(pad, 540, PY, 1, -2);
     // Kollagen: erst groß mit Glitzer, dann klein in den Schlitz
@@ -213,7 +213,7 @@ SCENES.s7 = { bg: C.rosa, build(root, ctx) {
   const head = bigText(root, 'Speicher dir *das.*', { x: 90, y: 200, w: 900, size: 120, t0: 0, step: .07 });
   const card = el('div', { left: '100px', top: '480px', width: '700px', height: '760px', background: C.weiss, borderRadius: '8px', boxShadow: '0 30px 60px -24px rgba(21,16,18,.35)', transform: 'rotate(-2deg)' }, root);
   el('div', { left: '60px', top: '44px', fontFamily: F.hand, fontWeight: 700, fontSize: '72px', color: C.beere }, card, 'Kollagen-Tape:');
-  const items = list(card, [{ text: 'Baumwolle + Kleber' }, { text: 'Pflege in der Mitte' }, { text: 'kleines Loch' }, { text: '30 Stück' }], { x: 50, y: 190, w: 640, size: 50, t0: .3, step: .3 });
+  const items = list(card, [{ text: 'Baumwolle + Kleber' }, { text: 'Pflege in der Mitte' }, { text: 'kleines Loch' }, { text: '30 Stück' }], { x: 50, y: 200, w: 640, size: 54, t0: .3, step: .3 });
   [...items.node.children].forEach(r => { r.style.marginBottom = '48px'; r.style.position = 'relative'; });
   const bm = svg('', {}, root, '0 0 300 380', 170, 215);
   const pl = svg(plane(), {}, root, '0 0 300 260', 170, 147);
