@@ -1,0 +1,190 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Pssst. Ton an.",
+   "start": 0,
+   "dur": 2.4021897810218977,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Packung auf.",
+   "start": 2.4021897810218977,
+   "dur": 1.3795620437956204,
+   "speakStart": 2.4021897810218977
+  },
+  {
+   "id": "s3",
+   "text": "Ein Tape raus.",
+   "start": 3.781751824817518,
+   "dur": 1.5109489051094886,
+   "speakStart": 3.781751824817518
+  },
+  {
+   "id": "s4",
+   "text": "Lippen zu. Ganz sanft drüberlegen.",
+   "start": 5.292700729927007,
+   "dur": 3.4160583941605855,
+   "speakStart": 5.292700729927007
+  },
+  {
+   "id": "s5",
+   "text": "Kurz andrücken.",
+   "start": 8.708759124087592,
+   "dur": 1.5766423357664223,
+   "speakStart": 8.708759124087592
+  },
+  {
+   "id": "s6",
+   "text": "In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll.",
+   "start": 10.285401459854015,
+   "dur": 7.948905109489051,
+   "speakStart": 10.285401459854015
+  },
+  {
+   "id": "s7",
+   "text": "Nachttischlampe aus.",
+   "start": 18.234306569343065,
+   "dur": 1.905109489051096,
+   "speakStart": 18.234306569343065
+  },
+  {
+   "id": "s8",
+   "text": "Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl.",
+   "start": 20.13941605839416,
+   "dur": 5.189781021897808,
+   "speakStart": 20.13941605839416
+  },
+  {
+   "id": "s9",
+   "text": "Gute Nacht, Diva.",
+   "start": 25.32919708029197,
+   "dur": 2.2208029197080315,
+   "speakStart": 25.32919708029197
+  }
+ ],
+ "captions": [
+  {
+   "text": "Pssst.",
+   "start": 0.3,
+   "end": 1.3171886037202734,
+   "rot": -1.6
+  },
+  {
+   "text": "Ton an.",
+   "start": 1.3171886037202734,
+   "end": 2.4021897810218977,
+   "rot": 0
+  },
+  {
+   "text": "Packung auf.",
+   "start": 2.4021897810218977,
+   "end": 3.781751824817518,
+   "rot": 1.6
+  },
+  {
+   "text": "Ein Tape raus.",
+   "start": 3.781751824817518,
+   "end": 5.292700729927007,
+   "rot": -0.8
+  },
+  {
+   "text": "Lippen zu.",
+   "start": 5.292700729927007,
+   "end": 6.590802919708029,
+   "rot": 0.8
+  },
+  {
+   "text": "Ganz sanft",
+   "start": 6.590802919708029,
+   "end": 7.2740145985401465,
+   "rot": -1.6
+  },
+  {
+   "text": "drüberlegen.",
+   "start": 7.2740145985401465,
+   "end": 8.708759124087592,
+   "rot": 0
+  },
+  {
+   "text": "Kurz andrücken.",
+   "start": 8.708759124087592,
+   "end": 10.285401459854015,
+   "rot": 1.6
+  },
+  {
+   "text": "In der Mitte Kollagen,",
+   "start": 10.285401459854015,
+   "end": 12.067052605084319,
+   "rot": -0.8
+  },
+  {
+   "text": "Hyaluronsäure, Vitamin",
+   "start": 12.067052605084319,
+   "end": 13.848703750314623,
+   "rot": 0.8
+  },
+  {
+   "text": "E.",
+   "start": 13.848703750314623,
+   "end": 14.602479234835137,
+   "rot": -1.6
+  },
+  {
+   "text": "Bleibt die ganze Nacht",
+   "start": 14.602479234835137,
+   "end": 16.110030203876164,
+   "rot": 0
+  },
+  {
+   "text": "da, wo es hin",
+   "start": 16.110030203876164,
+   "end": 17.274955952680592,
+   "rot": 1.6
+  },
+  {
+   "text": "soll.",
+   "start": 17.274955952680592,
+   "end": 18.234306569343065,
+   "rot": -0.8
+  },
+  {
+   "text": "Nachttischlampe aus.",
+   "start": 18.234306569343065,
+   "end": 20.13941605839416,
+   "rot": 0.8
+  },
+  {
+   "text": "Morgens ganz langsam",
+   "start": 20.13941605839416,
+   "end": 21.505147906262007,
+   "rot": -1.6
+  },
+  {
+   "text": "abziehen.",
+   "start": 21.505147906262007,
+   "end": 22.734306569343065,
+   "rot": 0
+  },
+  {
+   "text": "Und dann dieses weiche",
+   "start": 22.734306569343065,
+   "end": 24.236611601997694,
+   "rot": 1.6
+  },
+  {
+   "text": "Gefühl.",
+   "start": 24.236611601997694,
+   "end": 25.37919708029197,
+   "rot": -0.8
+  }
+ ],
+ "endStart": 27.55,
+ "duration": 29.75,
+ "noCaptions": false,
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ }
+}

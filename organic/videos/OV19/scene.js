@@ -50,7 +50,7 @@ SCENES.s1 = { bg: C.rosaHell, build(root, ctx) {
   const lens = el('div', { left: 0, top: 0, width: L + 'px', height: L + 'px', borderRadius: '50%', overflow: 'hidden', background: C.rosaHell, border: `14px solid ${S}`, boxSizing: 'border-box', boxShadow: '0 24px 40px -18px rgba(21,16,18,.45)' }, root);
   const big = svg(ART.tape(true), { left: 0, top: 0 }, lens, '0 0 400 400', TW * Z, TW * Z);
   const handle = el('div', { left: 0, top: 0, width: '46px', height: '190px', background: S, borderRadius: '23px' }, root);
-  const nt = note(root, 'klingt nach Hype …', { x: 140, y: 1170, size: 86, r: -4, t0: D * .22 });
+  const nt = note(root, 'klingt nach Hype …', { x: 110, y: 1245, size: 82, r: -4, t0: D * .22 });
   return (t) => {
     place(tape, TX, TY, 1, -3);
     // Lupe: Startposition links (Frame 0 schon fertig), gleitet dann über das Tape
@@ -182,11 +182,12 @@ SCENES.s5 = { bg: C.rosaHell, build(root, ctx) {
 SCENES.s6 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
   const head = bigText(root, '30 Stück = 30 *Nächte.*', { x: 90, y: 200, w: 900, size: 112, t0: D * .45, step: .06 });
+  [...head.node.children].forEach(sp => { if (sp.textContent === '=') { sp.style.fontFamily = F.sans; sp.style.fontWeight = 700; sp.style.color = C.beere; } });
   const cnt = el('div', { left: '90px', top: '200px', fontFamily: F.display, fontSize: '112px', color: S, whiteSpace: 'nowrap' }, root, '');
   const cells = [];
   for (let i = 0; i < 30; i++) {
     const c = i % 6, r = Math.floor(i / 6);
-    const cell = el('div', { left: (105 + c * 148) + 'px', top: (450 + r * 170) + 'px', width: '130px', height: '150px', borderRadius: '18px', background: C.nacht }, root);
+    const cell = el('div', { left: (100 + c * 146) + 'px', top: (480 + r * 168) + 'px', width: '130px', height: '150px', borderRadius: '18px', background: C.nacht }, root);
     el('div', { left: '14px', top: '8px', fontFamily: F.sans, fontWeight: 700, fontSize: '28px', color: C.rosa }, cell, String(i + 1));
     svg(ART.moon(), { left: '84px', top: '12px' }, cell, '0 0 400 400', 32, 32);
     svg(miniTape(), { left: '9px', top: '64px' }, cell, '0 0 200 100', 112, 56);

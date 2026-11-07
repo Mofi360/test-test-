@@ -2,22 +2,71 @@
  "id": "OV20",
  "avatar": "JUNG",
  "titel": "ASMR: Tape drauf",
- "voice_duration": 18.5,
+ "voice_duration": 27.0,
  "voice_duration_note": "GESCHÄTZT (45 Wörter / 2.5 + 0.5). ElevenLabs gesperrt – mit echter vo.mp3 neu rendern.",
  "voice": {
   "status": "ausstehend – ElevenLabs gesperrt",
-  "voice_id": "it8IUwkHD8mtjbyJyCuC"
+  "voice_id": "it8IUwkHD8mtjbyJyCuC",
+  "hinweis": "ASMR: langsames Sprechtempo angenommen (ca. 1,7 Wörter/s)"
  },
  "scenes": [
-  {"id": "s1", "text": "Pssst. Ton an."},
-  {"id": "s2", "text": "Packung auf."},
-  {"id": "s3", "text": "Ein Tape raus."},
-  {"id": "s4", "text": "Lippen zu. Ganz sanft drüberlegen."},
-  {"id": "s5", "text": "Kurz andrücken."},
-  {"id": "s6", "text": "In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll."},
-  {"id": "s7", "text": "Nachttischlampe aus."},
-  {"id": "s8", "text": "Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl."},
-  {"id": "s9", "text": "Gute Nacht, Diva.", "captions": false}
+  {
+   "id": "s1",
+   "text": "Pssst. Ton an."
+  },
+  {
+   "id": "s2",
+   "text": "Packung auf."
+  },
+  {
+   "id": "s3",
+   "text": "Ein Tape raus."
+  },
+  {
+   "id": "s4",
+   "text": "Lippen zu. Ganz sanft drüberlegen."
+  },
+  {
+   "id": "s5",
+   "text": "Kurz andrücken."
+  },
+  {
+   "id": "s6",
+   "text": "In der Mitte Kollagen, Hyaluronsäure, Vitamin E. Bleibt die ganze Nacht da, wo es hin soll."
+  },
+  {
+   "id": "s7",
+   "text": "Nachttischlampe aus."
+  },
+  {
+   "id": "s8",
+   "text": "Morgens ganz langsam abziehen. Und dann dieses weiche Gefühl."
+  },
+  {
+   "id": "s9",
+   "text": "Gute Nacht, Diva.",
+   "captions": false
+  }
  ],
- "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+ "endcard": {
+  "line": "Lippenpflege für die Nacht",
+  "cta": "Link in Bio"
+ },
+ "preview_times": [
+  0,
+  1.2,
+  2.3,
+  3.4,
+  5.9,
+  6.8,
+  8.6,
+  11.5,
+  12.4,
+  13.6,
+  14.9,
+  15.6,
+  17.0,
+  18.3,
+  20.5
+ ]
 }
