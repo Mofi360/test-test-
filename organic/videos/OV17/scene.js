@@ -98,10 +98,11 @@ SCENES.s1 = { bg: C.rosaHell, build(root, ctx) {
     place(win, 540, 800, 1, 0);
     place(me, 300, 980 + noise(t, 1) * 3, 1, 2);
     // Freundin kommt herein und setzt sich
-    const k = pr(t, .15, 1.0, ease.outBack);
-    place(fr, lerp(1300, 790, k), 966 + Math.sin(pr(t, .15, 1.0) * Math.PI * 3) * -10 * (1 - k), 1, lerp(10, -2, k));
-    const g = pr(t, .9, 1.3, ease.outBack), tw1 = Math.abs(Math.sin(t * 2.6));
-    place(sp, 800, 700, g * (.85 + tw1 * .2), Math.sin(t * 1.5) * 8, clamp((t - .9) / .15));
+    // Freundin hüpft kurz vor Freude (Glitzer-Moment)
+    const hop = Math.sin(pr(t, .3, 1.1, ease.lin) * Math.PI * 2);
+    place(fr, 790, 966 - Math.max(0, hop) * 34, 1, -2 + hop * 3);
+    const g = pr(t, .45, .9, ease.outBack), tw1 = Math.abs(Math.sin(t * 2.6));
+    place(sp, 800, 700, g * (.85 + tw1 * .2), Math.sin(t * 1.5) * 8, clamp((t - .45) / .15));
     place(m1, 440, 1112, 1, 0);
     place(m2, 760, 1112, 1, 0);
     st.querySelector('svg').innerHTML = steam(t);
@@ -198,7 +199,7 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
   const stars = svg([[40, 40], [210, 90], [330, 20]].map(([x, y], i) => ART.star(x, y, .8 + i * .2)).join(''), {}, root, '0 0 380 130', 380, 130);
   const moon = svg(ART.moon(), {}, root, '0 0 400 400', 170, 170);
   const face = svg(ART.face(.5, 0, .15), {}, root, '0 0 400 400', 600, 600);
-  const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 372, 372);
+  const tape = svg(ART.tape(true), {}, root, '0 0 400 400', 470, 470);
   const n = note(root, 'abends', { x: 790, y: 1120, r: -6, t0: D * .25, size: 74, color: C.rosa });
   // Zitat-Karte aus s4 bleibt kurz stehen und rutscht dann weg (mehr Lesezeit)
   const qc = quoteCard(root, QUOTE, 'Kundin in einem Forum', { y: 470, size: 72, t0: -5 });

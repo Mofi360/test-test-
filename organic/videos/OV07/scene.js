@@ -132,7 +132,7 @@ SCENES.s2 = { bg: C.rosaHell, build(root, ctx) {
   const gl = svg(glasses, {}, root, '0 0 260 120', 220*Z, 102*Z);
   const cr = svg(cream, {}, root, '0 0 140 300', 140*Z, 300*Z);
   const bx = svg(box(), {}, root, '0 0 240 180', 240*Z, 180*Z);
-  const mand = note(root, 'riecht nach Mandel', { x: 90, y: 500, r: -4, size: 72, t0: .35, arrow: [170, 80], ax: 280, ay: 75 });
+  const mand = note(root, 'nach Mandel', { x: 100, y: 470, r: -4, size: 80, t0: .35, arrow: [190, 110], ax: 230, ay: 80 });
   return (t) => {
     head.update(t);
     place(bk, 350, TOP - 40*Z); place(gl, 340, TOP - 131*Z, 1, -4);

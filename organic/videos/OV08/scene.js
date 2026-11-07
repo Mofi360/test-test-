@@ -90,7 +90,7 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const clk = svg('', {}, root, '0 0 400 400', 330, 330);
   const n = note(root, 'noch vor dem Kaffee.', { x: 90, y: 1268, r: -3, t0: D * .55, size: 72 });
   return (t) => {
-    win.querySelector('svg').innerHTML = windowSun(pr(t, 0, D * .9, ease.inOutSine) * .9 + .1);
+    win.querySelector('svg').innerHTML = windowSun(pr(t, 0, D * .9, ease.inOutSine) * .7 + .3);
     place(win, 470, 930);
     const ring = 1 - pr(t, .8, 1.8, ease.lin);
     clk.querySelector('svg').innerHTML = alarm(ring, t);
@@ -121,7 +121,7 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
     const L = (340 - 24) * 580 / 400 * .88; // Abstand Pivot -> rechtes Ende
     const a = ang * Math.PI / 180;
     const ex = px + Math.cos(a) * L, ey = py + Math.sin(a) * L;
-    place(fing, ex + 150, ey + 20, 1, ang * .6, pr(t, .1, .4));
+    place(fing, ex + 140, ey + 16, 1, ang * .6, pr(t, 0, .2));
     n.update(t);
   };
 }};
