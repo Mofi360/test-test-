@@ -104,7 +104,7 @@ SCENES.s3 = { bg: C.rosa, build(root, ctx) {
   });
   const mark = el('div', { left: '128px', top: (180 + 4 * 122 + 50) + 'px', height: '34px', width: '330px', background: C.rosa, transformOrigin: '0 50%', borderRadius: '6px' }, card);
   card.insertBefore(mark, card.children[2]);
-  const vit = el('div', { left: '575px', top: (180 + 3 * 122 + 2) + 'px', fontFamily: F.hand, fontWeight: 700, fontSize: '66px', color: C.beere, whiteSpace: 'nowrap', transform: 'rotate(-5deg)' }, card, '= Vitamin E');
+  const vit = el('div', { left: '515px', top: (180 + 3 * 122 + 4) + 'px', fontFamily: F.hand, fontWeight: 700, fontSize: '66px', color: C.beere, whiteSpace: 'nowrap', transform: 'rotate(-5deg)' }, card, '= Vitamin E');
   const caret = el('div', { width: '6px', height: '70px', background: S }, card);
   return (t) => {
     head.update(t);
