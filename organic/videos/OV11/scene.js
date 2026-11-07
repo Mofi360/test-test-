@@ -142,16 +142,16 @@ SCENES.s4 = { bg: C.rosaHell, build(root, ctx) {
   np.page.style.transform = 'rotate(-1deg)';
   drawPath(np.lines, 1); drawPath(np.ul1, 1); drawPath(np.ul2, 1);
   const wd = svg(wand, {}, root, '0 0 300 300', 300, 300);
-  const tag = el('div', { left: 0, top: 0, width: '410px', padding: '22px 0', textAlign: 'center', background: C.rosa, borderRadius: '16px', border: `5px solid ${C.schwarz}`, boxSizing: 'border-box', fontFamily: F.sans, fontWeight: 700, fontSize: '44px', color: C.schwarz, whiteSpace: 'nowrap' }, root, 'Wunder über Nacht');
+  const tag = el('div', { left: 0, top: 0, width: '420px', padding: '24px 10px', textAlign: 'center', background: C.rosa, borderRadius: '16px', border: `5px solid ${C.schwarz}`, boxSizing: 'border-box', fontFamily: F.sans, fontWeight: 700, fontSize: '38px', color: C.schwarz, whiteSpace: 'nowrap' }, root, 'Wunder über Nacht');
   const st1 = svg(`<path d="M20 200 C90 150 190 90 280 40" fill="none" stroke="${C.beere}" stroke-width="16" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, {}, root, '0 0 300 240', 300, 240);
-  const st2 = svg(`<path d="M10 40 C120 30 260 46 400 28" fill="none" stroke="${C.beere}" stroke-width="14" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, {}, root, '0 0 410 70', 410, 70);
+  const st2 = svg(`<path d="M10 40 C120 30 260 46 400 28" fill="none" stroke="${C.beere}" stroke-width="9" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, {}, root, '0 0 410 70', 410, 70);
   return (t) => {
     head.update(t);
     const a = pr(t, 0, .35, ease.outBack), b = pr(t, .25, .6, ease.outBack);
     place(wd, np.colR, np.T + 400 + noise(t, 2) * 3, a * .95, noise(t, 4) * 3, clamp(a * 3));
     place(tag, np.colR, np.T + 670, b, -3, clamp(b * 3));
     drawPath(st1, pr(t, D * .35, D * .35 + .3, ease.inOutCubic)); place(st1, np.colR, np.T + 400, 1);
-    drawPath(st2, pr(t, D * .55, D * .55 + .3, ease.inOutCubic)); place(st2, np.colR, np.T + 672, 1, -3);
+    drawPath(st2, pr(t, D * .55, D * .55 + .3, ease.inOutCubic)); place(st2, np.colR, np.T + 684, 1, -3);
   };
 }};
 

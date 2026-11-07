@@ -1,0 +1,21 @@
+{
+ "id": "OV19",
+ "avatar": "JUNG",
+ "titel": "Was steckt im Kollagen-Tape?",
+ "voice_duration": 36.5,
+ "voice_duration_note": "GESCHÄTZT (90 Wörter / 2.5 + 0.5). ElevenLabs gesperrt – mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – ElevenLabs gesperrt",
+  "voice_id": "it8IUwkHD8mtjbyJyCuC"
+ },
+ "scenes": [
+  {"id": "s1", "text": "Kollagen-Tape. Klingt nach Hype. Also hab ich nachgeguckt, was drin ist."},
+  {"id": "s2", "text": "Außen: medizinische Baumwolle und ein hypoallergener, atmungsaktiver Kleber."},
+  {"id": "s3", "text": "In der Mitte die Pflege. Unter anderem Wasser, Glycerin, Hyaluronsäure, Vitamin E, das steht in der Liste als Tocopherol, und Kollagen."},
+  {"id": "s4", "text": "Kollagen kennst du aus jeder Beauty-Werbung. Hier ist es Teil der Pflege, die über Nacht auf deinen Lippen liegt. Mehr verspricht es nicht."},
+  {"id": "s5", "text": "Dazu ein kleines Sicherheitsloch in der Mitte."},
+  {"id": "s6", "text": "Und in einer Packung von Diva Tape sind dreißig Stück. Also dreißig Nächte."},
+  {"id": "s7", "text": "Speicher dir das, falls dich jemand fragt."}
+ ],
+ "endcard": {"line": "Lippenpflege für die Nacht", "cta": "Link in Bio"}
+}
