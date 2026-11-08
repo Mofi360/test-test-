@@ -4,212 +4,212 @@
    "id": "s1",
    "text": "Beim Aufräumen fiel mir ein Foto von 1998 in die Hand. Ich auf einer Gartenparty, lachend.",
    "start": 0,
-   "dur": 6.6336650082918736,
+   "dur": 6.0737976252072965,
    "speakStart": 0.3
   },
   {
    "id": "s2",
    "text": "Und ich hab nur auf eins geschaut: meinen Mund.",
-   "start": 6.6336650082918736,
-   "dur": 3.3930348258706475,
-   "speakStart": 6.6336650082918736
+   "start": 6.0737976252072965,
+   "dur": 3.0931058706467667,
+   "speakStart": 6.0737976252072965
   },
   {
    "id": "s3",
    "text": "Machen lassen wollte ich nie. Zu viel Angst, dass es gemacht aussieht.",
-   "start": 10.026699834162521,
-   "dur": 5.202653399668327,
-   "speakStart": 10.026699834162521
+   "start": 9.166903495854063,
+   "dur": 4.742762334991708,
+   "speakStart": 9.166903495854063
   },
   {
    "id": "s4",
    "text": "Ich wollte selbst was tun. Abends, in Ruhe.",
-   "start": 15.229353233830848,
-   "dur": 3.675787728026533,
-   "speakStart": 15.229353233830848
+   "start": 13.909665830845771,
+   "dur": 3.3508646932006627,
+   "speakStart": 13.909665830845771
   },
   {
    "id": "s5",
    "text": "Jetzt kommt abends ein Tape auf die Lippen. Mit Pflege in der Mitte, die über Nacht Feuchtigkeit spendet.",
-   "start": 18.90514096185738,
-   "dur": 7.181923714759538,
-   "speakStart": 18.90514096185738
+   "start": 17.260530524046434,
+   "dur": 6.547074092868989,
+   "speakStart": 17.260530524046434
   },
   {
    "id": "s6",
    "text": "Morgens fühlen sich meine Lippen weich an. Und ich schau wieder gern in den Spiegel.",
-   "start": 26.08706467661692,
-   "dur": 5.7681592039800975,
-   "speakStart": 26.08706467661692
+   "start": 23.807604616915423,
+   "dur": 5.258279980099502,
+   "speakStart": 23.807604616915423
   },
   {
    "id": "s7",
    "text": "Das Foto hängt jetzt am Kühlschrank.",
-   "start": 31.855223880597016,
-   "dur": 2.7947761194029823,
-   "speakStart": 31.855223880597016
+   "start": 29.065884597014925,
+   "dur": 2.569829402985075,
+   "speakStart": 29.065884597014925
   }
  ],
  "captions": [
   {
    "text": "Beim Aufräumen fiel",
    "start": 0.3,
-   "end": 1.4642558810883852,
+   "end": 1.315760693323506,
    "rot": -1.6
   },
   {
    "text": "mir ein Foto von",
-   "start": 1.4142558810883852,
-   "end": 2.402576623057551,
+   "start": 1.315760693323506,
+   "end": 2.171138119280142,
    "rot": 0
   },
   {
    "text": "1998 in die Hand.",
-   "start": 2.3525766230575513,
-   "end": 3.9273478287574464,
+   "start": 2.171138119280142,
+   "end": 3.561126436459676,
    "rot": 1.6
   },
   {
    "text": "Ich auf einer",
-   "start": 3.8773478287574465,
-   "end": 4.689733431607395,
+   "start": 3.561126436459676,
+   "end": 4.2561205950494445,
    "rot": -0.8
   },
   {
    "text": "Gartenparty, lachend.",
-   "start": 4.639733431607395,
-   "end": 6.683665008291873,
+   "start": 4.2561205950494445,
+   "end": 6.0737976252072965,
    "rot": 0.8
   },
   {
    "text": "Und ich hab nur",
-   "start": 6.6336650082918736,
-   "end": 7.561174014982558,
+   "start": 6.0737976252072965,
+   "end": 6.873738798650426,
    "rot": -1.6
   },
   {
    "text": "auf eins geschaut:",
-   "start": 7.511174014982558,
-   "end": 8.848187224795563,
+   "start": 6.873738798650426,
+   "end": 8.046985853033682,
    "rot": 0
   },
   {
    "text": "meinen Mund.",
-   "start": 8.798187224795562,
-   "end": 10.076699834162522,
+   "start": 8.046985853033682,
+   "end": 9.166903495854063,
    "rot": 1.6
   },
   {
    "text": "Machen lassen wollte",
-   "start": 10.026699834162521,
-   "end": 11.245835429593606,
+   "start": 9.166903495854063,
+   "end": 10.232692784616244,
    "rot": -0.8
   },
   {
    "text": "ich nie.",
-   "start": 11.195835429593606,
-   "end": 12.239600685710029,
+   "start": 10.232692784616244,
+   "end": 11.138613680064099,
    "rot": 0.8
   },
   {
    "text": "Zu viel Angst, dass",
-   "start": 12.189600685710028,
-   "end": 13.584106620455776,
+   "start": 11.138613680064099,
+   "end": 12.364271362140608,
    "rot": -1.6
   },
   {
    "text": "es gemacht aussieht.",
-   "start": 13.534106620455775,
-   "end": 15.279353233830848,
+   "start": 12.364271362140608,
+   "end": 13.909665830845771,
    "rot": 0
   },
   {
    "text": "Ich wollte selbst was",
-   "start": 15.229353233830848,
-   "end": 16.50461580983969,
+   "start": 13.909665830845771,
+   "end": 15.026620728579326,
    "rot": 1.6
   },
   {
    "text": "tun.",
-   "start": 16.45461580983969,
-   "end": 17.263111690226122,
+   "start": 15.026620728579326,
+   "end": 15.71806899860486,
    "rot": -0.8
   },
   {
    "text": "Abends, in Ruhe.",
-   "start": 17.21311169022612,
-   "end": 18.95514096185738,
+   "start": 15.71806899860486,
+   "end": 17.260530524046434,
    "rot": 0.8
   },
   {
    "text": "Jetzt kommt abends ein",
-   "start": 18.90514096185738,
-   "end": 20.239712683196487,
+   "start": 17.260530524046434,
+   "end": 18.431551906510805,
    "rot": -1.6
   },
   {
    "text": "Tape auf die Lippen.",
-   "start": 20.189712683196486,
-   "end": 21.933011770416215,
+   "start": 18.431551906510805,
+   "end": 19.97517100157748,
    "rot": 0
   },
   {
    "text": "Mit Pflege in der",
-   "start": 21.883011770416214,
-   "end": 22.92563537326916,
+   "start": 19.97517100157748,
+   "end": 20.880051160754494,
    "rot": 1.6
   },
   {
    "text": "Mitte, die über Nacht",
-   "start": 22.87563537326916,
-   "end": 24.38537596569996,
+   "start": 20.880051160754494,
+   "end": 22.21075727719128,
    "rot": -0.8
   },
   {
    "text": "Feuchtigkeit spendet.",
-   "start": 24.33537596569996,
-   "end": 26.13706467661692,
+   "start": 22.21075727719128,
+   "end": 23.807604616915423,
    "rot": 0.8
   },
   {
    "text": "Morgens fühlen sich",
-   "start": 26.08706467661692,
-   "end": 27.24408512990603,
+   "start": 23.807604616915423,
+   "end": 24.816769461580986,
    "rot": -1.6
   },
   {
    "text": "meine Lippen weich an.",
-   "start": 27.19408512990603,
-   "end": 29.050276395798786,
+   "start": 24.816769461580986,
+   "end": 26.463301576561637,
    "rot": 0
   },
   {
    "text": "Und ich schau wieder",
-   "start": 29.000276395798785,
-   "end": 30.215561083471535,
+   "start": 26.463301576561637,
+   "end": 27.525580360420122,
    "rot": 1.6
   },
   {
    "text": "gern in den Spiegel.",
-   "start": 30.165561083471534,
-   "end": 31.905223880597017,
+   "start": 27.525580360420122,
+   "end": 29.065884597014925,
    "rot": -0.8
   },
   {
    "text": "Das Foto hängt jetzt",
-   "start": 31.855223880597016,
-   "end": 33.06194029850746,
+   "start": 29.065884597014925,
+   "end": 30.120352507462687,
    "rot": 0.8
   },
   {
    "text": "am Kühlschrank.",
-   "start": 33.01194029850746,
-   "end": 34.449999999999996,
+   "start": 30.120352507462687,
+   "end": 31.435714,
    "rot": -1.6
   }
  ],
- "endStart": 34.65,
- "duration": 36.85,
+ "endStart": 31.635714,
+ "duration": 33.835714,
  "noCaptions": false,
  "endcard": {
   "line": "Lippenpflege für die Nacht",
