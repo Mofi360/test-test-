@@ -4,183 +4,183 @@
    "id": "s1",
    "text": "Mein Freund kommt ins Schlafzimmer, und ich lieg da mit Tape auf dem Mund.",
    "start": 0,
-   "dur": 4.566575342465754,
+   "dur": 4.277142878424658,
    "speakStart": 0.3
   },
   {
    "id": "s2",
    "text": "Er: Okay. Muss ich mir Sorgen machen?",
-   "start": 4.566575342465754,
-   "dur": 2.893424657534246,
-   "speakStart": 4.566575342465754
+   "start": 4.277142878424658,
+   "dur": 2.697142871575342,
+   "speakStart": 4.277142878424658
   },
   {
    "id": "s3",
    "text": "Ich, durchs Tape: Mhm mhm.",
-   "start": 7.46,
-   "dur": 2.108767123287673,
-   "speakStart": 7.46
+   "start": 6.97428575,
+   "dur": 1.9657142962328784,
+   "speakStart": 6.97428575
   },
   {
    "id": "s4",
    "text": "Für alle, die genauso gucken: Das ist Lippenpflege. In der Mitte Kollagen, Hyaluronsäure und Vitamin E.",
-   "start": 9.568767123287673,
-   "dur": 6.522465753424656,
-   "speakStart": 9.568767123287673
+   "start": 8.940000046232878,
+   "dur": 6.080000032534246,
+   "speakStart": 8.940000046232878
   },
   {
    "id": "s5",
    "text": "Die Pflege bleibt die ganze Nacht da, wo sie hin soll. Nicht mehr im Kissen.",
-   "start": 16.09123287671233,
-   "dur": 4.806027397260273,
-   "speakStart": 16.09123287671233
+   "start": 15.020000078767124,
+   "dur": 4.480000023972602,
+   "speakStart": 15.020000078767124
   },
   {
    "id": "s6",
    "text": "Und ja, in der Mitte ist ein kleines Loch. Hat er auch gefragt.",
-   "start": 20.897260273972602,
-   "dur": 4.168493150684931,
-   "speakStart": 20.897260273972602
+   "start": 19.500000102739726,
+   "dur": 3.8857143065068485,
+   "speakStart": 19.500000102739726
   },
   {
    "id": "s7",
    "text": "Inzwischen fragt er abends nur noch:",
-   "start": 25.065753424657533,
-   "dur": 1.9616438356164423,
-   "speakStart": 25.065753424657533
+   "start": 23.385714409246575,
+   "dur": 1.8285714383561675,
+   "speakStart": 23.385714409246575
   },
   {
    "id": "s8",
    "text": "Hast du dein Tape schon drauf?",
-   "start": 27.027397260273975,
-   "dur": 2.162602739726026,
-   "speakStart": 27.027397260273975
+   "start": 25.214285847602742,
+   "dur": 2.032857152397259,
+   "speakStart": 25.214285847602742
   }
  ],
  "captions": [
   {
    "text": "Mein Freund kommt ins",
    "start": 0.3,
-   "end": 1.4166438356164386,
+   "end": 1.2942857196061646,
    "rot": -1.6
   },
   {
    "text": "Schlafzimmer, und ich",
-   "start": 1.3666438356164385,
-   "end": 2.686457925636008,
+   "start": 1.2942857196061646,
+   "end": 2.477959195327789,
    "rot": 0
   },
   {
    "text": "lieg da mit Tape",
-   "start": 2.6364579256360083,
-   "end": 3.4991389432485325,
+   "start": 2.477959195327789,
+   "end": 3.2355102197896284,
    "rot": 1.6
   },
   {
    "text": "auf dem Mund.",
-   "start": 3.4491389432485327,
-   "end": 4.616575342465754,
+   "start": 3.2355102197896284,
+   "end": 4.327142878424658,
    "rot": -0.8
   },
   {
    "text": "Für alle, die genauso",
-   "start": 9.568767123287673,
-   "end": 10.892686215753427,
+   "start": 8.940000046232878,
+   "end": 10.127500052587223,
    "rot": 0.8
   },
   {
    "text": "gucken: Das ist",
-   "start": 10.842686215753426,
-   "end": 11.8608647260274,
+   "start": 10.127500052587223,
+   "end": 11.030000057416526,
    "rot": -1.6
   },
   {
    "text": "Lippenpflege.",
-   "start": 11.810864726027399,
-   "end": 12.981913527397262,
+   "start": 11.030000057416526,
+   "end": 12.07500006300835,
    "rot": 0
   },
   {
    "text": "In der Mitte Kollagen,",
-   "start": 12.931913527397262,
-   "end": 14.306789383561645,
+   "start": 12.07500006300835,
+   "end": 13.310000069616867,
    "rot": 1.6
   },
   {
    "text": "Hyaluronsäure und",
-   "start": 14.256789383561644,
-   "end": 15.173054366438357,
+   "start": 13.310000069616867,
+   "end": 14.117500073937823,
    "rot": -0.8
   },
   {
    "text": "Vitamin E.",
-   "start": 15.123054366438357,
-   "end": 16.14123287671233,
+   "start": 14.117500073937823,
+   "end": 15.020000078767124,
    "rot": 0.8
   },
   {
    "text": "Die Pflege bleibt die",
-   "start": 16.09123287671233,
-   "end": 17.203617880317232,
+   "start": 15.020000078767124,
+   "end": 16.010315873540016,
    "rot": -1.6
   },
   {
    "text": "ganze Nacht da, wo",
-   "start": 17.15361788031723,
-   "end": 18.316592645998558,
+   "start": 16.010315873540016,
+   "end": 17.047789563302093,
    "rot": 0
   },
   {
    "text": "sie hin soll.",
-   "start": 18.266592645998557,
-   "end": 19.429567411679887,
+   "start": 17.047789563302093,
+   "end": 18.085263253064166,
    "rot": 1.6
   },
   {
    "text": "Nicht mehr im Kissen.",
-   "start": 19.379567411679886,
-   "end": 20.947260273972603,
+   "start": 18.085263253064166,
+   "end": 19.500000102739726,
    "rot": -0.8
   },
   {
    "text": "Und ja, in der",
-   "start": 20.897260273972602,
-   "end": 21.86229535583027,
+   "start": 19.500000102739726,
+   "end": 20.352961779777814,
    "rot": 0.8
   },
   {
    "text": "Mitte ist ein kleines",
-   "start": 21.81229535583027,
-   "end": 22.929836284664216,
+   "start": 20.352961779777814,
+   "end": 21.348083736322252,
    "rot": -1.6
   },
   {
    "text": "Loch.",
-   "start": 22.879836284664215,
-   "end": 23.64153023722018,
+   "start": 21.348083736322252,
+   "end": 22.011498374018544,
    "rot": 0
   },
   {
    "text": "Hat er auch gefragt.",
-   "start": 23.59153023722018,
-   "end": 25.115753424657534,
+   "start": 22.011498374018544,
+   "end": 23.385714409246575,
    "rot": 1.6
   },
   {
    "text": "Inzwischen fragt er",
-   "start": 25.065753424657533,
-   "end": 26.071426062521954,
+   "start": 23.385714409246575,
+   "end": 24.27655690485599,
    "rot": -0.8
   },
   {
    "text": "abends nur noch:",
-   "start": 26.021426062521954,
-   "end": 27.077397260273976,
+   "start": 24.27655690485599,
+   "end": 25.264285847602743,
    "rot": 0.8
   }
  ],
- "endStart": 29.19,
- "duration": 31.39,
+ "endStart": 27.247143,
+ "duration": 29.447143,
  "noCaptions": false,
  "endcard": {
   "line": "Lippenpflege für die Nacht",

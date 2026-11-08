@@ -4,224 +4,224 @@
    "id": "s1",
    "text": "Die Frage krieg ich ständig: Wofür ist das Loch in der Mitte?",
    "start": 0,
-   "dur": 4.266499162479062,
+   "dur": 4.101363266331658,
    "speakStart": 0.3
   },
   {
    "id": "s2",
    "text": "Also, kurz erklärt. Das Tape kommt abends über die geschlossenen Lippen.",
-   "start": 4.266499162479062,
-   "dur": 5.0385259631490795,
-   "speakStart": 4.266499162479062
+   "start": 4.101363266331658,
+   "dur": 4.828758743718593,
+   "speakStart": 4.101363266331658
   },
   {
    "id": "s3",
    "text": "In der Mitte sitzt die Pflege mit Kollagen, Hyaluronsäure, Vitamin E und Glycerin.",
-   "start": 9.305025125628141,
-   "dur": 5.306532663316583,
-   "speakStart": 9.305025125628141
+   "start": 8.930122010050251,
+   "dur": 5.085607613065328,
+   "speakStart": 8.930122010050251
   },
   {
    "id": "s4",
    "text": "Und genau da drin ist ein kleines Sicherheitsloch. Da kann Luft durch.",
-   "start": 14.611557788944724,
-   "dur": 4.716917922948072,
-   "speakStart": 14.611557788944724
+   "start": 14.015729623115579,
+   "dur": 4.520540100502512,
+   "speakStart": 14.015729623115579
   },
   {
    "id": "s5",
    "text": "Das ist also mit Absicht so.",
-   "start": 19.328475711892796,
-   "dur": 1.9832495812395337,
-   "speakStart": 19.328475711892796
+   "start": 18.53626972361809,
+   "dur": 1.9006816331658314,
+   "speakStart": 18.53626972361809
   },
   {
    "id": "s6",
    "text": "Der Rest ist medizinische Baumwolle mit einem hypoallergenen, atmungsaktiven Kleber.",
-   "start": 21.31172529313233,
-   "dur": 5.19932998324958,
-   "speakStart": 21.31172529313233
+   "start": 20.436951356783922,
+   "dur": 4.982868065326631,
+   "speakStart": 20.436951356783922
   },
   {
    "id": "s7",
    "text": "Morgens langsam abziehen, fertig. Noch Fragen? Schreib sie in die Kommentare.",
-   "start": 26.51105527638191,
-   "dur": 6.038944723618087,
-   "speakStart": 26.51105527638191
+   "start": 25.419819422110553,
+   "dur": 5.797935577889447,
+   "speakStart": 25.419819422110553
   }
  ],
  "captions": [
   {
    "text": "Die Frage krieg ich",
    "start": 0.3,
-   "end": 1.3967150567653082,
+   "end": 1.3031375286152989,
    "rot": -1.6
   },
   {
    "text": "ständig: Wofür ist das",
-   "start": 1.3467150567653081,
-   "end": 2.829061976549413,
+   "start": 1.3031375286152989,
+   "end": 2.6758520414572864,
    "rot": 0
   },
   {
    "text": "Loch in der Mitte?",
-   "start": 2.7790619765494133,
-   "end": 4.316499162479062,
+   "start": 2.6758520414572864,
+   "end": 4.101363266331658,
    "rot": 1.6
   },
   {
    "text": "Also, kurz erklärt.",
-   "start": 4.266499162479062,
-   "end": 6.088288512157859,
+   "start": 4.101363266331658,
+   "end": 5.799388319067867,
    "rot": -0.8
   },
   {
    "text": "Das Tape kommt abends",
-   "start": 6.038288512157859,
-   "end": 7.251025272884569,
+   "start": 5.799388319067867,
+   "end": 6.913717259926004,
    "rot": 0.8
   },
   {
    "text": "über die geschlossenen",
-   "start": 7.20102527288457,
-   "end": 8.469130450788743,
+   "start": 6.913717259926004,
+   "end": 8.081109483682146,
    "rot": -1.6
   },
   {
    "text": "Lippen.",
-   "start": 8.419130450788742,
-   "end": 9.355025125628142,
+   "start": 8.081109483682146,
+   "end": 8.930122010050251,
    "rot": 0
   },
   {
    "text": "In der Mitte sitzt",
-   "start": 9.305025125628141,
-   "end": 10.360473419730232,
+   "start": 8.930122010050251,
+   "end": 9.89371082094684,
    "rot": 1.6
   },
   {
    "text": "die Pflege mit",
-   "start": 10.310473419730231,
-   "end": 11.142488759587412,
+   "start": 9.89371082094684,
+   "end": 10.643168784977519,
    "rot": -0.8
   },
   {
    "text": "Kollagen,",
-   "start": 11.092488759587411,
-   "end": 11.868645860883365,
+   "start": 10.643168784977519,
+   "end": 11.339094037291723,
    "rot": 0.8
   },
   {
    "text": "Hyaluronsäure, Vitamin",
-   "start": 11.818645860883365,
-   "end": 13.320960063475273,
+   "start": 11.339094037291723,
+   "end": 12.730944541920127,
    "rot": -1.6
   },
   {
    "text": "E und Glycerin.",
-   "start": 13.270960063475272,
-   "end": 14.661557788944725,
+   "start": 12.730944541920127,
+   "end": 14.015729623115579,
    "rot": 0
   },
   {
    "text": "Und genau da drin",
-   "start": 14.611557788944724,
-   "end": 15.60494137353434,
+   "start": 14.015729623115579,
+   "end": 14.91983764321608,
    "rot": 1.6
   },
   {
    "text": "ist ein kleines",
-   "start": 15.554941373534339,
-   "end": 16.43733865405459,
+   "start": 14.91983764321608,
+   "end": 15.717580013892995,
    "rot": -0.8
   },
   {
    "text": "Sicherheitsloch.",
-   "start": 16.387338654054588,
-   "end": 17.824667454921666,
+   "start": 15.717580013892995,
+   "end": 17.047150631687852,
    "rot": 0.8
   },
   {
    "text": "Da kann Luft durch.",
-   "start": 17.774667454921666,
-   "end": 19.378475711892797,
+   "start": 17.047150631687852,
+   "end": 18.53626972361809,
    "rot": -1.6
   },
   {
    "text": "Das ist also mit",
-   "start": 19.328475711892796,
-   "end": 20.25991997022148,
+   "start": 18.53626972361809,
+   "end": 19.38101711613624,
    "rot": 0
   },
   {
    "text": "Absicht so.",
-   "start": 20.209919970221478,
-   "end": 21.36172529313233,
+   "start": 19.38101711613624,
+   "end": 20.436951356783922,
    "rot": 1.6
   },
   {
    "text": "Der Rest ist",
-   "start": 21.31172529313233,
-   "end": 22.032606581293567,
+   "start": 20.436951356783922,
+   "end": 21.079902074890583,
    "rot": -0.8
   },
   {
    "text": "medizinische Baumwolle",
-   "start": 21.982606581293567,
-   "end": 23.262555609589167,
+   "start": 21.079902074890583,
+   "end": 22.25864505808613,
    "rot": 0.8
   },
   {
    "text": "mit einem",
-   "start": 23.212555609589167,
-   "end": 23.765716575710094,
+   "start": 22.25864505808613,
+   "end": 22.740858096666127,
    "rot": -1.6
   },
   {
    "text": "hypoallergenen,",
-   "start": 23.715716575710093,
-   "end": 24.827945281965384,
+   "start": 22.740858096666127,
+   "end": 23.75886340033501,
    "rot": 0
   },
   {
    "text": "atmungsaktiven Kleber.",
-   "start": 24.777945281965383,
-   "end": 26.56105527638191,
+   "start": 23.75886340033501,
+   "end": 25.419819422110553,
    "rot": 1.6
   },
   {
    "text": "Morgens langsam",
-   "start": 26.51105527638191,
-   "end": 27.39599922690375,
+   "start": 25.419819422110553,
+   "end": 26.2200024381523,
    "rot": -0.8
   },
   {
    "text": "abziehen, fertig.",
-   "start": 27.34599922690375,
-   "end": 29.06588712794743,
+   "start": 26.2200024381523,
+   "end": 27.820368470235795,
    "rot": 0.8
   },
   {
    "text": "Noch Fragen?",
-   "start": 29.01588712794743,
-   "end": 30.234808658678006,
+   "start": 27.820368470235795,
+   "end": 28.94062469269424,
    "rot": -1.6
   },
   {
    "text": "Schreib sie in die",
-   "start": 30.184808658678005,
-   "end": 31.23674139930421,
+   "start": 28.94062469269424,
+   "end": 29.900844311944336,
    "rot": 0
   },
   {
    "text": "Kommentare.",
-   "start": 31.18674139930421,
-   "end": 32.349999999999994,
+   "start": 29.900844311944336,
+   "end": 31.017755,
    "rot": 1.6
   }
  ],
- "endStart": 32.55,
- "duration": 34.75,
+ "endStart": 31.217755,
+ "duration": 33.417755,
  "noCaptions": false,
  "endcard": {
   "line": "Lippenpflege für die Nacht",

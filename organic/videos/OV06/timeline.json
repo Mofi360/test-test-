@@ -4,230 +4,230 @@
    "id": "s1",
    "text": "Ich bin 56 und hab das vorher noch nie gemacht. Also zeig ich dir, wie es richtig geht.",
    "start": 0,
-   "dur": 6.237808641975308,
+   "dur": 6.26273112191358,
    "speakStart": 0.3
   },
   {
    "id": "s2",
    "text": "Erstens: Die Haut um den Mund sauber und trocken machen.",
-   "start": 6.237808641975308,
-   "dur": 3.758796296296296,
-   "speakStart": 6.237808641975308
+   "start": 6.26273112191358,
+   "dur": 3.774572912037039,
+   "speakStart": 6.26273112191358
   },
   {
    "id": "s3",
    "text": "Zweitens: Lippen schließen und das Tape sanft drüberlegen.",
-   "start": 9.996604938271604,
-   "dur": 3.8677469135802465,
-   "speakStart": 9.996604938271604
+   "start": 10.037304033950619,
+   "dur": 3.8839808225308623,
+   "speakStart": 10.037304033950619
   },
   {
    "id": "s4",
    "text": "Drittens: Einmal leicht andrücken. Die Pflege-Mitte liegt jetzt genau auf den Lippen.",
-   "start": 13.86435185185185,
-   "dur": 5.828858024691357,
-   "speakStart": 13.86435185185185
+   "start": 13.921284856481481,
+   "dur": 5.853323211419756,
+   "speakStart": 13.921284856481481
   },
   {
    "id": "s5",
    "text": "Siehst du das kleine Loch in der Mitte? Das ist ein Sicherheitsloch, da kann Luft durch.",
-   "start": 19.693209876543207,
-   "dur": 5.992283950617285,
-   "speakStart": 19.693209876543207
+   "start": 19.774608067901237,
+   "dur": 6.017435077160492,
+   "speakStart": 19.774608067901237
   },
   {
    "id": "s6",
    "text": "Viertens, und das ist wichtig: Morgens langsam abziehen. Nicht ruckartig, ganz in Ruhe.",
-   "start": 25.685493827160492,
-   "dur": 6.37361111111111,
-   "speakStart": 25.685493827160492
+   "start": 25.79204314506173,
+   "dur": 6.400362763888889,
+   "speakStart": 25.79204314506173
   },
   {
    "id": "s7",
    "text": "Speicher dir das, dann hast du es heute Abend parat.",
-   "start": 32.0591049382716,
-   "dur": 3.790895061728392,
-   "speakStart": 32.0591049382716
+   "start": 32.19240590895062,
+   "dur": 3.8057570910493794,
+   "speakStart": 32.19240590895062
   }
  ],
  "captions": [
   {
    "text": "Ich bin 56 und",
    "start": 0.3,
-   "end": 1.1417078189300411,
+   "end": 1.095030816255144,
    "rot": -1.6
   },
   {
    "text": "hab das vorher noch",
-   "start": 1.091707818930041,
-   "end": 2.2161684303350966,
+   "start": 1.095030816255144,
+   "end": 2.174001209744268,
    "rot": 0
   },
   {
    "text": "nie gemacht.",
-   "start": 2.1661684303350968,
-   "end": 3.403730158730158,
+   "start": 2.174001209744268,
+   "end": 3.366547434126984,
    "rot": 1.6
   },
   {
    "text": "Also zeig ich dir,",
-   "start": 3.353730158730158,
-   "end": 4.647842445620222,
+   "start": 3.366547434126984,
+   "end": 4.615881573956496,
    "rot": -0.8
   },
   {
    "text": "wie es richtig geht.",
-   "start": 4.5978424456202225,
-   "end": 6.287808641975308,
+   "start": 4.615881573956496,
+   "end": 6.26273112191358,
    "rot": 0.8
   },
   {
    "text": "Erstens: Die Haut um",
-   "start": 6.237808641975308,
-   "end": 7.634243136170996,
+   "start": 6.26273112191358,
+   "end": 7.614816941150728,
    "rot": -1.6
   },
   {
    "text": "den Mund sauber und",
-   "start": 7.584243136170996,
-   "end": 8.700170444075916,
+   "start": 7.614816941150728,
+   "end": 8.68521821471347,
    "rot": 0
   },
   {
    "text": "trocken machen.",
-   "start": 8.650170444075915,
-   "end": 10.046604938271605,
+   "start": 8.68521821471347,
+   "end": 10.037304033950619,
    "rot": 1.6
   },
   {
    "text": "Zweitens: Lippen",
-   "start": 9.996604938271604,
-   "end": 11.167691000178923,
+   "start": 10.037304033950619,
+   "end": 11.163095576713188,
    "rot": -0.8
   },
   {
    "text": "schließen und das Tape",
-   "start": 11.117691000178922,
-   "end": 12.400885668276972,
+   "start": 11.163095576713188,
+   "end": 12.401466273752014,
    "rot": 0.8
   },
   {
    "text": "sanft drüberlegen.",
-   "start": 12.350885668276971,
-   "end": 13.914351851851851,
+   "start": 12.401466273752014,
+   "end": 13.921284856481481,
    "rot": -1.6
   },
   {
    "text": "Drittens: Einmal",
-   "start": 13.86435185185185,
-   "end": 15.04616894402493,
+   "start": 13.921284856481481,
+   "end": 15.057852470349395,
    "rot": 0
   },
   {
    "text": "leicht andrücken.",
-   "start": 14.99616894402493,
-   "end": 16.517531163849934,
+   "start": 15.057852470349395,
+   "end": 16.535390368377684,
    "rot": 1.6
   },
   {
    "text": "Die Pflege-Mitte liegt",
-   "start": 16.467531163849934,
-   "end": 17.76252996524032,
+   "start": 16.535390368377684,
+   "end": 17.785614743632387,
    "rot": -0.8
   },
   {
    "text": "jetzt genau auf den",
-   "start": 17.712529965240318,
-   "end": 18.837756202804744,
+   "start": 17.785614743632387,
+   "end": 18.865353976806908,
    "rot": 0.8
   },
   {
    "text": "Lippen.",
-   "start": 18.787756202804744,
-   "end": 19.743209876543208,
+   "start": 18.865353976806908,
+   "end": 19.774608067901237,
    "rot": -1.6
   },
   {
    "text": "Siehst du das kleine",
-   "start": 19.693209876543207,
-   "end": 20.873829489867223,
+   "start": 19.774608067901237,
+   "end": 20.909973176799443,
    "rot": 0
   },
   {
    "text": "Loch in der Mitte?",
-   "start": 20.823829489867222,
-   "end": 22.400165967854644,
+   "start": 20.909973176799443,
+   "end": 22.442716073812022,
    "rot": 1.6
   },
   {
    "text": "Das ist ein",
-   "start": 22.350165967854643,
-   "end": 23.022006755182854,
+   "start": 22.442716073812022,
+   "end": 23.067166883706037,
    "rot": -0.8
   },
   {
    "text": "Sicherheitsloch, da",
-   "start": 22.972006755182854,
-   "end": 24.322219310505474,
+   "start": 23.067166883706037,
+   "end": 24.372836758938973,
    "rot": 0.8
   },
   {
    "text": "kann Luft durch.",
-   "start": 24.272219310505474,
-   "end": 25.735493827160493,
+   "start": 24.372836758938973,
+   "end": 25.79204314506173,
    "rot": -1.6
   },
   {
    "text": "Viertens, und das ist",
-   "start": 25.685493827160492,
-   "end": 27.145584780946137,
+   "start": 25.79204314506173,
+   "end": 27.208052606099095,
    "rot": 0
   },
   {
    "text": "wichtig: Morgens",
-   "start": 27.095584780946137,
-   "end": 28.273657543974654,
+   "start": 27.208052606099095,
+   "end": 28.340860174928984,
    "rot": 1.6
   },
   {
    "text": "langsam abziehen.",
-   "start": 28.223657543974653,
-   "end": 29.74015213591172,
+   "start": 28.340860174928984,
+   "end": 29.813510014407846,
    "rot": -0.8
   },
   {
    "text": "Nicht ruckartig, ganz",
-   "start": 29.69015213591172,
-   "end": 31.150243089697366,
+   "start": 29.813510014407846,
+   "end": 31.22951947544521,
    "rot": 0.8
   },
   {
    "text": "in Ruhe.",
-   "start": 31.100243089697365,
-   "end": 32.1091049382716,
+   "start": 31.22951947544521,
+   "end": 32.19240590895062,
    "rot": -1.6
   },
   {
    "text": "Speicher dir das, dann",
-   "start": 32.0591049382716,
-   "end": 33.57042670977855,
+   "start": 32.19240590895062,
+   "end": 33.65986121636782,
    "rot": 0
   },
   {
    "text": "hast du es heute",
-   "start": 33.520426709778555,
-   "end": 34.46970164609053,
+   "start": 33.65986121636782,
+   "end": 34.56291063631687,
    "rot": 1.6
   },
   {
    "text": "Abend parat.",
-   "start": 34.41970164609053,
-   "end": 35.64999999999999,
+   "start": 34.56291063631687,
+   "end": 35.798162999999995,
    "rot": -0.8
   }
  ],
- "endStart": 35.849999999999994,
- "duration": 38.05,
+ "endStart": 35.998163,
+ "duration": 38.198163,
  "noCaptions": false,
  "endcard": {
   "line": "Lippenpflege für die Nacht",
