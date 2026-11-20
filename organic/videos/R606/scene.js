@@ -41,7 +41,7 @@ function bride(o = {}) {
     <ellipse cx="200" cy="230" rx="106" ry="120" fill="${C.haut}"/>
     <path d="M90 220 C80 128 144 94 208 98 C270 102 322 136 312 220 C300 172 270 150 226 154 C200 176 140 180 90 220Z" fill="${HAIR}"/>
     ${o.veil ? [162, 181, 200, 219, 238].map((x, i) => `<circle cx="${x}" cy="${104 - Math.abs(i - 2) * -3}" r="8" fill="${C.weiss}" stroke="${S}" stroke-opacity=".3" stroke-width="2"/>`).join('') : ''}
-    <circle cx="95" cy="282" r="10" fill="${C.weiss}" stroke="${S}" stroke-opacity=".35" stroke-width="3"/><circle cx="305" cy="282" r="10" fill="${C.weiss}" stroke="${S}" stroke-opacity=".35" stroke-width="3"/>
+    ${o.top === 'pj' ? '' : `<circle cx="95" cy="282" r="10" fill="${C.weiss}" stroke="${S}" stroke-opacity=".35" stroke-width="3"/><circle cx="305" cy="282" r="10" fill="${C.weiss}" stroke="${S}" stroke-opacity=".35" stroke-width="3"/>`}
     <path d="M136 178 Q156 166 176 174" fill="none" stroke="${HAIR}" stroke-width="7" stroke-linecap="round"/>
     <path d="M224 174 Q244 166 264 178" fill="none" stroke="${HAIR}" stroke-width="7" stroke-linecap="round"/>
     ${eye(156)}${eye(244)}
@@ -116,7 +116,7 @@ const flute = () => `<path d="M30 20 L90 20 C92 110 80 170 60 182 C40 170 28 110
   <path d="M60 182 L60 296 M28 300 L92 300" stroke="${S}" stroke-width="7" stroke-linecap="round"/>`;
 function tick(root, x, y, label, o = {}) {
   const n = el('div', { left: x + 'px', top: y + 'px', fontFamily: F.hand, fontWeight: 700, fontSize: '78px', color: S, whiteSpace: 'pre', transform: `rotate(${o.r ?? -4}deg)`, transformOrigin: '0 50%' }, root, label);
-  const c = svg(`<path d="M10 52 L40 84 L104 10" fill="none" stroke="${C.beere}" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, { left: (x + (o.cx ?? 0)) + 'px', top: (y + (o.cy ?? -84)) + 'px' }, root, '0 0 114 96', 114, 96);
+  const c = svg(`<path d="M10 52 L40 84 L104 10" fill="none" stroke="${C.beere}" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`, { left: (x + (o.cx ?? 0)) + 'px', top: (y + (o.cy ?? -84)) + 'px' }, root, '0 0 114 96', 88, 74);
   return (t, t0) => { const k = pr(t, t0, t0 + .35); n.style.opacity = k; n.style.clipPath = `inset(-20px ${100 - k * 100}% -20px 0)`; c.querySelector('path').setAttribute('stroke-dashoffset', 1 - pr(t, t0 + .3, t0 + .6)); };
 }
 SCENES.s2 = { bg: C.weiss, build(root, ctx) {
@@ -138,9 +138,9 @@ SCENES.s2 = { bg: C.weiss, build(root, ctx) {
   const fl = svg(sparkle(80, 80, 3.2, '#FFE9A8'), {}, root, '0 0 160 160', 160, 160);
   const g1 = svg(flute(), {}, root, '0 0 120 310', 120, 310), g2 = svg(flute(), {}, root, '0 0 120 310', 120, 310);
   const cl = svg(sparkle(40, 40, 1.2, C.beere) + sparkle(84, 20, .6, S) + sparkle(14, 80, .5, S), {}, root, '0 0 110 110', 110, 110);
-  const t1 = tick(root, 70, 800, 'Probe-Make-up', { r: -5, cx: 250, cy: -80 });
-  const t2 = tick(root, 420, 898, 'Fotografin', { r: 3, cx: 180, cy: -86 });
-  const t3 = tick(root, 770, 770, 'Sekt', { r: -4, cx: 70, cy: -90 });
+  const t1 = tick(root, 60, 770, 'Probe-Make-up', { r: -5, cx: 400, cy: -28 });
+  const t2 = tick(root, 392, 912, 'Fotografin', { r: 3, cx: 286, cy: 22 });
+  const t3 = tick(root, 776, 800, 'Sekt', { r: -4, cx: 120, cy: -4 });
   const pop = (n, cx, baseY, h, t, t0, r = 0) => { const k = pr(t, t0, t0 + .45, ease.outBack); place(n, cx, baseY - h / 2, 1, r, clamp((t - t0) / .1)); n.style.transformOrigin = '50% 100%'; n.style.transform += ` scale(${lerp(.6, 1, k)})`; };
   return (t) => {
     head.update(t);
@@ -233,11 +233,13 @@ SCENES.s4 = { bg: C.rosa, build(root, ctx) {
 // ================= s5: Wochen davor, abends – Diva Tape =================
 SCENES.s5 = { bg: C.nacht, build(root, ctx) {
   const D = ctx.dur, tB = D - 3.8;
-  const stars = full(root, [[120, 560, 1.2], [960, 520, 1], [70, 1180, .8], [1000, 1120, 1.3], [900, 250, .7], [180, 1330, 1]].map(s => ART.star(s[0], s[1], s[2] * 1.5, MOND)).join(''));
+  const stars = full(root, [[990, 470, 1.1], [70, 1180, .8], [1000, 1120, 1.3], [1010, 200, .7], [180, 1340, 1]].map(s => ART.star(s[0], s[1], s[2] * 1.5, MOND)).join(''));
   // --- Teil A: Kalender ---
   const A = el('div', { left: 0, top: 0, width: '1080px', height: '1920px' }, root);
   const hA = bigText(A, 'In den *Wochen* *davor*', { x: 80, y: 210, w: 900, size: 124, color: C.weiss, accent: C.rosa, t0: 0, step: .08 });
-  const nA = note(A, 'abends, als letzter Schritt', { x: 96, y: 474, size: 84, color: C.rosa, r: -3, t0: Math.min(2.2, tB * .5) });
+  const tN = Math.min(2.2, tB * .5);
+  const nEl = el('div', { left: '90px', top: '470px', padding: '0 30px 10px 6px', fontFamily: F.hand, fontWeight: 700, fontSize: '84px', color: C.rosa, transform: 'rotate(-3deg)', whiteSpace: 'pre' }, A, 'abends, als letzter Schritt');
+  const nA = { update(t) { const k = pr(t, tN, tN + .6); nEl.style.opacity = k > 0 ? 1 : 0; nEl.style.clipPath = `inset(-20px ${100 - k * 100}% -20px 0)`; } };
   const GX = 212, GY = 800, P = 96, PR = 122, N = 27;
   const calS = svg('', { left: '0px', top: '0px' }, A, '0 0 1080 1920', 1080, 1920);
   const crescent = (x, y) => `<path transform="translate(${x} ${y})" d="M6 -20 A22 22 0 1 0 20 12 A18 18 0 1 1 6 -20Z" fill="${C.nacht}"/>`;
@@ -261,12 +263,12 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
   };
   // --- Teil B: Abend, Tape auf den Lippen ---
   const B = el('div', { left: 0, top: 0, width: '1080px', height: '1920px' }, root);
-  const moon = svg(ART.moon(MOND), {}, B, '0 0 400 400', 230, 230);
+  const moon = svg(ART.moon(MOND), {}, B, '0 0 400 400', 190, 190);
   const hB = bigText(B, 'Diva Tape', { x: 80, y: 214, w: 800, size: 168, color: C.weiss, t0: tB + .25, step: .12 });
   const sub = el('div', { left: '86px', top: '418px', fontFamily: F.sans, fontWeight: 600, fontSize: '56px', color: C.rosa, whiteSpace: 'pre' }, B, 'Kollagen-Tape, über Nacht');
-  const pil = svg(ART.pillow(C.rosaHell), {}, B, '0 0 400 400', 900, 900);
+  const pil = svg(`<path d="M40 150 C60 100 340 100 360 150 C380 200 380 250 360 290 C340 330 60 330 40 290 C20 250 20 200 40 150Z" fill="${C.rosaHell}"/><path d="M70 140 C120 122 200 118 250 122" fill="none" stroke="${C.weiss}" stroke-width="5" stroke-linecap="round"/>`, {}, B, '0 0 400 400', 900, 900);
   const br = svg(bride({ eyes: 'closed', top: 'pj', smile: .5 }), {}, B, '0 0 400 460', 640, 736);
-  const tape = svg(ART.tape(true), {}, B, '0 0 400 400', 236, 236);
+  const tape = svg(ART.tape(true), {}, B, '0 0 400 400', 196, 196);
   return (t) => {
     stars.style.opacity = .55 + Math.sin(t * 2.2) * .25;
     hA.update(t); nA.update(t);
@@ -276,7 +278,7 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
     calS.style.transformOrigin = '550px 600px'; calS.style.transform = `rotate(${-1.5 + Math.sin(t * 1.2) * .5}deg)`;
     B.style.transform = `translateX(${(1 - sw) * 1100}px)`; B.style.display = sw > 0 ? 'block' : 'none';
     hB.update(t); sub.style.opacity = pr(t, tB + .7, tB + 1.1);
-    place(moon, 900, 330, 1, -12 + Math.sin(t) * 3);
+    place(moon, 900, 620, 1, -12 + Math.sin(t) * 3);
     const br2 = 1 + Math.sin((t - tB) * 1.6) * .006;
     place(pil, 540, 1060, 1, 0);
     place(br, 540, 962, br2, 0);
@@ -292,7 +294,7 @@ SCENES.s6 = { bg: C.rosa, build(root, ctx) {
     const w = 16 + rnd(i) * 22, d = el('div', { left: 0, top: 0, width: w + 'px', height: (rnd(i + 50) > .5 ? w : w * .45) + 'px', background: cols[i % cols.length], borderRadius: rnd(i + 9) > .6 ? '50%' : '3px' }, root);
     return { d, x: 40 + rnd(i + 100) * 1000, v: 520 + rnd(i + 200) * 520, ph: rnd(i + 300) * 6, y0: -80 - rnd(i + 400) * 900 };
   });
-  const head = bigText(root, 'Erst pflegen, dann *Ja* sagen.', { x: 60, y: 400, w: 960, size: 156, t0: 0, step: .07, align: 'center', lh: 1.04 });
+  const head = bigText(root, 'Erst pflegen, dann *Ja* sagen.', { x: 40, y: 500, w: 1000, size: 138, t0: 0, step: .07, align: 'center', lh: 1.06 });
   const ring = (c) => `<circle cx="130" cy="150" r="96" fill="none" stroke="${S}" stroke-width="34"/><circle cx="130" cy="150" r="96" fill="none" stroke="${c}" stroke-width="22"/>
     <path d="M62 96 A96 96 0 0 1 120 56" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".8"/>`;
   const r1 = svg(ring(GOLD), {}, root, '0 0 260 300', 260, 300);
@@ -302,10 +304,10 @@ SCENES.s6 = { bg: C.rosa, build(root, ctx) {
     head.update(t);
     conf.forEach((c, i) => { const y = c.y0 + t * c.v; c.d.style.transform = `translate(${c.x + Math.sin(t * 2.4 + c.ph) * 40}px, ${y}px) rotate(${t * 200 * (i % 2 ? 1 : -1) + c.ph * 60}deg) scaleX(${Math.cos(t * 5 + c.ph)})`; });
     const k = pr(t, .25, .75, ease.outBack), hit = clamp(1 - Math.abs(t - .75) / .2);
-    place(r1, lerp(160, 478, k), 1010, 1 + hit * .05, lerp(-30, -8, k), clamp(t / .15));
-    place(r2, lerp(920, 602, k), 1000, 1 + hit * .05, lerp(30, 8, k), clamp(t / .15));
+    place(r1, lerp(120, 462, k), 1100, 1.25 + hit * .06, lerp(-30, -8, k), clamp(t / .15));
+    place(r2, lerp(960, 618, k), 1088, 1.25 + hit * .06, lerp(30, 8, k), clamp(t / .15));
     const s = pr(t, .72, 1.0, ease.outBack);
-    place(sp, 730, 850, s * (.9 + Math.abs(Math.sin(t * 4)) * .3), t * 40, t > .72 ? 1 : 0);
+    place(sp, 790, 930, s * (.9 + Math.abs(Math.sin(t * 4)) * .3), t * 40, t > .72 ? 1 : 0);
   };
 }};
 
@@ -346,5 +348,6 @@ SCENES.cover = { build(root) {
     <g clip-path="url(#cv)"><g transform="translate(40 30) scale(1.05)">${bride({ veil: true, red: 1, smile: 1, eyes: 'happy' })}</g></g>
     ${heart(250, 512, .2)}</g>
     ${sparkle(486, 60, 1.4, C.weiss)}${sparkle(30, 440, .9, C.weiss)}`;
-  KIT.coverLayout(root, { lines: ['Rote Lippen', 'auf *jedem* Hochzeitsfoto?'], teaser: '…daran denkt vorher keiner', art, artBox: '0 0 520 600', artSize: 560, artY: 1010, size: 112, textY: 320, teaserY: 1350 });
+  KIT.coverLayout(root, { lines: ['Rote Lippen', 'auf *jedem* Hochzeitsfoto?'], teaser: '…daran denkt vorher keiner', art, artBox: '0 0 520 600', artSize: 590, artY: 1030, size: 112, textY: 316, teaserY: 1372 });
+  root.querySelectorAll('span').forEach(sp => { sp.style.lineHeight = '1.02'; sp.style.padding = '2px 26px 10px'; sp.style.marginTop = '20px'; });
 }};

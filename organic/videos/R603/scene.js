@@ -79,17 +79,17 @@ const pop = (node, t, t0, r = 0, d = .4) => { const k = pr(t, t0, t0 + d, ease.o
 
 // ---------- s1: Hook – drei Varianten, drei Fragezeichen ----------
 SCENES.s1 = { bg: C.rosa, build(root, ctx) {
-  el('div', { left: '80px', top: '205px', width: '900px', fontFamily: F.display, fontSize: '96px', lineHeight: 1.03, letterSpacing: '-1.5px', color: S }, root,
-    `Dunkel, hell oder glänzend: Was lässt Lippen <span style="color:${C.beere}">voller wirken?</span>`);
+  el('div', { left: '80px', top: '205px', width: '900px', fontFamily: F.display, fontSize: '74px', lineHeight: 1.03, letterSpacing: '-1.5px', color: S }, root,
+    `Dunkel, hell oder glänzend:<div style="font-size:116px;line-height:1;margin-top:10px;letter-spacing:-2px">Was lässt Lippen <span style="color:${C.beere}">voller wirken?</span></div>`);
   const V = [
-    { x: 330, y: 665, r: -3, o: { id: 'h1', base: WEIN }, col: WEIN, lab: 'dunkel', q: [575, 590] },
-    { x: 715, y: 905, r: 2.5, o: { id: 'h2', base: ROSA }, col: ROSA, lab: 'hell', q: [470, 850] },
-    { x: 330, y: 1150, r: -2, o: { id: 'h3', base: GLOSS, gloss: 1 }, col: GLOSS, lab: 'glänzend', q: [575, 1075] },
+    { x: 330, y: 700, r: -3, o: { id: 'h1', base: WEIN }, col: WEIN, lab: 'dunkel', q: [575, 625] },
+    { x: 715, y: 930, r: 2.5, o: { id: 'h2', base: ROSA }, col: ROSA, lab: 'hell', q: [895, 808] },
+    { x: 330, y: 1165, r: -2, o: { id: 'h3', base: GLOSS, gloss: 1 }, col: GLOSS, lab: 'glänzend', q: [575, 1095] },
   ];
   const cards = V.map(v => svg(faceCard(v.o), {}, root, '0 0 480 300', 432, 270));
   const tags = V.map((v, i) => tag(root, v.lab, { x: v.x - 200, y: v.y - 160, r: i % 2 ? 3 : -4, size: 36 }));
   const qs = V.map((v, i) => qMark(root, { x: v.q[0], y: v.q[1], size: 124, t0: -2 - i * .4 }));
-  const ls = svg(stick(WEIN), {}, root, '0 0 200 400', 150, 300);
+  const ls = svg(stick(WEIN), {}, root, '0 0 200 400', 180, 360);
   const sp = svg(sparkle(30, 30, .9) + sparkle(74, 70, .45), {}, root, '0 0 100 100', 100, 100);
   const T = [[.15, 1.0], [1.3, 2.05], [2.35, 3.1]];
   return (t) => {
@@ -106,9 +106,9 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
     if (cur > 0) { const k = pr(t, T[cur - 1][1] + .02, T[cur][0], ease.inOutCubic), q = pos(cur - 1); p = [lerp(q[0], p[0], k), lerp(q[1], p[1], k) - Math.sin(k * Math.PI) * 40]; }
     const out = pr(t, 3.15, 3.6, ease.inOutCubic);
     setArt(ls, cur === 2 ? wand(GLOSS) : stick(V[cur].col));
-    tipAt(ls, p[0] + out * 120, p[1] + out * 30, -48 + noise(t * 2, 3) * 3 + out * 20, cur === 2 ? 105 : 92, 1);
+    tipAt(ls, p[0] + out * 120, p[1] + out * 30, -48 + noise(t * 2, 3) * 3 + out * 20, cur === 2 ? 126 : 110, 1);
     const k3 = pr(t, 2.5, 2.9, ease.outBack);
-    place(sp, 150, 1040, k3 * (.9 + Math.abs(Math.sin(t * 3)) * .25), t * 20, clamp((t - 2.5) / .1));
+    place(sp, 760, 1190, k3 * (.9 + Math.abs(Math.sin(t * 3)) * .25), t * 20, clamp((t - 2.5) / .1));
   };
 }};
 
@@ -129,17 +129,17 @@ const CARD_W = 760, CARD_H = 475, LSC = 1.2 * CARD_W / 480; // Lippen-Skala auf 
 
 function optionScene(o) {
   return { bg: o.bg, build(root, ctx) {
-    const D = ctx.dur, cx = 540, cy = 800, ly = cy + (168 - 150) * CARD_W / 480; // Lippen-Mitte y
+    const D = ctx.dur, cx = 540, cy = 780, ly = cy + (168 - 150) * CARD_W / 480; // Lippen-Mitte y
     const intro = o.intro ? bigText(root, o.intro, { x: 90, y: 215, w: 900, size: 124, t0: 0, step: .04 }) : null;
     const hd = el('div', { left: '0px', top: '0px', width: '1080px', height: '560px' }, root);
     const h = head(hd, o.n, o.title, false);
     const line2 = o.line2 ? bigText(root, o.line2, { x: 90, y: 400, w: 900, size: 92, t0: o.line2At * D, step: .07 }) : null;
     const card = svg(faceCard({ id: 'o' + o.n }), {}, root, '0 0 480 300', CARD_W, CARD_H);
-    const gd = o.guidesAt ? guides(root, cx, cy - CARD_H / 2 - 46, cy + CARD_H / 2 + 46, 150 * LSC) : null;
+    const gd = o.guidesAt ? guides(root, cx, cy - CARD_H / 2 - 16, cy + CARD_H / 2 + 46, 150 * LSC) : null;
     const sw = o.cols.map((c, i) => {
       const x = 250 + i * 290;
-      const s = svg(smear(c.c), {}, root, '0 0 200 110', 220, 121);
-      const lb = el('div', { left: (x - 160) + 'px', top: '1244px', width: '320px', textAlign: 'center', fontFamily: F.sans, fontWeight: 700, fontSize: '40px', color: S }, root, c.name);
+      const s = svg(smear(c.c), {}, root, '0 0 200 110', 270, 149);
+      const lb = el('div', { left: (x - 160) + 'px', top: '1246px', width: '320px', textAlign: 'center', fontFamily: F.sans, fontWeight: 700, fontSize: '40px', color: S }, root, c.name);
       return { s, lb, x };
     });
     const ls = svg(stick(o.cols[0].c), {}, root, '0 0 200 400', 210, 420);
@@ -155,7 +155,7 @@ function optionScene(o) {
         if (k > 0) { layers.push(ltr ? { c: c.c, a: 0, b: k } : { c: c.c, a: 1 - k, b: 1 }); colNow = c.c; }
         if (t >= a - .35) { const f = ltr ? k : 1 - k; tip = [cx + (f - .5) * 300 * LSC, ly + 30 + Math.sin(f * Math.PI) * 26]; colNow = c.c; }
         const st = o.swAt[i] * D, kk = pr(t, st, st + .4, ease.outBack);
-        place(sw[i].s, sw[i].x, 1180, kk, (i - 1) * 4 - 2, clamp((t - st) / .1));
+        place(sw[i].s, sw[i].x, 1165, kk, (i - 1) * 4 - 2, clamp((t - st) / .1));
         sw[i].lb.style.opacity = pr(t, st + .1, st + .35);
       });
       setArt(card, faceCard({ id: 'o' + o.n, layers }));
@@ -163,7 +163,7 @@ function optionScene(o) {
       const a0 = o.strokes[0][0] * D, inn = pr(t, a0 - .9, a0 - .2, ease.outCubic), outT = (o.stickOut ?? 2) * D, out = pr(t, outT, outT + .5, ease.inCubic);
       if (!tip) tip = [cx - 150 * LSC, ly + 30];
       setArt(ls, stick(colNow));
-      tipAt(ls, tip[0] + (1 - inn) * 420 + out * 700, tip[1] + (1 - inn) * 500 + out * 500, -34 + noise(t * 2, 2) * 2.5 + (1 - inn) * 30, 129, 1);
+      tipAt(ls, tip[0] + (1 - inn) * 620 + out * 800, tip[1] + (1 - inn) * 120 + out * 160, -34 + noise(t * 2, 2) * 2.5 + (1 - inn) * 30, 129, 1);
       if (gd) gd(pr(t, o.guidesAt * D, o.guidesAt * D + .7, ease.inOutCubic));
     };
   }};
@@ -176,17 +176,17 @@ SCENES.s2 = optionScene({ bg: C.rosaHell, n: 1, title: 'Dunkel', intro: 'Rate ku
 
 // ---------- s3: gleiche Form, wirkt optisch schmaler (+ Quelle) ----------
 SCENES.s3 = { bg: C.weiss, build(root, ctx) {
-  const D = ctx.dur, W3 = 600, H3 = 375, sc = 1.2 * W3 / 480, cx = 500;
+  const D = ctx.dur, W3 = 544, H3 = 340, sc = 1.2 * W3 / 480, cx = 390;
   const hl = bigText(root, 'Wirkt *optisch* schmaler', { x: 90, y: 205, w: 900, size: 116, t0: 0, step: .04 });
   const c1 = svg(faceCard({ id: 'a1' }), {}, root, '0 0 480 300', W3, H3);
   const c2 = svg(faceCard({ id: 'a2', base: WEIN }), {}, root, '0 0 480 300', W3, H3);
-  const gd = guides(root, cx, 470, 1210, 150 * sc, C.beere);
-  const nt = note(root, 'gleiche Form,\nnur die Farbe ist anders', { x: 640, y: 770, size: 58, r: 5, t0: .9, color: C.beere });
-  nt.node.style.lineHeight = '.95'; nt.node.style.width = '330px'; nt.node.style.whiteSpace = 'pre-line';
+  const gd = guides(root, cx, 462, 1200, 150 * sc, C.beere);
+  const nt = note(root, 'gleiche Form,\nnur die Farbe\nist anders', { x: 690, y: 760, size: 56, r: 4, t0: .9, color: C.beere });
+  nt.node.style.lineHeight = '.95'; nt.node.style.width = '290px'; nt.node.style.whiteSpace = 'pre-line';
   const src = sourceCard(root, { name: 'Schmink-Faustregel, u. a. dm-Ratgeber', x: 70, y: 1262, t0: .5, size: 34 });
   return (t) => {
     hl.update(t); nt.update(t); src.update(t);
-    place(c1, cx - 60, 660, 1, -1.5); place(c2, cx - 60, 1030, tw(t, 0, .45, .9, 1, ease.outBack), 1.2);
+    place(c1, cx, 650, 1, -1.5); place(c2, cx, 1010, tw(t, 0, .45, .9, 1, ease.outBack), 1.2);
     gd(pr(t, .25, 1.3, ease.inOutCubic));
   };
 }};
@@ -234,36 +234,36 @@ SCENES.s5 = { bg: C.nacht, build(root, ctx) {
 
 // ---------- s6: Hell und Glanz vorn – aber nur Faustregeln ----------
 SCENES.s6 = { bg: C.rosaHell, build(root, ctx) {
-  const D = ctx.dur, base = 1300;
+  const D = ctx.dur, base = 1320;
   const hl = bigText(root, 'Hell und Glanz liegen *vorn.*', { x: 90, y: 205, w: 900, size: 116, t0: 0, step: .05 });
-  const P = [{ x: 235, h: 150, lab: 'Dunkel', art: stick(WEIN) }, { x: 520, h: 330, lab: 'Hell', art: stick(ROSA) }, { x: 805, h: 270, lab: 'Glanz', art: glossTube(GLOSS) }];
+  const P = [{ x: 235, h: 130, lab: 'Dunkel', art: stick(WEIN) }, { x: 520, h: 270, lab: 'Hell', art: stick(ROSA) }, { x: 805, h: 270, lab: 'Glanz', art: glossTube(GLOSS) }];
   const blocks = P.map(p => {
     const b = el('div', { left: (p.x - 132) + 'px', width: '264px', background: C.weiss, border: `6px solid ${S}`, borderBottom: 'none' }, root);
-    el('div', { left: '0px', top: '26px', width: '252px', textAlign: 'center', fontFamily: F.display, fontSize: '54px', color: S }, b, p.lab);
-    const a = svg(p.art, {}, root, '0 0 200 400', 170, 340);
+    el('div', { left: '0px', top: '20px', width: '252px', textAlign: 'center', fontFamily: F.display, fontSize: '54px', color: S }, b, p.lab);
+    const a = svg(p.art, {}, root, '0 0 200 400', 150, 300);
     return { b, a };
   });
   el('div', { left: '60px', top: base + 'px', width: '900px', height: '8px', background: S, borderRadius: '4px' }, root);
-  const stamp = el('div', { left: '0px', top: '0px', padding: '10px 36px 20px', background: C.weiss, border: `7px solid ${C.beere}`, borderRadius: '8px', fontFamily: F.display, fontSize: '92px', color: C.beere, whiteSpace: 'nowrap' }, root, 'Nur Faustregeln');
+  const stamp = el('div', { left: '0px', top: '0px', padding: '10px 36px 20px', background: C.weiss, border: `7px solid ${C.beere}`, borderRadius: '8px', fontFamily: F.display, fontSize: '80px', color: C.beere, whiteSpace: 'nowrap' }, root, 'Nur Faustregeln');
   const st = .5 * D;
   return (t) => {
     hl.update(t);
     P.forEach((p, i) => {
       const h = tw(t, .15 + i * .12, 1.15 + i * .12, 110, p.h, ease.outBack);
       blocks[i].b.style.top = (base - h) + 'px'; blocks[i].b.style.height = h + 'px';
-      place(blocks[i].a, p.x, base - h - 160 + Math.abs(Math.sin(Math.max(0, t - 1.4) * 2.4 + i)) * (i ? -7 : 0), 1, (i - 1) * 2.5 + Math.sin(t * 1.5 + i) * 1.2);
+      place(blocks[i].a, p.x, base - h - 136, 1, (i - 1) * 2.5 + Math.sin(t * 1.5 + i) * 1.2);
     });
     const k = pr(t, st, st + .32, ease.outCubic);
-    place(stamp, 470, 640, lerp(1.9, 1, k), lerp(-16, -7, k) + Math.sin(Math.max(0, t - st - .3) * 2) * .8, clamp((t - st) / .12));
+    place(stamp, 500, 590, lerp(1.9, 1, k), lerp(-16, -7, k) + Math.sin(Math.max(0, t - st - .3) * 2) * .8, clamp((t - st) / .12));
   };
 }};
 
 // ---------- s7: Dunkel ist nicht verboten – Weinrot bleibt. ----------
 SCENES.s7 = { bg: C.weiss, build(root, ctx) {
   const D = ctx.dur;
-  const h1 = bigText(root, 'Dunkel? *Nicht verboten.*', { x: 90, y: 205, w: 900, size: 116, t0: 0, step: .04 });
+  const h1 = bigText(root, 'Dunkel? *Nicht* *verboten.*', { x: 90, y: 205, w: 900, size: 116, t0: 0, step: .04 });
   const h2 = el('div', { left: '90px', top: '215px', width: '900px', fontFamily: F.display, fontSize: '150px', lineHeight: 1, letterSpacing: '-2px', color: S }, root, `<span style="color:${WEIN}">Weinrot</span><br>bleibt`);
-  const dot = el('div', { left: '512px', top: '452px', width: '44px', height: '44px', borderRadius: '50%', background: C.beere }, root);
+  const dot = el('div', { left: '486px', top: '462px', width: '32px', height: '32px', borderRadius: '50%', background: C.beere }, root);
   const blob = svg(`<path d="M60 250 C30 150 110 50 250 40 C390 30 500 110 500 240 C500 380 400 470 260 470 C130 470 80 360 60 250Z" fill="${C.rosaHell}"/>`, {}, root, '0 0 560 500', 720, 643);
   const ls = svg(stick(WEIN, .2), {}, root, '0 0 200 400', 330, 660);
   const half = (side) => svg(`<clipPath id="hf${side}"><rect x="${side ? 200 : 0}" y="0" width="200" height="400"/></clipPath>
@@ -299,7 +299,7 @@ SCENES.s7 = { bg: C.weiss, build(root, ctx) {
 SCENES.s8 = { bg: C.rosa, build(root, ctx) {
   const D = ctx.dur, q = .69 * D;
   const h1 = bigText(root, 'Schick das deiner *Freundin,* die nur Dunkel trägt.', { x: 80, y: 205, w: 900, size: 92, t0: 0, step: .03 });
-  const h2 = bigText(root, 'Team dunkel, hell oder *Glanz?*', { x: 80, y: 205, w: 900, size: 124, t0: q, step: .07 });
+  const h2 = bigText(root, 'Team dunkel, hell oder *Glanz?*', { x: 80, y: 205, w: 920, size: 100, t0: q, step: .07 });
   const cols = [BRAUN, WEIN, VIOLETT, PFLAUME, WEIN];
   const row = cols.map((c, i) => svg(stick(c, .75 + (i % 2) * .25), {}, root, '0 0 200 400', 150, 300));
   const V = [{ x: 205, o: { id: 't1', base: WEIN }, lab: 'dunkel' }, { x: 515, o: { id: 't2', base: ROSA }, lab: 'hell' }, { x: 825, o: { id: 't3', base: GLOSS, gloss: 1 }, lab: 'Glanz' }];
@@ -332,4 +332,5 @@ SCENES.cover = { bg: C.rosa, build(root) {
     <path d="M100 141 L300 141 M100 258 L300 258" stroke="${S}" stroke-opacity=".18" stroke-width="3" stroke-dasharray="6 9"/>`;
   coverLayout(root, { lines: ['Dunkel, hell oder Glanz:', 'Was wirkt *voller*?'], teaser: '…Weinrot-Fans müssen jetzt stark sein', art, artSize: 540, artY: 1040, size: 112, textY: 320,
     marks: [{ x: 800, y: 890, r: 8 }, { x: 280, y: 1045, r: -8 }, { x: 800, y: 1200, r: 5 }] });
+  const ts = root.lastChild.firstChild; ts.style.fontSize = '44px'; ts.style.whiteSpace = 'nowrap';
 }};

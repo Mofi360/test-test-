@@ -23,11 +23,11 @@ const vein = (d, color, p = 1, w = 9, op = .78) => p <= 0 ? '' :
 /** Unterarm mit Hand, viewBox 0 0 600 1000. side: 'palm' (Innenseite, Adern) | 'back' (Handrücken, Nägel). */
 function arm(o = {}) {
   const side = o.side || 'palm', vp = o.vp ?? 0, cols = o.cols || [ADER.neutral, ADER.neutral, ADER.neutral];
-  const fingers = [[228, 410, 212, 238, 44], [278, 400, 272, 196, 46], [328, 400, 334, 206, 46], [374, 414, 392, 258, 40]];
-  const thumb = [222, 548, 128, 436, 54];
+  const fingers = [[226, 420, 198, 258, 50], [279, 404, 268, 196, 54], [333, 404, 342, 206, 54], [384, 420, 412, 266, 48]];
+  const thumb = [228, 560, 122, 448, 60];
   const parts = (col, extra) => `
     <path d="M222 600 L206 1000 L404 1000 L384 600Z" fill="${col}" stroke="${col}" stroke-width="${extra}" stroke-linejoin="round"/>
-    <rect x="196" y="372" width="212" height="250" rx="76" fill="${col}" stroke="${col}" stroke-width="${extra}"/>
+    <rect x="190" y="372" width="228" height="254" rx="80" fill="${col}" stroke="${col}" stroke-width="${extra}"/>
     ${[...fingers, thumb].map(([a, b, c, d, w]) => `<line x1="${a}" y1="${b}" x2="${c}" y2="${d}" stroke="${col}" stroke-width="${w + extra}" stroke-linecap="round"/>`).join('')}`;
   const palm = `
     <path d="M232 468 C270 500 330 498 382 458" fill="none" stroke="${C.hautDunkel}" stroke-width="5" stroke-linecap="round"/>
@@ -44,7 +44,7 @@ function arm(o = {}) {
   return `<g>
     ${parts(S, 13)}${parts(C.haut, 0)}
     ${side === 'palm' ? palm : back}
-    <path d="M180 900 L428 900 L440 1010 L168 1010Z" fill="${C.rosaTief}" stroke="${S}" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M180 900 L428 900 L470 1900 L138 1900Z" fill="${C.rosaTief}" stroke="${S}" stroke-width="7" stroke-linejoin="round"/>
     <rect x="170" y="880" width="268" height="46" rx="16" fill="${C.weiss}" stroke="${S}" stroke-width="7"/>
   </g>`;
 }
@@ -124,9 +124,9 @@ const hourglass = (k) => `<g>
 
 /** Kärtchen, das von „?“ auf die Antwort umklappt */
 function flipCard(root, html, o = {}) {
-  const w = o.w ?? 780, h = o.h ?? 180, x = o.x ?? 540, y = o.y ?? 1160, r = o.r ?? -2;
+  const w = o.w ?? 840, h = o.h ?? 180, x = o.x ?? 540, y = o.y ?? 1160, r = o.r ?? -2;
   const card = el('div', { width: w + 'px', height: h + 'px', background: C.weiss, border: `6px solid ${S}`, borderRadius: '10px', boxShadow: `12px 12px 0 ${S}` }, root);
-  const front = el('div', { left: 0, top: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: F.display, fontSize: (o.size ?? 88) + 'px', color: S, letterSpacing: '-1px', whiteSpace: 'nowrap' }, card, html);
+  const front = el('div', { left: 0, top: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: F.display, fontSize: (o.size ?? 80) + 'px', color: S, letterSpacing: '-1px', whiteSpace: 'nowrap' }, card, html);
   const q = el('div', { left: 0, top: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: F.display, fontSize: '120px', color: S }, card, '?');
   return (t, tf) => {
     const k = pr(t, tf, tf + .5, ease.inOutCubic), sy = Math.abs(Math.cos(k * Math.PI));
@@ -146,7 +146,7 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
   const ls = svg(stick(ROT.karmin, 1), {}, root, '0 0 200 520', 200, 520);
   const a = svg(arm({ side: 'back' }), {}, root, '0 0 600 1000', 600, 1000);
   const ring = svg(`<ellipse cx="150" cy="120" rx="132" ry="100" fill="none" stroke="${C.beere}" stroke-width="9" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-6 150 120)"/>`, {}, root, '0 0 300 240', 300, 240);
-  const n = el('div', { left: '700px', top: '1010px', fontFamily: F.hand, fontWeight: 700, fontSize: '84px', color: S, transform: 'rotate(-5deg)', whiteSpace: 'pre', lineHeight: .95 }, root, 'schau\nmal hier');
+  const n = el('div', { left: '700px', top: '900px', fontFamily: F.hand, fontWeight: 700, fontSize: '84px', color: S, transform: 'rotate(-5deg)', whiteSpace: 'pre', lineHeight: .95 }, root, 'schau\nmal hier');
   return (t) => {
     // Lippenstift trägt auf (läuft schon in Frame 0)
     const k = tw(t, 0, 1.7, .5, 1, ease.inOutSine), gone = pr(t, T - .25, T + .2);
@@ -161,9 +161,9 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
     const vp = pr(t, T + .7, T + 1.5);
     a.querySelector('svg').innerHTML = arm({ side: f < .5 ? 'back' : 'palm', vp });
     const sc2 = lerp(.75, .95, f);
-    put(a, lerp(520, 500, f) + noise(t, 3) * 4, lerp(1150, 1005, f) + noise(t, 5) * 5, sc2 * (Math.abs(sx) < .04 ? .04 : sx), sc2, lerp(-5, 3, f) + noise(t, 1) * 1.2);
+    put(a, lerp(520, 500, f) + noise(t, 3) * 4, lerp(1150, 900, f) + noise(t, 5) * 5, sc2 * (Math.abs(sx) < .04 ? .04 : sx), sc2, lerp(-5, 3, f) + noise(t, 1) * 1.2);
     const rp = pr(t, T + .9, T + 1.5);
-    put(ring, 500, 1235, 1, 1, 0, rp > 0 ? 1 : 0); ring.querySelector('ellipse').setAttribute('stroke-dashoffset', 1 - rp);
+    put(ring, 500, 1150, 1, 1, 0, rp > 0 ? 1 : 0); ring.querySelector('ellipse').setAttribute('stroke-dashoffset', 1 - rp);
     const np = pr(t, T + 1.0, T + 1.4);
     n.style.opacity = np; n.style.clipPath = `inset(0 ${100 - np * 100}% 0 0)`;
   };
@@ -173,11 +173,11 @@ SCENES.s1 = { bg: C.rosa, build(root, ctx) {
 SCENES.s2 = { bg: C.rosaHell, build(root, ctx) {
   const d = ctx.dur, T2 = d * .36, T3 = d * .6;
   svg(windowArt(), { left: 0, top: 0 }, root, '0 0 1080 1920', 1080, 1920);
-  const beam = svg(`<path d="M560 250 L920 250 L900 1560 L420 1560Z" fill="#fff"/>`, { left: 0, top: 0 }, root, '0 0 1080 1920', 1080, 1920);
+  const beam = svg(`<path d="M548 748 L900 748 L930 1930 L380 1930Z" fill="#fff"/>`, { left: 0, top: 0 }, root, '0 0 1080 1920', 1080, 1920);
   const a = svg(arm({}), {}, root, '0 0 600 1000', 600, 1000);
   const txt = bigText(root, 'Mach den Test.', { x: 70, y: 850, w: 420, size: 96, t0: T3, step: .12 });
   const wait = el('div', { left: '76px', top: '1076px', fontFamily: F.hand, fontWeight: 700, fontSize: '92px', color: C.beere, transform: 'rotate(-4deg)', whiteSpace: 'pre' }, root, 'Ich warte');
-  const dots = [0, 1, 2].map(i => el('div', { left: (350 + i * 34) + 'px', top: '1150px', width: '18px', height: '18px', borderRadius: '50%', background: C.beere }, root));
+  const dots = [0, 1, 2].map(i => el('div', { left: (400 + i * 34) + 'px', top: '1136px', width: '18px', height: '18px', borderRadius: '50%', background: C.beere }, root));
   const hg = svg(hourglass(0), {}, root, '0 0 200 240', 130, 156);
   return (t) => {
     const inn = pr(t, 0, .8);
@@ -191,7 +191,7 @@ SCENES.s2 = { bg: C.rosaHell, build(root, ctx) {
     dots.forEach((dd, i) => { const ph = ((t - T3 - 1) * 1.6 - i * .22) % 1.4; dd.style.opacity = t > T3 + 1 + i * .25 ? 1 : 0; dd.style.transform = `translateY(${ph > 0 && ph < .5 ? -Math.sin(ph / .5 * Math.PI) * 16 : 0}px)`; });
     const hk = pr(t, T3 + .7, T3 + 1.1, ease.outBack), tt = Math.max(0, t - T3 - .7), cyc = tt % 1.5;
     hg.querySelector('svg').innerHTML = hourglass(clamp(cyc / 1.1));
-    put(hg, 190, 1290 - 60, hk, hk, (Math.floor(tt / 1.5) + pr(cyc, 1.1, 1.5, ease.inOutCubic)) * 180 - 6, hk > 0 ? 1 : 0);
+    put(hg, 170, 1310, hk, hk, (Math.floor(tt / 1.5) + pr(cyc, 1.1, 1.5, ease.inOutCubic)) * 180 - 6, hk > 0 ? 1 : 0);
   };
 }};
 
@@ -239,9 +239,9 @@ function redScene(o) {
         c.st.querySelector('svg').innerHTML = stick(c.color, up);
         const hop = Math.sin(clamp((t - T[i]) / .45) * Math.PI) * 26;
         const rot = (i ? 7 : -7) * o.tilt + Math.sin(t * 1.5 + i * 2) * 1.6 + (1 - up) * (i ? -14 : 14);
-        put(c.st, c.x, 700 + (1 - inn) * 900 - hop, 1, 1, rot);
+        put(c.st, c.x, 712 + (1 - inn) * 900 - hop, 1.2, 1.2, rot);
         const sp = pr(t, T[i], T[i] + .45, ease.outCubic);
-        put(c.sm, c.x, 1020, 1, 1, i ? 3 : -4, sp > 0 ? 1 : 0); c.sm.style.clipPath = `inset(0 ${100 - sp * 100}% 0 0)`;
+        put(c.sm, c.x, 1036, 1, 1, i ? 3 : -4, sp > 0 ? 1 : 0); c.sm.style.clipPath = `inset(0 ${100 - sp * 100}% 0 0)`;
         const n = Math.round(pr(t, T[i] + .15, T[i] + .7, ease.lin) * c.name.length);
         c.nm.textContent = c.name.slice(0, n);
       });
@@ -271,7 +271,7 @@ SCENES.s7 = { bg: C.rosa, build(root, ctx) {
     sticks.forEach((s, i) => {
       const left = i < 2, k = pr(t, T + .1 + (left ? 1 - i : i - 2) * .14, T + .75 + (left ? 1 - i : i - 2) * .14, ease.outBack);
       const x = 225 + i * 210 + (1 - k) * (left ? -700 : 700);
-      put(s, x, 1160 + Math.sin(t * 2 + i) * 5, .62, .62, (i - 1.5) * 3 + Math.sin(t * 1.6 + i * 1.3) * 2);
+      put(s, x, 1140 + Math.sin(t * 2 + i) * 5, .72, .72, (i - 1.5) * 3 + Math.sin(t * 1.6 + i * 1.3) * 2);
     });
   };
 }};
@@ -329,9 +329,8 @@ SCENES.s9 = { bg: C.rosa, build(root, ctx) {
 SCENES.cover = { build(root) {
   coverLayout(root, {
     lines: ['Trägst du das', '*falsche* Rot?'], teaser: '…dein Handgelenk verrät es',
-    art: `<g transform="translate(40 -30) scale(.78)">${arm({ vp: 1, cols: [ADER.blau, ADER.gruen, ADER.violett] })}</g>
-      <ellipse cx="270" cy="575" rx="118" ry="94" fill="none" stroke="${C.beere}" stroke-width="9" transform="rotate(-6 270 575)"/>
-      <g transform="translate(470 170) rotate(12 100 260) scale(.92)">${stick(ROT.karmin, 1)}</g>`,
-    artBox: '0 0 700 700', artSize: 600, artY: 1040, marks: [{ x: 880, y: 800, size: 130, r: 8 }],
+    art: `<g transform="translate(0 200) rotate(-3 540 350)">${wrist({ cols: [ADER.blau, ADER.gruen, ADER.violett, ADER.gruen] })}</g>
+      <g transform="translate(730 250) rotate(9 100 260) scale(1.05)">${stick(ROT.karmin, 1)}</g>`,
+    artBox: '0 0 1080 1080', artSize: 1080, artY: 1000, marks: [{ x: 250, y: 790, size: 130, r: -8 }],
   });
 }};

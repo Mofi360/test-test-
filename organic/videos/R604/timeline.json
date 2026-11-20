@@ -1,0 +1,301 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Warum hält Lippenstift bei ihr, und bei dir nicht?",
+   "start": 0,
+   "dur": 3.3584745762711865,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Teurer Lippenstift? Besserer Pinsel? Glück?",
+   "start": 3.3584745762711865,
+   "dur": 3.398305084745762,
+   "speakStart": 3.3584745762711865
+  },
+  {
+   "id": "s3",
+   "text": "Oft liegt es nicht am Lippenstift. Es liegt am Untergrund.",
+   "start": 6.756779661016949,
+   "dur": 3.689588377723971,
+   "speakStart": 6.756779661016949
+  },
+  {
+   "id": "s4",
+   "text": "Lippen haben keine Schweißdrüsen und kaum Talgdrüsen. Sie können sich also kaum selbst pflegen. Pflege muss von außen kommen.",
+   "start": 10.44636803874092,
+   "dur": 7.379176755447945,
+   "speakStart": 10.44636803874092
+  },
+  {
+   "id": "s5",
+   "text": "Deshalb der Tipp: erst Schüppchen sanft entfernen, dann pflegen. Dann erst Farbe.",
+   "start": 17.825544794188865,
+   "dur": 5.19455205811138,
+   "speakStart": 17.825544794188865
+  },
+  {
+   "id": "s6",
+   "text": "Abends dann Diva Tape: Kollagen-Tape für die Lippen, über Nacht. Die Pflege bleibt, wo sie hin soll, nicht im Kissen.",
+   "start": 23.020096852300245,
+   "dur": 7.330629539951573,
+   "speakStart": 23.020096852300245
+  },
+  {
+   "id": "s7",
+   "text": "Sie sagt trotzdem, es liegt am teuren Lippenstift. Lass sie.",
+   "start": 30.35072639225182,
+   "dur": 3.980871670702175,
+   "speakStart": 30.35072639225182
+  },
+  {
+   "id": "s8",
+   "text": "Schick das deiner Freundin, die ständig nachzieht. Und du: Pflege, Peeling oder einfach hoffen?",
+   "start": 34.331598062953994,
+   "dur": 6.318401937046005,
+   "speakStart": 34.331598062953994
+  }
+ ],
+ "captions": [
+  {
+   "text": "Warum hält Lippenstift",
+   "start": 0.3,
+   "end": 1.4030564045568215,
+   "rot": -1.6
+  },
+  {
+   "text": "bei ihr, und bei",
+   "start": 1.4030564045568215,
+   "end": 2.4058349541539314,
+   "rot": 0
+  },
+  {
+   "text": "dir nicht?",
+   "start": 2.4058349541539314,
+   "end": 3.3584745762711865,
+   "rot": 1.6
+  },
+  {
+   "text": "Teurer Lippenstift?",
+   "start": 3.3584745762711865,
+   "end": 4.7577766699900295,
+   "rot": -0.8
+  },
+  {
+   "text": "Besserer Pinsel?",
+   "start": 4.7577766699900295,
+   "end": 6.007153539381854,
+   "rot": 0.8
+  },
+  {
+   "text": "Glück?",
+   "start": 6.007153539381854,
+   "end": 6.756779661016949,
+   "rot": -1.6
+  },
+  {
+   "text": "Oft liegt es nicht",
+   "start": 6.756779661016949,
+   "end": 7.6665411788119,
+   "rot": 0
+  },
+  {
+   "text": "am Lippenstift.",
+   "start": 7.6665411788119,
+   "end": 8.879556535871835,
+   "rot": 1.6
+  },
+  {
+   "text": "Es liegt am",
+   "start": 8.879556535871835,
+   "end": 9.43552190785764,
+   "rot": -0.8
+  },
+  {
+   "text": "Untergrund.",
+   "start": 9.43552190785764,
+   "end": 10.44636803874092,
+   "rot": 0.8
+  },
+  {
+   "text": "Lippen haben keine",
+   "start": 10.44636803874092,
+   "end": 11.35612955653587,
+   "rot": -1.6
+  },
+  {
+   "text": "Schweißdrüsen und kaum",
+   "start": 11.35612955653587,
+   "end": 12.46806030050748,
+   "rot": 0
+  },
+  {
+   "text": "Talgdrüsen.",
+   "start": 12.46806030050748,
+   "end": 13.47890643139076,
+   "rot": 1.6
+  },
+  {
+   "text": "Sie können sich also",
+   "start": 13.47890643139076,
+   "end": 14.48975256227404,
+   "rot": -0.8
+  },
+  {
+   "text": "kaum selbst pflegen.",
+   "start": 14.48975256227404,
+   "end": 15.955479452054796,
+   "rot": 0.8
+  },
+  {
+   "text": "Pflege muss von außen",
+   "start": 15.955479452054796,
+   "end": 17.016867889482242,
+   "rot": -1.6
+  },
+  {
+   "text": "kommen.",
+   "start": 17.016867889482242,
+   "end": 17.825544794188865,
+   "rot": 0
+  },
+  {
+   "text": "Deshalb der Tipp: erst",
+   "start": 17.825544794188865,
+   "end": 19.13679094478009,
+   "rot": 1.6
+  },
+  {
+   "text": "Schüppchen sanft",
+   "start": 19.13679094478009,
+   "end": 19.943711652836225,
+   "rot": -0.8
+  },
+  {
+   "text": "entfernen, dann",
+   "start": 19.943711652836225,
+   "end": 20.901929993652885,
+   "rot": 0.8
+  },
+  {
+   "text": "pflegen.",
+   "start": 20.901929993652885,
+   "end": 21.759283245962532,
+   "rot": -1.6
+  },
+  {
+   "text": "Dann erst Farbe.",
+   "start": 21.759283245962532,
+   "end": 23.020096852300245,
+   "rot": 0
+  },
+  {
+   "text": "Abends dann Diva Tape:",
+   "start": 23.020096852300245,
+   "end": 24.32555142790806,
+   "rot": 1.6
+  },
+  {
+   "text": "Kollagen-Tape für die",
+   "start": 24.32555142790806,
+   "end": 25.379957046668217,
+   "rot": -0.8
+  },
+  {
+   "text": "Lippen, über Nacht.",
+   "start": 25.379957046668217,
+   "end": 26.986670370493222,
+   "rot": 0.8
+  },
+  {
+   "text": "Die Pflege bleibt, wo",
+   "start": 26.986670370493222,
+   "end": 28.2419151547315,
+   "rot": -1.6
+  },
+  {
+   "text": "sie hin soll, nicht",
+   "start": 28.2419151547315,
+   "end": 29.396740356230723,
+   "rot": 0
+  },
+  {
+   "text": "im Kissen.",
+   "start": 29.396740356230723,
+   "end": 30.35072639225182,
+   "rot": 1.6
+  },
+  {
+   "text": "Sie sagt trotzdem, es",
+   "start": 30.35072639225182,
+   "end": 31.610495908296812,
+   "rot": -0.8
+  },
+  {
+   "text": "liegt am teuren",
+   "start": 31.610495908296812,
+   "end": 32.3663576179238,
+   "rot": 0.8
+  },
+  {
+   "text": "Lippenstift.",
+   "start": 32.3663576179238,
+   "end": 33.4245640114016,
+   "rot": -1.6
+  },
+  {
+   "text": "Lass sie.",
+   "start": 33.4245640114016,
+   "end": 34.331598062953994,
+   "rot": 0
+  },
+  {
+   "text": "Schick das deiner",
+   "start": 34.331598062953994,
+   "end": 35.191288337368846,
+   "rot": 1.6,
+   "y": 880
+  },
+  {
+   "text": "Freundin, die ständig",
+   "start": 35.191288337368846,
+   "end": 36.4555387409201,
+   "rot": -0.8,
+   "y": 880
+  },
+  {
+   "text": "nachzieht.",
+   "start": 36.4555387409201,
+   "end": 37.41636904761904,
+   "rot": 0.8,
+   "y": 880
+  },
+  {
+   "text": "Und du: Pflege,",
+   "start": 37.41636904761904,
+   "end": 38.579479418886194,
+   "rot": -1.6,
+   "y": 880
+  },
+  {
+   "text": "Peeling oder einfach",
+   "start": 38.579479418886194,
+   "end": 39.5908797417272,
+   "rot": 0,
+   "y": 880
+  },
+  {
+   "text": "hoffen?",
+   "start": 39.5908797417272,
+   "end": 40.449999999999996,
+   "rot": 1.6,
+   "y": 880
+  }
+ ],
+ "endStart": 1000000000,
+ "duration": 41,
+ "loop": true,
+ "noCaptions": false,
+ "endcard": false
+}
