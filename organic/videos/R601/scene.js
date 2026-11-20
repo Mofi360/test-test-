@@ -206,28 +206,30 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
   const M = el('span', { position: 'relative', display: 'inline-block', color: C.rosa, transformOrigin: '50% 60%' }, word, 'M');
   const rest = el('span', { position: 'relative', display: 'inline-block', verticalAlign: 'top' }, word, 'onate');
   const sub = el('div', { left: '90px', top: '418px', fontFamily: F.sans, fontWeight: 600, fontSize: '62px', color: C.weiss, whiteSpace: 'nowrap' }, root, 'nach dem ersten Öffnen');
-  const bsp = handTxt(root, 'nur ein Beispiel', 96, 1042, { size: 70, color: C.rosa, r: -4 });
   const src = sourceCard(root, { name: 'EU-Kosmetikverordnung 1223/2009, Art. 19', x: 70, y: 1236, t0: 6.3, dark: true, size: 34 });
+  const light = m => m.split(`fill="${S}"`).join(`fill="${C.rosa}"`);
   return (t) => {
     // M leuchtet im Tiegel auf, springt nach oben, klappt zu „Monate“ aus
     const glow = pr(t, 1.0, 1.35, ease.outBack), fly = pr(t, 1.75, 2.35, ease.inOutCubic);
     const mk = pr(t, 1.75, 2.3, ease.outBack);
-    M.style.opacity = clamp((t - 1.75) / .2); M.style.transform = `translate(${(1 - fly) * 210}px, ${(1 - fly) * 520}px) scale(${lerp(.5, 1, mk)}) rotate(${(1 - fly) * -14}deg)`;
+    M.style.opacity = clamp((t - 1.75) / .2); M.style.transform = `translate(${(1 - fly) * 458}px, ${(1 - fly) * 540}px) scale(${lerp(.6, 1, mk)}) rotate(${(1 - fly) * -14}deg)`;
     const un = pr(t, 2.35, 3.0, ease.outCubic);
     rest.style.clipPath = `inset(-10% ${100 - un * 104}% -20% 0)`; rest.style.opacity = un > 0 ? 1 : 0;
     sub.style.opacity = pr(t, 3.3, 3.7); sub.style.transform = `translateY(${tw(t, 3.3, 3.8, 24, 0)}px)`;
-    bsp.show(pr(t, .5, 1.0));
     src.update(t);
-    const jx = 300 + noise(t, 3) * 4, jy = 800 + noise(t, 5) * 4;
+    const mv = pr(t, 3.0, 3.7, ease.inOutCubic);
+    const jx = lerp(540, 262, mv) + noise(t, 3) * 4, jy = lerp(740, 800, mv) + noise(t, 5) * 4;
     const pulse = 1 + .32 * Math.sin(clamp((t - 1.0) / .8) * Math.PI) + .05 * Math.sin(t * 3) * (t > 2 ? 1 : 0);
-    const J = g(jx, jy, 1.12 * tw(t, 0, .5, .8, 1, ease.outBack), -3, `<g transform="translate(-200 -215)">${jar({ c: C.weiss, lid: 1 + Math.sin(t * 2) * .05, num: '12', m: 'M', mCol: glow > 0 ? C.rosa : C.weiss, mS: pulse })}</g>`);
+    const nk = pr(t, .5, 1.0);
+    const noteS = `<g opacity="${nk}"><text x="196" y="462" text-anchor="middle" font-family="Caveat" font-weight="700" font-size="62" fill="${C.rosa}" transform="rotate(-4 196 462)">nur ein Beispiel</text>
+      <path d="M96 420 Q84 392 112 372" fill="none" stroke="${C.rosa}" stroke-width="6" stroke-linecap="round"/><path d="M94 378 L113 371 L114 392" fill="none" stroke="${C.rosa}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>`;
+    const J = g(jx, jy, lerp(1.5, .98, mv) * tw(t, 0, .5, .8, 1, ease.outBack), -3, `<g transform="translate(-200 -215)">${jar({ c: C.weiss, lid: 1 + Math.sin(t * 2) * .05, num: '12', m: 'M', mCol: glow > 0 ? C.rosa : C.weiss, mS: pulse })}${noteS}</g>`);
     // Lippenstift: Kappe springt ab
     const pop = pr(t, 4.25, 4.75, ease.outBack), hang = Math.sin(t * 2.2) * 6;
-    const lx = 800, ly = 800;
-    const lines = [-58, -24, 14, 50].map((d, i) => `<path d="M${Math.sin(rad(d)) * 86} ${-120 - Math.cos(rad(d)) * 40} L${Math.sin(rad(d)) * (86 + 60)} ${-120 - Math.cos(rad(d)) * 100}" stroke="${C.rosa}" stroke-width="9" stroke-linecap="round" opacity="${clamp(1 - Math.abs(t - 4.5) / .35)}"/>`).join('');
-    const st = g(lx, ly, 1 * tw(t, 3.4, 3.9, 0, 1, ease.outBack), 4, `<rect x="-52" y="12" width="104" height="208" rx="12" fill="none" stroke="${C.rosa}" stroke-width="5"/>` + stick({ bullet: pop * .9, capDy: -pop * 190 + hang * pop, capX: pop * 96, capR: pop * 28 }) + lines);
-    const cal = g(590 + 0, 1010, tw(t, 4.9, 5.3, 0, 1, ease.outBack) * .86, -5, calendar(t > 5.3 ? (t - 5.3) * 1.6 : 0));
-    L.innerHTML = J + arrow(250, 1040, 200, 990, 236, 930, pr(t, .8, 1.2), C.rosa) + st + cal;
+    const lines = [-58, -24, 14, 50].map(d => `<path d="M${Math.sin(rad(d)) * 86} ${-120 - Math.cos(rad(d)) * 40} L${Math.sin(rad(d)) * 146} ${-120 - Math.cos(rad(d)) * 100}" stroke="${C.weiss}" stroke-width="9" stroke-linecap="round" opacity="${clamp(1 - Math.abs(t - 4.5) / .35)}"/>`).join('');
+    const st = g(610, 850, tw(t, 3.5, 3.95, 0, 1, ease.outBack), 3, light(stick({ bullet: pop * .9, capDy: -pop * 150 + hang * pop, capX: -pop * 128, capR: -pop * 30 })) + lines);
+    const cal = g(850, 880, tw(t, 4.9, 5.3, 0, 1, ease.outBack) * 1.0, 5, calendar(t > 5.3 ? (t - 5.3) * 1.6 : 0));
+    L.innerHTML = J + st + cal;
   };
 }};
 
@@ -375,24 +377,24 @@ SCENES.s8 = { bg: C.rosa, build(root) {
 // s9 – Senden an + Kommentar-Frage
 SCENES.s9 = { bg: C.nacht, build(root, ctx) {
   const T2 = 4.3;
-  const h1 = bigText(root, 'Für die Freundin mit den Lippenstiften von *2019.*', { x: 80, y: 208, w: 900, size: 88, color: C.weiss, accent: C.rosa, t0: .1, step: .05 });
-  const h2 = bigText(root, 'Wie alt ist dein *ältester?*', { x: 80, y: 204, w: 900, size: 122, color: C.weiss, accent: C.rosa, t0: T2 + .05, step: .09 });
+  const h1 = bigText(root, 'Für die Freundin mit *dieser* Schublade.', { x: 80, y: 206, w: 900, size: 104, color: C.weiss, accent: C.rosa, t0: .1, step: .05 });
+  const h2 = bigText(root, 'Wie alt ist dein *ältester?*', { x: 80, y: 206, w: 900, size: 112, color: C.weiss, accent: C.rosa, t0: T2 + .05, step: .09 });
   const L = layer(root);
-  const sheet = sendTo(root, { contacts: ['Mama', 'Lena', 'Schwester', 'Jule'], pick: 3, t0: 1.15, top: 1040 });
+  const sheet = sendTo(root, { contacts: ['Mama', 'Lena', 'Schwester', 'Jule'], pick: 3, t0: 1.15, top: 1050 });
   const chips = [
-    { txt: 'Unter einem Jahr', ch: 'A', x: 330, y: 1100, r: -3, t0: 6.3, w: 470 },
-    { txt: 'Über drei', ch: 'B', x: 720, y: 1216, r: 2.5, t0: 7.75, w: 360 },
-    { txt: 'Lieber geheim', ch: 'C', x: 350, y: 1316, r: -1.5, t0: 8.65, w: 420 },
+    { txt: 'Unter einem Jahr', ch: 'A', x: 410, y: 1120, r: -3, t0: 6.3, w: 600 },
+    { txt: 'Über drei', ch: 'B', x: 640, y: 1284, r: 2.5, t0: 7.75, w: 430 },
+    { txt: 'Lieber geheim', ch: 'C', x: 420, y: 1446, r: -1.5, t0: 8.65, w: 530 },
   ].map(c => {
-    const d = el('div', { left: '0px', top: '0px', width: c.w + 'px', height: '104px', background: C.rosaHell, border: `5px solid ${S}`, borderRadius: '8px', boxShadow: `10px 12px 0 ${C.beere}`, fontFamily: F.sans, fontWeight: 700, fontSize: '48px', lineHeight: '90px', color: S, paddingLeft: '96px', whiteSpace: 'nowrap' }, root, c.txt);
-    const q = qMark(d, { x: 48, y: 47, size: 70, char: c.ch, t0: 0 }); q.update(9); q.node.style.transform = 'rotate(-6deg)';
+    const d = el('div', { left: '0px', top: '0px', width: c.w + 'px', height: '124px', background: C.rosaHell, border: `5px solid ${S}`, borderRadius: '8px', boxShadow: `10px 12px 0 ${C.beere}`, fontFamily: F.sans, fontWeight: 700, fontSize: '58px', lineHeight: '108px', color: S, paddingLeft: '116px', whiteSpace: 'nowrap' }, root, c.txt);
+    const q = qMark(d, { x: 58, y: 57, size: 80, char: c.ch, t0: 0 }); q.update(9); q.node.style.transform = 'rotate(-6deg)';
     return { ...c, d };
   });
   // Schublade voller Lippenstifte
   const cols = [S, C.rosaTief, C.beere, C.weiss, S, GOLD, C.rosa, S, C.beere, C.rosaTief, C.weiss];
   const mini = (x, y, r, i, lift) => {
-    const c = cols[i % cols.length], cap = c === S ? '#3a2e33' : S;
-    return `<g transform="translate(${x} ${y - lift}) rotate(${r})"><rect x="-27" y="-150" width="54" height="150" rx="8" fill="${c}" stroke="${S}" stroke-width="5"/><rect x="-27" y="-62" width="54" height="14" fill="${c === GOLD ? S : GOLD}"/><rect x="-16" y="-138" width="7" height="66" rx="3.5" fill="#fff" opacity="${c === C.weiss ? 0 : .25}"/></g>`;
+    const c = cols[i % cols.length];
+    return `<g transform="translate(${x} ${y - lift}) rotate(${r})"><rect x="-27" y="-150" width="54" height="150" rx="8" fill="${c}" stroke="${c === S ? '#5A4A52' : S}" stroke-width="5"/><rect x="-27" y="-62" width="54" height="14" fill="${c === GOLD ? S : GOLD}"/><rect x="-16" y="-138" width="7" height="66" rx="3.5" fill="#fff" opacity="${c === C.weiss ? 0 : .25}"/></g>`;
   };
   return (t) => {
     h1.update(t); h2.update(t); h1.node.style.opacity = 1 - pr(t, T2 - .3, T2);
@@ -400,20 +402,20 @@ SCENES.s9 = { bg: C.nacht, build(root, ctx) {
     const down = pr(t, T2 - .25, T2 + .2, ease.inCubic);
     if (down > 0) sheet.node.style.transform = `translateY(${down * 960}px)`;
     chips.forEach((c, i) => { const k = pr(t, c.t0, c.t0 + .45, ease.outBack); place(c.d, c.x, c.y + (1 - k) * 70, lerp(.7, 1, k), c.r + (1 - k) * 8 + Math.sin(t * 1.6 + i * 2) * .9, clamp((t - c.t0) / .12)); });
-    // Schublade
-    const op = pr(t, .05, .75, ease.outBack), y2 = pr(t, T2 - .2, T2 + .4, ease.inOutCubic) * 60;
-    const DX = 540, DY = 700 + y2;
+    const op = pr(t, .05, .75, ease.outBack);
+    const DX = 540, DY = 676;
     let sticks = '';
     for (let i = 0; i < 11; i++) {
-      const jump = Math.max(0, Math.sin((t - .5 - i * .09) * 5)) * 16 * clamp(1 - (t - .5) / 1.6) + Math.max(0, Math.sin(t * 1.9 + i * 1.3)) * 7;
-      sticks += mini(DX - 330 + i * 66, DY + 70, [-14, 6, -4, 12, -9, 3, 15, -6, 8, -12, 5][i], i, (40 + [30, 78, 46, 96, 58, 110, 40, 84, 62, 100, 36][i] * op + jump));
+      const jump = Math.max(0, Math.sin((t - .5 - i * .09) * 5)) * 14 * clamp(1 - (t - .5) / 1.6) + Math.max(0, Math.sin(t * 1.9 + i * 1.3)) * 6;
+      sticks += mini(DX - 330 + i * 66, DY + 70, [-14, 6, -4, 12, -9, 3, 15, -6, 8, -12, 5][i], i, (20 + [20, 58, 30, 70, 40, 78, 26, 62, 44, 74, 24][i] * op + jump));
     }
+    const tk = pr(t, 2.2, 2.6, ease.outBack);
+    const tag = g(DX + 318, DY - 92, tk, 9 + Math.sin(t * 2.3) * 3, `<path d="M-40 -8 L-76 14" stroke="${C.weiss}" stroke-width="4"/><path d="M-40 -32 L62 -32 L62 28 L-40 28 L-62 -2Z" fill="${C.weiss}" stroke="${S}" stroke-width="5" stroke-linejoin="round"/><circle cx="-38" cy="-2" r="6" fill="${S}"/><text x="14" y="12" text-anchor="middle" font-family="Bricolage Grotesque" font-weight="800" font-size="36" fill="${S}">2019</text>`);
     L.innerHTML = `<rect x="${DX - 408}" y="${DY - 46}" width="816" height="130" rx="10" fill="#0E0A10" stroke="${C.rosa}" stroke-width="7"/>`
-      + sticks
-      + `<rect x="${DX - 430}" y="${DY + 4 + op * 36}" width="860" height="150" rx="14" fill="${C.rosaTief}" stroke="${S}" stroke-width="8"/>
-         <rect x="${DX - 396}" y="${DY + 34 + op * 36}" width="792" height="90" rx="8" fill="none" stroke="${S}" stroke-width="5" opacity=".35"/>
-         <rect x="${DX - 70}" y="${DY + 62 + op * 36}" width="140" height="32" rx="16" fill="${S}"/>`
-      + sparkle(DX + 372, DY - 150 - y2 * .2, .9 + Math.sin(t * 3) * .25, C.rosa) + sparkle(DX - 390, DY - 96, .6 + Math.sin(t * 3 + 2) * .2, C.weiss);
+      + sticks + tag
+      + `<rect x="${DX - 430}" y="${DY + 4 + op * 30}" width="860" height="150" rx="14" fill="${C.rosaTief}" stroke="${S}" stroke-width="8"/>
+         <rect x="${DX - 396}" y="${DY + 34 + op * 30}" width="792" height="90" rx="8" fill="none" stroke="${S}" stroke-width="5" opacity=".35"/>
+         <rect x="${DX - 70}" y="${DY + 62 + op * 30}" width="140" height="32" rx="16" fill="${S}"/>`;
   };
 }};
 
