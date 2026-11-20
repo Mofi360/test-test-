@@ -1,0 +1,49 @@
+{
+ "id": "R603",
+ "titel": "Dunkel, hell oder Glanz",
+ "voice_duration": 38.9,
+ "voice": {
+  "status": "ausstehend – Stimme wird später als vo.mp3 ergänzt"
+ },
+ "endcard": false,
+ "loop": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Dunkel, hell oder glänzend: Was lässt Lippen voller wirken?"
+  },
+  {
+   "id": "s2",
+   "text": "Rate kurz mit. Option eins: dunkle Töne. Dunkles Braun, Weinrot, Violett."
+  },
+  {
+   "id": "s3",
+   "text": "Die lassen Lippen optisch eher schmaler wirken."
+  },
+  {
+   "id": "s4",
+   "text": "Option zwei: helle Töne. Rosa, Nude, Pfirsich. Die lassen Lippen optisch größer wirken."
+  },
+  {
+   "id": "s5",
+   "text": "Option drei: Glanz. Glänzende Lippen reflektieren Licht. Dadurch treten sie optisch hervor."
+  },
+  {
+   "id": "s6",
+   "text": "Also: Hell und Glanz liegen vorn. Aber das sind nur Schmink-Faustregeln."
+  },
+  {
+   "id": "s7",
+   "text": "Dunkel ist deshalb nicht verboten. Wer Weinrot liebt, trägt Weinrot. Punkt."
+  },
+  {
+   "id": "s8",
+   "text": "Schick das deiner Freundin, die nur Dunkel trägt. Und sich dann über schmale Lippen beschwert. Sag mir: Team dunkel, hell oder Glanz?",
+   "capY": 880,
+   "hold": 0.4
+  }
+ ],
+ "preview_times": [
+  0
+ ]
+}

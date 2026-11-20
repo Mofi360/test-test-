@@ -130,7 +130,7 @@ fs.writeFileSync(path.join(dir, 'timeline.json'), JSON.stringify(timeline, null,
   const sfx = path.join(dir, 'sfx.wav');
   if (!fs.existsSync(vo) && fs.existsSync(sfx)) {
     const fin = path.join(dir, `${V.id}_final.mp4`);
-    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', silent, '-i', sfx, '-filter_complex', `[1:a]apad,atrim=0:${duration.toFixed(3)}[a]`, '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', fin]);
+    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', silent, '-i', sfx, '-filter_complex', `[1:a]apad,atrim=0:${duration.toFixed(3)}[a]`, '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', fin]);
     console.log('mit Ton (sfx):', fin);
   }
   if (fs.existsSync(vo)) {

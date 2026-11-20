@@ -1,0 +1,9 @@
+SCENES.s1={build(){}};
+SCENES.s2={build(){}};
+SCENES.s3={build(){}};
+SCENES.s4={build(){}};
+SCENES.s5={build(){}};
+SCENES.s6={build(){}};
+SCENES.s7={build(){}};
+SCENES.s8={build(){}};
+SCENES.s9={build(){}};

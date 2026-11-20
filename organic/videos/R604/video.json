@@ -1,0 +1,50 @@
+{
+ "id": "R604",
+ "titel": "Warum er bei ihr hält",
+ "voice_duration": 40.1,
+ "voice_duration_note": "GESCHÄTZT (99 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – Stimme wird später als vo.mp3 ergänzt"
+ },
+ "endcard": false,
+ "loop": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Warum hält Lippenstift bei ihr, und bei dir nicht?"
+  },
+  {
+   "id": "s2",
+   "text": "Teurer Lippenstift? Besserer Pinsel? Glück?"
+  },
+  {
+   "id": "s3",
+   "text": "Oft liegt es nicht am Lippenstift. Es liegt am Untergrund."
+  },
+  {
+   "id": "s4",
+   "text": "Lippen haben keine Schweißdrüsen und kaum Talgdrüsen. Sie können sich also kaum selbst pflegen. Pflege muss von außen kommen."
+  },
+  {
+   "id": "s5",
+   "text": "Deshalb der Tipp: erst Schüppchen sanft entfernen, dann pflegen. Dann erst Farbe."
+  },
+  {
+   "id": "s6",
+   "text": "Abends dann Diva Tape: Kollagen-Tape für die Lippen, über Nacht. Die Pflege bleibt, wo sie hin soll, nicht im Kissen."
+  },
+  {
+   "id": "s7",
+   "text": "Sie sagt trotzdem, es liegt am teuren Lippenstift. Lass sie."
+  },
+  {
+   "id": "s8",
+   "text": "Schick das deiner Freundin, die ständig nachzieht. Und du: Pflege, Peeling oder einfach hoffen?",
+   "capY": 880
+  }
+ ],
+ "preview_times": [
+  0,
+  1.5
+ ]
+}

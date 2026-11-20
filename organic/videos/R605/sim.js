@@ -1,6 +1,6 @@
 /* R605 – Wettkampf-Simulation [KI]
  * EINE Quelle für Bild (scene.js lädt diese Datei) und Ton (make_sfx.js require()t sie).
- * Deterministisch: eigener PRNG, feste Schritte (240 Hz), nur + - * / sqrt sin cos atan2.
+ * Deterministisch: eigener PRNG, feste Schritte (240 Hz), nur + - * / sqrt floor (bitgleich in Node und Browser).
  */
 (function (g) {
   function mulberry32(a) {
@@ -11,8 +11,19 @@
       return ((t ^ t >>> 14) >>> 0) / 4294967296;
     };
   }
+  // Eigene Winkelfunktionen (nur Grundrechenarten): Math.sin/cos/atan2 liefern in Node und Chromium
+  // nicht bitgleiche Werte – in einem chaotischen System liefe sonst Bild und Ton auseinander.
+  const PI = 3.141592653589793, TAU = 6.283185307179586;
+  function sin(x) {
+    x -= TAU * Math.floor((x + PI) / TAU);
+    if (x > PI / 2) x = PI - x; else if (x < -PI / 2) x = -PI - x;
+    const q = x * x;
+    return x * (1 - q / 6 * (1 - q / 20 * (1 - q / 42 * (1 - q / 72 * (1 - q / 110 * (1 - q / 156 * (1 - q / 210)))))));
+  }
+  const cos = x => sin(x + PI / 2);
+
   const CFG = {
-    seed: 7,
+    seed: 932,
     names: ['Kaffee', 'Kuss', 'Burger', 'Regen', 'Weinglas', 'Pasta'],
     cx: 540, cy: 975, R: 380, r: 78, wall: 9,
     hz: 240, fps: 30,
@@ -27,13 +38,13 @@
     const c = Object.assign({}, CFG, o || {});
     const rnd = mulberry32(seed);
     const n = c.names.length, dt = 1 / c.hz, sub = c.hz / c.fps;
-    const phi0 = rnd() * 6.283185307179586;
-    const a0 = rnd() * 6.283185307179586;
+    const phi0 = rnd() * TAU;
+    const a0 = rnd() * TAU;
     const balls = [];
     for (let i = 0; i < n; i++) {
-      const a = a0 + i * 6.283185307179586 / n, rad = 205 + rnd() * 30;
-      const va = rnd() * 6.283185307179586, sp = c.v0 * (0.85 + rnd() * 0.3);
-      balls.push({ x: c.cx + Math.cos(a) * rad, y: c.cy + Math.sin(a) * rad, vx: Math.cos(va) * sp, vy: Math.sin(va) * sp, alive: true, outT: -1 });
+      const a = a0 + i * TAU / n, rad = 205 + rnd() * 30;
+      const va = rnd() * TAU, sp = c.v0 * (0.85 + rnd() * 0.3);
+      balls.push({ x: c.cx + cos(a) * rad, y: c.cy + sin(a) * rad, vx: cos(va) * sp, vy: sin(va) * sp, alive: true, outT: -1 });
     }
     const frames = [], events = [], outs = [];
     let alive = n, tWin = -1, gWin = 0, winner = -1;
@@ -74,9 +85,9 @@
         const b = balls[i]; if (!b.alive) continue;
         const dx = b.x - c.cx, dy = b.y - c.cy, d = Math.sqrt(dx * dx + dy * dy);
         if (d < 1) continue;
-        let da = Math.atan2(dy, dx) - rot;
-        da -= 6.283185307179586 * Math.floor((da + 3.141592653589793) / 6.283185307179586);
-        const inGap = (da < 0 ? -da : da) < gap;
+        const cr = cos(rot), sr = sin(rot);
+        const cda = (dx * cr + dy * sr) / d, side = cr * dy - sr * dx; // cos des Winkels zur Lückenmitte, Seite
+        const inGap = cda > cos(gap);
         if (!inGap) {
           const lim = c.R - c.r - c.wall;
           if (d > lim) {
@@ -92,8 +103,8 @@
             if (alive === 1) { tWin = t; gWin = gap; for (let k = 0; k < n; k++) if (balls[k].alive) winner = k; events.push({ t, type: 'win', a: winner, s: 1 }); }
             continue;
           }
-          const ea = rot + (da < 0 ? -gap : gap);
-          const px = c.cx + Math.cos(ea) * c.R, py = c.cy + Math.sin(ea) * c.R;
+          const ea = rot + (side < 0 ? -gap : gap);
+          const px = c.cx + cos(ea) * c.R, py = c.cy + sin(ea) * c.R;
           const ex = b.x - px, ey = b.y - py, ed = Math.sqrt(ex * ex + ey * ey), m = c.r + c.wall;
           if (ed < m && ed > 0) {
             const nx = ex / ed, ny = ey / ed;
