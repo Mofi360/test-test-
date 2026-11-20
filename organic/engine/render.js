@@ -74,7 +74,7 @@ scenes.forEach((s, i) => {
 });
 
 for (let i = 0; i < captions.length - 1; i++) captions[i].end = Math.min(captions[i].end, captions[i + 1].start);
-const timeline = { scenes, captions, endStart, duration, capY: V.capY, noCaptions: !!V.noCaptions, endcard: V.endcard };
+const timeline = { scenes, captions, endStart, duration, capY: V.capY, capStyle: V.capStyle, loop: !!V.loop, noCaptions: !!V.noCaptions, endcard: V.endcard };
 fs.writeFileSync(path.join(dir, 'timeline.json'), JSON.stringify(timeline, null, 1));
 
 (async () => {
@@ -90,6 +90,12 @@ fs.writeFileSync(path.join(dir, 'timeline.json'), JSON.stringify(timeline, null,
   try { await page.evaluate(tl => window.setup(tl), timeline); }
   catch (e) { console.error('SETUP-FEHLER:', e.message, errs.join('\n')); await browser.close(); process.exit(1); }
   const stage = await page.$('#stage');
+  if (await page.evaluate(() => window.hasCover())) {
+    await page.evaluate(() => window.showCover(true));
+    await stage.screenshot({ path: path.join(dir, 'cover.png'), type: 'png' });
+    await page.evaluate(() => window.showCover(false));
+    console.log('Cover: cover.png');
+  }
 
   if (PREVIEW) {
     const pts = (V.preview_times || [...scenes.map(s => s.start + s.dur * .6), endStart + 1.4]).filter(t => t < duration);
@@ -121,6 +127,12 @@ fs.writeFileSync(path.join(dir, 'timeline.json'), JSON.stringify(timeline, null,
   if (errs.length) console.error('JS-FEHLER:\n' + errs.join('\n'));
   console.log('fertig:', silent, duration.toFixed(2) + ' s');
 
+  const sfx = path.join(dir, 'sfx.wav');
+  if (!fs.existsSync(vo) && fs.existsSync(sfx)) {
+    const fin = path.join(dir, `${V.id}_final.mp4`);
+    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', silent, '-i', sfx, '-filter_complex', `[1:a]apad,atrim=0:${duration.toFixed(3)}[a]`, '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', fin]);
+    console.log('mit Ton (sfx):', fin);
+  }
   if (fs.existsSync(vo)) {
     const fin = path.join(dir, `${V.id}_final.mp4`);
     execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', silent, '-itsoffset', String(lead), '-i', vo,

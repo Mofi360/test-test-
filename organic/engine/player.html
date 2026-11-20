@@ -5,11 +5,13 @@
   html,body{margin:0;padding:0;background:#000;}
   #stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#F4C3CF;}
   #stage *{box-sizing:border-box;}
+  .cap.klein{font-size:46px;padding:12px 22px 15px;}
   .cap{position:absolute;left:0;top:0;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:66px;line-height:1.05;color:#151012;background:#fff;padding:18px 30px 22px;white-space:nowrap;letter-spacing:-.5px;}
 </style>
 <script src="lib.js"></script>
+<script src="kit.js"></script>
 </head><body>
-<div id="stage"><div id="scene"></div><div id="caps"></div><div id="end"></div></div>
+<div id="stage"><div id="scene"></div><div id="loop"></div><div id="caps"></div><div id="end"></div><div id="cover"></div></div>
 <script>
 {
 const SCENES = {};
@@ -35,15 +37,30 @@ window.setup = async function (timeline) {
   // Untertitel
   const caps = document.getElementById('caps');
   for (const c of TL.captions) {
-    const d = el('div', {}, caps); d.className = 'cap'; d.textContent = c.text; d.style.display = 'none';
+    const d = el('div', {}, caps); d.className = 'cap' + (TL.capStyle === 'klein' ? ' klein' : ''); d.textContent = c.text; d.style.display = 'none';
     capEls.push({ d, c });
+  }
+  // Schleife: in den letzten 0,4 s blendet das erste Bild (Szene 1, t=0) wieder ein
+  if (TL.loop) {
+    const s0 = TL.scenes[0], def0 = SCENES[s0.id];
+    const lr = el('div', { left: 0, top: 0, width: '1080px', height: '1920px', overflow: 'hidden', display: 'none', background: def0.bg || C.rosa }, document.getElementById('loop'));
+    if (def0.paper !== false) DT.paper(lr, def0.bg || C.rosa);
+    const u = def0.build(lr, { dur: s0.dur, scene: s0, timeline: TL }) || (() => {});
+    u(0, 0); loopEl = lr; loopUpd = u;
+  }
+  // Cover (eigenes Titelbild): SCENES.cover = { build(root) {...} }
+  if (SCENES.cover) {
+    const cr = el('div', { left: 0, top: 0, width: '1080px', height: '1920px', overflow: 'hidden', display: 'none', background: SCENES.cover.bg || C.rosa }, document.getElementById('cover'));
+    SCENES.cover.build(cr); coverEl = cr;
   }
   // Endcard
   if (TL.endcard !== false) buildEnd(document.getElementById('end'));
   return true;
 };
 
-let endUpd = null;
+let endUpd = null, loopEl = null, loopUpd = null, coverEl = null;
+window.hasCover = () => !!coverEl;
+window.showCover = on => { if (coverEl) coverEl.style.display = on ? 'block' : 'none'; };
 function buildEnd(root) {
   const ec = TL.endcard || {};
   const box = el('div', { left: 0, top: 0, width: '1080px', height: '1920px', display: 'none', background: C.rosa }, root);
@@ -81,6 +98,8 @@ window.frame = function (t) {
     }
   }
   if (endUpd) endUpd(t - TL.endStart);
+  if (loopEl) { const k = clamp((t - (TL.duration - .4)) / .3); loopEl.style.display = k > 0 ? 'block' : 'none'; loopEl.style.opacity = k; if (k > 0) loopUpd(0, 0); }
+  if (loopEl) for (const { d } of capEls) if (t > TL.duration - .4) d.style.display = 'none';
 };
 }
 </script>
