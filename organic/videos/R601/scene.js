@@ -424,5 +424,5 @@ SCENES.s9 = { bg: C.nacht, build(root, ctx) {
 SCENES.cover = { bg: C.rosa, build(root) {
   const art = g(150, 236, .72, 196, stick({ sym: 1 }))
     + g(196, 96, 1, 0, lupe(88, 28, `<g transform="translate(0 4) scale(.36) translate(-200 -215)">${jar({ lid: 1, num: '?', m: 'M', numCol: C.beere, sw: 20 })}</g>`));
-  coverLayout(root, { lines: ['Dieses *Symbol*', 'ignorierst du seit Jahren'], teaser: '…und es ist kein Recycling-Zeichen', art, artSize: 640, artX: 600, artY: 1060, size: 124, textY: 320, teaserY: 1400 });
+  coverLayout(root, { lines: ['Dieses *Symbol*', 'ignorierst du seit Jahren'], teaser: '…und es ist kein Recycling-Zeichen', art, artSize: 560, artX: 590, artY: 1110, size: 116, textY: 310, teaserY: 1400 });
 }};
