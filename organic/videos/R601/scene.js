@@ -179,7 +179,7 @@ SCENES.s3 = { bg: C.rosaHell, build(root) {
     const q = qMark(card, { x: 322, y: 344, size: 104, t0: c.t0 + .2 });
     return { ...c, card, x: c.x, cross: x.firstChild, q };
   });
-  const nein = handTxt(root, 'Nein.', 640, 1010, { size: 190, color: C.beere, r: -8 });
+  const nein = handTxt(root, 'Nein.', 590, 1030, { size: 180, color: C.beere, r: -8 });
   return (t) => {
     w1.update(t); w2.update(t); w3.update(t);
     cards.forEach((c, i) => {
@@ -227,8 +227,8 @@ SCENES.s4 = { bg: C.nacht, build(root, ctx) {
     // Lippenstift: Kappe springt ab
     const pop = pr(t, 4.25, 4.75, ease.outBack), hang = Math.sin(t * 2.2) * 6;
     const lines = [-58, -24, 14, 50].map(d => `<path d="M${Math.sin(rad(d)) * 86} ${-120 - Math.cos(rad(d)) * 40} L${Math.sin(rad(d)) * 146} ${-120 - Math.cos(rad(d)) * 100}" stroke="${C.weiss}" stroke-width="9" stroke-linecap="round" opacity="${clamp(1 - Math.abs(t - 4.5) / .35)}"/>`).join('');
-    const st = g(610, 850, tw(t, 3.5, 3.95, 0, 1, ease.outBack), 3, light(stick({ bullet: pop * .9, capDy: -pop * 150 + hang * pop, capX: -pop * 128, capR: -pop * 30 })) + lines);
-    const cal = g(850, 880, tw(t, 4.9, 5.3, 0, 1, ease.outBack) * 1.0, 5, calendar(t > 5.3 ? (t - 5.3) * 1.6 : 0));
+    const st = g(600, 900, tw(t, 3.5, 3.95, 0, 1, ease.outBack), -3, light(stick({ bullet: pop * .9, capDy: -pop * 110 + hang * pop, capX: pop * 120, capR: pop * 30 })) + lines);
+    const cal = g(840, 1010, tw(t, 4.9, 5.3, 0, 1, ease.outBack) * 1.0, 5, calendar(t > 5.3 ? (t - 5.3) * 1.6 : 0));
     L.innerHTML = J + st + cal;
   };
 }};
@@ -267,7 +267,7 @@ SCENES.s5 = { bg: C.rosa, build(root) {
     const sk = pr(t, 4.55, 4.9), jk = pr(t, 5.25, 5.7, ease.outBack);
     place(tag, 722, 860 + tw(t, 0, .5, 30, 0), 1, 3 + Math.sin(t * 1.3) * .8, clamp(t / .25));
     tagX.innerHTML = `<path d="M22 196 L418 100" stroke="${C.beere}" stroke-width="16" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="${1 - sk}"/>`
-      + (jk > 0 ? g(338, 66, .5 * jk, 8, `<circle r="170" fill="${C.weiss}" stroke="${S}" stroke-width="12"/><g transform="translate(-200 -222) ">${jar({ num: '?', m: 'M', numRot: Math.sin(t * 5) * 10 })}</g>`) : '');
+      + (jk > 0 ? g(338, 66, .5 * jk, 8, `<circle r="170" fill="${C.weiss}" stroke="${S}" stroke-width="12"/><g transform="scale(.68) translate(-200 -222)">${jar({ num: '?', m: 'M', numCol: C.beere, numRot: Math.sin(t * 5) * 10 })}</g>`) : '');
     L.innerHTML = line + ticks + pole + shelf;
   };
 }};
@@ -332,7 +332,7 @@ SCENES.s8 = { bg: C.rosa, build(root) {
   const L = layer(root);
   const h1 = bigText(root, '*Ranzig?*', { x: 80, y: 210, size: 132, t0: .25, step: 0 });
   const h2 = bigText(root, 'Krümelig?', { x: 80, y: 348, size: 132, t0: 1.25, step: 0 });
-  const out = handTxt(root, 'Dann ist er\nnicht mehr gut.', 520, 1060, { size: 104, r: -4 });
+  const out = handTxt(root, 'Dann ist er\nnicht mehr gut.', 450, 1060, { size: 96, r: -4 });
   const HAIR = '#3B2529';
   const face = (sq) => `<path d="M66 262 C48 120 120 62 200 62 C280 62 352 120 334 262 C346 310 330 346 300 356 L100 356 C70 346 54 310 66 262Z" fill="${HAIR}"/>
     <ellipse cx="200" cy="228" rx="110" ry="122" fill="${C.haut}"/>
@@ -353,7 +353,7 @@ SCENES.s8 = { bg: C.rosa, build(root) {
     for (let i = 0; i < 3; i++) {
       const x0 = lx - 70 + i * 70, ph = t * 2.2 + i * 1.7, o = pr(t, .5 + i * .2, 1.0 + i * .2) * (1 - pr(t, 2.2, 2.9) * .6);
       let d = `M${x0} ${ly - 330 - up * 90}`;
-      for (let j = 1; j <= 6; j++) d += ` Q${x0 + (j % 2 ? 26 : -26) + Math.sin(ph + j) * 8} ${ly - 330 - up * 90 - j * 30 + 15} ${x0 + Math.sin(ph + j * .7) * 6} ${ly - 330 - up * 90 - j * 30}`;
+      for (let j = 1; j <= 4; j++) d += ` Q${x0 + (j % 2 ? 26 : -26) + Math.sin(ph + j) * 8} ${ly - 330 - up * 90 - j * 30 + 15} ${x0 + Math.sin(ph + j * .7) * 6} ${ly - 330 - up * 90 - j * 30}`;
       waves += `<path d="${d}" fill="none" stroke="${S}" stroke-width="8" stroke-linecap="round" opacity="${o * .75}"/>`;
     }
     // Krümel
@@ -377,7 +377,7 @@ SCENES.s8 = { bg: C.rosa, build(root) {
 // s9 – Senden an + Kommentar-Frage
 SCENES.s9 = { bg: C.nacht, build(root, ctx) {
   const T2 = 4.3;
-  const h1 = bigText(root, 'Für die Freundin mit *dieser* Schublade.', { x: 80, y: 206, w: 900, size: 104, color: C.weiss, accent: C.rosa, t0: .1, step: .05 });
+  const h1 = bigText(root, 'Für die Freundin mit *dieser* Schublade.', { x: 80, y: 210, w: 900, size: 86, color: C.weiss, accent: C.rosa, t0: .1, step: .05 });
   const h2 = bigText(root, 'Wie alt ist dein *ältester?*', { x: 80, y: 206, w: 900, size: 112, color: C.weiss, accent: C.rosa, t0: T2 + .05, step: .09 });
   const L = layer(root);
   const sheet = sendTo(root, { contacts: ['Mama', 'Lena', 'Schwester', 'Jule'], pick: 3, t0: 1.15, top: 1050 });
