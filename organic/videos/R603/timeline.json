@@ -1,0 +1,303 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Dunkel, hell oder glänzend: Was lässt Lippen voller wirken?",
+   "start": 0,
+   "dur": 3.721759259259259,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Rate kurz mit. Option eins: dunkle Töne. Dunkles Braun, Weinrot, Violett.",
+   "start": 3.721759259259259,
+   "dur": 5.042592592592594,
+   "speakStart": 3.721759259259259
+  },
+  {
+   "id": "s3",
+   "text": "Die lassen Lippen optisch eher schmaler wirken.",
+   "start": 8.764351851851853,
+   "dur": 2.5212962962962955,
+   "speakStart": 8.764351851851853
+  },
+  {
+   "id": "s4",
+   "text": "Option zwei: helle Töne. Rosa, Nude, Pfirsich. Die lassen Lippen optisch größer wirken.",
+   "start": 11.285648148148148,
+   "dur": 5.672916666666666,
+   "speakStart": 11.285648148148148
+  },
+  {
+   "id": "s5",
+   "text": "Option drei: Glanz. Glänzende Lippen reflektieren Licht. Dadurch treten sie optisch hervor.",
+   "start": 16.958564814814814,
+   "dur": 5.4928240740740755,
+   "speakStart": 16.958564814814814
+  },
+  {
+   "id": "s6",
+   "text": "Also: Hell und Glanz liegen vorn. Aber das sind nur Schmink-Faustregeln.",
+   "start": 22.45138888888889,
+   "dur": 4.232175925925922,
+   "speakStart": 22.45138888888889
+  },
+  {
+   "id": "s7",
+   "text": "Dunkel ist deshalb nicht verboten. Wer Weinrot liebt, trägt Weinrot. Punkt.",
+   "start": 26.68356481481481,
+   "dur": 4.772453703703707,
+   "speakStart": 26.68356481481481
+  },
+  {
+   "id": "s8",
+   "text": "Schick das deiner Freundin, die nur Dunkel trägt. Und sich dann über schmale Lippen beschwert. Sag mir: Team dunkel, hell oder Glanz?",
+   "start": 31.45601851851852,
+   "dur": 8.393981481481475,
+   "speakStart": 31.45601851851852
+  }
+ ],
+ "captions": [
+  {
+   "text": "Dunkel, hell oder",
+   "start": 0.3,
+   "end": 1.2710397897897898,
+   "rot": -1.6
+  },
+  {
+   "text": "glänzend: Was lässt",
+   "start": 1.2710397897897898,
+   "end": 2.3345595595595596,
+   "rot": 0
+  },
+  {
+   "text": "Lippen voller wirken?",
+   "start": 2.3345595595595596,
+   "end": 3.721759259259259,
+   "rot": 1.6
+  },
+  {
+   "text": "Rate kurz mit.",
+   "start": 3.721759259259259,
+   "end": 4.795644718792866,
+   "rot": -0.8
+  },
+  {
+   "text": "Option eins: dunkle",
+   "start": 4.795644718792866,
+   "end": 5.869530178326475,
+   "rot": 0.8
+  },
+  {
+   "text": "Töne.",
+   "start": 5.869530178326475,
+   "end": 6.523199588477366,
+   "rot": -1.6
+  },
+  {
+   "text": "Dunkles Braun,",
+   "start": 6.523199588477366,
+   "end": 7.363631687242799,
+   "rot": 0
+  },
+  {
+   "text": "Weinrot, Violett.",
+   "start": 7.363631687242799,
+   "end": 8.764351851851853,
+   "rot": 1.6
+  },
+  {
+   "text": "Die lassen Lippen",
+   "start": 8.764351851851853,
+   "end": 9.55809327846365,
+   "rot": -0.8
+  },
+  {
+   "text": "optisch eher schmaler",
+   "start": 9.55809327846365,
+   "end": 10.538597393689987,
+   "rot": 0.8
+  },
+  {
+   "text": "wirken.",
+   "start": 10.538597393689987,
+   "end": 11.285648148148148,
+   "rot": -1.6
+  },
+  {
+   "text": "Option zwei: helle",
+   "start": 11.285648148148148,
+   "end": 12.308633120825743,
+   "rot": 0
+  },
+  {
+   "text": "Töne.",
+   "start": 12.308633120825743,
+   "end": 12.959623557984214,
+   "rot": 1.6
+  },
+  {
+   "text": "Rosa, Nude, Pfirsich.",
+   "start": 12.959623557984214,
+   "end": 14.72659760170006,
+   "rot": -0.8
+  },
+  {
+   "text": "Die lassen Lippen",
+   "start": 14.72659760170006,
+   "end": 15.517085989678202,
+   "rot": 0.8
+  },
+  {
+   "text": "optisch größer wirken.",
+   "start": 15.517085989678202,
+   "end": 16.958564814814814,
+   "rot": -1.6
+  },
+  {
+   "text": "Option drei: Glanz.",
+   "start": 16.958564814814814,
+   "end": 18.448144224733205,
+   "rot": 0
+  },
+  {
+   "text": "Glänzende Lippen",
+   "start": 18.448144224733205,
+   "end": 19.192933929692405,
+   "rot": 1.6
+  },
+  {
+   "text": "reflektieren Licht.",
+   "start": 19.192933929692405,
+   "end": 20.496315913371,
+   "rot": -0.8
+  },
+  {
+   "text": "Dadurch treten sie",
+   "start": 20.496315913371,
+   "end": 21.334204331450096,
+   "rot": 0.8
+  },
+  {
+   "text": "optisch hervor.",
+   "start": 21.334204331450096,
+   "end": 22.45138888888889,
+   "rot": -1.6
+  },
+  {
+   "text": "Also: Hell und Glanz",
+   "start": 22.45138888888889,
+   "end": 23.567567155067156,
+   "rot": 0
+  },
+  {
+   "text": "liegen vorn.",
+   "start": 23.567567155067156,
+   "end": 24.544223137973137,
+   "rot": 1.6
+  },
+  {
+   "text": "Aber das sind nur",
+   "start": 24.544223137973137,
+   "end": 25.334849409849408,
+   "rot": -0.8
+  },
+  {
+   "text": "Schmink-Faustregeln.",
+   "start": 25.334849409849408,
+   "end": 26.68356481481481,
+   "rot": 0.8
+  },
+  {
+   "text": "Dunkel ist deshalb",
+   "start": 26.68356481481481,
+   "end": 27.525762527233113,
+   "rot": -1.6
+  },
+  {
+   "text": "nicht verboten.",
+   "start": 27.525762527233113,
+   "end": 28.648692810457515,
+   "rot": 0
+  },
+  {
+   "text": "Wer Weinrot liebt,",
+   "start": 28.648692810457515,
+   "end": 29.67804557007988,
+   "rot": 1.6
+  },
+  {
+   "text": "trägt Weinrot.",
+   "start": 29.67804557007988,
+   "end": 30.75418709150327,
+   "rot": -0.8
+  },
+  {
+   "text": "Punkt.",
+   "start": 30.75418709150327,
+   "end": 31.45601851851852,
+   "rot": 0.8
+  },
+  {
+   "text": "Schick das deiner",
+   "start": 31.45601851851852,
+   "end": 32.25388327721661,
+   "rot": -1.6,
+   "y": 880
+  },
+  {
+   "text": "Freundin, die nur",
+   "start": 32.25388327721661,
+   "end": 33.23948092031425,
+   "rot": 0,
+   "y": 880
+  },
+  {
+   "text": "Dunkel trägt.",
+   "start": 33.23948092031425,
+   "end": 34.27201178451178,
+   "rot": 1.6,
+   "y": 880
+  },
+  {
+   "text": "Und sich dann über",
+   "start": 34.27201178451178,
+   "end": 35.116809764309764,
+   "rot": -0.8,
+   "y": 880
+  },
+  {
+   "text": "schmale Lippen",
+   "start": 35.116809764309764,
+   "end": 35.773874859708194,
+   "rot": 0.8,
+   "y": 880
+  },
+  {
+   "text": "beschwert.",
+   "start": 35.773874859708194,
+   "end": 36.66560606060606,
+   "rot": -1.6,
+   "y": 880
+  },
+  {
+   "text": "Sag mir: Team dunkel,",
+   "start": 36.66560606060606,
+   "end": 38.0266694725028,
+   "rot": 0,
+   "y": 880
+  },
+  {
+   "text": "hell oder Glanz?",
+   "start": 38.0266694725028,
+   "end": 39.24999999999999,
+   "rot": 1.6,
+   "y": 880
+  }
+ ],
+ "endStart": 1000000000,
+ "duration": 39.8,
+ "loop": true,
+ "noCaptions": false,
+ "endcard": false
+}

@@ -1,0 +1,76 @@
+{
+ "id": "R601",
+ "titel": "Das Tiegel-Symbol auf deinem Lippenstift",
+ "voice_duration": 52.5,
+ "voice_duration_note": "GESCHÄTZT (130 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – Stimme wird später als vo.mp3 ergänzt"
+ },
+ "endcard": false,
+ "loop": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Dieses Symbol auf deinem Lippenstift ignorierst du seit Jahren."
+  },
+  {
+   "id": "s2",
+   "text": "Dreh ihn mal um. Da ist ein offener Tiegel mit einer Zahl."
+  },
+  {
+   "id": "s3",
+   "text": "Recycling? Vegan? Die Größe? Es ist kein Recycling-Zeichen."
+  },
+  {
+   "id": "s4",
+   "text": "Neben der Zahl steht ein M. M wie Monate. So lange ist er nach dem ersten Öffnen verwendbar. So gibt es der Hersteller an."
+  },
+  {
+   "id": "s5",
+   "text": "Das Symbol steht auf Produkten, die ungeöffnet über 30 Monate halten. Deshalb steht dort kein Datum."
+  },
+  {
+   "id": "s6",
+   "text": "Heißt: Die Uhr läuft ab dem Öffnen. Nicht ab dem Kauf."
+  },
+  {
+   "id": "s7",
+   "text": "Schau nach, welche Zahl bei dir steht. Schreib das Datum vom ersten Öffnen drauf."
+  },
+  {
+   "id": "s8",
+   "text": "Riecht er ranzig oder wird er krümelig? Dann ist er nicht mehr gut."
+  },
+  {
+   "id": "s9",
+   "text": "Schick das deiner Freundin, die noch Lippenstifte von 2019 hortet. Wie alt ist dein ältester? Unter einem Jahr, über drei oder lieber geheim?",
+   "capY": 892
+  }
+ ],
+ "preview_times": [
+  0,
+  1.2,
+  3.0,
+  4.1,
+  5.0,
+  7.6,
+  10.5,
+  12.9,
+  15.0,
+  16.6,
+  19.0,
+  21.5,
+  24.8,
+  27.6,
+  30.3,
+  32.3,
+  34.5,
+  37.6,
+  40.6,
+  42.6,
+  44.2,
+  46.2,
+  49.0,
+  52.6
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "R602",
+ "titel": "Der Handgelenk-Test für dein Rot",
+ "voice_duration": 45.3,
+ "voice_duration_note": "GESCHÄTZT (112 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {
+  "status": "ausstehend – Stimme wird später als vo.mp3 ergänzt"
+ },
+ "endcard": false,
+ "loop": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Du trägst vielleicht das falsche Rot. Schau auf dein Handgelenk."
+  },
+  {
+   "id": "s2",
+   "text": "Am besten am Fenster, bei Tageslicht. Siehst du die Adern? Mach den Test jetzt, ich warte."
+  },
+  {
+   "id": "s3",
+   "text": "Wirken sie bläulich oder violett? Dann hast du eher einen kühlen Unterton."
+  },
+  {
+   "id": "s4",
+   "text": "Dazu passt Rot mit Blaustich. Himbeerrot zum Beispiel, oder Karminrot."
+  },
+  {
+   "id": "s5",
+   "text": "Wirken sie eher grünlich? Dann bist du eher der warme Typ."
+  },
+  {
+   "id": "s6",
+   "text": "Dein Rot hat dann einen Orangestich. Tomatenrot oder Korallenrot."
+  },
+  {
+   "id": "s7",
+   "text": "Du erkennst es nicht? Dann probier einfach beide Richtungen aus."
+  },
+  {
+   "id": "s8",
+   "text": "Ehrlich gesagt: Das ist nur eine Faustregel aus der Drogerie. Am Ende entscheidet dein Spiegel."
+  },
+  {
+   "id": "s9",
+   "text": "Schick das deiner Freundin, die seit Jahren sagt: Rot steht mir nicht. Und jetzt du: blau, grün oder beides?",
+   "capY": 880
+  }
+ ],
+ "preview_times": [
+  0,
+  1.2,
+  4.2,
+  6,
+  10.2,
+  12,
+  14.9,
+  17,
+  19.9,
+  22,
+  23.7,
+  26,
+  28,
+  29.2,
+  32,
+  34,
+  37.8,
+  39.6,
+  42,
+  44.5,
+  45.6
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Du trägst vielleicht das falsche Rot. Schau auf dein Handgelenk.",
+   "start": 0,
+   "dur": 4.469023569023569,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Am besten am Fenster, bei Tageslicht. Siehst du die Adern? Mach den Test jetzt, ich warte.",
+   "start": 4.469023569023569,
+   "dur": 6.3552188552188555,
+   "speakStart": 4.469023569023569
+  },
+  {
+   "id": "s3",
+   "text": "Wirken sie bläulich oder violett? Dann hast du eher einen kühlen Unterton.",
+   "start": 10.824242424242424,
+   "dur": 4.677441077441079,
+   "speakStart": 10.824242424242424
+  },
+  {
+   "id": "s4",
+   "text": "Dazu passt Rot mit Blaustich. Himbeerrot zum Beispiel, oder Karminrot.",
+   "start": 15.501683501683504,
+   "dur": 4.677441077441076,
+   "speakStart": 15.501683501683504
+  },
+  {
+   "id": "s5",
+   "text": "Wirken sie eher grünlich? Dann bist du eher der warme Typ.",
+   "start": 20.17912457912458,
+   "dur": 3.8639730639730594,
+   "speakStart": 20.17912457912458
+  },
+  {
+   "id": "s6",
+   "text": "Dein Rot hat dann einen Orangestich. Tomatenrot oder Korallenrot.",
+   "start": 24.04309764309764,
+   "dur": 4.21986531986532,
+   "speakStart": 24.04309764309764
+  },
+  {
+   "id": "s7",
+   "text": "Du erkennst es nicht? Dann probier einfach beide Richtungen aus.",
+   "start": 28.26296296296296,
+   "dur": 4.169023569023565,
+   "speakStart": 28.26296296296296
+  },
+  {
+   "id": "s8",
+   "text": "Ehrlich gesagt: Das ist nur eine Faustregel aus der Drogerie. Am Ende entscheidet dein Spiegel.",
+   "start": 32.431986531986524,
+   "dur": 5.948484848484846,
+   "speakStart": 32.431986531986524
+  },
+  {
+   "id": "s9",
+   "text": "Schick das deiner Freundin, die seit Jahren sagt: Rot steht mir nicht. Und jetzt du: blau, grün oder beides?",
+   "start": 38.38047138047137,
+   "dur": 7.469528619528624,
+   "speakStart": 38.38047138047137
+  }
+ ],
+ "captions": [
+  {
+   "text": "Du trägst vielleicht",
+   "start": 0.3,
+   "end": 1.3554490048160934,
+   "rot": -1.6
+  },
+  {
+   "text": "das falsche Rot.",
+   "start": 1.3554490048160934,
+   "end": 2.67476026083621,
+   "rot": 0
+  },
+  {
+   "text": "Schau auf dein",
+   "start": 2.67476026083621,
+   "end": 3.413574564207475,
+   "rot": 1.6
+  },
+  {
+   "text": "Handgelenk.",
+   "start": 3.413574564207475,
+   "end": 4.469023569023569,
+   "rot": -0.8
+  },
+  {
+   "text": "Am besten am Fenster,",
+   "start": 4.469023569023569,
+   "end": 5.7820853159696135,
+   "rot": 0.8
+  },
+  {
+   "text": "bei Tageslicht.",
+   "start": 5.7820853159696135,
+   "end": 7.042624593037816,
+   "rot": -1.6
+  },
+  {
+   "text": "Siehst du die Adern?",
+   "start": 7.042624593037816,
+   "end": 8.565776219495227,
+   "rot": 0
+  },
+  {
+   "text": "Mach den Test jetzt,",
+   "start": 8.565776219495227,
+   "end": 9.826315496563431,
+   "rot": 1.6
+  },
+  {
+   "text": "ich warte.",
+   "start": 9.826315496563431,
+   "end": 10.824242424242424,
+   "rot": -0.8
+  },
+  {
+   "text": "Wirken sie bläulich",
+   "start": 10.824242424242424,
+   "end": 11.822797260999508,
+   "rot": 0.8
+  },
+  {
+   "text": "oder violett?",
+   "start": 11.822797260999508,
+   "end": 12.979018650928765,
+   "rot": -1.6
+  },
+  {
+   "text": "Dann hast du eher",
+   "start": 12.979018650928765,
+   "end": 13.872462452237734,
+   "rot": 0
+  },
+  {
+   "text": "einen kühlen Unterton.",
+   "start": 13.872462452237734,
+   "end": 15.501683501683504,
+   "rot": 1.6
+  },
+  {
+   "text": "Dazu passt Rot mit",
+   "start": 15.501683501683504,
+   "end": 16.45843281297827,
+   "rot": -0.8
+  },
+  {
+   "text": "Blaustich.",
+   "start": 16.45843281297827,
+   "end": 17.468334863789412,
+   "rot": 0.8
+  },
+  {
+   "text": "Himbeerrot zum",
+   "start": 17.468334863789412,
+   "end": 18.212473217018672,
+   "rot": -1.6
+  },
+  {
+   "text": "Beispiel, oder",
+   "start": 18.212473217018672,
+   "end": 19.169222528313437,
+   "rot": 0
+  },
+  {
+   "text": "Karminrot.",
+   "start": 19.169222528313437,
+   "end": 20.17912457912458,
+   "rot": 1.6
+  },
+  {
+   "text": "Wirken sie eher",
+   "start": 20.17912457912458,
+   "end": 20.973091647064248,
+   "rot": -0.8
+  },
+  {
+   "text": "grünlich?",
+   "start": 20.973091647064248,
+   "end": 21.925852128591853,
+   "rot": 0.8
+  },
+  {
+   "text": "Dann bist du eher",
+   "start": 21.925852128591853,
+   "end": 22.82568147225681,
+   "rot": -1.6
+  },
+  {
+   "text": "der warme Typ.",
+   "start": 22.82568147225681,
+   "end": 24.04309764309764,
+   "rot": 0
+  },
+  {
+   "text": "Dein Rot hat dann",
+   "start": 24.04309764309764,
+   "end": 24.93981902356902,
+   "rot": 1.6
+  },
+  {
+   "text": "einen Orangestich.",
+   "start": 24.93981902356902,
+   "end": 26.364023569023566,
+   "rot": -0.8
+  },
+  {
+   "text": "Tomatenrot oder",
+   "start": 26.364023569023566,
+   "end": 27.155248316498312,
+   "rot": 0.8
+  },
+  {
+   "text": "Korallenrot.",
+   "start": 27.155248316498312,
+   "end": 28.26296296296296,
+   "rot": -1.6
+  },
+  {
+   "text": "Du erkennst es nicht?",
+   "start": 28.26296296296296,
+   "end": 29.826346801346794,
+   "rot": 0
+  },
+  {
+   "text": "Dann probier einfach",
+   "start": 29.826346801346794,
+   "end": 30.86860269360269,
+   "rot": 1.6
+  },
+  {
+   "text": "beide Richtungen aus.",
+   "start": 30.86860269360269,
+   "end": 32.431986531986524,
+   "rot": -0.8
+  },
+  {
+   "text": "Ehrlich gesagt: Das",
+   "start": 32.431986531986524,
+   "end": 33.653550384800376,
+   "rot": 0.8
+  },
+  {
+   "text": "ist nur eine",
+   "start": 33.653550384800376,
+   "end": 34.29088804713804,
+   "rot": -1.6
+  },
+  {
+   "text": "Faustregel aus der",
+   "start": 34.29088804713804,
+   "end": 35.24689454064453,
+   "rot": 0
+  },
+  {
+   "text": "Drogerie.",
+   "start": 35.24689454064453,
+   "end": 36.202901034151026,
+   "rot": 1.6
+  },
+  {
+   "text": "Am Ende entscheidet",
+   "start": 36.202901034151026,
+   "end": 37.21201899951899,
+   "rot": -0.8
+  },
+  {
+   "text": "dein Spiegel.",
+   "start": 37.21201899951899,
+   "end": 38.38047138047137,
+   "rot": 0.8
+  },
+  {
+   "text": "Schick das deiner",
+   "start": 38.38047138047137,
+   "end": 39.27632529676324,
+   "rot": -1.6,
+   "y": 880
+  },
+  {
+   "text": "Freundin, die seit",
+   "start": 39.27632529676324,
+   "end": 40.435665659023314,
+   "rot": 0,
+   "y": 880
+  },
+  {
+   "text": "Jahren sagt: Rot steht",
+   "start": 40.435665659023314,
+   "end": 41.80579517805794,
+   "rot": 1.6,
+   "y": 880
+  },
+  {
+   "text": "mir nicht.",
+   "start": 41.80579517805794,
+   "end": 42.807043672737095,
+   "rot": -0.8,
+   "y": 880
+  },
+  {
+   "text": "Und jetzt du: blau,",
+   "start": 42.807043672737095,
+   "end": 44.22987048096537,
+   "rot": 0.8,
+   "y": 880
+  },
+  {
+   "text": "grün oder beides?",
+   "start": 44.22987048096537,
+   "end": 45.64999999999999,
+   "rot": -1.6,
+   "y": 880
+  }
+ ],
+ "endStart": 1000000000,
+ "duration": 46.199999999999996,
+ "loop": true,
+ "noCaptions": false,
+ "endcard": false
+}

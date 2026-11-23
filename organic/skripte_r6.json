@@ -1,0 +1,347 @@
+[
+ {
+  "id": "R6-01",
+  "titel": "Das Tiegel-Symbol auf deinem Lippenstift",
+  "format": "G",
+  "produkt": false,
+  "dauer_s": 54,
+  "hook": "Dieses Symbol auf deinem Lippenstift ignorierst du seit Jahren.",
+  "voiceover": "Dieses Symbol auf deinem Lippenstift ignorierst du seit Jahren. Dreh ihn mal um. Da ist ein offener Tiegel mit einer Zahl. Recycling? Vegan? Die Größe? Es ist kein Recycling-Zeichen. Neben der Zahl steht ein M. M wie Monate. So lange ist er nach dem ersten Öffnen verwendbar. So gibt es der Hersteller an. Das Symbol steht auf Produkten, die ungeöffnet über 30 Monate halten. Deshalb steht dort kein Datum. Heißt: Die Uhr läuft ab dem Öffnen. Nicht ab dem Kauf. Schau nach, welche Zahl bei dir steht. Schreib das Datum vom ersten Öffnen drauf. Riecht er ranzig oder wird er krümelig? Dann ist er nicht mehr gut. Schick das deiner Freundin, die noch Lippenstifte von 2019 hortet. Wie alt ist dein ältester? Unter einem Jahr, über drei oder lieber geheim?",
+  "szenen": [
+   {
+    "text": "Dieses Symbol auf deinem Lippenstift ignorierst du seit Jahren.",
+    "visual": "Rosa Hintergrund. Eine gezeichnete Hand dreht schon einen schwarzen Lippenstift um, auf der Unterseite blinkt ein winziges Symbol. Eine Lupe fährt darauf zu.",
+    "overlay": ""
+   },
+   {
+    "text": "Dreh ihn mal um. Da ist ein offener Tiegel mit einer Zahl.",
+    "visual": "Zoom durch die Lupe: Das Symbol wird groß, ein offener Tiegel mit abgehobenem Deckel. Die Zahl darin ist noch ein Fragezeichen und wackelt.",
+    "overlay": "Kennst du das?"
+   },
+   {
+    "text": "Recycling? Vegan? Die Größe? Es ist kein Recycling-Zeichen.",
+    "visual": "Drei Karten mit Fragezeichen-Markern ploppen nebeneinander auf (Pfeil-Kreis, Blatt, Maßband). Eine nach der anderen kippt weg, die Recycling-Karte zuletzt.",
+    "overlay": "Recycling? Vegan? Größe?"
+   },
+   {
+    "text": "Neben der Zahl steht ein M. M wie Monate. So lange ist er nach dem ersten Öffnen verwendbar. So gibt es der Hersteller an.",
+    "visual": "Das M im Tiegel leuchtet rosa auf und klappt zum Wort Monate aus. Daneben springt die Kappe vom Lippenstift, ein Kalender beginnt zu blättern. Quellen-Karte schiebt sich unten ins Bild. Beispiel-Tiegel mit 12 M ist als Beispiel beschriftet, nicht auf dem Lippenstift.",
+    "overlay": "M = Monate nach dem Öffnen"
+   },
+   {
+    "text": "Das Symbol steht auf Produkten, die ungeöffnet über 30 Monate halten. Deshalb steht dort kein Datum.",
+    "visual": "Verschlossener Lippenstift im Regal, darüber läuft ein langer Zeitstrahl bis zur Marke 30 Monate und darüber hinaus. Ein leeres Datumsfeld wird durchgestrichen und vom Tiegel-Symbol ersetzt.",
+    "overlay": "Kein Datum? Deshalb."
+   },
+   {
+    "text": "Heißt: Die Uhr läuft ab dem Öffnen. Nicht ab dem Kauf.",
+    "visual": "Links ein Kassenbon mit stehender Uhr, rechts die abspringende Kappe: Erst dort beginnt der Zeiger zu laufen.",
+    "overlay": "Ab Öffnen, nicht ab Kauf"
+   },
+   {
+    "text": "Schau nach, welche Zahl bei dir steht. Schreib das Datum vom ersten Öffnen drauf.",
+    "visual": "Die Hand dreht den eigenen Lippenstift, die Zahl im Tiegel bleibt ein Fragezeichen. Ein feiner Stift schreibt ein Datum auf ein kleines Etikett am Boden.",
+    "overlay": "Datum draufschreiben"
+   },
+   {
+    "text": "Riecht er ranzig oder wird er krümelig? Dann ist er nicht mehr gut.",
+    "visual": "Ein alter Lippenstift wird hochgedreht, kleine Krümel rieseln herab, eine gezeichnete Nase rümpft sich.",
+    "overlay": "Ranzig? Krümelig?"
+   },
+   {
+    "text": "Schick das deiner Freundin, die noch Lippenstifte von 2019 hortet. Wie alt ist dein ältester? Unter einem Jahr, über drei oder lieber geheim?",
+    "visual": "Eine Schublade voller Lippenstifte geht auf, das Senden-an-Fenster fährt hoch, Kontakte werden angetippt. Danach drei Antwort-Kacheln. Letztes Bild: wieder die Hand, die den Lippenstift umdreht (Schleife).",
+    "overlay": "Wie alt ist dein ältester?"
+   }
+  ],
+  "quellen_karte": "EU-Kosmetikverordnung 1223/2009, Art. 19",
+  "quellen_szene": 4,
+  "senden_an": [
+   "Mama",
+   "Lena",
+   "Schwester",
+   "Jule"
+  ],
+  "cover": {
+   "lines": [
+    "Dieses *Symbol*",
+    "ignorierst du seit Jahren"
+   ],
+   "teaser": "…und es ist kein Recycling-Zeichen"
+  },
+  "caption": "Weißt du, was der kleine offene Tiegel auf deinem Lippenstift bedeutet?\n\n👉 Es ist kein Recycling-Zeichen.\n👉 Das M steht für Monate nach dem ersten Öffnen.\n👉 Die Uhr läuft nicht ab dem Kauf. Ab wann dann? Schau bis zum Ende.\n\nMach heute Abend den Test: Dreh deinen Lieblingslippenstift um und schau, welche Zahl bei dir steht.\n\nWie alt ist dein ältester Lippenstift? Unter einem Jahr, über drei oder lieber geheim?\n\nSchick das deiner Freundin, die noch Lippenstifte von 2019 in der Schublade hat.\n\nFolg uns für mehr Lippen-Wissen, das du sofort nachprüfen kannst.\n\nQuelle: EU-Kosmetikverordnung 1223/2009, Art. 19.\nAnimation und Stimme mit KI erstellt.\n\n#lippenstift #kosmetik #beautywissen #makeuptipps #schminktisch #lippen #beautyhacks",
+  "ordner": "R601"
+ },
+ {
+  "id": "R6-02",
+  "titel": "Der Handgelenk-Test für dein Rot",
+  "format": "G",
+  "produkt": false,
+  "dauer_s": 45,
+  "hook": "Du trägst vielleicht das falsche Rot. Schau auf dein Handgelenk.",
+  "voiceover": "Du trägst vielleicht das falsche Rot. Schau auf dein Handgelenk. Am besten am Fenster, bei Tageslicht. Siehst du die Adern? Mach den Test jetzt, ich warte. Wirken sie bläulich oder violett? Dann hast du eher einen kühlen Unterton. Dazu passt Rot mit Blaustich. Himbeerrot zum Beispiel, oder Karminrot. Wirken sie eher grünlich? Dann bist du eher der warme Typ. Dein Rot hat dann einen Orangestich. Tomatenrot oder Korallenrot. Du erkennst es nicht? Dann probier einfach beide Richtungen aus. Ehrlich gesagt: Das ist nur eine Faustregel aus der Drogerie. Am Ende entscheidet dein Spiegel. Schick das deiner Freundin, die seit Jahren sagt: Rot steht mir nicht. Und jetzt du: blau, grün oder beides?",
+  "szenen": [
+   {
+    "text": "Du trägst vielleicht das falsche Rot. Schau auf dein Handgelenk.",
+    "visual": "Eine gezeichnete Hand trägt schon roten Lippenstift auf eine Lippen-Linie auf, dann dreht sich das Handgelenk nach oben ins Bild.",
+    "overlay": ""
+   },
+   {
+    "text": "Am besten am Fenster, bei Tageslicht. Siehst du die Adern? Mach den Test jetzt, ich warte.",
+    "visual": "Das Handgelenk wandert vor ein Fenster, Lichtstrahl fällt darauf, feine Linien erscheinen. Eine kleine Sanduhr dreht sich, drei Punkte tippen.",
+    "overlay": "Mach den Test. Ich warte."
+   },
+   {
+    "text": "Wirken sie bläulich oder violett? Dann hast du eher einen kühlen Unterton.",
+    "visual": "Die Linien am Handgelenk färben sich bläulich-violett, daneben klappt ein Kärtchen mit Fragezeichen-Marker um.",
+    "overlay": "Bläulich: eher kühl"
+   },
+   {
+    "text": "Dazu passt Rot mit Blaustich. Himbeerrot zum Beispiel, oder Karminrot.",
+    "visual": "Zwei Lippenstifte drehen sich hoch, zwei Farbtupfer klecksen daneben, Namen tippen sich darunter. Quellen-Karte erscheint.",
+    "overlay": "Himbeerrot. Karminrot."
+   },
+   {
+    "text": "Wirken sie eher grünlich? Dann bist du eher der warme Typ.",
+    "visual": "Die Linien wechseln zu einem grünlichen Ton, das zweite Kärtchen klappt um.",
+    "overlay": "Grünlich: eher warm"
+   },
+   {
+    "text": "Dein Rot hat dann einen Orangestich. Tomatenrot oder Korallenrot.",
+    "visual": "Zwei weitere Lippenstifte drehen sich hoch, warme Farbtupfer klecksen ins Bild.",
+    "overlay": "Tomatenrot. Korallenrot."
+   },
+   {
+    "text": "Du erkennst es nicht? Dann probier einfach beide Richtungen aus.",
+    "visual": "Das Handgelenk zeigt beide Töne gemischt, beide Lippenstift-Paare rutschen zusammen in eine Reihe.",
+    "overlay": "Beides? Beides testen."
+   },
+   {
+    "text": "Ehrlich gesagt: Das ist nur eine Faustregel aus der Drogerie. Am Ende entscheidet dein Spiegel.",
+    "visual": "Ein eleganter Handspiegel schwenkt ins Bild, die Lippen-Linie darin wechselt zwischen den vier Rottönen.",
+    "overlay": "Am Ende entscheidet dein Spiegel"
+   },
+   {
+    "text": "Schick das deiner Freundin, die seit Jahren sagt: Rot steht mir nicht. Und jetzt du: blau, grün oder beides?",
+    "visual": "Sprechblase mit dem Satz der Freundin, dann fährt das Senden-an-Fenster hoch. Drei Antwort-Kacheln. Letztes Bild: wieder die Hand mit dem roten Lippenstift (Schleife).",
+    "overlay": "Blau, grün oder beides?"
+   }
+  ],
+  "quellen_karte": "Faustregel aus Ratgebern von Rossmann und dm",
+  "quellen_szene": 4,
+  "senden_an": [
+   "Lena",
+   "Jule",
+   "Schwester",
+   "Mama"
+  ],
+  "cover": {
+   "lines": [
+    "Trägst du das",
+    "*falsche* Rot?"
+   ],
+   "teaser": "…dein Handgelenk verrät es"
+  },
+  "caption": "Trägst du vielleicht seit Jahren das falsche Rot?\n\n👉 Adern wirken bläulich oder violett: eher kühler Unterton.\n👉 Adern wirken grünlich: eher warmer Unterton.\n👉 Welches Rot dazu passt, siehst du im Video.\n\nMach den Test jetzt: Handgelenk ans Fenster, Tageslicht, hinschauen. Es ist nur eine Faustregel, am Ende entscheidet dein Spiegel.\n\nWas siehst du: blau, grün oder beides?\n\nSchick das deiner Freundin, die seit Jahren sagt: Rot steht mir nicht.\n\nFolg uns für mehr Lippenstift-Tests zum Selbermachen.\n\nQuellen: Ratgeber von Rossmann und dm (Faustregel, keine Wissenschaft).\nAnimation und Stimme mit KI erstellt.\n\n#roterlippenstift #lippenstift #unterton #makeuptipps #beautywissen #rotelippen",
+  "ordner": "R602"
+ },
+ {
+  "id": "R6-03",
+  "titel": "Dunkel, hell oder Glanz",
+  "format": "G",
+  "produkt": false,
+  "dauer_s": 38,
+  "hook": "Dunkel, hell oder glänzend: Was lässt Lippen voller wirken?",
+  "voiceover": "Dunkel, hell oder glänzend: Was lässt Lippen voller wirken? Rate kurz mit. Option eins: dunkle Töne. Dunkles Braun, Weinrot, Violett. Die lassen Lippen optisch eher schmaler wirken. Option zwei: helle Töne. Rosa, Nude, Pfirsich. Die lassen Lippen optisch größer wirken. Option drei: Glanz. Glänzende Lippen reflektieren Licht. Dadurch treten sie optisch hervor. Also: Hell und Glanz liegen vorn. Aber das sind nur Schmink-Faustregeln. Dunkel ist deshalb nicht verboten. Wer Weinrot liebt, trägt Weinrot. Punkt. Schick das deiner Freundin, die nur Dunkel trägt. Und sich dann über schmale Lippen beschwert. Sag mir: Team dunkel, hell oder Glanz?",
+  "szenen": [
+   {
+    "text": "Dunkel, hell oder glänzend: Was lässt Lippen voller wirken?",
+    "visual": "Drei Lippenstifte drehen sich schon nebeneinander hoch (dunkel, hell, Gloss), über jedem ein Fragezeichen-Marker. Darunter eine neutrale Lippen-Linie.",
+    "overlay": ""
+   },
+   {
+    "text": "Rate kurz mit. Option eins: dunkle Töne. Dunkles Braun, Weinrot, Violett.",
+    "visual": "Der dunkle Stift fährt über die Lippen-Linie, drei dunkle Farbtupfer klecksen daneben.",
+    "overlay": "1: Dunkel"
+   },
+   {
+    "text": "Die lassen Lippen optisch eher schmaler wirken.",
+    "visual": "Die dunkel gefüllte Lippen-Linie neben der neutralen: Zwei Messpfeile zeigen, dass beide gleich groß sind, nur die dunkle wirkt kleiner. Quellen-Karte erscheint.",
+    "overlay": "Wirkt optisch schmaler"
+   },
+   {
+    "text": "Option zwei: helle Töne. Rosa, Nude, Pfirsich. Die lassen Lippen optisch größer wirken.",
+    "visual": "Der helle Stift fährt über die Linie, drei helle Tupfer. Gleiche Messpfeile, die helle Variante wirkt größer.",
+    "overlay": "2: Hell wirkt größer"
+   },
+   {
+    "text": "Option drei: Glanz. Glänzende Lippen reflektieren Licht. Dadurch treten sie optisch hervor.",
+    "visual": "Gloss-Applikator zieht über die Linie, ein Lichtpunkt wandert über die Lippen, feine Strahlen prallen ab.",
+    "overlay": "3: Glanz reflektiert Licht"
+   },
+   {
+    "text": "Also: Hell und Glanz liegen vorn. Aber das sind nur Schmink-Faustregeln.",
+    "visual": "Die drei Varianten nebeneinander wie auf einem Siegertreppchen, hell und Glanz rücken nach vorn.",
+    "overlay": "Nur Faustregeln"
+   },
+   {
+    "text": "Dunkel ist deshalb nicht verboten. Wer Weinrot liebt, trägt Weinrot. Punkt.",
+    "visual": "Ein Verbotsschild über dem dunklen Stift zerbricht, der weinrote Stift dreht sich stolz hoch und setzt einen Punkt.",
+    "overlay": "Weinrot bleibt."
+   },
+   {
+    "text": "Schick das deiner Freundin, die nur Dunkel trägt. Und sich dann über schmale Lippen beschwert. Sag mir: Team dunkel, hell oder Glanz?",
+    "visual": "Senden-an-Fenster fährt hoch, Kontakte werden angetippt. Dann drei Team-Kacheln. Letztes Bild: wieder die drei Stifte mit Fragezeichen (Schleife).",
+    "overlay": "Team dunkel, hell oder Glanz?"
+   }
+  ],
+  "quellen_karte": "Schmink-Faustregel, u. a. dm-Ratgeber",
+  "quellen_szene": 3,
+  "senden_an": [
+   "Lena",
+   "Jule",
+   "Schwester",
+   "Sophie"
+  ],
+  "cover": {
+   "lines": [
+    "Dunkel, hell oder Glanz:",
+    "Was wirkt *voller*?"
+   ],
+   "teaser": "…Weinrot-Fans müssen jetzt stark sein"
+  },
+  "caption": "Dunkel, hell oder glänzend: Was lässt Lippen voller wirken?\n\n👉 Dunkle Töne wie Weinrot wirken optisch anders, als viele denken.\n👉 Helle Töne wie Rosa, Nude und Pfirsich lassen Lippen optisch größer wirken.\n👉 Und Glanz? Schau dir Option drei an.\n\nMach den Test: gleicher Spiegel, einmal dein dunkelster Ton, einmal dein hellster. Es sind Faustregeln, verboten ist gar nichts.\n\nTeam dunkel, hell oder Glanz?\n\nSchick das deiner Freundin, die nur dunkle Töne trägt und sich über schmale Lippen beschwert.\n\nFolg uns für mehr Lippenstift-Wissen in unter einer Minute.\n\nQuellen: Schmink-Faustregeln, u. a. dm-Ratgeber (rein optisch).\nAnimation und Stimme mit KI erstellt.\n\n#lippenstift #makeuptipps #lipgloss #beautywissen #lippen #schminktipps",
+  "ordner": "R603"
+ },
+ {
+  "id": "R6-04",
+  "titel": "Warum er bei ihr hält",
+  "format": "E",
+  "produkt": true,
+  "dauer_s": 40,
+  "hook": "Warum hält Lippenstift bei ihr, und bei dir nicht?",
+  "voiceover": "Warum hält Lippenstift bei ihr, und bei dir nicht? Teurer Lippenstift? Besserer Pinsel? Glück? Oft liegt es nicht am Lippenstift. Es liegt am Untergrund. Lippen haben keine Schweißdrüsen und kaum Talgdrüsen. Sie können sich also kaum selbst pflegen. Pflege muss von außen kommen. Deshalb der Tipp: erst Schüppchen sanft entfernen, dann pflegen. Dann erst Farbe. Abends dann Diva Tape: Kollagen-Tape für die Lippen, über Nacht. Die Pflege bleibt, wo sie hin soll, nicht im Kissen. Sie sagt trotzdem, es liegt am teuren Lippenstift. Lass sie. Schick das deiner Freundin, die ständig nachzieht. Und du: Pflege, Peeling oder einfach hoffen?",
+  "szenen": [
+   {
+    "text": "Warum hält Lippenstift bei ihr, und bei dir nicht?",
+    "visual": "Zwei Linien-Gesichter nebeneinander tragen gleichzeitig denselben roten Lippenstift auf. Eine Uhr darüber läuft schon los.",
+    "overlay": ""
+   },
+   {
+    "text": "Teurer Lippenstift? Besserer Pinsel? Glück?",
+    "visual": "Die Uhr springt vor: links noch sattes Rot, rechts nur ein Rest am Glasrand. Drei Karten mit Fragezeichen-Markern ploppen auf.",
+    "overlay": "Teuer? Pinsel? Glück?"
+   },
+   {
+    "text": "Oft liegt es nicht am Lippenstift. Es liegt am Untergrund.",
+    "visual": "Die drei Karten kippen weg. Die Kamera zoomt auf die Lippen-Linie und taucht darunter.",
+    "overlay": "Es ist der Untergrund"
+   },
+   {
+    "text": "Lippen haben keine Schweißdrüsen und kaum Talgdrüsen. Sie können sich also kaum selbst pflegen. Pflege muss von außen kommen.",
+    "visual": "Querschnitt der Lippenhaut als feine Linienzeichnung. Daneben zum Vergleich Gesichtshaut mit kleinen Drüsen-Icons, bei der Lippe bleiben die Plätze leer. Quellen-Karte erscheint. Ein Tropfen kommt von außen.",
+    "overlay": "Pflege kommt von außen"
+   },
+   {
+    "text": "Deshalb der Tipp: erst Schüppchen sanft entfernen, dann pflegen. Dann erst Farbe.",
+    "visual": "Drei Schritte tippen sich nacheinander an: weiches Tuch, Pflege-Tropfen, Lippenstift.",
+    "overlay": "Erst Basis, dann Farbe"
+   },
+   {
+    "text": "Abends dann Diva Tape: Kollagen-Tape für die Lippen, über Nacht. Die Pflege bleibt, wo sie hin soll, nicht im Kissen.",
+    "visual": "Abendlicht, Nachttisch. Ein kleines rosa Tape legt sich auf geschlossene Lippen, realistische Größe, nur die Lippen bedeckt. Ein Kissen daneben bleibt sauber. Höchstens 4 Sekunden.",
+    "overlay": "Kollagen-Tape, über Nacht"
+   },
+   {
+    "text": "Sie sagt trotzdem, es liegt am teuren Lippenstift. Lass sie.",
+    "visual": "Zurück zu den zwei Gesichtern. Die linke hält triumphierend ihren Lippenstift hoch, die rechte zwinkert.",
+    "overlay": "Lass sie."
+   },
+   {
+    "text": "Schick das deiner Freundin, die ständig nachzieht. Und du: Pflege, Peeling oder einfach hoffen?",
+    "visual": "Senden-an-Fenster fährt hoch, Kontakte werden angetippt. Dann drei Antwort-Kacheln. Letztes Bild: wieder beide Gesichter beim Auftragen (Schleife).",
+    "overlay": "Pflege, Peeling oder hoffen?"
+   }
+  ],
+  "quellen_karte": "dm-Ratgeber „Trockene Lippen“",
+  "quellen_szene": 4,
+  "senden_an": [
+   "Lena",
+   "Jule",
+   "Schwester",
+   "Anna"
+  ],
+  "cover": {
+   "lines": [
+    "Warum hält er",
+    "bei *ihr*?"
+   ],
+   "teaser": "…am Lippenstift liegt es oft nicht"
+  },
+  "caption": "Warum hält Lippenstift bei ihr und bei dir nicht?\n\n👉 Oft liegt es nicht am Lippenstift.\n👉 Lippen haben keine Schweiß- und kaum Talgdrüsen.\n👉 Was das für deinen Untergrund heißt, siehst du im Video.\n\nMach morgen den Test: erst Schüppchen sanft entfernen, dann Pflege, dann Farbe.\n\nWas machst du vor dem Lippenstift: Pflege, Peeling oder einfach hoffen?\n\nSchick das deiner Freundin, die ständig nachzieht.\n\nFolg uns für mehr Lippen-Wissen. Diva Tape ist unser Kollagen-Tape für die Lippen, über Nacht.\n\nQuellen: dm-Ratgeber „Trockene Lippen“ und dm-Ratgeber zum Schminken roter Lippen.\nAnimation und Stimme mit KI erstellt.\n\n#lippenstift #lippenpflege #rotelippen #makeuptipps #beautywissen #abendroutine #divatape",
+  "ordner": "R604"
+ },
+ {
+  "id": "R6-06",
+  "titel": "Erst pflegen, dann Ja sagen",
+  "format": "F",
+  "produkt": true,
+  "dauer_s": 30,
+  "hook": "Du heiratest bald und willst rote Lippen auf jedem Foto?",
+  "voiceover": "Du heiratest bald und willst rote Lippen auf jedem Foto? Probe-Make-up steht. Fotografin gebucht. Sekt steht kalt. Alle planen Kleid, Frisur und Blumen. An die Lippen denkt keiner. Dabei sind gepflegte, weiche Lippen die Basis für dein Rot. Darum in den Wochen davor, abends als letzter Schritt: Diva Tape. Ein Kollagen-Tape, das deine Lippen über Nacht pflegt. Erst pflegen, dann Ja sagen. Schick das deiner Freundin, die bald heiratet. Rot, Rosé oder Nude zum Ja?",
+  "szenen": [
+   {
+    "text": "Du heiratest bald und willst rote Lippen auf jedem Foto?",
+    "visual": "Eine Braut als elegante Linienfigur probiert vor dem Spiegel schon roten Lippenstift, ein Kamerablitz zuckt, ein Fotorahmen schnappt zu.",
+    "overlay": ""
+   },
+   {
+    "text": "Probe-Make-up steht. Fotografin gebucht. Sekt steht kalt.",
+    "visual": "Eine Checkliste rollt ab, drei Haken setzen sich: Pinsel, Kamera, zwei Gläser stoßen an.",
+    "overlay": "Alles geplant?"
+   },
+   {
+    "text": "Alle planen Kleid, Frisur und Blumen. An die Lippen denkt keiner.",
+    "visual": "Kleid, Haarnadel und Brautstrauß schweben vorbei. Ganz unten auf der Liste ein leeres Kästchen mit einer kleinen Lippen-Linie.",
+    "overlay": "Und die Lippen?"
+   },
+   {
+    "text": "Dabei sind gepflegte, weiche Lippen die Basis für dein Rot.",
+    "visual": "Zoom auf die Lippen-Linie, der rote Lippenstift setzt an, darunter erscheint das Wort Basis als feine Linie. Quellen-Karte erscheint.",
+    "overlay": "Die Basis für dein Rot"
+   },
+   {
+    "text": "Darum in den Wochen davor, abends als letzter Schritt: Diva Tape. Ein Kollagen-Tape, das deine Lippen über Nacht pflegt.",
+    "visual": "Kalender mit markiertem Hochzeitstag, die Abende davor leuchten rosa. Ein kleines rosa Tape legt sich auf geschlossene Lippen, realistische Größe. Höchstens 4 Sekunden.",
+    "overlay": "Kollagen-Tape, über Nacht"
+   },
+   {
+    "text": "Erst pflegen, dann Ja sagen.",
+    "visual": "Der Schleier fällt, rote Lippen lächeln, zwei Ringe klicken ineinander.",
+    "overlay": "Erst pflegen, dann Ja sagen."
+   },
+   {
+    "text": "Schick das deiner Freundin, die bald heiratet. Rot, Rosé oder Nude zum Ja?",
+    "visual": "Senden-an-Fenster fährt hoch, Kontakte werden angetippt. Dann drei Farb-Kacheln. Letztes Bild: wieder die Braut vor dem Spiegel (Schleife).",
+    "overlay": "Rot, Rosé oder Nude?"
+   }
+  ],
+  "quellen_karte": null,
+  "quellen_szene": null,
+  "senden_an": [
+   "Lena",
+   "Jule",
+   "Caro",
+   "Schwester"
+  ],
+  "cover": {
+   "lines": [
+    "Rote Lippen",
+    "auf *jedem* Hochzeitsfoto?"
+   ],
+   "teaser": "…daran denkt vorher keiner"
+  },
+  "caption": "Du heiratest bald und willst rote Lippen auf den Fotos?\n\n👉 Alle planen Kleid, Frisur und Blumen.\n👉 An die Lippen denkt keiner.\n👉 Dabei fängt Rot beim Untergrund an. Wie, siehst du im Video.\n\nMach den Test beim Probe-Make-up: Lippen vorher pflegen, dann erst das Rot.\n\nWas trägst du zum Ja: Rot, Rosé oder Nude?\n\nSchick das deiner Freundin, die bald heiratet.\n\nFolg uns für mehr rund um rote Lippen. Diva Tape ist unser Kollagen-Tape für die Lippen, über Nacht.\n\nAnimation und Stimme mit KI erstellt.\n\n#braut #hochzeit #brautmakeup #rotelippen #lippenpflege #abendroutine #divatape",
+  "ordner": "R606"
+ }
+]

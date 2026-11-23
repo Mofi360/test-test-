@@ -1,0 +1,215 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Du heiratest bald und willst rote Lippen auf jedem Foto?",
+   "start": 0,
+   "dur": 3.609682804674457,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Probe-Make-up steht. Fotografin gebucht. Sekt steht kalt.",
+   "start": 3.609682804674457,
+   "dur": 4.2771285475792995,
+   "speakStart": 3.609682804674457
+  },
+  {
+   "id": "s3",
+   "text": "Alle planen Kleid, Frisur und Blumen. An die Lippen denkt keiner.",
+   "start": 7.886811352253757,
+   "dur": 4.429883138564273,
+   "speakStart": 7.886811352253757
+  },
+  {
+   "id": "s4",
+   "text": "Dabei sind gepflegte, weiche Lippen die Basis für dein Rot.",
+   "start": 12.31669449081803,
+   "dur": 3.666110183639402,
+   "speakStart": 12.31669449081803
+  },
+  {
+   "id": "s5",
+   "text": "Darum in den Wochen davor, abends als letzter Schritt: Diva Tape. Ein Kollagen-Tape, das deine Lippen über Nacht pflegt.",
+   "start": 15.982804674457432,
+   "dur": 7.637729549248748,
+   "speakStart": 15.982804674457432
+  },
+  {
+   "id": "s6",
+   "text": "Erst pflegen, dann Ja sagen.",
+   "start": 23.62053422370618,
+   "dur": 2.0876460767946554,
+   "speakStart": 23.62053422370618
+  },
+  {
+   "id": "s7",
+   "text": "Schick das deiner Freundin, die bald heiratet. Rot, Rosé oder Nude zum Ja?",
+   "start": 25.708180300500835,
+   "dur": 5.341819699499165,
+   "speakStart": 25.708180300500835
+  }
+ ],
+ "captions": [
+  {
+   "text": "Du heiratest bald und",
+   "start": 0.3,
+   "end": 1.4032276015581524,
+   "rot": -1.6
+  },
+  {
+   "text": "willst rote Lippen auf",
+   "start": 1.4032276015581524,
+   "end": 2.55898985080955,
+   "rot": 0
+  },
+  {
+   "text": "jedem Foto?",
+   "start": 2.55898985080955,
+   "end": 3.609682804674457,
+   "rot": 1.6
+  },
+  {
+   "text": "Probe-Make-up steht.",
+   "start": 3.609682804674457,
+   "end": 5.122325827598844,
+   "rot": -0.8
+  },
+  {
+   "text": "Fotografin gebucht.",
+   "start": 5.122325827598844,
+   "end": 6.582808746284458,
+   "rot": 0.8
+  },
+  {
+   "text": "Sekt steht kalt.",
+   "start": 6.582808746284458,
+   "end": 7.886811352253757,
+   "rot": -1.6
+  },
+  {
+   "text": "Alle planen Kleid,",
+   "start": 7.886811352253757,
+   "end": 9.047018840925352,
+   "rot": 0
+  },
+  {
+   "text": "Frisur und Blumen.",
+   "start": 9.047018840925352,
+   "end": 10.470909849749583,
+   "rot": 1.6
+  },
+  {
+   "text": "An die Lippen denkt",
+   "start": 10.470909849749583,
+   "end": 11.472907226329596,
+   "rot": -0.8
+  },
+  {
+   "text": "keiner.",
+   "start": 11.472907226329596,
+   "end": 12.31669449081803,
+   "rot": 0.8
+  },
+  {
+   "text": "Dabei sind gepflegte,",
+   "start": 12.31669449081803,
+   "end": 13.62601955640353,
+   "rot": -1.6
+  },
+  {
+   "text": "weiche Lippen die",
+   "start": 13.62601955640353,
+   "end": 14.51636060100167,
+   "rot": 0
+  },
+  {
+   "text": "Basis für dein Rot.",
+   "start": 14.51636060100167,
+   "end": 15.982804674457432,
+   "rot": 1.6
+  },
+  {
+   "text": "Darum in den Wochen",
+   "start": 15.982804674457432,
+   "end": 16.990560656649976,
+   "rot": -0.8
+  },
+  {
+   "text": "davor, abends als",
+   "start": 16.990560656649976,
+   "end": 18.10439621591542,
+   "rot": 0.8
+  },
+  {
+   "text": "letzter Schritt: Diva",
+   "start": 18.10439621591542,
+   "end": 19.43039092932666,
+   "rot": -1.6
+  },
+  {
+   "text": "Tape.",
+   "start": 19.43039092932666,
+   "end": 20.172947968836954,
+   "rot": 0
+  },
+  {
+   "text": "Ein Kollagen-Tape, das",
+   "start": 20.172947968836954,
+   "end": 21.551982470784644,
+   "rot": 1.6
+  },
+  {
+   "text": "deine Lippen über",
+   "start": 21.551982470784644,
+   "end": 22.45365887590429,
+   "rot": -0.8
+  },
+  {
+   "text": "Nacht pflegt.",
+   "start": 22.45365887590429,
+   "end": 23.67053422370618,
+   "rot": 0.8
+  },
+  {
+   "text": "Schick das deiner",
+   "start": 25.708180300500835,
+   "end": 26.60985670562048,
+   "rot": -1.6,
+   "y": 880
+  },
+  {
+   "text": "Freundin, die bald",
+   "start": 26.60985670562048,
+   "end": 27.77673205342237,
+   "rot": 0,
+   "y": 880
+  },
+  {
+   "text": "heiratet.",
+   "start": 27.77673205342237,
+   "end": 28.731448247078465,
+   "rot": 1.6,
+   "y": 880
+  },
+  {
+   "text": "Rot, Rosé oder Nude",
+   "start": 28.731448247078465,
+   "end": 29.951363383416805,
+   "rot": -0.8,
+   "y": 880
+  },
+  {
+   "text": "zum Ja?",
+   "start": 29.951363383416805,
+   "end": 30.85,
+   "rot": 0.8,
+   "y": 880
+  }
+ ],
+ "endStart": 1000000000,
+ "duration": 31.400000000000002,
+ "loop": true,
+ "noCaptions": false,
+ "endcard": false
+}

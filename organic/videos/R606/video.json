@@ -1,0 +1,19 @@
+{
+ "id": "R606",
+ "titel": "Erst pflegen, dann Ja sagen",
+ "voice_duration": 30.5,
+ "voice_duration_note": "GESCHÄTZT (75 Wörter / 2.5 + 0.5). Mit echter vo.mp3 neu rendern.",
+ "voice": {"status": "ausstehend – Stimme wird später als vo.mp3 ergänzt"},
+ "endcard": false,
+ "loop": true,
+ "scenes": [
+  {"id": "s1", "text": "Du heiratest bald und willst rote Lippen auf jedem Foto?"},
+  {"id": "s2", "text": "Probe-Make-up steht. Fotografin gebucht. Sekt steht kalt."},
+  {"id": "s3", "text": "Alle planen Kleid, Frisur und Blumen. An die Lippen denkt keiner."},
+  {"id": "s4", "text": "Dabei sind gepflegte, weiche Lippen die Basis für dein Rot."},
+  {"id": "s5", "text": "Darum in den Wochen davor, abends als letzter Schritt: Diva Tape. Ein Kollagen-Tape, das deine Lippen über Nacht pflegt."},
+  {"id": "s6", "text": "Erst pflegen, dann Ja sagen.", "captions": false},
+  {"id": "s7", "text": "Schick das deiner Freundin, die bald heiratet. Rot, Rosé oder Nude zum Ja?", "capY": 880}
+ ],
+ "preview_times": [0, 1.5, 3.6, 5.5, 7.8, 10, 12.3, 14.5, 16.5, 18.5, 20.5, 22.5, 24.6, 25.6, 27.2, 29, 30.4]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "R701",
+ "titel": "Welches Sternzeichen küsst am besten? (Murmelrennen)",
+ "format": "Murmelrennen-Simulation, ohne Stimme, Ton aus make_sfx.js",
+ "voice_duration": 42.2333,
+ "endcard": false,
+ "loop": true,
+ "noCaptions": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "x",
+   "hold": 0.35
+  }
+ ],
+ "preview_times": [
+  0,
+  0.3,
+  0.6,
+  1,
+  2,
+  3.2,
+  6,
+  9.9,
+  12.5,
+  14.1,
+  17,
+  20,
+  22.4,
+  24.5,
+  26.6,
+  27.3,
+  29.1,
+  30.9,
+  31.8,
+  32.25,
+  32.8,
+  34,
+  37.03,
+  37.88,
+  38.78,
+  40.18,
+  41.58,
+  42.88
+ ]
+}

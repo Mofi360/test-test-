@@ -1,0 +1,24 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "x",
+   "start": 0,
+   "dur": 34.01,
+   "speakStart": 0.3
+  }
+ ],
+ "captions": [
+  {
+   "text": "x",
+   "start": 0.3,
+   "end": 33.459999999999994,
+   "rot": -1.6
+  }
+ ],
+ "endStart": 1000000000,
+ "duration": 34.01,
+ "loop": true,
+ "noCaptions": true,
+ "endcard": false
+}

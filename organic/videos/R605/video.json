@@ -1,0 +1,34 @@
+{
+ "id": "R605",
+ "titel": "Wer killt roten Lippenstift zuerst? (Wettkampf-Simulation)",
+ "format": "Wettkampf-Simulation, ohne Stimme, Kollisionstöne aus make_sfx.js",
+ "voice_duration": 33.11,
+ "endcard": false,
+ "loop": true,
+ "noCaptions": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "x",
+   "hold": 0.35
+  }
+ ],
+ "preview_times": [
+  0,
+  2,
+  4.4,
+  6,
+  8.3,
+  10.5,
+  13.3,
+  17,
+  20.2,
+  24,
+  28,
+  29.5,
+  30.4,
+  31.2,
+  32.4,
+  33.8
+ ]
+}

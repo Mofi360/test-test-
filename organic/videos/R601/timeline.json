@@ -1,0 +1,359 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Dieses Symbol auf deinem Lippenstift ignorierst du seit Jahren.",
+   "start": 0,
+   "dur": 4.225233644859813,
+   "speakStart": 0.3
+  },
+  {
+   "id": "s2",
+   "text": "Dreh ihn mal um. Da ist ein offener Tiegel mit einer Zahl.",
+   "start": 4.225233644859813,
+   "dur": 4.14330218068536,
+   "speakStart": 4.225233644859813
+  },
+  {
+   "id": "s3",
+   "text": "Recycling? Vegan? Die Größe? Es ist kein Recycling-Zeichen.",
+   "start": 8.368535825545173,
+   "dur": 5.179127725856695,
+   "speakStart": 8.368535825545173
+  },
+  {
+   "id": "s4",
+   "text": "Neben der Zahl steht ein M. M wie Monate. So lange ist er nach dem ersten Öffnen verwendbar. So gibt es der Hersteller an.",
+   "start": 13.547663551401868,
+   "dur": 8.613707165109037,
+   "speakStart": 13.547663551401868
+  },
+  {
+   "id": "s5",
+   "text": "Das Symbol steht auf Produkten, die ungeöffnet über 30 Monate halten. Deshalb steht dort kein Datum.",
+   "start": 22.161370716510906,
+   "dur": 6.651090342679126,
+   "speakStart": 22.161370716510906
+  },
+  {
+   "id": "s6",
+   "text": "Heißt: Die Uhr läuft ab dem Öffnen. Nicht ab dem Kauf.",
+   "start": 28.81246105919003,
+   "dur": 4.143302180685357,
+   "speakStart": 28.81246105919003
+  },
+  {
+   "id": "s7",
+   "text": "Schau nach, welche Zahl bei dir steht. Schreib das Datum vom ersten Öffnen drauf.",
+   "start": 32.95576323987539,
+   "dur": 5.615264797507784,
+   "speakStart": 32.95576323987539
+  },
+  {
+   "id": "s8",
+   "text": "Riecht er ranzig oder wird er krümelig? Dann ist er nicht mehr gut.",
+   "start": 38.57102803738317,
+   "dur": 4.633956386292837,
+   "speakStart": 38.57102803738317
+  },
+  {
+   "id": "s9",
+   "text": "Schick das deiner Freundin, die noch Lippenstifte von 2019 hortet. Wie alt ist dein ältester? Unter einem Jahr, über drei oder lieber geheim?",
+   "start": 43.20498442367601,
+   "dur": 9.845015576323988,
+   "speakStart": 43.20498442367601
+  }
+ ],
+ "captions": [
+  {
+   "text": "Dieses Symbol auf",
+   "start": 0.3,
+   "end": 1.2670865501828525,
+   "rot": -1.6
+  },
+  {
+   "text": "deinem Lippenstift",
+   "start": 1.2670865501828525,
+   "end": 2.2910605444941083,
+   "rot": 0
+  },
+  {
+   "text": "ignorierst du seit",
+   "start": 2.2910605444941083,
+   "end": 3.3150345388053633,
+   "rot": 1.6
+  },
+  {
+   "text": "Jahren.",
+   "start": 3.3150345388053633,
+   "end": 4.225233644859813,
+   "rot": -0.8
+  },
+  {
+   "text": "Dreh ihn mal um.",
+   "start": 4.225233644859813,
+   "end": 5.6249978950913535,
+   "rot": 0.8
+  },
+  {
+   "text": "Da ist ein offener",
+   "start": 5.6249978950913535,
+   "end": 6.632828155258062,
+   "rot": -1.6
+  },
+  {
+   "text": "Tiegel mit einer Zahl.",
+   "start": 6.632828155258062,
+   "end": 8.368535825545173,
+   "rot": 0
+  },
+  {
+   "text": "Recycling?",
+   "start": 8.368535825545173,
+   "end": 9.449892163910857,
+   "rot": 1.6
+  },
+  {
+   "text": "Vegan?",
+   "start": 9.449892163910857,
+   "end": 10.303594536304818,
+   "rot": -0.8
+  },
+  {
+   "text": "Die Größe?",
+   "start": 10.303594536304818,
+   "end": 11.384950874670501,
+   "rot": 0.8
+  },
+  {
+   "text": "Es ist kein",
+   "start": 11.384950874670501,
+   "end": 12.01099928109274,
+   "rot": -1.6
+  },
+  {
+   "text": "Recycling-Zeichen.",
+   "start": 12.01099928109274,
+   "end": 13.547663551401868,
+   "rot": 0
+  },
+  {
+   "text": "Neben der Zahl steht",
+   "start": 13.547663551401868,
+   "end": 14.688551917641476,
+   "rot": 1.6
+  },
+  {
+   "text": "ein M.",
+   "start": 14.688551917641476,
+   "end": 15.544218192321182,
+   "rot": -0.8
+  },
+  {
+   "text": "M wie Monate.",
+   "start": 15.544218192321182,
+   "end": 16.79919539518475,
+   "rot": 0.8
+  },
+  {
+   "text": "So lange ist er",
+   "start": 16.79919539518475,
+   "end": 17.654861669864456,
+   "rot": -1.6
+  },
+  {
+   "text": "nach dem ersten Öffnen",
+   "start": 17.654861669864456,
+   "end": 18.909838872728024,
+   "rot": 0
+  },
+  {
+   "text": "verwendbar.",
+   "start": 18.909838872728024,
+   "end": 20.05072723896763,
+   "rot": 1.6
+  },
+  {
+   "text": "So gibt es der",
+   "start": 20.05072723896763,
+   "end": 20.849349095335356,
+   "rot": -0.8
+  },
+  {
+   "text": "Hersteller an.",
+   "start": 20.849349095335356,
+   "end": 22.161370716510906,
+   "rot": 0.8
+  },
+  {
+   "text": "Das Symbol steht auf",
+   "start": 22.161370716510906,
+   "end": 23.298309236626995,
+   "rot": -1.6
+  },
+  {
+   "text": "Produkten, die",
+   "start": 23.298309236626995,
+   "end": 24.321553904731477,
+   "rot": 0
+  },
+  {
+   "text": "ungeöffnet über 30",
+   "start": 24.321553904731477,
+   "end": 25.344798572835955,
+   "rot": 1.6
+  },
+  {
+   "text": "Monate halten.",
+   "start": 25.344798572835955,
+   "end": 26.65227787096946,
+   "rot": -0.8
+  },
+  {
+   "text": "Deshalb steht dort",
+   "start": 26.65227787096946,
+   "end": 27.675522539073942,
+   "rot": 0.8
+  },
+  {
+   "text": "kein Datum.",
+   "start": 27.675522539073942,
+   "end": 28.81246105919003,
+   "rot": -1.6
+  },
+  {
+   "text": "Heißt: Die Uhr läuft",
+   "start": 28.81246105919003,
+   "end": 30.15623473941231,
+   "rot": 0
+  },
+  {
+   "text": "ab dem Öffnen.",
+   "start": 30.15623473941231,
+   "end": 31.444017849625325,
+   "rot": 1.6
+  },
+  {
+   "text": "Nicht ab dem Kauf.",
+   "start": 31.444017849625325,
+   "end": 32.95576323987539,
+   "rot": -0.8
+  },
+  {
+   "text": "Schau nach, welche",
+   "start": 32.95576323987539,
+   "end": 34.1911214953271,
+   "rot": 0.8
+  },
+  {
+   "text": "Zahl bei dir steht.",
+   "start": 34.1911214953271,
+   "end": 35.76339563862928,
+   "rot": -1.6
+  },
+  {
+   "text": "Schreib das Datum vom",
+   "start": 35.76339563862928,
+   "end": 36.942601246105916,
+   "rot": 0
+  },
+  {
+   "text": "ersten Öffnen drauf.",
+   "start": 36.942601246105916,
+   "end": 38.57102803738317,
+   "rot": 1.6
+  },
+  {
+   "text": "Riecht er ranzig oder",
+   "start": 38.57102803738317,
+   "end": 39.757772965580116,
+   "rot": -0.8
+  },
+  {
+   "text": "wird er krümelig?",
+   "start": 39.757772965580116,
+   "end": 41.22707621001443,
+   "rot": 0.8
+  },
+  {
+   "text": "Dann ist er nicht",
+   "start": 41.22707621001443,
+   "end": 42.18777448522148,
+   "rot": -1.6
+  },
+  {
+   "text": "mehr gut.",
+   "start": 42.18777448522148,
+   "end": 43.20498442367601,
+   "rot": 0
+  },
+  {
+   "text": "Schick das deiner",
+   "start": 43.20498442367601,
+   "end": 44.17590861889927,
+   "rot": 1.6,
+   "y": 892
+  },
+  {
+   "text": "Freundin, die noch",
+   "start": 44.17590861889927,
+   "end": 45.43239875389408,
+   "rot": -0.8,
+   "y": 892
+  },
+  {
+   "text": "Lippenstifte von 2019",
+   "start": 45.43239875389408,
+   "end": 46.631775700934575,
+   "rot": 0.8,
+   "y": 892
+  },
+  {
+   "text": "hortet.",
+   "start": 46.631775700934575,
+   "end": 47.54558670820353,
+   "rot": -1.6,
+   "y": 892
+  },
+  {
+   "text": "Wie alt ist dein",
+   "start": 47.54558670820353,
+   "end": 48.45939771547248,
+   "rot": 0,
+   "y": 892
+  },
+  {
+   "text": "ältester?",
+   "start": 48.45939771547248,
+   "end": 49.487435098650046,
+   "rot": 1.6,
+   "y": 892
+  },
+  {
+   "text": "Unter einem Jahr, über",
+   "start": 49.487435098650046,
+   "end": 50.972377985462096,
+   "rot": -0.8,
+   "y": 892
+  },
+  {
+   "text": "drei oder lieber",
+   "start": 50.972377985462096,
+   "end": 51.88618899273105,
+   "rot": 0.8,
+   "y": 892
+  },
+  {
+   "text": "geheim?",
+   "start": 51.88618899273105,
+   "end": 52.849999999999994,
+   "rot": -1.6,
+   "y": 892
+  }
+ ],
+ "endStart": 1000000000,
+ "duration": 53.4,
+ "loop": true,
+ "noCaptions": false,
+ "endcard": false
+}
