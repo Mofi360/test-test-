@@ -2,3 +2,7 @@ organic/engine/_player_*.html
 organic/videos/*/preview_*.jpg
 node_modules/
 organic/videos/*/render.log
+node_modules
+organic/ext/claude-animation-skills/kit/.venv/
+organic/ext/claude-animation-skills/kit/models/
+organic/ext/claude-animation-skills/kit/vendor/
