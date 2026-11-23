@@ -1,0 +1,32 @@
+{
+ "von": 1,
+ "bis": 1500,
+ "alleImZiel": 1500,
+ "bestanden": 1,
+ "beste": [
+  {
+   "seed": 1341,
+   "ok": true,
+   "hard": true,
+   "score": 67.8,
+   "tWin": 30.51,
+   "tLast": 34.68,
+   "total": 41,
+   "lc": 11,
+   "leaders": 9,
+   "late": 3,
+   "lastLc": 1.24,
+   "gap12": 0.058,
+   "gap23": 0.387,
+   "jam": 1.2,
+   "jamMax": 8,
+   "nud": 2,
+   "wRank6": 7,
+   "wRank3": 5,
+   "tight": 487,
+   "lone": 1,
+   "maxFinGap": 1.04,
+   "order": "Waage > Wassermann > Krebs > Löwe > Widder > Schütze > Stier > Zwillinge > Steinbock > Jungfrau > Skorpion > Fische"
+  }
+ ]
+}

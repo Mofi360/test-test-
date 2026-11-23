@@ -1,0 +1,11 @@
+{
+ "id": "R703",
+ "titel": "Suchspiel: Ein Lippenstift ist anders (3 Level)",
+ "format": "Suchspiel in 3 Leveln, ohne Stimme, Ton aus make_sfx.js",
+ "voice_duration": 28.099,
+ "endcard": false,
+ "loop": true,
+ "noCaptions": true,
+ "scenes": [ { "id": "s1", "text": "x", "hold": 0.35 } ],
+ "preview_times": [0, 0.5, 1, 3.6, 4.6, 5.25, 5.9, 6.32, 6.5, 7.2, 10, 12.4, 13.1, 13.9, 14.3, 14.5, 16, 20.9, 21.8, 22.2, 22.6, 23.6, 24.1, 24.9, 26.5, 28.75]
+}

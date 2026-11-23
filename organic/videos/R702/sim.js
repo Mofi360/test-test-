@@ -31,18 +31,22 @@
     shrinkT0: 12, shrinkRate: 5.2, shrinkMax: 150, // Zone schrumpft ab 12 s
     rm: 58, re: 47, mm: 1, me: 1.7,       // Radien, Massen
     hp: 100,
-    spawn: [-9, -9, -9, 5.5, 12.5, 20],   // wann welcher Gegner ins Feld kommt
+    spawn: [-9, -9, -9, -9, 9, 18],        // wann welcher Gegner ins Feld kommt (4 von Anfang an, dann 5, dann 6)
     ghost: 0.5,                           // neu gespawnte Gegner tun 0,5 s nichts
-    vm0: 400, vm1: 3.5,                   // Monats-Tempo
-    ve0: 500, ve1: 9,                     // Gegner-Tempo
-    home0: 520, home1: 26,                // Zielsuchen der Gegner (px/s²)
-    cool: 1.0, coolEnd: 3, rageC: 0.45, calm: 1.2,               // nach einem Treffer ist der Gegner kurz „satt“: sucht nicht, schadet nicht
-    focus: 0.35,                          // Zielwahl: Abstand × (focus + Rest-Lippenstift) – kleiner = jagt Angeschlagene
+    vm0: 400, vm1: 3.5,                   // Monats-Tempo (px/s, + pro s)
+    ve0: 500, ve1: 5,                     // Gegner-Tempo
+    home0: 800, home1: 26,                // Zielsuchen der Gegner (px/s²)
+    focus: 0.01,                          // Zielwahl: Abstand × (focus + Rest-Lippenstift) – Angeschlagene ziehen Feinde an
+    cool: 0.3, coolEnd: 1,                // nach einem Treffer ist DIESER Gegner kurz „satt“ (Anfang → Finale)
+    g0: 0.05, g1: 2.2,                    // nach jedem Treffer sind ALLE Gegner kurz „satt“ (Anfang → Finale: jeder Treffer zählt)
+    calm: 1.4,                            // Atempause nach jedem Rauswurf
     inv: 0.38,                            // getroffener Monat ist kurz unverwundbar
-    d0: 6, d1: 0.014, dT: 0.012, dMin: 4, dMax: 38, // Schaden = (d0 + d1*Aufprall) * (1 + dT*t) * Wut
-    mmDiv: 500, mmMax: 1, mmCool: 0.6,                 // Monat gegen Monat: kleiner Schaden für beide
-    rageT: 2.4, rageLen: 3.0, rageV: 0.35, rageD: 0.6, rageH: 1.0, // „Wut“: je länger keiner rausfliegt, desto härter
-    tail: 6.0,
+    // Schaden = (d0 + d1*Aufprall) * Wut * (1 + vul * fehlender Lippenstift): wer schon verschmiert ist, verliert schneller
+    vul: 2, d0: 7, d1: 0.009, dT: 0, dMin: 4, dMax: 20,
+    mmDiv: 500, mmMax: 1, mmCool: 0.6,    // Monat gegen Monat: 1 Punkt für beide bei hartem Rempler, wirft niemanden raus
+    rageT: 2, rageLen: 3.0, rageV: 0.35, rageD: 0.2, rageH: 1.0, rageC: 0.5, // „Wut“: je länger keiner rausfliegt, desto härter
+    tail: 6.0,                            // Schlussbild nach dem Sieg (s)
+    bpm: 126,                             // Beat (nur Bild-Puls + Ton, kein Einfluss auf die Physik)
   };
 
   function simulate(seed, o) {
@@ -66,7 +70,7 @@
       E.push({ x: c.cx + ep[k][0], y: c.cy + ep[k][1], vx: cos(a) * c.ve0, vy: sin(a) * c.ve0, on: c.spawn[k] < -1, born: c.spawn[k], cool: -9, tgt: -1 });
     }
     const frames = [], events = [], outs = [];
-    let alive = NM, tWin = -1, winner = -1, lastOut = 0, insetWin = 0;
+    let gT = -9, alive = NM, tWin = -1, winner = -1, lastOut = 0, insetWin = 0;
     const s0 = -Math.round(c.pre * c.hz), maxSteps = c.hz * 60;
     const inset = t => { if (tWin >= 0) return insetWin; if (t < c.shrinkT0) return 0; const v = (t - c.shrinkT0) * c.shrinkRate; return v > c.shrinkMax ? c.shrinkMax : v; };
     const rageAt = t => { let r = (t - lastOut - c.rageT) / c.rageLen; return r < 0 ? 0 : r > 1 ? 1 : r; };
@@ -88,7 +92,7 @@
     }
     function kill(i, t) {
       const m = M[i]; m.alive = false; m.hp = 0; m.outT = t; alive--; lastOut = t;
-      for (let k = 0; k < NE; k++) if (E[k].cool < t + c.calm) E[k].cool = t + c.calm;   // Atempause: alle Gegner sind kurz „satt“
+      if (gT < t + c.calm) gT = t + c.calm;   // Atempause: alle Gegner sind kurz „satt“
       outs.push({ i, t, rank: alive + 1, x: m.x, y: m.y, left: alive });
       events.push({ t, type: 'out', m: i, rank: alive + 1, x: m.x, y: m.y });
       if (alive === 1) {
@@ -103,9 +107,10 @@
       const t = s * dt;
       if ((s - s0) % sub === 0) {
         if (!lite) {
-          const f = new Array(NM * 3 + NE * 2);
+          const f = new Array(NM * 3 + NE * 3 + 1);
           for (let i = 0; i < NM; i++) { f[i * 3] = M[i].x; f[i * 3 + 1] = M[i].y; f[i * 3 + 2] = M[i].hp; }
-          for (let i = 0; i < NE; i++) { f[NM * 3 + i * 2] = E[i].x; f[NM * 3 + i * 2 + 1] = E[i].y; }
+          for (let i = 0; i < NE; i++) { const e = E[i]; f[NM * 3 + i * 3] = e.x; f[NM * 3 + i * 3 + 1] = e.y; f[NM * 3 + i * 3 + 2] = !e.on ? 0 : t < e.born + c.ghost ? 1 : (t < e.cool || t < gT) ? 2 : 3; }
+          f[NM * 3 + NE * 3] = tWin >= 0 ? 0 : rageAt(t);
           frames.push(f);
         }
         if (tWin >= 0 && t >= tWin + c.tail) break;
@@ -161,12 +166,12 @@
           if (rv < 0) {
             const jj = -2 * rv / (1 / c.mm + 1 / c.me);
             m.vx += jj / c.mm * nx; m.vy += jj / c.mm * ny; e.vx -= jj / c.me * nx; e.vy -= jj / c.me * ny;
-            if (t >= 0 && t >= m.inv && t >= e.cool) {
-              let dmg = Math.floor((c.d0 + c.d1 * -rv) * (1 + c.dT * t) * (1 + c.rageD * rage));
+            if (t >= 0 && t >= m.inv && t >= e.cool && t >= gT) {
+              let dmg = Math.floor((c.d0 + c.d1 * -rv) * (1 + c.dT * t) * (1 + c.rageD * rage) * (1 + c.vul * (1 - m.hp / c.hp)));
               if (dmg < c.dMin) dmg = c.dMin; if (dmg > c.dMax) dmg = c.dMax;
-              m.hp -= dmg; m.inv = t + c.inv; e.cool = t + (c.cool + (c.coolEnd - c.cool) * (NM - alive) / (NM - 2)) * (1 - c.rageC * rage);
+              m.hp -= dmg; m.inv = t + c.inv; { const f = (NM - alive) / (NM - 2); gT = t + (c.g0 + (c.g1 - c.g0) * f * f * f) * (1 - c.rageC * rage); } e.cool = t + (c.cool + (c.coolEnd - c.cool) * (NM - alive) / (NM - 2)) * (1 - c.rageC * rage);
               if (m.hp < c.hp * 0.1 && m.lowT < 0) m.lowT = t;
-              events.push({ t, type: 'hit', m: i, e: k, s: -rv, dmg, hp: m.hp > 0 ? m.hp : 0, x: e.x + nx * c.re, y: e.y + ny * c.re, nx, ny });
+              events.push({ t, type: 'hit', gT, m: i, e: k, s: -rv, dmg, hp: m.hp > 0 ? m.hp : 0, x: e.x + nx * c.re, y: e.y + ny * c.re, nx, ny });
               if (m.hp <= 0) kill(i, t);
             } else if (t >= 0) events.push({ t, type: 'tap', m: i, e: k, s: -rv, x: e.x + nx * c.re, y: e.y + ny * c.re });
           }
