@@ -23,7 +23,7 @@
   const cos = x => sin(x + PI / 2);
 
   const CFG = {
-    seed: 1,
+    seed: 19505,                          // per seed_search.js gewählt (siehe seed_wahl.txt)
     months: ['JAN', 'FEB', 'MÄR', 'APR', 'MAI', 'JUN', 'JUL', 'AUG', 'SEP', 'OKT', 'NOV', 'DEZ'],
     enemies: ['Kaffee', 'Kuss', 'Burger', 'Regen', 'Weinglas', 'Pasta'],
     hz: 240, fps: 60, pre: 1.0,           // Vorlauf (s) vor t=0: alles ist bei t=0 schon in Bewegung, noch ohne Schaden
@@ -42,10 +42,10 @@
     calm: 1.4,                            // Atempause nach jedem Rauswurf
     inv: 0.38,                            // getroffener Monat ist kurz unverwundbar
     // Schaden = (d0 + d1*Aufprall) * Wut * (1 + vul * fehlender Lippenstift): wer schon verschmiert ist, verliert schneller
-    vul: 2, d0: 7, d1: 0.009, dT: 0, dMin: 4, dMax: 20,
+    vul: 1.6, d0: 4, d1: 0.009, dT: 0, dMin: 4, dMax: 32,
     mmDiv: 500, mmMax: 1, mmCool: 0.6,    // Monat gegen Monat: 1 Punkt für beide bei hartem Rempler, wirft niemanden raus
     rageT: 2, rageLen: 3.0, rageV: 0.35, rageD: 0.2, rageH: 1.0, rageC: 0.5, // „Wut“: je länger keiner rausfliegt, desto härter
-    tail: 6.0,                            // Schlussbild nach dem Sieg (s)
+    tail: 5.625,                            // Schlussbild nach dem Sieg (s)
     bpm: 126,                             // Beat (nur Bild-Puls + Ton, kein Einfluss auf die Physik)
   };
 

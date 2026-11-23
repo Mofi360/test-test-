@@ -29,6 +29,8 @@ function analyse(seed) {
   tight /= cnt; lone = lone * 6 / fps;                      // Sekunden, in denen die Spitze allein enteilt ist
   let maxFinGap = 0; for (let k = 1; k < n; k++) maxFinGap = Math.max(maxFinGap, R.finish[k].t - R.finish[k - 1].t);
   const leaders = new Set(R.leadChanges.map(c => c.a)).size;
+  // längste Phase ohne Führungswechsel (Langeweile-Maß)
+  let maxLcGap = 0; { let prev = R.leadChanges[0].t; for (const c of lc) { maxLcGap = Math.max(maxLcGap, c.t - prev); prev = c.t; } maxLcGap = Math.max(maxLcGap, R.tWin - prev); }
   const tail = R.tLast - R.tWin;
   const hard = lc.length >= 5 && lc.length <= 13 && late >= 1 && gap12 <= 0.22 && jam >= 1.2 && R.nudges.length <= 2 && tail <= 5.2 && maxFinGap <= 1.7
     && R.tWin >= 27.5 && R.tWin <= 32.5 && lastLc && lastLc.a === winner && R.tWin - lastLc.t >= 0.5;
@@ -42,8 +44,9 @@ function analyse(seed) {
   score += Math.min(jam, 4) * 2;
   score -= R.nudges.length * 5;
   score -= tight / 60; score -= lone * 1.5; score -= tail * 2 + maxFinGap * 3;
+  score -= Math.max(0, maxLcGap - 5) * 3;
   return { seed, ok: true, hard, score: +score.toFixed(1), tWin: +R.tWin.toFixed(2), tLast: +R.tLast.toFixed(2), total: R.total, lc: lc.length, leaders, late, lastLc: lastLc ? +(R.tWin - lastLc.t).toFixed(2) : null,
-    gap12: +gap12.toFixed(3), gap23: +gap23.toFixed(3), jam: +jam.toFixed(1), jamMax, nud: R.nudges.length, wRank6, wRank3, tight: Math.round(tight), lone: +lone.toFixed(1), maxFinGap: +maxFinGap.toFixed(2),
+    gap12: +gap12.toFixed(3), gap23: +gap23.toFixed(3), maxLcGap: +maxLcGap.toFixed(1), jam: +jam.toFixed(1), jamMax, nud: R.nudges.length, wRank6, wRank3, tight: Math.round(tight), lone: +lone.toFixed(1), maxFinGap: +maxFinGap.toFixed(2),
     order: R.finish.map(f => S.NAMES[f.i]).join(' > ') };
 }
 module.exports = { analyse };

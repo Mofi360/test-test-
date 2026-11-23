@@ -1,0 +1,39 @@
+{
+ "id": "R702",
+ "titel": "Dein Geburtsmonat kämpft. Wessen Lippenstift überlebt? (Battle-Royale-Simulation)",
+ "format": "Battle-Royale-Simulation, ohne Stimme, Ton aus make_sfx.js (gleiche Simulation wie das Bild)",
+ "seed": 19505,
+ "voice_duration": 41.7328,
+ "endcard": false,
+ "loop": true,
+ "noCaptions": true,
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "x",
+   "hold": 0.35
+  }
+ ],
+ "preview_times": [
+  0,
+  0.5,
+  1,
+  2,
+  4.08,
+  7.24,
+  9.2,
+  12.4,
+  16.64,
+  22.12,
+  26.97,
+  31.66,
+  34.51,
+  36.71,
+  37.31,
+  38.11,
+  39.21,
+  40.41,
+  42.01,
+  42.48
+ ]
+}

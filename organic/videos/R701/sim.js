@@ -25,15 +25,15 @@
   const XL = 70, XR = 960, CX = 515;
 
   const CFG = {
-    seed: 1,
-    n: 12, r: 36, hz: 240, fps: 30,
+    seed: 26873,
+    n: 12, r: 40, hz: 240, fps: 30,
     grav: 1180, vmax: 1400, drag: 0.10,
     eBall: 0.62, eWall: 0.38,
     rbGain: 0.5, rbFrom: 200, rbSpan: 800, rbMax: 1.6, // Rubber-Banding: wer hinten liegt, läuft etwas schneller (rein positionsabhängig, für jedes Zeichen gleich)
     leadEase: 0.08,                           // die Spitze läuft minimal langsamer, wenn sie weit vorn ist
     rotW: 2.5,                                // Drehzahl der Lippenstift-Balken (rad/s)
     gateP: 3.4, gateClosed: 1.7, gateMove: 0.32, // Kuss-Tor: Periode, Zeit zu, Fahrzeit
-    stuckT: 1.3, loopT: 2.4, tail: 6.3,                   // Anti-Stuck-Zeit; Schlussbild nach dem letzten Zieleinlauf
+    stuckT: 1.6, loopT: 2.6, tail: 6.3,                   // Anti-Stuck-Zeit; Schlussbild nach dem letzten Zieleinlauf
     maxT: 75,
   };
 
@@ -42,7 +42,7 @@
     const circles = [], segs = [], rotors = [], sections = [];
     const peg = (x, y, r, kind, e) => circles.push({ x, y, r, kind: kind || 'peg', e: e == null ? 0.55 : e });
     const seg = (x1, y1, x2, y2, r, kind, e) => segs.push({ x1, y1, x2, y2, r, kind: kind || 'ramp', e: e == null ? 0.35 : e });
-    let y = 1060;
+    let y = 965;
     // 1 Nagelbrett
     sections.push({ id: 'plinko', name: 'Nagelbrett', y0: y - 120 });
     for (let row = 0; row < 15; row++, y += 132) {
@@ -52,14 +52,14 @@
     // 2 rotierende Lippenstifte
     y += 150; sections.push({ id: 'rotor', name: 'Lippenstift-Mühle', y0: y - 190 });
     for (let k = 0; k < 8; k++, y += 340) {
-      if (k % 2 === 0) { rotors.push({ x: 290, y, L: 118, r: 21, dir: 1 }); rotors.push({ x: 740, y, L: 118, r: 21, dir: -1 }); }
+      if (k % 2 === 0) { rotors.push({ x: 290, y, L: 112, r: 21, dir: 1 }); rotors.push({ x: 740, y, L: 112, r: 21, dir: -1 }); }
       else { rotors.push({ x: CX, y, L: 150, r: 21, dir: k % 4 === 1 ? -1 : 1 }); seg(XL, y - 120, 196, y - 10, 13, 'wedge'); seg(XR, y - 120, XR - 126, y - 10, 13, 'wedge'); }
     }
     // 3 Trichter mit Engstelle (zwei Puderdosen)
     y -= 110; sections.push({ id: 'funnel', name: 'Engstelle', y0: y });
     const fy = y + 400;
-    seg(XL, fy - 300, 358, fy - 92, 12, 'funnel', 0.2); seg(XR, fy - 300, XR - 288, fy - 92, 12, 'funnel', 0.2);
-    peg(350, fy, 95, 'puder', 0.25); peg(680, fy, 95, 'puder', 0.25);
+    seg(XL, fy - 300, 354, fy - 92, 12, 'funnel', 0.2); seg(XR, fy - 300, XR - 284, fy - 92, 12, 'funnel', 0.2);
+    peg(346, fy, 95, 'puder', 0.25); peg(684, fy, 95, 'puder', 0.25);
     peg(CX, fy + 230, 24, 'heart', 0.6);
     const funnel = { y0: fy - 300, yNeck: fy };
     y = fy + 330;
@@ -82,7 +82,7 @@
     sections.push({ id: 'final', name: 'Schlussgerade', y0: y - 120 });
     for (let k = 0; k < 6; k++) (k % 2 ? [180, 400, 630, 850] : [290, 515, 740]).forEach(x => peg(x, y + k * 185, 24, 'heart', 0.6));
     y += 5 * 185 + 300;
-    rotors.push({ x: 290, y, L: 118, r: 21, dir: -1 }); rotors.push({ x: 740, y, L: 118, r: 21, dir: 1 });
+    rotors.push({ x: 290, y, L: 112, r: 21, dir: -1 }); rotors.push({ x: 740, y, L: 112, r: 21, dir: 1 });
     [180, 400, 630, 850].forEach(x => peg(x, y + 270, 24, 'heart', 0.6));
     [290, 515, 740].forEach(x => peg(x, y + 455, 24, 'heart', 0.6));
     rotors.push({ x: CX, y: y + 740, L: 165, r: 21, dir: 1 });
@@ -124,7 +124,7 @@
     for (let i = 0; i < n; i++) {
       const s = slot[i], col = s % 6, row = (s - col) / 6;
       balls.push({
-        x: 142 + col * 149 + (row ? 0 : 0) + (rnd() - 0.5) * 16, y: T.startY + row * 158 + (rnd() - 0.5) * 24,
+        x: 142 + col * 149 + (rnd() - 0.5) * 14, y: T.startY + row * 160 + (rnd() - 0.5) * 20,
         vx: (rnd() - 0.5) * 420, vy: 380 + rnd() * 260, fin: -1, place: 0, ax: 0, ay: 0, bestT: 0, nud: 0, topY: 0, topT: 0,
       });
     }
@@ -254,7 +254,7 @@
           b.nud++; nudges.push({ t, i, x: b.x, y: b.y }); ev(t, 'nudge', i, 1, b.x, b.y);
           b.topT = t - c.loopT * 0.6;
         }
-        if (ax * ax + ay * ay > 2500 || waits) { b.ax = b.x; b.ay = b.y; b.bestT = t; }
+        if (ax * ax + ay * ay > 1600 || waits) { b.ax = b.x; b.ay = b.y; b.bestT = t; }
         else if (t - b.bestT > c.stuckT && b.vx * b.vx + b.vy * b.vy < 8100) {
           const sgn = rnd() < 0.5 ? -1 : 1;
           b.vx += sgn * (200 + rnd() * 220); b.vy = -(160 + rnd() * 200);

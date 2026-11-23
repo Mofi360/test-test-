@@ -25,7 +25,7 @@ const MON = [
   ['OKT', 'Oktober', '#FF9C73'],   // Pfirsich
   ['NOV', 'November', '#D81FB0'],  // Fuchsia
   ['DEZ', 'Dezember', '#8E3322'],  // Braunrot
-].map(([k, name, col]) => ({ k, name, col, hi: mix(col, '#FFFFFF', .42), lo: mix(col, '#12060C', .5), spark: mix(col, '#FFFFFF', .22) }));
+].map(([k, name, col]) => ({ k, name, col, hi: mix(col, '#FFFFFF', .42), lo: mix(col, '#12060C', .5), spark: mix(col, '#FFFFFF', .22), ring: mix(col, '#FFFFFF', .72) }));
 
 // ---------- Gegner-Icons (Canvas, Kasten ±30) ----------
 const P = d => new Path2D(d);
@@ -76,7 +76,7 @@ function ball(c, i, x, y, r, hp, flash, o = {}) {
     if (o.ghost > hp) { c.strokeStyle = PINK; c.globalAlpha = o.ghostA ?? 1; c.beginPath(); c.arc(0, 0, rr, -TAU / 4 + TAU * hp, -TAU / 4 + TAU * o.ghost); c.stroke(); c.globalAlpha = 1; }
     if (hp > 0) {
       const low = hp < .25;
-      c.strokeStyle = low ? (o.blink ? '#FFFFFF' : PINK) : '#FFFFFF'; c.lineCap = 'round';
+      c.strokeStyle = low ? (o.blink ? '#FFFFFF' : PINK) : m.ring; c.lineCap = 'round';
       c.beginPath(); c.arc(0, 0, rr, -TAU / 4, -TAU / 4 + TAU * Math.max(.012, hp)); c.stroke(); c.lineCap = 'butt';
     }
   }
@@ -105,7 +105,8 @@ function enemy(c, k, x, y, r, rot, state, rage, pop = 1) {
   c.beginPath(); const n = 14;
   for (let j = 0; j < n * 2; j++) { const a = j / (n * 2) * TAU, rr = j % 2 ? r * 1.0 : r * 1.16; c[j ? 'lineTo' : 'moveTo'](Math.cos(a) * rr, Math.sin(a) * rr); }
   c.closePath();
-  c.fillStyle = armed ? mix(CREAM, PINK, rage * .85) : '#5A4D5E'; c.fill();
+  if (armed) { c.shadowColor = rage > .3 ? PINK : 'rgba(255,220,200,.9)'; c.shadowBlur = 16 + rage * 22; }
+  c.fillStyle = armed ? mix(CREAM, PINK, rage * .85) : '#5A4D5E'; c.fill(); c.shadowBlur = 0;
   c.restore();
   const g = c.createRadialGradient(-r * .3, -r * .35, r * .1, 0, 0, r);
   g.addColorStop(0, '#4A3F50'); g.addColorStop(1, '#1B141E');
@@ -174,6 +175,13 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
     c.save(); c.translate(bx, by); c.rotate(u * .25); c.globalAlpha = .5 * pr(u, 1.1, 1.6);
     for (let j = 0; j < 16; j++) { c.rotate(TAU / 16); c.fillStyle = j % 2 ? rgba(wm.col, .55) : 'rgba(255,46,126,.35)'; c.beginPath(); c.moveTo(0, 0); c.lineTo(250 + (j % 2) * 40, -26); c.lineTo(250 + (j % 2) * 40, 26); c.fill(); }
     c.restore();
+    // Farbschnipsel in Sieger-Farbe (hinter Text und Liste)
+    { const rnd = rndOf(77), cols = [wm.col, wm.hi, PINK, '#FFFFFF', wm.spark];
+      for (let j = 0; j < 30; j++) {
+        const x0 = rnd() * 1000, sp = 260 + rnd() * 320, ph = rnd() * 6, w = 10 + rnd() * 14, col = cols[Math.floor(rnd() * cols.length)], d = rnd() * 1.6, a = u - 1.0 - d;
+        if (a < 0) continue; const y = -40 + a * sp; if (y > 1620) continue;
+        c.save(); c.translate(x0 + Math.sin(a * 2.4 + ph) * 34, y); c.rotate(a * 3.1 + ph); c.globalAlpha = .5 * (1 - clamp((y - 1350) / 270)); c.fillStyle = col; c.fillRect(-w / 2, -w * .28, w, w * .56); c.restore();
+      } c.globalAlpha = 1; }
     // Text
     const tx = 392, maxW = 560;
     let a = pr(u, 1.15, 1.5);
@@ -184,35 +192,40 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
     c.save(); c.translate(tx - 4, 388); c.scale(.8 + .2 * a, .8 + .2 * a); c.font = `400 ${sz}px ${DISP}`; c.fillStyle = PINK; c.fillText(wm.name, 0, 0); c.restore();
     a = pr(u, 1.5, 1.9);
     c.globalAlpha = a; c.fillStyle = '#FFFFFF'; c.font = `400 78px ${DISP}`; c.fillText('überlebt alles.', tx, 476 + (1 - a) * 24);
+    // Rest-Anzeige des Siegers als kleiner Aufkleber
+    { const k = pr(u, 2.0, 2.3, ease.outBack), al = clamp((u - 2.0) / .1); if (al > 0) {
+      const txt = 'mit ' + Math.round(R.hpEnd[WIN] / cf.hp * 100) + ' % Rest';
+      c.save(); c.globalAlpha = al; c.translate(bx + 6, by + br + 8); c.rotate(-.07); c.scale(k, k); c.font = `800 38px ${SANS}`; c.textAlign = 'center'; c.textBaseline = 'middle';
+      const w = c.measureText(txt).width + 36; rrect(c, -w / 2, -29, w, 58, 14); c.fillStyle = '#FFFFFF'; c.fill(); c.fillStyle = INK; c.fillText(txt, 0, 3); c.restore(); } }
     c.globalAlpha = 1;
     // Rangliste 1–12 (zwei Spalten)
-    const y0 = 556, rh = 119, cw = 432;
+    const y0 = 560, rh = 111, cw = 432;
     order.forEach((mi, p) => {
       const col = p < 6 ? 0 : 1, row = p % 6, t0 = 1.7 + p * .075, k = pr(u, t0, t0 + .32, ease.outBack), al = clamp((u - t0) / .12);
       if (al <= 0) return;
       const x = 62 + col * (cw + 20), y = y0 + row * rh;
       c.save(); c.globalAlpha = al; c.translate(x + (1 - k) * (col ? 90 : -90), y);
-      rrect(c, 0, 0, cw, rh - 14, 22); c.fillStyle = p === 0 ? PINK : 'rgba(255,255,255,.075)'; c.fill();
+      rrect(c, 0, 0, cw, rh - 13, 22); c.fillStyle = p === 0 ? PINK : 'rgba(255,255,255,.075)'; c.fill();
       if (p > 0) { c.lineWidth = 2; c.strokeStyle = 'rgba(255,255,255,.12)'; c.stroke(); }
       c.textBaseline = 'middle'; c.textAlign = 'center';
-      c.font = `400 66px ${DISP}`; c.fillStyle = p === 0 ? '#FFFFFF' : (p < 3 ? PINK2 : 'rgba(255,255,255,.72)'); c.fillText(String(p + 1), 56, 56);
-      ball(c, mi, 146, 52, 35, -1, 0, { label: false });
-      c.textAlign = 'left'; c.fillStyle = '#FFFFFF'; const fs = fitFont(c, MON[mi].name, `700 SZpx ${SANS}`, 222, 52); c.font = `${p === 0 ? 800 : 700} ${fs}px ${SANS}`; c.fillText(MON[mi].name, 196, 54);
+      c.font = `400 66px ${DISP}`; c.fillStyle = p === 0 ? '#FFFFFF' : (p < 3 ? PINK2 : 'rgba(255,255,255,.72)'); c.fillText(String(p + 1), 56, 54);
+      ball(c, mi, 146, 49, 34, -1, 0, { label: false });
+      c.textAlign = 'left'; c.fillStyle = '#FFFFFF'; const fs = fitFont(c, MON[mi].name, `800 SZpx ${SANS}`, 214, 52); c.font = `${p === 0 ? 800 : 700} ${fs}px ${SANS}`; c.fillText(MON[mi].name, 196, 52);
       c.restore();
     });
     // Frage + Pfeil
     const kq = pr(u, 2.9, 3.3, ease.outBack), aq = clamp((u - 2.9) / .15);
     if (aq > 0) {
-      c.save(); c.globalAlpha = aq; c.translate(505, 1392 + (1 - kq) * 40); c.textAlign = 'center'; c.textBaseline = 'alphabetic'; c.font = `400 104px ${DISP}`;
+      c.save(); c.globalAlpha = aq; c.translate(505, 1340 + (1 - kq) * 40); c.textAlign = 'center'; c.textBaseline = 'alphabetic'; c.font = `400 104px ${DISP}`;
       const t1 = 'Dein Monat? ', t2 = 'Platz?', w1 = c.measureText(t1).width, w2 = c.measureText(t2).width, xx = -(w1 + w2) / 2;
       c.textAlign = 'left'; c.fillStyle = '#FFFFFF'; c.fillText(t1, xx, 0); c.fillStyle = PINK; c.fillText(t2, xx + w1, 0);
       c.restore();
     }
     const ka = pr(u, 3.2, 3.6), bob = Math.sin(Math.max(0, u - 3.6) * 6.2) * 9;
     if (ka > 0) {
-      c.save(); c.translate(505, 1430 + bob); c.strokeStyle = PINK; c.lineWidth = 11; c.lineCap = 'round'; c.lineJoin = 'round';
-      c.setLineDash([140 * ka, 400]); c.stroke(P('M4 0 C-14 30 16 52 0 100')); c.setLineDash([]);
-      if (ka > .9) c.stroke(P('M-32 70 L0 104 L36 74'));
+      c.save(); c.translate(505, 1380 + bob); c.strokeStyle = PINK; c.lineWidth = 18; c.lineCap = 'round'; c.lineJoin = 'round';
+      c.setLineDash([200 * ka, 500]); c.stroke(P('M8 0 C-22 44 26 78 0 150')); c.setLineDash([]);
+      if (ka > .9) c.stroke(P('M-50 104 L0 156 L54 110'));
       c.restore();
     }
     return [bx, by, br, kin];
@@ -239,12 +252,12 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
     if (fieldA > 0) {
       c.globalAlpha = fieldA;
       // ----- Hook -----
-      const hk = 1 + .05 * (1 - pr(t, 0, .4)); 
-      c.save(); c.translate(64, 330); c.scale(hk, hk); c.textAlign = 'left'; c.textBaseline = 'alphabetic';
-      let s1 = fitFont(c, 'Dein Geburtsmonat kämpft.', `400 SZpx ${DISP}`, 900, 96);
-      c.font = `400 ${s1}px ${DISP}`; c.fillStyle = '#FFFFFF'; c.fillText('Dein Geburtsmonat kämpft.', 0, -58);
-      let s2 = fitFont(c, 'Wessen Lippenstift überlebt?', `400 SZpx ${DISP}`, 900, 96);
-      c.font = `400 ${s2}px ${DISP}`; c.fillStyle = PINK; c.fillText('Wessen Lippenstift überlebt?', 0, 32);
+      const hk = 1 + .035 * Math.min(1, t / .07) * (1 - pr(t, .07, .45)); 
+      c.save(); c.translate(505, 300); c.scale(hk, hk); c.textAlign = 'center'; c.textBaseline = 'alphabetic';
+      let s1 = fitFont(c, 'Dein Geburtsmonat kämpft.', `400 SZpx ${DISP}`, 886, 96);
+      c.font = `400 ${s1}px ${DISP}`; c.fillStyle = '#FFFFFF'; c.fillText('Dein Geburtsmonat kämpft.', 0, -22);
+      let s2 = fitFont(c, 'Wessen Lippenstift überlebt?', `400 SZpx ${DISP}`, 886, 96);
+      c.font = `400 ${s2}px ${DISP}`; c.fillStyle = PINK; c.fillText('Wessen Lippenstift überlebt?', 0, 66);
       c.restore();
 
       // ----- Zähler „Noch 12“ + Feinde-Legende -----
@@ -291,17 +304,20 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
       });
       c.restore();
       // Rand (pulsiert im Beat, glüht mit der Wut)
-      const lw = 9 + pulse * 5 + rage * 3;
+      const kick0 = t < .45 ? Math.min(1, t / .07) * (1 - t / .45) : 0, lw = 9 + pulse * 5 + rage * 3 + kick0 * 8;
       c.shadowColor = PINK; c.shadowBlur = 26 + pulse * 30 + rage * 26;
-      arenaPath(ins); c.lineWidth = lw; c.strokeStyle = mix(PINK, '#FFFFFF', pulse * .25 + rage * .2); c.stroke();
+      arenaPath(ins); c.lineWidth = lw; c.strokeStyle = mix(PINK, '#FFFFFF', Math.min(1, pulse * .25 + rage * .2 + kick0 * .7)); c.stroke();
       c.shadowBlur = 0;
       arenaPath(ins + lw / 2 + 5); c.lineWidth = 2; c.strokeStyle = 'rgba(255,255,255,.16)'; c.stroke();
       c.restore();
 
+      if (t < .45) { // Auftakt: Ring schießt aus der Mitte
+        const k = t / .45; c.save(); arenaPath(0); c.clip(); c.globalAlpha = fieldA * (1 - k) * .9 * Math.min(1, t / .07); c.strokeStyle = '#FFFFFF'; c.lineWidth = 22 * (1 - k) + 3; c.beginPath(); c.arc(cf.cx, cf.cy, 60 + ease.outCubic(k) * 640, 0, TAU); c.stroke(); c.restore(); c.globalAlpha = fieldA;
+      }
       // ----- Schweife -----
       for (let i = 0; i < NM; i++) {
         if (t >= outT[i]) continue;
-        for (let k = 9; k >= 1; k--) { const [x, y] = mpos(i, t - k / 60); c.globalAlpha = fieldA * .15 * (1 - k / 10); c.fillStyle = MON[i].spark; c.beginPath(); c.arc(x, y, cf.rm * (1 - k / 13), 0, TAU); c.fill(); }
+        for (let k = 12; k >= 1; k--) { const [x, y] = mpos(i, t - k / 60); c.globalAlpha = fieldA * .2 * (1 - k / 13); c.fillStyle = MON[i].spark; c.beginPath(); c.arc(x, y, cf.rm * (1 - k / 16), 0, TAU); c.fill(); }
       }
       for (let j = 0; j < NE; j++) {
         const st = epos(j, t)[2]; if (st < 2) continue;
@@ -324,6 +340,7 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
         }
       }
 
+      const low = [];
       // ----- Monate -----
       for (let i = 0; i < NM; i++) {
         if (t >= outT[i] || (i === WIN && u >= .75)) continue;
@@ -333,6 +350,7 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
         for (let k = hs.length - 1; k >= 0; k--) { const a = t - hs[k].t; if (a < 0) continue; if (a > .6) break; flash = Math.max(flash, 1 - a / .2); if (!ghost) { ghost = (hs[k].hp + hs[k].dmg) / cf.hp; ghostA = 1 - a / .6; } }
         const r = cf.rm * (1 + .1 * Math.max(0, flash));
         ball(c, i, x, y, r, hp / cf.hp, Math.max(0, flash), { ghost, ghostA, blink: Math.floor(t * 8) % 2 === 0 });
+        if (hp < cf.hp * .15 && alive > 1) low.push([x, y, hp]);
       }
 
       // ----- Funken / Partikel -----
@@ -351,7 +369,7 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
       for (let k = taps.length - 1; k >= 0; k--) { const e = taps[k], a = t - e.t; if (a < 0) continue; if (a > .25) break; spark(e, 4, 380, .25, 3, 5, ['#C8B6D0'], 9000 + k); }
       for (let k = hits.length - 1; k >= 0; k--) {
         const e = hits[k], a = t - e.t; if (a < 0) continue; if (a > .75) break; const m = MON[e.m];
-        spark(e, 8 + Math.floor(e.dmg * .7), 520 + e.dmg * 22, .6, 4, 11, [m.col, m.spark, m.hi, '#FFFFFF'], 1000 + k, e.nx, e.ny, 2.4);
+        spark(e, 10 + Math.floor(e.dmg * .8), 620 + e.dmg * 26, .65, 5, 14, [m.col, m.spark, m.hi, '#FFFFFF'], 1000 + k, e.nx, e.ny, 2.4);
         if (a < .16) { c.globalAlpha = fieldA * (1 - a / .16); c.strokeStyle = '#FFFFFF'; c.lineWidth = 7; c.beginPath(); c.arc(e.x, e.y, 14 + a * 420, 0, TAU); c.stroke(); c.globalAlpha = fieldA; }
       }
       R.outs.forEach((o, k) => {
@@ -363,12 +381,18 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
       // Gegner zerfallen beim Sieg
       if (u >= 0 && u < .7) for (let j = 0; j < NE; j++) { if (cf.spawn[j] >= TW) continue; const [x, y] = epos(j, TW - .01); spark({ t: TW + .12, x, y }, 12, 1200, .55, 4, 9, ['#5A4D5E', '#C8B6D0', CREAM], 700 + j); }
 
+      // „nur noch x %“ über fast leeren Monaten
+      low.forEach(([x, y, hp]) => {
+        const txt = 'nur noch ' + Math.round(hp / cf.hp * 100) + ' %', wob = Math.sin(t * 22 + x) * 2;
+        c.save(); c.translate(x + wob, y + cf.rm + 34); c.font = `800 30px ${SANS}`; c.textAlign = 'center'; c.textBaseline = 'middle';
+        const w = c.measureText(txt).width + 26; rrect(c, -w / 2, -21, w, 42, 12); c.fillStyle = Math.floor(t * 6) % 2 ? '#FFFFFF' : PINK; c.fill(); c.fillStyle = Math.floor(t * 6) % 2 ? INK : '#FFFFFF'; c.fillText(txt, 0, 2); c.restore();
+      });
       // ----- Schadenszahlen -----
       c.textAlign = 'center'; c.textBaseline = 'middle'; c.lineJoin = 'round';
       for (let k = hits.length - 1; k >= 0; k--) {
         const e = hits[k], a = t - e.t; if (a < 0) continue; if (a > .7) break;
         const kk = pr(a, 0, .18, ease.outBack), sz = 44 + e.dmg * 1.5;
-        const [mx, my] = mpos(e.m, e.t);
+        const [mx, my] = mpos(e.m, Math.min(t, outT[e.m] - .02));   // Zahl klebt am getroffenen Monat
         c.save(); c.globalAlpha = fieldA * (1 - pr(a, .45, .7)); c.translate(mx + (k % 2 ? 26 : -26), my - 78 - a * 90); c.rotate((k % 2 ? 1 : -1) * .1); c.scale(.4 + .6 * kk, .4 + .6 * kk);
         c.font = `800 ${sz}px ${SANS}`; c.lineWidth = 12; c.strokeStyle = INK; c.strokeText('−' + e.dmg, 0, 0); c.fillStyle = e.hp <= 0 ? PINK2 : '#FFFFFF'; c.fillText('−' + e.dmg, 0, 0);
         c.restore();
@@ -387,11 +411,11 @@ SCENES.s1 = { bg: INK, paper: false, build(root) {
           c.fillStyle = MON[i].col; c.beginPath(); c.arc(27, 22, 14, 0, TAU); c.fill(); c.lineWidth = 2.5; c.strokeStyle = 'rgba(255,255,255,.75)'; c.stroke();
         } else {
           const kp = pr(o, .05, .4, ease.outBack);
-          c.save(); c.translate(27, 25); c.scale(kp, kp); c.fillStyle = 'rgba(255,255,255,.16)'; c.beginPath(); c.arc(0, 0, 19, 0, TAU); c.fill();
-          c.font = `800 25px ${SANS}`; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = '#FFFFFF'; c.fillText(String(rank[i]), 0, 2); c.restore();
+          c.save(); c.translate(29, 26); c.scale(kp, kp);
+          c.font = `800 34px ${SANS}`; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillStyle = PINK2; c.fillText(String(rank[i]), 0, 2); c.restore();
         }
-        c.font = `800 34px ${SANS}`; c.textAlign = 'left'; c.textBaseline = 'middle'; c.fillStyle = out ? 'rgba(255,255,255,.42)' : '#FFFFFF'; c.fillText(MON[i].k, 54, out ? 27 : 23);
-        if (out) { const w = c.measureText(MON[i].k).width; c.strokeStyle = PINK; c.lineWidth = 5; c.lineCap = 'round'; c.beginPath(); c.moveTo(50, 27); c.lineTo(50 + (w + 8) * pr(o, 0, .25), 25); c.stroke(); }
+        c.font = `800 34px ${SANS}`; c.textAlign = 'left'; c.textBaseline = 'middle'; c.fillStyle = out ? 'rgba(255,255,255,.42)' : '#FFFFFF'; c.fillText(MON[i].k, out ? 60 : 54, out ? 27 : 23);
+        if (out) { const w = c.measureText(MON[i].k).width; c.strokeStyle = 'rgba(255,255,255,.75)'; c.lineWidth = 4; c.lineCap = 'round'; c.beginPath(); c.moveTo(56, 28); c.lineTo(56 + (w + 8) * pr(o, 0, .25), 26); c.stroke(); }
         c.restore();
       }
 
@@ -431,17 +455,17 @@ SCENES.cover = { bg: INK, build(root) {
   const cv = el('canvas', { left: 0, top: 0 }, root); cv.width = W; cv.height = H; const c = cv.getContext('2d');
   c.drawImage(background(), 0, 0);
   c.textAlign = 'center'; c.textBaseline = 'alphabetic'; c.fillStyle = '#FFFFFF';
-  c.font = `400 150px ${DISP}`; c.fillText('Dein', 540, 420); 
-  let s = fitFont(c, 'Geburtsmonat', `400 SZpx ${DISP}`, 940, 170); c.font = `400 ${s}px ${DISP}`; c.fillText('Geburtsmonat', 540, 570);
-  c.save(); c.translate(540, 690); c.rotate(-.035); c.font = `400 150px ${DISP}`; const w = c.measureText('kämpft').width + 90; rrect(c, -w / 2, -128, w, 176, 18); c.fillStyle = PINK; c.fill(); c.fillStyle = '#FFFFFF'; c.fillText('kämpft', 0, 0); c.restore();
-  // Arena-Ausschnitt mit 12 Kugeln
-  const cx = 540, cy = 1110;
-  c.shadowColor = PINK; c.shadowBlur = 50; rrect(c, cx - 440, cy - 290, 880, 580, 130); c.fillStyle = '#1C1022'; c.fill(); c.lineWidth = 12; c.strokeStyle = PINK; c.stroke(); c.shadowBlur = 0;
-  const pos = [[-330, -170], [-165, -195], [0, -160], [170, -195], [330, -165], [-250, -20], [-80, 5], [95, -25], [265, -5], [-335, 150], [-150, 175], [330, 160]];
+  c.font = `400 150px ${DISP}`; c.fillText('Dein', 540, 400);
+  let s = fitFont(c, 'Geburtsmonat', `400 SZpx ${DISP}`, 940, 170); c.font = `400 ${s}px ${DISP}`; c.fillText('Geburtsmonat', 540, 548);
+  c.save(); c.translate(540, 728); c.rotate(-.035); c.font = `400 150px ${DISP}`; const w = c.measureText('kämpft').width + 90; rrect(c, -w / 2, -128, w, 176, 18); c.fillStyle = PINK; c.fill(); c.fillStyle = '#FFFFFF'; c.fillText('kämpft', 0, 0); c.restore();
+  // Arena-Ausschnitt mit 12 Kugeln + 2 Feinden
+  const cx = 540, cy = 1140;
+  c.shadowColor = PINK; c.shadowBlur = 50; rrect(c, cx - 450, cy - 290, 900, 580, 130); c.fillStyle = '#1C1022'; c.fill(); c.lineWidth = 12; c.strokeStyle = PINK; c.stroke(); c.shadowBlur = 0;
+  const pos = [[-326, -172], [-163, -190], [0, -168], [163, -190], [326, -170], [-246, -8], [-82, 6], [82, -10], [246, 4], [-326, 166], [0, 178], [326, 168]];
   const hp = [1, .7, .45, .9, .2, .85, .6, 1, .35, .75, .5, .95];
-  pos.forEach(([x, y], i) => ball(c, i, cx + x, cy + y, 66, hp[i], 0, {}));
-  enemy(c, 0, cx + 35, cy + 165, 58, .3, 3, 0); enemy(c, 4, cx + 180, cy + 150, 54, .9, 3, .6);
+  pos.forEach(([x, y], i) => ball(c, i, cx + x, cy + y, 60, hp[i], 0, {}));
+  enemy(c, 0, cx - 163, cy + 172, 52, .3, 3, 0); enemy(c, 4, cx + 163, cy + 176, 52, .9, 3, .7);
   // Teaser
-  c.save(); c.translate(540, 1492); c.rotate(.02); c.font = `800 62px ${SANS}`; c.textAlign = 'center'; const t = 'Nur ein Lippenstift überlebt', w2 = c.measureText(t).width + 70; rrect(c, -w2 / 2, -68, w2, 104, 16); c.fillStyle = '#FFFFFF'; c.fill(); c.fillStyle = INK; c.fillText(t, 0, 4); c.restore();
+  c.save(); c.translate(540, 1500); c.rotate(.02); c.font = `800 62px ${SANS}`; c.textAlign = 'center'; const t = 'Nur ein Lippenstift überlebt', w2 = c.measureText(t).width + 70; rrect(c, -w2 / 2, -68, w2, 104, 16); c.fillStyle = '#FFFFFF'; c.fill(); c.fillStyle = INK; c.fillText(t, 0, 4); c.restore();
 }};
 }

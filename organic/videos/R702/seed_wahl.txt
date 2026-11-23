@@ -1,0 +1,27 @@
+R702 – Seed-Wahl [KI]
+Suche: node seed_search.js über die Seeds 1–40000 (4 Läufe à 10000). 418 Seeds erfüllen alle harten Kriterien:
+  erste Eliminierung <= 5 s | Abstände der Eliminierungen 1,0–4,6 s | Finale >= 5 s | Sieger am Ende < 35 % | mind. 1 Monat unter 10 % überlebt noch > 4 s | Sieg zwischen 30 und 38,5 s
+Bewertung (Score): gleichmäßige Abstände (2–4 s), Führungswechsel im Finale, knapper Sieg, ausgeglichener Finalstart, früher erster Treffer.
+Start-Lebenspunkte, Radius, Masse und Regeln sind für alle 12 Monate gleich – der Seed bestimmt nur Startplätze und Richtungen.
+
+Gewählt: Seed 19505  Score 10.9  tWin 37.01  Finale 6.6 s (Start 44/43 HP, 2 Führungswechsel)  Sieger NOV mit 2 HP  knapp×1 (max 4.2 s)  1.Treffer 0.00  Treffer 75
+   raus: SEP@3.9 MAI@7.8 JAN@10.1 OKT@13.6 JUN@16.5 DEZ@19.8 APR@21.8 AUG@24.8 FEB@27.4 MÄR@30.5 JUL@37.0
+   Abstände: 3.9 4.0 2.3 3.5 2.9 3.3 1.9 3.0 2.6 3.1 6.6
+
+Verlauf (Rest-Lippenstift in % nach jeder Eliminierung):
+  t      JAN  FEB  MÄR  APR  MAI  JUN  JUL  AUG  SEP  OKT  NOV  DEZ
+    3.9   83   89   89   83   24   84   86   88   --   79   97   88   <- SEP raus (Platz 12)
+    7.8   19   73   87   81   --   44   82   77   --   44   94   73   <- MAI raus (Platz 11)
+   10.1   --   53   80   80   --   30   73   75   --   43   91   70   <- JAN raus (Platz 10)
+   13.6   --   42   62   67   --   28   71   57   --   --   79   36   <- OKT raus (Platz 9)
+   16.5   --   39   61   49   --   --   50   55   --   --   63   34   <- JUN raus (Platz 8)
+   19.8   --   38   60   13   --   --   48   51   --   --   50   --   <- DEZ raus (Platz 7)
+   21.8   --   36   58   --   --   --   47   32   --   --   48   --   <- APR raus (Platz 6)
+   24.8   --    3   55   --   --   --   45   --   --   --   46   --   <- AUG raus (Platz 5)
+   27.4   --   --   30   --   --   --   44   --   --   --   46   --   <- FEB raus (Platz 4)
+   30.5   --   --   --   --   --   --   43   --   --   --   44   --   <- MÄR raus (Platz 3)
+   37.0   --   --   --   --   --   --   --   --   --   --    2   --   <- JUL raus (Platz 2)
+
+Knapp überlebt (unter 10 % gefallen -> raus/Sieg): FEB 23.2 s -> 27.4 s | MÄR 28.8 s -> 30.5 s | MAI 6.6 s -> 7.8 s | NOV 35.9 s -> 37.0 s
+Finale (ab 30.5 s): 32.0 s Burger trifft JUL -9 (Rest 33) | 34.3 s Weinglas trifft NOV -14 (Rest 28) | 35.9 s Pasta trifft NOV -25 (Rest 2) | 37.0 s Burger trifft JUL -32 (Rest 0)
+Sieger: NOV mit 2 % Rest. Gesamtdauer 42.61 s.

@@ -1,0 +1,25 @@
+96 von 10000 Seeds erfüllen alle harten Kriterien.
+Seed 31977  Score 11.6  tWin 36.61  Finale 7.8 s (Start 58/70 HP, 3 Führungswechsel)  Sieger FEB mit 4 HP  knapp×1 (max 7.3 s)  1.Treffer 0.09  Treffer 73
+   raus: MÄR@4.3 JUL@7.4 JAN@10.7 MAI@13.9 DEZ@15.8 APR@18.0 OKT@21.0 SEP@24.2 AUG@25.6 NOV@28.8 JUN@36.6
+   Abstände: 4.3 3.1 3.3 3.2 1.9 2.2 3.1 3.1 1.5 3.1 7.8
+Seed 31845  Score 10.9  tWin 35.42  Finale 7.9 s (Start 56/68 HP, 3 Führungswechsel)  Sieger SEP mit 4 HP  knapp×1 (max 7.2 s)  1.Treffer 0.08  Treffer 70
+   raus: AUG@4.0 MAI@7.9 DEZ@10.3 JAN@13.7 FEB@16.7 MÄR@19.7 JUN@22.3 OKT@24.6 JUL@26.1 APR@27.6 NOV@35.4
+   Abstände: 4.0 3.9 2.5 3.3 3.0 3.0 2.6 2.3 1.4 1.5 7.9
+Seed 37530  Score 9.2  tWin 33.33  Finale 5.4 s (Start 35/37 HP, 3 Führungswechsel)  Sieger JUL mit 9 HP  knapp×3 (max 5.5 s)  1.Treffer 0.07  Treffer 75
+   raus: JUN@5.0 NOV@7.8 FEB@9.9 JAN@13.2 APR@16.3 AUG@17.8 MAI@20.4 DEZ@24.3 MÄR@26.5 SEP@27.9 OKT@33.3
+   Abstände: 5.0 2.8 2.1 3.3 3.1 1.4 2.7 3.9 2.1 1.4 5.4
+Seed 39091  Score 9.0  tWin 36.25  Finale 5.3 s (Start 20/24 HP, 1 Führungswechsel)  Sieger JAN mit 7 HP  knapp×2 (max 6.8 s)  1.Treffer 0.00  Treffer 72
+   raus: JUL@3.2 AUG@6.0 MAI@9.1 FEB@12.4 DEZ@15.5 SEP@20.0 MÄR@23.1 NOV@26.1 APR@27.8 JUN@30.9 OKT@36.3
+   Abstände: 3.2 2.7 3.1 3.3 3.2 4.5 3.0 3.1 1.6 3.2 5.3
+Seed 35070  Score 8.9  tWin 35.72  Finale 5.3 s (Start 40/41 HP, 1 Führungswechsel)  Sieger DEZ mit 11 HP  knapp×1 (max 6.4 s)  1.Treffer 0.02  Treffer 73
+   raus: SEP@4.1 JAN@7.2 FEB@10.6 NOV@13.5 MÄR@15.2 AUG@17.4 APR@21.0 JUL@23.3 MAI@27.0 OKT@30.5 JUN@35.7
+   Abstände: 4.1 3.1 3.4 2.8 1.7 2.2 3.6 2.3 3.7 3.4 5.3
+Seed 37492  Score 8.0  tWin 35.27  Finale 6.5 s (Start 56/50 HP, 4 Führungswechsel)  Sieger JUL mit 14 HP  knapp×1 (max 7.5 s)  1.Treffer 0.42  Treffer 73
+   raus: APR@4.9 MÄR@9.3 JAN@12.0 SEP@13.9 AUG@15.8 JUN@19.4 FEB@22.0 NOV@24.2 OKT@25.7 DEZ@28.8 MAI@35.3
+   Abstände: 4.9 4.3 2.7 1.9 1.9 3.6 2.6 2.2 1.5 3.1 6.5
+Seed 34251  Score 7.0  tWin 32.74  Finale 5.3 s (Start 39/27 HP, 2 Führungswechsel)  Sieger FEB mit 14 HP  knapp×2 (max 7.5 s)  1.Treffer 0.00  Treffer 73
+   raus: NOV@4.9 JUN@7.7 SEP@10.9 APR@12.4 JUL@15.1 OKT@16.6 MÄR@18.7 AUG@21.6 MAI@24.3 JAN@27.5 DEZ@32.7
+   Abstände: 4.9 2.8 3.2 1.5 2.8 1.4 2.1 3.0 2.6 3.2 5.3
+Seed 38814  Score 6.4  tWin 35.91  Finale 6.9 s (Start 42/23 HP, 2 Führungswechsel)  Sieger MAI mit 12 HP  knapp×2 (max 5.3 s)  1.Treffer 0.25  Treffer 69
+   raus: JAN@4.2 FEB@5.8 AUG@9.8 MÄR@12.3 SEP@15.9 OKT@17.4 NOV@20.1 APR@22.4 DEZ@26.0 JUL@29.0 JUN@35.9
+   Abstände: 4.2 1.6 3.9 2.6 3.6 1.4 2.7 2.3 3.6 3.0 6.9
