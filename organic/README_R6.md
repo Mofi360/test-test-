@@ -21,3 +21,15 @@ Pro Ordner `videos/R60x/`: Video, `cover.png` (Titelbild), `caption.txt`, `motio
 - R604 und R606 zeigen das Tape nachts mit geschlossenen Augen auf dem Kissen (kein Text zu Schlaf).
 - R605: Ton wurde nur gemessen, nicht angehört.
 - Ich bin kein Anwalt – bitte bei Unsicherheit prüfen lassen.
+
+# Runde 7: 3 Videos ohne Stimme, fertig mit Ton [KI]
+
+Erstellt am 23.11.2026, nicht von King geprüft. Dunkle Bühne, Ton komplett per Code erzeugt (`make_sfx.js` → `sfx.wav`), Simulationen deterministisch (`sim.js`, fester Seed).
+
+| ID | Format | Hook | Länge | Ergebnis |
+|---|---|---|---|---|
+| R701 | Murmelrennen | Welches Sternzeichen küsst am besten? | 43 s | Platz 1 Zwillinge, Platz 12 Fische |
+| R702 | Battle Royale | Dein Geburtsmonat kämpft. Wessen Lippenstift überlebt? | 43 s | Sieger November, zuerst raus September |
+| R703 | Suchspiel, 3 Level | Ein Lippenstift ist anders. Findest du ihn? | 29 s | – |
+
+Postbar ist jeweils `R70x_final.mp4`, dazu `cover.png` und `caption.txt`. Der Ton wurde nur gemessen, nicht angehört.

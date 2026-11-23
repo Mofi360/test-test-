@@ -94,7 +94,7 @@ for (let s = 0; s < steps; s++) {
 
 // ---------- Ereignisse ----------
 // Auftakt in den ersten 0,3 s
-boom(0.0, 0.85); [220, 329.63, 440, 659.25].forEach((f, j) => glass(FX, 0.005 + j * 0.012, f, 0.2, (j - 1.5) * 0.3, 1.0)); clack(FX, 0, 0.5, 0, 0.3, 0.7);
+boom(0.03, 0.85); [220, 329.63, 440, 659.25].forEach((f, j) => glass(FX, 0.033 + j * 0.012, f, 0.2, (j - 1.5) * 0.3, 1.0)); clack(FX, 0.03, 0.5, 0, 0.3, 0.7);
 R.events.filter(e => e.type === 'spawn' && e.t > 0).forEach(e => { let ph = 0; put(FX, e.t, 0.4, 0.4, 0, t => { ph += TAU * (90 + 500 * t * t * 6) / SR; return Math.sin(ph) * Math.min(1, t / 0.05) * Math.min(1, (0.4 - t) / 0.08); }); glass(FX, e.t + 0.36, 880, 0.18, 0, 0.5); });
 // Arena schrumpft: zwei tiefe Warntöne
 [0, 0.24].forEach((d, j) => put(FX, cf.shrinkT0 + d, 0.22, 0.3, 0, t => (Math.sin(TAU * (j ? 196 : 261.63) * t) + 0.5 * Math.sin(TAU * 2 * (j ? 196 : 261.63) * t) + 0.3 * Math.sin(TAU * 3 * (j ? 196 : 261.63) * t)) * Math.min(1, t / 0.01) * Math.min(1, (0.22 - t) / 0.05)));
@@ -126,17 +126,17 @@ glass(FX, TW + 2.9, 659.25, 0.26, 0, 0.9); glass(FX, TW + 3.05, 783.99, 0.26, 0,
 const duck = new Float64Array(N).fill(1);
 const dk = (t0, depth, len) => { const i0 = Math.round(t0 * SR), n = Math.floor(len * SR); for (let i = 0; i < n && i0 + i < N; i++) { const v = 1 - depth * (1 - i / n) * (1 - i / n); if (v < duck[i0 + i]) duck[i0 + i] = v; } };
 R.outs.forEach(o => dk(o.t, 0.75, 0.6)); dk(0, 0.6, 0.4); dk(tf, 0.7, 0.8);
-const G = { hit: 0.95, beat: 0.5, fx: 0.8 };
+const G = { hit: 0.95, beat: 0.5, fx: 0.68 };
 // Beat wächst mit dem Kampf: je weniger Monate (= weniger Kollisionstöne), desto mehr trägt der Puls
 const beatGain = new Float64Array(N); { let g = 0.45; for (let i = 0; i < N; i++) { const t = i / SR, tgt = t >= TW ? 0.62 : 0.45 + 0.04 * nOut(t); g += (tgt - g) * 0.00005; beatGain[i] = g; } }
 const out = mk(); let peak = 0;
 for (let ch = 0; ch < 2; ch++) for (let i = 0; i < N; i++) {
-  const v = Math.tanh((HIT[ch][i] * G.hit + BEAT[ch][i] * beatGain[i] * duck[i] + FX[ch][i] * G.fx) * 1.15);
+  const v = Math.tanh((HIT[ch][i] * G.hit + BEAT[ch][i] * beatGain[i] * duck[i] + FX[ch][i] * G.fx) * 1.25);
   out[ch][i] = v; const a = v < 0 ? -v : v; if (a > peak) peak = a;
 }
-const TARGET = Math.pow(10, -1.6 / 20);                 // Spitze −1,6 dBFS
+const TARGET = Math.pow(10, -5.4 / 20);                 // WAV-Spitze −5,4 dBFS: der AAC-Encoder schwingt an Transienten bis ~3 dB über; gemessen im MP4: −2,5 dBFS
 const gain = TARGET / peak, fade = Math.floor(0.1 * SR);
-for (let ch = 0; ch < 2; ch++) for (let i = 0; i < N; i++) { let v = out[ch][i] * gain; if (i > N - fade) v *= (N - i) / fade; out[ch][i] = v; }
+for (let ch = 0; ch < 2; ch++) for (let i = 0; i < N; i++) { let v = out[ch][i] * gain; if (i > N - fade) v *= (N - i) / fade; if (i < 1323) v *= (i / 1323) * (i / 1323); /* 30 ms Einblenden: kein Knack am Loop-Anfang, kein Codec-Überschwinger */ out[ch][i] = v; }
 
 const wav = Buffer.alloc(44 + N * 4);
 wav.write('RIFF', 0); wav.writeUInt32LE(36 + N * 4, 4); wav.write('WAVEfmt ', 8); wav.writeUInt32LE(16, 16); wav.writeUInt16LE(1, 20); wav.writeUInt16LE(2, 22);
